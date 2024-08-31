@@ -88,18 +88,22 @@
   }
 
   .homeLargeAppoinMent {
-    @apply lg:text-[16px] lg:py-[8px] lg:px-[16px]
+    @apply md:text-[16px] md:py-[8px] md:px-[16px]
+
+    lg:text-[16px] lg:py-[8px] lg:px-[16px]
     /* =========  */
-    xl:text-[18px] xl:leading-[23px] xl:py-[13px] xl:px-[20px]
+    xl:text-[18px] xl:leading-[23px] xl:py-[13px] xl:px-[20px] 
+    /* =========  */
+    2xl:text-[18px] 2xl:leading-[23px] 2xl:py-[13px] 2xl:px-[20px] 
     font-Ubuntu font-normal bg-white text-white;
   }
 
   .largeScreenMenu {
-    @apply lg:mx-[50px] lg:my-[12px]
+    @apply lg:mx-[50px] lg:mt-[12px]
     /* ========= */ 
-    xl:mx-[150px] xl:my-[50px] 
+    xl:mx-[150px] xl:mt-[50px] 
     /* ========= */
-    2xl:mx-[150px] 2xl:my-[50px] 
+    2xl:mx-[150px] 2xl:mt-[50px] 
     /* ========= */
     flex justify-between items-center;
   }
@@ -153,11 +157,19 @@
   }
 
   .herocardText {
-    @apply xl:text-[22px] xl:leading-[36px] font-normal font-helvetica;
+    @apply xl:text-[24px] xl:leading-[36px]
+    2xl:text-[24px] 2xl:leading-[36px]
+    lg:text-[20px] lg:leading-[30px]
+    md:text-[15px] md:leading-[20px]
+     font-normal font-helvetica;
   }
 
   .herocardText2 {
-    @apply xl:text-[21px] xl:leading-[36px] font-normal font-helvetica;
+    @apply xl:text-[24px] xl:leading-[36px]
+    2xl:text-[24px] 2xl:leading-[36px]
+    lg:text-[20px] lg:leading-[30px]
+    md:text-[15px] md:leading-[20px]
+    font-normal font-helvetica;
   }
 
   /* =============== contact event styels ========== */
@@ -1240,7 +1252,7 @@
 
   .chooseUsParent {
     @apply grid md:grid-cols-2 md:justify-between md:items-center md:gap-x-[30px] 
-    lg:grid-cols-2 lg:justify-between lg:items-center lg:gap-x-[50px] 
+    lg:grid-cols-2 lg:justify-between lg:items-center lg:gap-x-[30px] 
     xl:grid-cols-2 xl:justify-between xl:items-center xl:gap-x-[60px] 
     2xl:grid-cols-2 2xl:justify-between 2xl:items-center  2xl:gap-x-[100px];
   }
