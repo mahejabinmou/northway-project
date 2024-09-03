@@ -2,7 +2,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="sectionGap">
+    <div className="sectionGap bg-[#F5F5F5]">
       <div className="chooseUsParent">
         <div>
           <div
@@ -19,8 +19,8 @@ const About = () => {
             ></iframe>
           </div>
           <div
-            className=" xl:pt-[24px] xl:gap-x-[20px] 2xl:pt-[24px]   
-          2xl:gap-x-[20px] lg:pt-[24px] lg:gap-x-[10px] md:pt-[24px] md:gap-x-[16px] flex justify-between items-center font-helvetica font-bold"
+            className=" xl:pt-[24px] xl:gap-x-[16px] 2xl:pt-[24px]   
+          2xl:gap-x-[16px] lg:pt-[24px] lg:gap-x-[10px] md:pt-[24px] md:gap-x-[16px] flex justify-between items-center font-helvetica font-bold"
           >
             <div className=" ">
               <h1
@@ -31,7 +31,7 @@ const About = () => {
                 800+
               </h1>
               <p
-                className="xl:text-[16px]
+                className="xl:text-[12px]
           xl:leading-[24px] 2xl:text-[16px]
           2xl:leading-[24px] lg:text-[12px]
           lg:leading-[10px] md:text-[12px]
@@ -49,7 +49,7 @@ const About = () => {
                 65+
               </h1>
               <p
-                className="xl:text-[16px]
+                className="xl:text-[12px]
           xl:leading-[24px] 2xl:text-[16px]
           2xl:leading-[24px] lg:text-[12px]
           lg:leading-[10px] md:text-[12px]
@@ -61,13 +61,13 @@ const About = () => {
             <div className=" text-center">
               <h1
                 className="xl:text-[36px] xl:leading-[43px] 
-              2xl:text-[36px] 2xl:leading-[43px] lg:text-[20px] lg:leading-[20px]
+              2xl:text-[36px] 2xl:leading-[43px]  lg:text-[20px] lg:leading-[20px]
               md:text-[20px] md:leading-[20px] text-center pb-[5px] font-bold text-[#F6941E]"
               >
                 25+
               </h1>
               <p
-                className="xl:text-[16px]
+                className="xl:text-[12px]
           xl:leading-[24px] 2xl:text-[16px]
           2xl:leading-[24px] lg:text-[12px]
           lg:leading-[10px] md:text-[12px]
