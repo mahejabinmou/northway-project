@@ -1,46 +1,24 @@
-.App {
-  width: 50%;
-  margin: 10rem auto;
-  height: 570px;
-}
-
-.slide img {
-  width: 20rem;
-  margin: 0 auto;
-}
+/* OurVideo.css */
 
 .slide {
-  transform: scale(0.2);
-  transition: transform 300ms;
-  opacity: 0.5;
+  transition: transform 0.3s ease;
+  opacity: 0.6;
 }
 
 .activeSlide {
-  transform: scale(1.1);
-  opacity: 1;
+  transform: scale(1.1); /* Enlarges the active slide */
+  opacity: 1; /* Makes the active slide fully opaque */
 }
 
 .arrow {
-  background-color: #fff;
-  position: absolute;
   cursor: pointer;
-  z-index: 10;
+  z-index: 2;
 }
 
-.arrow svg {
-  transition: color 300ms;
+.arrow.next {
+  right: 10px;
 }
 
-.arrow svg:hover {
-  color: #68edff;
-}
-
-.next {
-  right: 0%;
-  top: 50%;
-}
-
-.prev {
-  left: 0%;
-  top: 50%;
+.arrow.prev {
+  left: 10px;
 }

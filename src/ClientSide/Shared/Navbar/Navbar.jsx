@@ -1,10 +1,25 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 import { MdArrowRightAlt, MdClose } from "react-icons/md";
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import "./Navbar.css";
 const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const [isDropdown2Open, setIsDropdown2Open] = useState(false);
+
+  const toggleDropdown2 = () => {
+    setIsDropdown2Open(!isDropdown2Open);
+  };
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const handleMenu = () => {
@@ -33,10 +48,16 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <div>
       {/* Fixed Navbar */}
-      <nav className={`lg:hidden fixed-navbar ${scrolled ? "hidden" : ""}`}>
+
+      <nav
+        className={`lg:hidden fix ${scrolled ? "hidden" : ""} ${
+          isHomePage ? "fixed-navbar" : ""
+        }`}
+      >
         <div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica">
           <div className="headerLogo ">
             <Link to="/">
@@ -77,20 +98,20 @@ const Navbar = () => {
                   <li className="text-[#F6941E]">Home</li>
                 </Link>
                 <Link to="/About" onClick={menuClose}>
-                  <li className="text-white">About Us</li>
+                  <li className="text-black">About Us</li>
                 </Link>
-                <Link to="/studyDistntion" onClick={menuClose}>
-                  <li className="text-white">Study Distention</li>
+                <Link to="/studyDistention" onClick={menuClose}>
+                  <li className="text-black">Study Distention</li>
                 </Link>
                 <Link to="/gallery" onClick={menuClose}>
-                  <li className="text-white">Gallery</li>
+                  <li className="text-black">Gallery</li>
                 </Link>
                 <Link to="/blog" onClick={menuClose}>
-                  <li className="text-white">Blogs</li>
+                  <li className="text-black">Blogs</li>
                 </Link>
 
                 <Link to="/contactUs">
-                  <li className="text-white">Contact us</li>
+                  <li className="text-black">Contact us</li>
                 </Link>
 
                 {/* <Link to="/blogs" onClick={menuClose}>
@@ -103,7 +124,11 @@ const Navbar = () => {
       </nav>
       {/* large screen nav */}
       <div>
-        <div className="hidden lg:block w-full absolute z-50">
+        <div
+          className={`hidden lg:block w-full z-50 ${
+            isHomePage ? "absolute" : "relative"
+          }`}
+        >
           <div className="largeScreenMenu bg-transparent font-helvetica">
             <div className="headerLogo">
               <Link to="/">
@@ -123,18 +148,67 @@ const Navbar = () => {
                 <Link to="/About" onClick={menuClose}>
                   <li className="text-white">About Us</li>
                 </Link>
-                <Link to="/studyDistention" onClick={menuClose}>
+                {/* <Link to="/studyDistention" onClick={menuClose}>
                   <li className="flex items-center justify-between text-white">
                     Study Distention
                     <IoIosArrowDown />
                   </li>
-                </Link>
-                <Link to="/gallery" onClick={menuClose}>
-                  <li className="flex items-center justify-between text-white">
+                </Link> */}
+
+                <li className="relative">
+                  {/* Gallery Menu Item */}
+                  <button
+                    onClick={toggleDropdown2}
+                    className="flex items-center text-[#F6941E] hover:text-[#f6941e]"
+                  >
+                    Study Distention
+                    {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                  </button>
+
+                  {/* Dropdown Menu */}
+                  {isDropdown2Open && (
+                    <ul className="absolute left-0 mt-2 w-40 bg-white text-black rounded shadow-lg">
+                      <li className="px-4 py-2 hover:bg-[#f6941e] hover:text-white">
+                        <Link to="/studyDistention">Study Distention</Link>
+                      </li>
+                      <li className="px-4 py-2 hover:bg-[#f6941e] hover:text-white">
+                        <Link to="/studyDistention2">Study Distention 2</Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Other Menu Items */}
+                <li className="relative">
+                  {/* Gallery Menu Item */}
+                  <button
+                    onClick={toggleDropdown}
+                    className="flex items-center text-[#F6941E] hover:text-[#f6941e]"
+                  >
                     Gallery
-                    <IoIosArrowDown />
-                  </li>
-                </Link>
+                    {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                  </button>
+
+                  {/* Dropdown Menu */}
+                  {isDropdownOpen && (
+                    <ul className="absolute left-0 mt-2 w-40 bg-white text-black rounded shadow-lg">
+                      <li className="px-4 py-2 hover:bg-[#f6941e] hover:text-white">
+                        <Link to="/photo-gallery">Photo Gallery</Link>
+                      </li>
+                      <li className="px-4 py-2 hover:bg-[#f6941e] hover:text-white">
+                        <Link to="/video-gallery">Video Gallery</Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Other Menu Items */}
+                <li>
+                  <Link to="/blogs" className="text-black hover:text-[#F6941E]">
+                    Blogs
+                  </Link>
+                </li>
+
                 <Link to="/blog" onClick={menuClose}>
                   <li className="text-white">Blogs</li>
                 </Link>

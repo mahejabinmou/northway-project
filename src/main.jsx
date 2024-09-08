@@ -3,7 +3,12 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./ClientSide/Home/Home";
 import "./index.css";
-import OurDemo from "./ClientSide/Home/OurLatestBlog/OurDemo";
+import AboutUs from "./ClientSide/AboutUs/AboutUs";
+import Distenation from "./ClientSide/Distenation/Distenation";
+import PhotoGallery from "./ClientSide/Gallery/PhotoGallery/PhotoGallery";
+import VideoGallery from "./ClientSide/Gallery/VideoGallery/VideoGallery";
+import Blogs from "./ClientSide/Blog/Blogs";
+import Distenation2 from "./ClientSide/Distenation2/Distenation2";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +16,28 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/OurDemo",
-    element: <OurDemo></OurDemo>,
+    path: "/About",
+    element: <AboutUs></AboutUs>,
+  },
+  {
+    path: "/blogs",
+    element: <Blogs></Blogs>,
+  },
+  {
+    path: "/photo-gallery",
+    element: <PhotoGallery></PhotoGallery>,
+  },
+  {
+    path: "/video-gallery",
+    element: <VideoGallery></VideoGallery>,
+  },
+  {
+    path: "/studyDistention",
+    element: <Distenation></Distenation>,
+  },
+  {
+    path: "/studyDistention2",
+    element: <Distenation2></Distenation2>,
   },
 ]);
 

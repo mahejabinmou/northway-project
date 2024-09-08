@@ -1,10 +1,10 @@
 import { MdArrowRightAlt } from "react-icons/md";
 
-const About = () => {
+const WhoAreU = () => {
   return (
     <div className=" ">
-      <div className="chooseUsParent mt-[638px] px-[16px] md:hidden block ">
-        <div>
+      <div className=" md:hidden block sectionGap">
+        <div className=" chooseUsParent ">
           <div
             className="relative w-full overflow-hidden chooseUsImgParent"
             style={{ paddingTop: "56.25%" }}
@@ -72,7 +72,7 @@ const About = () => {
         <div>
           <h1 className="font-helvetica font-bold pb-[10px] text-[30px] leading-[36px] pt-[30px]">
             {" "}
-            <span className="text-[#F6941E]">About</span> Us
+            <span className="text-[#F6941E]">Who </span>We Are
           </h1>
 
           <p className="font-normal text-[14px] leading-[21px] text-black/[0.8]">
@@ -181,7 +181,7 @@ const About = () => {
           <div>
             <h1 className="chooseUsSamll">
               {" "}
-              <span className="text-[#F6941E]">About</span> Us
+              <span className="text-[#F6941E]">Who</span>We Are
             </h1>
 
             <p className="chooseUsParaText text-black/[0.8]">
@@ -213,4 +213,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default WhoAreU;

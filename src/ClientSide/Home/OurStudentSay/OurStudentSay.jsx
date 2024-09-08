@@ -36,8 +36,19 @@ const OurStudentSay = () => {
     slidesToScroll: slidesToScroll,
   };
   return (
-    <div className="sectionGap">
-      <div className="">
+    <div className="sectionGap bg-[#F5F5F5]">
+      {/* mobile */}
+      <div className="md:hidden block text-center">
+        <h1 className="text-[30px] leading-[36px] font-helvetica font-bold  pb-[20px]">
+          <span className="text-[#F6941E] ">What’s</span> Our student say
+        </h1>
+        <p className="text-[14px] leading-[21px] font-normal font-helvetica text-black/[.8]  pb-[50px]">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+      {/* large */}
+      <div className="hidden md:block">
         <h1 className="mainHeader  pb-[20px]">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
@@ -51,9 +62,9 @@ const OurStudentSay = () => {
 
       <div className="slider-container ">
         <Slider {...settings}>
-          <div className="mt-10  p-4 rounded-lg relative bg-white shadow-xl">
+          <div className="mt-10  pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
             <FaQuoteLeft
-              className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-0 
+              className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"
             />
             <div>
@@ -79,9 +90,10 @@ const OurStudentSay = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10  p-4 rounded-lg relative bg-white shadow-xl">
+
+          <div className="mt-10  pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
             <FaQuoteLeft
-              className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-0 
+              className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"
             />
             <div>
@@ -111,9 +123,10 @@ const OurStudentSay = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10  p-4 rounded-lg relative bg-white shadow-xl">
+
+          <div className="mt-10  pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
             <FaQuoteLeft
-              className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-0 
+              className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"
             />
             <div>

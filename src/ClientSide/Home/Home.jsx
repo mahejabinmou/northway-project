@@ -4,9 +4,9 @@ import About from "./About/About";
 import OurService from "./OurService/OurService";
 import ChooseUs from "./ChooseUs/ChooseUs";
 import StudyDestination from "./StudyDestination/StudyDestination";
-import OurVideo from "./OurVideo/OurVideo";
 import OurStudentSay from "./OurStudentSay/OurStudentSay";
 import OurLatestBlog from "./OurLatestBlog/OurLatestBlog";
+import Footer from "../Shared/Footer/Footer";
 
 const Home = () => {
   useEffect(() => {
@@ -22,6 +22,7 @@ const Home = () => {
       {/* <OurVideo></OurVideo> */}
       <OurStudentSay></OurStudentSay>
       <OurLatestBlog></OurLatestBlog>
+      <Footer></Footer>
     </div>
   );
 };

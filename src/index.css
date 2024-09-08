@@ -18,7 +18,9 @@
   /* ============== coommon styles here ========== */
 
   .sectionGap {
-    @apply mt-[60px] px-[30px]
+    @apply mt-[100px] px-[16px]
+    /* ======= */
+    xs:mt-[100px] xs:px-[16px]
     /* ======= */
     md:mt-[80px] md:px-[32px]
     /* ======= */
@@ -54,6 +56,10 @@ text-[16px]  leading-[24px]
 2xl:text-[16px]  2xl:leading-[24px]
 /* ---- */
 font-helvetica font-normal;
+  }
+  .head1 {
+    @apply font-bold text-[40px] leading-[48px]
+    xs:text-[40px] xs:leading-[48px];
   }
 
   .mainHeader {
@@ -131,6 +137,7 @@ font-helvetica font-normal;
 
   .homeLargeAppoinMent {
     @apply md:text-[16px] md:py-[8px] md:px-[16px]
+    xl:gap-x-[10px]  2xl:gap-x-[10px]  lg:gap-x-[10px]  md:gap-x-[10px]
 
     lg:text-[16px] lg:py-[8px] lg:px-[16px]
     /* =========  */
@@ -166,7 +173,7 @@ font-helvetica font-normal;
 
   /* ===== contact herosection ========= */
   .navbarLeftRightSpace {
-    @apply px-[28px] py-[12px] 
+    @apply px-[16px] pt-[32px] 
     
     md:py-[25px] md:px-[50px];
   }
@@ -203,7 +210,9 @@ font-helvetica font-normal;
     2xl:text-[24px] 2xl:leading-[36px]
     lg:text-[20px] lg:leading-[30px]
     md:text-[15px] md:leading-[20px]
-     font-normal font-helvetica;
+    text-[20px] leading-[30px]
+    xs:text-[20px] xs:leading-[30px]
+     font-bold font-helvetica;
   }
 
   .herocardText2 {
@@ -211,7 +220,10 @@ font-helvetica font-normal;
     2xl:text-[24px] 2xl:leading-[36px]
     lg:text-[20px] lg:leading-[30px]
     md:text-[15px] md:leading-[20px]
-    font-normal font-helvetica;
+    text-[20px] leading-[30px]
+    xs:text-[20px] xs:leading-[30px]
+   
+    font-bold font-helvetica;
   }
 
   /* =============== contact event styels ========== */
@@ -442,7 +454,7 @@ font-helvetica font-normal;
   }
 
   .footerLogoparent {
-    @apply h-[30px] w-[165px];
+    @apply h-[59px] w-[207px];
   }
 
   .footerSocailIcon {
@@ -450,29 +462,30 @@ font-helvetica font-normal;
   }
 
   .footerMenuText {
-    @apply text-[14px] leading-[20px] pb-[2px]
+    @apply text-[14px] leading-[20px] pb-[10px]
+    xs:text-[14px] xs:leading-[20px] xs:pb-[10px]
     /* ===========  */
-    md:text-[14px] md:leading-[20px] md:pb-[4px]
+    md:text-[14px] md:leading-[20px] md:pb-[6px]
     /* ===========  */
-    lg:text-[16px] lg:leading-[22px] lg:pb-[4px]
+    lg:text-[16px] lg:leading-[22px] lg:pb-[10px]
     /* ===========  */
-    xl:text-[16px] xl:leading-[22px] xl:pb-[4px]
+    xl:text-[16px] xl:leading-[24px] xl:pb-[15px]
     /* ===========  */
-    2xl:text-[16px] 2xl:leading-[36px] 2xl:pb-[5px]
+    2xl:text-[16px] 2xl:leading-[24px] 2xl:pb-[15px]
     /* =========== */
-    font-Varela font-normal;
+    font-helvetica font-normal;
   }
 
   .footerMenuTextTitle {
     @apply text-[18px] leading-[23px] pb-[15px] md:text-[20px] md:leading-[25px] md:pb-[20px]
     /* ========== */
-    lg:text-[22px] lg:leading-[25px] lg:pb-[20px]
+    lg:text-[18px] lg:leading-[23px] lg:pb-[20px]
     /* ========== */
-    xl:text-[22px] xl:leading-[25px] xl:pb-[20px]
+    xl:text-[18px] xl:leading-[23.4px] xl:pb-[30px]
     /* ========== */
-    2xl:text-[24px] 2xl:leading-[36px] 2xl:pb-[30px]
+    2xl:text-[18px] 2xl:leading-[23.4px] 2xl:pb-[30px]
     /* ========== */
-    font-Ubuntu font-bold text-[#1D1D1D];
+    font-helvetica font-bold text-white;
   }
 
   /* ========================== event page ================= */
@@ -1289,7 +1302,7 @@ font-helvetica font-normal;
 
   /* ==================== whyChose us ============= */
   .chooseUsImgParent {
-    @apply h-[403px]  2xl:h-[435px] xl:h-[435px] md:h-[403px];
+    @apply h-[382px]  2xl:h-[435px] xl:h-[435px] md:h-[403px];
   }
 
   .chooseUsParent {
@@ -1297,6 +1310,13 @@ font-helvetica font-normal;
     lg:grid-cols-2 lg:justify-between lg:items-center lg:gap-x-[30px] 
     xl:grid-cols-2 xl:justify-between xl:items-center xl:gap-x-[51px] 
     2xl:grid-cols-2 2xl:justify-between 2xl:items-center  2xl:gap-x-[51px];
+  }
+
+  .WhyStudyParent {
+    @apply grid md:grid-cols-2 md:justify-between md:items-center md:gap-x-[30px] 
+    lg:grid-cols-2 lg:justify-between lg:items-center lg:gap-x-[30px] 
+    xl:grid-cols-2 xl:justify-between xl:items-center xl:gap-x-[81px] 
+    2xl:grid-cols-2 2xl:justify-between 2xl:items-center  2xl:gap-x-[81px];
   }
 
   .chooseUsSamll {
@@ -1863,5 +1883,14 @@ font-helvetica font-normal;
   2xl:text-[18px] 2xl:leading-[23px]
   /* --- */
    text-white font-bold;
+  }
+
+  .distenation2Title {
+    @apply font-helvetica font-bold lg:text-[36px] lg:leading-[43px]
+    md:text-[25px] md:leading-[40px];
+  }
+  .distenation2Para {
+    @apply font-helvetica font-normal lg:text-[16px] lg:leading-[24px]
+    md:text-[15px] md:leading-[24px];
   }
 }
