@@ -9,6 +9,7 @@ import PhotoGallery from "./ClientSide/Gallery/PhotoGallery/PhotoGallery";
 import VideoGallery from "./ClientSide/Gallery/VideoGallery/VideoGallery";
 import Blogs from "./ClientSide/Blog/Blogs";
 import Distenation2 from "./ClientSide/Distenation2/Distenation2";
+import ContactUs from "./ClientSide/ContactUs/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/studyDistention2",
     element: <Distenation2></Distenation2>,
+  },
+  {
+    path: "/contactUs",
+    element: <ContactUs></ContactUs>,
   },
 ]);
 
