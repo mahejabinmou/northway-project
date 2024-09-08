@@ -12,10 +12,10 @@ const ChooseUs = () => {
             style={{
               backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://i.ibb.co/XsjKQpK/4e5570afab2bc908ac5c505230f9bd33-66d3e7972bb5a.webp")`,
             }}
-            className="bg-no-repeat bg-center bg-cover w-full h-[800px] flex justify-center items-center"
+            className="bg-no-repeat bg-center bg-cover w-full md:h-[800px] h-[383px] flex justify-center items-center"
           ></div>
 
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center py-[156px] xs:py-[156px] xl:py-[156px] 2xl:py-[156px] lg:py-[156px] md:py-[156px] ">
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-center py-[156px] xs:py-[156px] xl:py-[156px] 2xl:py-[156px] lg:py-[156px] md:py-[156px] px-[16px] xs:px-[16px]">
             <h1
               className="text-white font-helvetica font-bold text-[30px] leading-[36px] px-[16px] xs:text-[30px] xs:leading-[36px] xs:px-[16px] xl:text-[48px] xl:leading-[57.6px] xl:px-[345px] 2xl:text-[48px] 2xl:leading-[57.6px] 2xl:px-[345px]
             lg:text-[35px] lg:leading-[45px] lg:px-[200px]  md:text-[30px] md:leading-[45px] md:px-[150px]"

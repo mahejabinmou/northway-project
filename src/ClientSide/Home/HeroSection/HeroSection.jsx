@@ -44,8 +44,8 @@ const HeroSection = () => {
           mt-[100px]    xs:mt-[100px] px-[16px] 
           "
         >
-          <h1 className="head1 text-white  ">
-            <span className="text-[#F6941E]">Welcome</span> to Northway Global
+          <h1 className="head1 text-white md:pb-[15px]  pb-[10px]">
+            <span className="text-[#F6941E] ">Welcome</span> to Northway Global
           </h1>
           <p className="pb-[20px] text-white  text-[14px] leading-[21px] font-helvetica font-normal ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

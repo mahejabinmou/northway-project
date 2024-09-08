@@ -59,7 +59,7 @@ const OurLatestBlog = () => {
   };
 
   return (
-    <div className="sectionGap bg-[#F5F5F5]">
+    <div className="sectionGap bg-[#F6941E]/[.03] pb-[50px]">
       <div className="text-center">
         <h1 className="mainHeader pb-[20px] ">
           Our Latest<span className="text-[#F6941E] "> Blog </span>

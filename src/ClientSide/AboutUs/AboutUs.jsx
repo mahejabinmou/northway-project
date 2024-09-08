@@ -6,7 +6,7 @@ import WhoAreU from "./WhoAreU/WhoAreU";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="bg-[#F5F5F5]">
       <AboutUsHero></AboutUsHero>
       <WhoAreU></WhoAreU>
       <OurService></OurService>

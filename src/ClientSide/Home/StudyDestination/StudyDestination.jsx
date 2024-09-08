@@ -7,7 +7,7 @@ const StudyDestination = () => {
         <h1
           className=" 
         text-[30px] leading-[36px] 
-        xs:text-[30px] xs:leading-[36px] px-[58px]
+        xs:text-[20px] xs:leading-[36px] px-[58px] xs:px-[80px]
           pb-[20px] xs:pb-[20px] font-helvetica font-bold "
         >
           <span className="text-[#F6941E] ">Study </span> Destination
@@ -197,7 +197,7 @@ const StudyDestination = () => {
                 </button>
               </div>
             </div>
-            <div className="relative group w-full h-[267px]">
+            <div className="relative group w-full h-[267px] pb-[20px]">
               {/* Image */}
               <img
                 src="https://i.ibb.co/rtVphk1/download.png"

@@ -3,7 +3,15 @@ import { MdArrowRightAlt } from "react-icons/md";
 const WhoAreU = () => {
   return (
     <div className=" ">
-      <div className=" md:hidden block sectionGap">
+      <div
+        className=" md:hidden block 
+      mt-[50px] px-[16px]
+    xs:mt-[50px] xs:px-[16px]
+    md:mt-[80px] md:px-[32px]
+    lg:px-[60px] lg:mt-[80px]
+    xl:px-[150px] xl:mt-[150px]
+    2xl:px-[150px] 2xl:mt-[150px]"
+      >
         <div className=" chooseUsParent ">
           <div
             className="relative w-full overflow-hidden chooseUsImgParent"

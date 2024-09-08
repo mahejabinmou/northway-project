@@ -4,7 +4,7 @@ import OurOffices from "./OurOffices/OurOffices";
 
 const ContactUs = () => {
   return (
-    <div>
+    <div className=" bg-[#F5F5F5]">
       <ContactHero></ContactHero>
       <OurOffices></OurOffices>
       <ContactForm></ContactForm>

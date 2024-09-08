@@ -32,12 +32,12 @@ const OurOffices = () => {
   ];
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center sectionGap ">
         <div className="max-w-[1140px]">
           <h2 className="text-[48px] font-semibold leading-[120%] text-center">
             Our <span className="text-[#F6941E]">offices</span>
           </h2>
-          <div className=" flex flex-wrap gap-[22px]  items-center justify-center mt-[50px]">
+          <div className=" flex flex-wrap gap-[22px]  mt-[50px]">
             {officeData.map((office) => (
               <div
                 key={office.name}

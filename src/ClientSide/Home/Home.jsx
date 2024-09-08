@@ -7,19 +7,20 @@ import StudyDestination from "./StudyDestination/StudyDestination";
 import OurStudentSay from "./OurStudentSay/OurStudentSay";
 import OurLatestBlog from "./OurLatestBlog/OurLatestBlog";
 import Footer from "../Shared/Footer/Footer";
+import OurVideo from "./OurVideo/OurVideo";
 
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div>
+    <div className="bg-[#F5F5F5]">
       <HeroSection></HeroSection>
       <About></About>
       <OurService></OurService>
       <ChooseUs></ChooseUs>
       <StudyDestination></StudyDestination>
-      {/* <OurVideo></OurVideo> */}
+      <OurVideo></OurVideo>
       <OurStudentSay></OurStudentSay>
       <OurLatestBlog></OurLatestBlog>
       <Footer></Footer>

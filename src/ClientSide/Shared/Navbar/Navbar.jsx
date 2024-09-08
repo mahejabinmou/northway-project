@@ -143,23 +143,33 @@ const Navbar = () => {
             <div>
               <div className="mobileMenuParent">
                 <Link to="/" onClick={menuClose}>
-                  <li className="text-[#F6941E] ">Home</li>
-                </Link>
-                <Link to="/About" onClick={menuClose}>
-                  <li className="text-white">About Us</li>
-                </Link>
-                {/* <Link to="/studyDistention" onClick={menuClose}>
-                  <li className="flex items-center justify-between text-white">
-                    Study Distention
-                    <IoIosArrowDown />
+                  <li
+                    className={` ${
+                      isHomePage ? "text-[#F6941E]" : "text-black"
+                    }`}
+                  >
+                    Home
                   </li>
-                </Link> */}
+                </Link>
 
+                <Link to="/About" onClick={menuClose}>
+                  <li
+                    className={` ${
+                      isHomePage ? "text-white" : "text-[#F6941E]"
+                    }`}
+                  >
+                    About Us
+                  </li>
+                </Link>
                 <li className="relative">
                   {/* Gallery Menu Item */}
                   <button
                     onClick={toggleDropdown2}
-                    className="flex items-center text-[#F6941E] hover:text-[#f6941e]"
+                    className={`flex items-center ${
+                      isHomePage
+                        ? "text-white hover:text-[#f6941e]"
+                        : "text-black hover:text-[#f6941e]"
+                    }`}
                   >
                     Study Distention
                     {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -177,13 +187,16 @@ const Navbar = () => {
                     </ul>
                   )}
                 </li>
-
                 {/* Other Menu Items */}
                 <li className="relative">
                   {/* Gallery Menu Item */}
                   <button
                     onClick={toggleDropdown}
-                    className="flex items-center text-[#F6941E] hover:text-[#f6941e]"
+                    className={`flex items-center ${
+                      isHomePage
+                        ? "text-white hover:text-[#f6941e]"
+                        : "text-black hover:text-[#f6941e]"
+                    }`}
                   >
                     Gallery
                     {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
@@ -201,29 +214,37 @@ const Navbar = () => {
                     </ul>
                   )}
                 </li>
-
                 {/* Other Menu Items */}
                 <li>
-                  <Link to="/blogs" className="text-black hover:text-[#F6941E]">
+                  <Link
+                    to="/blogs"
+                    className={` ${
+                      isHomePage
+                        ? "text-white hover:text-[#f6941e]"
+                        : "text-black hover:text-[#f6941e]"
+                    }`}
+                  >
                     Blogs
                   </Link>
                 </li>
-
-                <Link to="/blog" onClick={menuClose}>
-                  <li className="text-white">Blogs</li>
-                </Link>
-
                 <Link to="/ContactUs">
-                  <li className="text-white">Contact us</li>
+                  <li
+                    className={` ${
+                      isHomePage
+                        ? "text-white hover:text-[#f6941e]"
+                        : "text-black hover:text-[#f6941e]"
+                    }`}
+                  >
+                    Contact us
+                  </li>
                 </Link>
-
                 {/* <Link to="/blogs" onClick={menuClose}>
                   <li>Blogs</li>
                 </Link> */}
               </div>
             </div>
 
-            <button className="homeLargeAppoinMent flex items-center justify-between text-[#F6941E]">
+            <button className="homeLargeAppoinMent flex items-center justify-between text-[#F6941E] bg-white">
               Enquire Now <MdArrowRightAlt />
             </button>
           </div>

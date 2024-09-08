@@ -1,6 +1,6 @@
 const OurService = () => {
   return (
-    <div className="sectionGap bg-[#F5F5F5] pt-[50px]">
+    <div className="sectionGap  pt-[50px] bg-[#F6941E08]/[.03]">
       <div
         className="md:mr-[70px] lg:mr-[500px] xl:mr-[563px] 2xl:mr-[563px]
         mr-[16px] xs:text-center text-center md:text-left
@@ -29,7 +29,7 @@ const OurService = () => {
       </div>
 
       <div
-        className="grid grid-cols-1   md:grid-cols-4 items-center xl:gap-x-[12px] 2xl:gap-x-[12px] lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4
+        className="grid grid-cols-1 pb-[50px]  md:grid-cols-4 items-center xl:gap-x-[12px] 2xl:gap-x-[12px] lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4
       lg:gap-x-[12px] md:gap-x-[12px]  "
       >
         <div

@@ -43,10 +43,10 @@ function ContactForm() {
   ];
 
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-center items-center sectionGap gap-[65px]">
+    <div className=" flex flex-col-reverse md:flex-row justify-center items-center sectionGap gap-[68px]">
       <form
         onSubmit={handleSubmit}
-        className="max-w-[614px] w-full md:w-1/2 p-4 bg-white shadow-formShadow rounded-md "
+        className="bg-white max-w-[614px] w-full md:w-1/2 p-4  shadow-formShadow rounded-md "
       >
         <div className="mb-4">
           <label
@@ -130,7 +130,7 @@ function ContactForm() {
         </button>
       </form>
 
-      <div className="max-w-1/2">
+      <div className="max-w-1/2 ">
         <div>
           <h4 className="text-[36px] font-semibold leading-[120%]">
             Contact Us

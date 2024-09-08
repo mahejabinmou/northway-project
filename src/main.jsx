@@ -7,7 +7,7 @@ import AboutUs from "./ClientSide/AboutUs/AboutUs";
 import Distenation from "./ClientSide/Distenation/Distenation";
 import PhotoGallery from "./ClientSide/Gallery/PhotoGallery/PhotoGallery";
 import VideoGallery from "./ClientSide/Gallery/VideoGallery/VideoGallery";
-import Blogs from "./ClientSide/Blog/Blogs";
+import Blogs from "./ClientSide/Blogs/Blogs";
 import Distenation2 from "./ClientSide/Distenation2/Distenation2";
 import ContactUs from "./ClientSide/ContactUs/ContactUs";
 
@@ -43,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: "/contactUs",
     element: <ContactUs></ContactUs>,
+  },
+  {
+    path: "/blogs",
+    element: <Blogs></Blogs>,
   },
 ]);
 
