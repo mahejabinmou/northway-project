@@ -47,7 +47,10 @@ const VideoGallery = () => {
         </div>
       </div>
 
-      <div className="sectionGap mt-10">
+      <div
+        className="sectionGap mt-10  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
+      md:pb-[80px] pb-[100px] xs:pb-[100px]"
+      >
         <div className="">
           <div
             className="grid grid-cols-1 md:grid-cols-3 justify-center items-center
@@ -72,7 +75,7 @@ const VideoGallery = () => {
           </div>
 
           <button
-            className="flex justify-center items-center mx-auto mt-4 
+            className="flex justify-center items-center mx-auto mt-[50px]
             border border-[#F6941E] text-[#F6941E] font-helvetica
              font-bold text-[18px] leading-[23px] py-[13px] px-[20px]"
             onClick={() => setShowAll(!showAll)} // Step 3: Toggle between showing all and limited images

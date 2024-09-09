@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useMediaQuery } from "react-responsive";
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
+import "./OurStudentSay.css";
 
 const OurStudentSay = () => {
   const is2XL = useMediaQuery({ minWidth: 1536 });
@@ -36,10 +37,10 @@ const OurStudentSay = () => {
     slidesToScroll: slidesToScroll,
   };
   return (
-    <div className="sectionGap bg-[#F5F5F5]">
+    <div className="sectionGap ">
       {/* mobile */}
       <div className="md:hidden block text-center">
-        <h1 className="text-[30px] leading-[36px] font-helvetica font-bold  pb-[20px]">
+        <h1 className="text-[30px] leading-[36px] xxs:text-[24px] font-helvetica font-bold  pb-[20px]">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
         <p className="text-[14px] leading-[21px] font-normal font-helvetica text-black/[.8]  pb-[50px]">
@@ -49,7 +50,7 @@ const OurStudentSay = () => {
       </div>
       {/* large */}
       <div className="hidden md:block">
-        <h1 className="mainHeader  pb-[20px]">
+        <h1 className="mainHeader  pb-[20px] ">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
         <p className="mainPara text-black/[.8]  pb-[50px]">
@@ -60,7 +61,7 @@ const OurStudentSay = () => {
 
       {/* ------slider */}
 
-      <div className="slider-container ">
+      <div className="slider-container md:pb-[50px] pb-0">
         <Slider {...settings}>
           <div className="mt-10  pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
             <FaQuoteLeft
@@ -80,13 +81,13 @@ const OurStudentSay = () => {
               <div>
                 <img
                   className="w-[50px] h-[50px] rounded-full object-cover"
-                  src="https://i.ibb.co/ZzBS4gV/279178755-1134720793979923-7786829488613595539-n.jpg"
+                  src="https://i.ibb.co.com/ky0v7Tt/ellipse-2-66de88e4a83a5.webp"
                   alt=""
                 />
               </div>
               <div className="ml-[12px]">
-                <p className="font-semibold text-xl">mahejabin</p>
-                <p className="font-mono">Bangladesh</p>
+                <p className="font-semibold text-xl">Lisa Dowen</p>
+                <p className="font-mono">Student</p>
               </div>
             </div>
           </div>
@@ -109,7 +110,7 @@ const OurStudentSay = () => {
               <div>
                 <img
                   className="w-[50px] h-[50px] rounded-full object-cover"
-                  src="https://i.ibb.co/ZzBS4gV/279178755-1134720793979923-7786829488613595539-n.jpg"
+                  src="https://i.ibb.co.com/cwJdJC1/ellipse-2-1-66de891717afd.webp"
                   alt=""
                 />
               </div>
@@ -118,7 +119,7 @@ const OurStudentSay = () => {
                   Lisa Dowen
                 </p>
                 <p className="font-normal text-[16px] leading-[24px]">
-                  Bangladesh
+                  Student
                 </p>
               </div>
             </div>
@@ -142,13 +143,13 @@ const OurStudentSay = () => {
               <div>
                 <img
                   className="w-[50px] h-[50px] rounded-full object-cover"
-                  src="https://i.ibb.co/ZzBS4gV/279178755-1134720793979923-7786829488613595539-n.jpg"
+                  src="https://i.ibb.co.com/vQ9GGh8/ellipse-2-2-66de8946734b1.webp"
                   alt=""
                 />
               </div>
               <div className="ml-[12px]">
-                <p className="font-semibold text-xl">mahejabin</p>
-                <p className="font-mono">Bangladesh</p>
+                <p className="font-semibold text-xl">Lisa Dowen</p>
+                <p className="font-mono">Student</p>
               </div>
             </div>
           </div>

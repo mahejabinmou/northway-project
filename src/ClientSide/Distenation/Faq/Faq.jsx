@@ -23,35 +23,18 @@ const Faq = () => {
         </div>
         <div className="w-full md:w-1/2 p-2">
           <div className="p-4">
-            <h1
-              className="font-bold font-helvetica md:text-[48px] md:leading-[57.6px]
-              text-[30px] leading-[36px] pb-[20px]"
-            >
-              Study in <span className="text-[#F6941E] ">USA FAQ's</span>
+            <h1 className="font-bold font-helvetica md:text-[42px] md:leading-[57.6px] text-[30px] leading-[36px] pb-[20px]">
+              Study in <span className="text-[#F6941E]">USA FAQ's</span>
             </h1>
-            <p
-              className="font-normal md:text-[16px] md:leading-[24px]
-               text-[14px] leading-[21px] text-black/[.8] pb-[30px]"
-            >
+            <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-black/[.8] pb-[30px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
+
           <div className="join join-vertical w-full">
-            <div className="collapse collapse-plus join-item border border-base-300">
-              <input type="radio" name="faq-accordion" defaultChecked />
-              <div className="collapse-title text-lg md:text-xl font-medium ">
-                Can you work while studying in the United States?
-              </div>
-              <div className="collapse-content">
-                <p className="text-sm md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div className="collapse collapse-plus join-item border border-base-300">
-              <input type="radio" name="faq-accordion" defaultChecked />
+            <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
+              <input type="checkbox" className="peer" defaultChecked />
               <div className="collapse-title text-lg md:text-xl font-medium">
                 Can you work while studying in the United States?
               </div>
@@ -62,8 +45,34 @@ const Faq = () => {
                 </p>
               </div>
             </div>
-            <div className="collapse collapse-plus join-item border border-base-300">
-              <input type="radio" name="faq-accordion" defaultChecked />
+
+            <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
+              <input type="checkbox" className="peer" />
+              <div className="collapse-title text-lg md:text-xl font-medium">
+                What are the visa requirements for studying in the USA?
+              </div>
+              <div className="collapse-content">
+                <p className="text-sm md:text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+
+            <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
+              <input type="checkbox" className="peer" />
+              <div className="collapse-title text-lg md:text-xl font-medium">
+                How long can I stay after completing my studies?
+              </div>
+              <div className="collapse-content">
+                <p className="text-sm md:text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
+              <input type="checkbox" className="peer" />
               <div className="collapse-title text-lg md:text-xl font-medium">
                 Can you work while studying in the United States?
               </div>
@@ -74,30 +83,7 @@ const Faq = () => {
                 </p>
               </div>
             </div>
-            <div className="collapse collapse-plus join-item border border-base-300">
-              <input type="radio" name="faq-accordion" defaultChecked />
-              <div className="collapse-title text-lg md:text-xl font-medium">
-                Can you work while studying in the United States?
-              </div>
-              <div className="collapse-content">
-                <p className="text-sm md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-            <div className="collapse collapse-plus join-item border border-base-300">
-              <input type="radio" name="faq-accordion" defaultChecked />
-              <div className="collapse-title text-lg md:text-xl font-medium">
-                Can you work while studying in the United States?
-              </div>
-              <div className="collapse-content">
-                <p className="text-sm md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
+            {/* Add more FAQs similarly */}
           </div>
         </div>
       </div>

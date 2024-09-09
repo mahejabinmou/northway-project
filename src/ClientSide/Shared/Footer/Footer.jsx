@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-[#1E1E1E]  text-white/[.8]">
       {/* foooter content */}
-      <div className="sectionGap pt-[50px]">
+      <div className=" pt-[50px]">
         <div className="md:hidden block ">
           <div className=" pb-[25px] grid grid-cols-1 px-[51px]  gap-y-[50px]">
             <div className="">
@@ -109,7 +109,11 @@ const Footer = () => {
         </div>
 
         {/* large */}
-        <div className="hidden md:block">
+        <div
+          className="hidden md:block px-[16px]
+ xs:px-[16px]  xl:px-[150px]
+md:px-[32px] lg:px-[60px] 2xl:px-[150px]"
+        >
           <div className=" pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[123px] gap-y-[123px]">
             <div>
               <div className="footerLogoparent mb-[30px]">
@@ -184,8 +188,24 @@ const Footer = () => {
                 </span>
               </p>
 
-              <p className="footerMenuText">+880 1607-002687</p>
-              <p className="footerMenuText">info@northwayglobal.com.bd</p>
+              <p className="footerMenuText flex items-start gap-x-[10px]">
+                <img
+                  className="h-[20px] w-[24px] object-cover"
+                  src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
+                  alt=""
+                />
+
+                <span> +880 1607-002687</span>
+              </p>
+              <p className="footerMenuText flex items-start gap-x-[10px]">
+                <img
+                  className="h-[16px] w-[16px] "
+                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945203a8b4.webp"
+                  alt=""
+                />
+
+                <span> info@northwayglobal.com.bd</span>
+              </p>
             </div>
           </div>
         </div>

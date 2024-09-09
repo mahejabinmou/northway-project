@@ -134,7 +134,10 @@ const StudentSpeak = () => {
               <h1 className="font-bold font-helvetica text-[30px] leading-[36px]">
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
-              <p className="font-normal text-[14px] leading-[21px] text-white/[.8]">
+              <p
+                className="font-normal text-[14px] leading-[21px]
+              xs:text-[14px] xs:leading-[21px] xxs:text-[12px] xxs:leading-[18px]  text-white/[.8]"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>

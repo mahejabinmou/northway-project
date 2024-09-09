@@ -11,12 +11,9 @@ const PopularUni = () => {
     >
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="relative z-10 ">
-        <div className="text-white md:py-10 mt-8 flex justify-center">
+        <div className="text-white md:my-10 my-10 mt-8 flex justify-center font-bold md:text-[48px] md:leading-[57px] xs:text-[35px] xs:leading-[57px] xxs:text-[30px] xxs:leading-[57px]">
           <h1>
-            <span className="text-[#F6941E] font-bold text-[48px] leading-[57px]">
-              Popular
-            </span>{" "}
-            Universities
+            <span className="text-[#F6941E] ">Popular</span> Universities
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-3 md:px-8">

@@ -59,7 +59,7 @@ const OurLatestBlog = () => {
   };
 
   return (
-    <div className="sectionGap bg-[#F6941E]/[.03] pb-[50px]">
+    <div className="sectionGap bg-[#F6941E]/[.03] py-[50px]">
       <div className="text-center">
         <h1 className="mainHeader pb-[20px] ">
           Our Latest<span className="text-[#F6941E] "> Blog </span>
@@ -71,7 +71,7 @@ const OurLatestBlog = () => {
       </div>
 
       {/* Large slider */}
-      <div className="slider-container hidden md:block">
+      <div className="slider-container hidden md:block pt-[5px]">
         <Slider {...settingsLarge}>
           {joyItems.map((item, index) => (
             <div key={index} className="px-2">
@@ -151,8 +151,8 @@ const OurLatestBlog = () => {
                     alt={item.LgImg}
                   />
                 </div>
-                <div className="py-[30px] px-[20px]">
-                  <div className="flex justify-items-center gap-x-[10px] mb-[14px] mt-[10px]">
+                <div className="py-[30px] xxs:py-[10px] px-[20px]">
+                  <div className="flex justify-items-center gap-x-[10px] mb-[14px] mt-[10px] xxs:mb-[10px] xxs:mt-[10px]">
                     <div className="h-[19px] w-[17px] flex-shrink-0 text-black/[.8]">
                       <img
                         className="w-full h-full object-cover"
@@ -164,11 +164,14 @@ const OurLatestBlog = () => {
                       {item.date}
                     </p>
                   </div>
-                  <h1 className="font-bold text-[24px] leading-[36px] pb-[20px]">
+                  <h1
+                    className="font-bold text-[24px] leading-[36px] pb-[20px]
+                  xxs:text-[20px] xxs:leading-[25px] xxs:pb-[10px]"
+                  >
                     {item.title}
                   </h1>
                   <hr className="text-black " />
-                  <div className="flex items-center justify-between pt-[20px]">
+                  <div className="flex items-center justify-between pt-[20px] xxs:pt-[10px]">
                     <div className="text-black/[.6] flex items-center gap-x-[10px]">
                       <IoPersonOutline />
                       <p>{item.subtitle}</p>

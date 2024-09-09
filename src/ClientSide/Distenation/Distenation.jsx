@@ -14,12 +14,10 @@ import WhyStudy from "./WhyStudy/WhyStudy";
 
 const Distenation = () => {
   return (
-    <div>
+    <div className="bg-[#F5F5F5]">
       <HeroStudyDistenation></HeroStudyDistenation>
       <Application></Application>
       <WhyStudy></WhyStudy>
-      <OurService></OurService>
-      <OurStudentSay></OurStudentSay>
       <Carrer></Carrer>
       <PopularUni></PopularUni>
       <CostOfEducation></CostOfEducation>

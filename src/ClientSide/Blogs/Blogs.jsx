@@ -122,7 +122,7 @@ const Blogs = () => {
   const visibleImages = showAll ? images : images.slice(0, 6); // Step 2: Show only 6 images initially
 
   return (
-    <div>
+    <div className="bg-[#F5F5F5]">
       <Navbar></Navbar>
 
       <div className="mt-[30px]  relative">
@@ -143,10 +143,13 @@ const Blogs = () => {
         </div>
       </div>
 
-      <div className="sectionGap mt-10 ">
+      <div
+        className="sectionGap mt-10  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
+      md:pb-[80px] pb-[100px] xs:pb-[100px]"
+      >
         <div className="">
           <div
-            className="grid grid-cols-1 md:grid-cols-3 justify-center items-center
+            className="grid grid-cols-1 md:grid-cols-2 justify-center items-center
               lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
           >
             {visibleImages.map((image, index) => (
@@ -203,12 +206,12 @@ const Blogs = () => {
           </div>
 
           <button
-            className="flex justify-center items-center mx-auto mt-4 
+            className="flex justify-center items-center mx-auto mt-[50px]
             border border-[#F6941E] text-[#F6941E] font-helvetica
              font-bold text-[18px] leading-[23px] py-[13px] px-[20px]"
             onClick={() => setShowAll(!showAll)} // Step 3: Toggle between showing all and limited images
           >
-            {showAll ? "Load More" : "Load Less"}{" "}
+            {showAll ? "Load Less" : "Load More"}{" "}
             <MdArrowRightAlt className="ml-2" />
           </button>
         </div>

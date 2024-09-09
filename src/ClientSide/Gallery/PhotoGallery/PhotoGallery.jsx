@@ -5,6 +5,7 @@ import Footer from "../../Shared/Footer/Footer";
 
 const PhotoGallery = () => {
   const [showAll, setShowAll] = useState(false); // Step 1: state to toggle showing all images
+  const [activeButton, setActiveButton] = useState("All");
 
   const images = [
     "https://i.ibb.co.com/nBYNKBY/rectangle-5-66dc17dbb29cb.webp",
@@ -25,7 +26,7 @@ const PhotoGallery = () => {
   const visibleImages = showAll ? images : images.slice(0, 6); // Step 2: Show only 6 images initially
 
   return (
-    <div>
+    <div className="bg-[#F5F5F5]">
       <Navbar></Navbar>
 
       <div className="mt-[30px]  relative">
@@ -96,12 +97,33 @@ const PhotoGallery = () => {
         </div>
       </div>
 
-      <div className="sectionGap mt-10">
+      <div
+        className="sectionGap mt-10  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
+      md:pb-[80px] pb-[100px] xs:pb-[100px]"
+      >
         <div className="flex justify-center items-center gap-x-[30px] mb-[50px]">
-          <button className="text-center px-[20px] py-[13.5px] bg-[#F6941E] text-white font-helvetica text-[18px] leading-[23.4px] font-bold ">
+          <button
+            className={`text-center px-[20px] py-[13.5px] font-helvetica text-[18px] leading-[23.4px] font-bold 
+          ${
+            activeButton === "All"
+              ? "bg-[#F6941E] text-white"
+              : "bg-transparent text-black/[.8]"
+          }
+        `}
+            onClick={() => setActiveButton("All")}
+          >
             All
           </button>
-          <button className="text-center  px-[20px] py-[13.5px] text-black/[.8] font-helvetica text-[18px] leading-[23.4px] font-bold ">
+          <button
+            className={`text-center px-[20px] py-[13.5px] font-helvetica text-[18px] leading-[23.4px] font-bold 
+          ${
+            activeButton === "gallery"
+              ? "bg-[#F6941E] text-white"
+              : "bg-transparent text-black/[.8]"
+          }
+        `}
+            onClick={() => setActiveButton("gallery")}
+          >
             Gallery Item
           </button>
         </div>
@@ -122,7 +144,7 @@ const PhotoGallery = () => {
           </div>
 
           <button
-            className="flex justify-center items-center mx-auto mt-4 
+            className="flex justify-center items-center mx-auto mt-[50px] 
             border border-[#F6941E] text-[#F6941E] font-helvetica
              font-bold text-[18px] leading-[23px] py-[13px] px-[20px]"
             onClick={() => setShowAll(!showAll)} // Step 3: Toggle between showing all and limited images

@@ -30,7 +30,9 @@
     /* ======= */
     2xl:px-[150px] 2xl:mt-[150px];
   }
-
+  .maincolor {
+    @apply bg-blue-400;
+  }
   .mainPara {
     @apply xl:text-[16px] xl:mr-[563px] xl:leading-[24px]
     /* ---- */
@@ -148,11 +150,11 @@ font-helvetica font-normal;
   }
 
   .largeScreenMenu {
-    @apply lg:mx-[50px] lg:mt-[12px]
+    @apply lg:mx-[50px] lg:pt-[12px]
     /* ========= */ 
-    xl:mx-[150px] xl:mt-[50px] 
+    xl:mx-[150px] xl:pt-[50px] 
     /* ========= */
-    2xl:mx-[150px] 2xl:mt-[50px] 
+    2xl:mx-[150px] 2xl:pt-[50px] 
     /* ========= */
     flex justify-between items-center;
   }
@@ -173,7 +175,7 @@ font-helvetica font-normal;
 
   /* ===== contact herosection ========= */
   .navbarLeftRightSpace {
-    @apply px-[16px] pt-[32px] 
+    @apply px-[16px] pt-[15px] 
     
     md:py-[25px] md:px-[50px];
   }
@@ -209,6 +211,9 @@ font-helvetica font-normal;
     @apply text-[28px] leading-[35px]
 
     /* ---- */
+    xxs:text-[18px] xxs:leading-[30px]
+
+    /* ---- */
     xs:text-[21px] xs:leading-[30px]
     /* ---- */
      xl:text-[21px] xl:leading-[30px]
@@ -225,6 +230,8 @@ font-helvetica font-normal;
 
   .herocardText2 {
     @apply text-[28px] leading-[35px]
+    /* ---- */
+    xxs:text-[18px] xxs:leading-[30px]
     /* ---- */
     xs:text-[21px] xs:leading-[30px]
     /* ---- */

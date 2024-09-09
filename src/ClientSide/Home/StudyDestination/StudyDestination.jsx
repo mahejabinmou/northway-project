@@ -7,14 +7,17 @@ const StudyDestination = () => {
         <h1
           className=" 
         text-[30px] leading-[36px] 
-        xs:text-[20px] xs:leading-[36px] px-[58px] xs:px-[80px]
+         xxs:text-[22px] xxs:leading-[36px]
+        xs:text-[20px] xs:leading-[36px]
+         px-[58px] xs:px-[80px]
           pb-[20px] xs:pb-[20px] font-helvetica font-bold "
         >
           <span className="text-[#F6941E] ">Study </span> Destination
         </h1>
         <p
           className=" text-black/[.8]  pb-[50px] xs:pb-[50px]
-          text-center"
+          text-center font-normal font-helvetica text-[14px] leading-[21px]
+          xs:text-[14px] xs:leading-[21px] xxs:text-[12px] xxs:leading-[21px]"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -27,7 +30,8 @@ const StudyDestination = () => {
           className=" xl:text-[48px] xl:leading-[58px] 2xl:text-[48px] 2xl:leading-[58px]
         lg:text-[48px] lg:leading-[58px] md:text-[48px] md:leading-[58px] 
         text-[30px] leading-[36px] 
-        xs:text-[30px] xs:leading-[36px] xl:pb-[20px] 2xl:pb-[20px]
+        xs:text-[30px] xs:leading-[36px]
+         xl:pb-[20px] 2xl:pb-[20px]
           lg:pb-[20px] md:pb-[20px] pb-[20px] xs:pb-[20px] font-helvetica font-bold "
         >
           <span className="text-[#F6941E] ">Study </span> Destination
@@ -146,7 +150,7 @@ const StudyDestination = () => {
           </div>
         </div>
       </div>
-
+      {/* mobile */}
       <div className="md:hidden block">
         <div
           className="grid   

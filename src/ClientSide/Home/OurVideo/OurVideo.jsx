@@ -121,10 +121,13 @@ const OurVideo = () => {
           {/* Text and Content */}
           <div className="relative z-10">
             <div className="mx-auto max-w-[432px] text-center py-8 text-white">
-              <h1 className="font-bold font-helvetica text-[30px] leading-[36px] pb-[20px]">
+              <h1
+                className="font-bold font-helvetica text-[30px] leading-[36px]
+              xxs:text-[22px] xxs:leading-[36px] pb-[20px]"
+              >
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
-              <p className="font-normal text-[14px] leading-[21px] text-white/[.8]">
+              <p className="font-normal xxs:text-[12px] xxs:leading-[21px] text-[14px] leading-[21px] text-white/[.8] ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>

@@ -72,7 +72,7 @@ const HeroSection = () => {
            h-[140px] px-[28px] py-[40px]
              text-black "
           >
-            <div className="xs:w-[47px] xs:h-[45px] w-[47px] h-[45px] text-black">
+            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[47px] xxs:h-[40px]  w-[47px] h-[45px] text-black">
               <img
                 className=" w-full h-full"
                 src="https://i.ibb.co/92KHBSS/vector-5-66d8811b5ae4a.webp"
@@ -89,7 +89,7 @@ const HeroSection = () => {
            flex justify-center items-center gap-[16px]
            h-[140px] px-[28px] py-[40px] "
           >
-            <div className="xs:w-[47px] xs:h-[45px] w-[47px] h-[45px]">
+            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[47px] xxs:h-[40px] w-[47px] h-[45px]">
               <img
                 className="w-full h-full"
                 src="https://i.ibb.co/QcBSbWw/frame-1-66cf82241ae84.webp"
@@ -106,7 +106,7 @@ const HeroSection = () => {
             className="bg-[#F5F5F5] flex justify-center items-center gap-[16px]
            h-[140px] px-[28px] py-[40px]   "
           >
-            <div className="xs:w-[47px] xs:h-[45px] w-[47px] h-[45px]">
+            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[47px] xxs:h-[40px] w-[47px] h-[45px]">
               <img
                 className="w-full h-full"
                 src="https://i.ibb.co/tYV3GkP/group-1-66d88c76a207b.webp"
@@ -124,7 +124,7 @@ const HeroSection = () => {
             }}
             className="bg-[#F5F5F5] flex justify-center items-center gap-[16px] h-[140px] px-[28px] py-[40px]"
           >
-            <div className="xs:w-[47px] xs:h-[45px] w-[47px] h-[45px]">
+            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[45px] xxs:h-[35px] w-[47px] h-[45px]">
               <img
                 className=" w-full h-full"
                 src="https://i.ibb.co/8mX7Mjh/frame-10-66d88e0c05f82.webp"
@@ -138,7 +138,7 @@ const HeroSection = () => {
 
       {/* Slider Container big screen*/}
       <div className="  hidden md:block ">
-        <div className="relative">
+        <div className="relative ">
           <div
             style={{
               backgroundImage: `url("https://i.ibb.co/svGKkkx/frame-58-66cecf6f5b40e.webp")`,

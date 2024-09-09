@@ -189,7 +189,7 @@ const WhoAreU = () => {
           <div>
             <h1 className="chooseUsSamll">
               {" "}
-              <span className="text-[#F6941E]">Who</span>We Are
+              <span className="text-[#F6941E]">Who </span>We Are
             </h1>
 
             <p className="chooseUsParaText text-black/[0.8]">
