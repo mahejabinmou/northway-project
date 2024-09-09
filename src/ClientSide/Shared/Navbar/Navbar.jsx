@@ -277,7 +277,7 @@ const Navbar = () => {
                         <li
                           className={`px-4 py-2 text-[14px] ${
                             isHomePage
-                              ? "text-white hover:text-[#F6941E]"
+                              ? "text-black hover:text-[#F6941E]"
                               : "text-black hover:text-[#F6941E]"
                           }`}
                         >
