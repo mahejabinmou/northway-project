@@ -256,7 +256,7 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <li className="relative">
-                  {/* Gallery Menu Item */}
+                  {/* Study Menu Item */}
                   <button
                     onClick={toggleDropdown2}
                     className={`flex items-center ${
@@ -275,7 +275,7 @@ const Navbar = () => {
                       <Link to="/studyDistention">
                         {" "}
                         <li
-                          className={`px-4 py-2 ${
+                          className={`px-4 py-2 text-[14px] ${
                             isHomePage
                               ? "text-white hover:text-[#F6941E]"
                               : "text-black hover:text-[#F6941E]"
@@ -284,7 +284,7 @@ const Navbar = () => {
                           Study Distention
                         </li>
                       </Link>
-                      <li className="px-4 py-2 hover:bg-[#f6941e] hover:text-white">
+                      <li className="px-4 py-2 text-[14px] hover:bg-[#f6941e] hover:text-white">
                         <Link to="/studyDistention2">Study Distention 2</Link>
                       </li>
                     </ul>

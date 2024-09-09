@@ -10,6 +10,7 @@ import VideoGallery from "./ClientSide/Gallery/VideoGallery/VideoGallery";
 import Blogs from "./ClientSide/Blogs/Blogs";
 import Distenation2 from "./ClientSide/Distenation2/Distenation2";
 import ContactUs from "./ClientSide/ContactUs/ContactUs";
+import Select from "./ClientSide/Distenation/Select/Select";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/blogs",
     element: <Blogs></Blogs>,
+  },
+  {
+    path: "/select",
+    element: <Select></Select>,
   },
   {
     path: "/photo-gallery",
