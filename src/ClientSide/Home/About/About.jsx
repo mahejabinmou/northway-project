@@ -11,7 +11,7 @@ const About = () => {
           >
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/nYVLmQ0rTtY?si=AZtf4tP-C38tBGF5&rel=0"
+              src="https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -110,7 +110,7 @@ const About = () => {
             >
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/nYVLmQ0rTtY?si=AZtf4tP-C38tBGF5&rel=0"
+                src="https://www.youtube.com/embed/THi7JpVDyCE?si=Ucmq2JkRYd7B1Lfi&rel=0"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -123,7 +123,7 @@ const About = () => {
             >
               <div className=" ">
                 <h1
-                  className=" mt-[20px]xl:text-[36px] xl:leading-[43px] 
+                  className=" mt-[20px] xl:text-[36px] xl:leading-[43px] 
               2xl:text-[36px] 2xl:leading-[43px] lg:text-[20px] lg:leading-[20px]
               md:text-[20px] md:leading-[20px] text-center pb-[5px] font-bold text-[#F6941E]"
                 >
