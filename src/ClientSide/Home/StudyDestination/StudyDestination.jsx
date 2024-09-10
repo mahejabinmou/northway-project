@@ -58,7 +58,7 @@ const StudyDestination = () => {
           <div className="">
             <div className="relative group w-full h-[267px] ">
               <img
-                src="https://i.ibb.co/X7kKxLD/download.png"
+                src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -72,7 +72,7 @@ const StudyDestination = () => {
 
             <div className="relative group w-full h-[267px] ">
               <img
-                src="https://i.ibb.co/kgGft8R/download-66d57b36637e9.webp"
+                src="https://i.ibb.co.com/RHxvvgD/image-9-2-66e0a645da6ff.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -88,7 +88,7 @@ const StudyDestination = () => {
           <div>
             <div className="relative group w-full h-[267px] ">
               <img
-                src="https://i.ibb.co/D8PDzGr/download-66d57b88b5019.webp"
+                src="https://i.ibb.co.com/K6LgdRy/image-7-1-66e0a55e7f832.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -102,7 +102,7 @@ const StudyDestination = () => {
             <div className="relative group w-full h-[267px]">
               {/* Image */}
               <img
-                src="https://i.ibb.co/rtVphk1/download.png"
+                src="https://i.ibb.co.com/fpvNZgt/image-10-66e0a70c2518c.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -118,7 +118,7 @@ const StudyDestination = () => {
           <div>
             <div className="relative group w-full h-[267px] ">
               <img
-                src="https://i.ibb.co/qmbrmnX/download-66d57c266294c.webp"
+                src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -131,7 +131,7 @@ const StudyDestination = () => {
             </div>
             <div className="relative group w-full h-[267px] ">
               <img
-                src="https://i.ibb.co/yfPKGX7/download-66d57c667e0e4.webp"
+                src="https://i.ibb.co.com/1KHNkQ1/image-11-66e0a757ad7d1.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -145,6 +145,7 @@ const StudyDestination = () => {
           </div>
         </div>
       </div>
+
       {/* mobile */}
       <div className="md:hidden block">
         <div
@@ -155,7 +156,7 @@ const StudyDestination = () => {
           <div>
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co/X7kKxLD/download.png"
+                src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -169,7 +170,7 @@ const StudyDestination = () => {
 
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co/kgGft8R/download-66d57b36637e9.webp"
+                src="https://i.ibb.co.com/K6LgdRy/image-7-1-66e0a55e7f832.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -185,7 +186,7 @@ const StudyDestination = () => {
           <div>
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co/D8PDzGr/download-66d57b88b5019.webp"
+                src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -199,7 +200,7 @@ const StudyDestination = () => {
             <div className="relative group w-full h-[267px] pb-[20px]">
               {/* Image */}
               <img
-                src="https://i.ibb.co/rtVphk1/download.png"
+                src="https://i.ibb.co.com/RHxvvgD/image-9-2-66e0a645da6ff.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -215,7 +216,7 @@ const StudyDestination = () => {
           <div>
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co/qmbrmnX/download-66d57c266294c.webp"
+                src="https://i.ibb.co.com/fpvNZgt/image-10-66e0a70c2518c.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
@@ -228,7 +229,7 @@ const StudyDestination = () => {
             </div>
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co/yfPKGX7/download-66d57c667e0e4.webp"
+                src="https://i.ibb.co.com/1KHNkQ1/image-11-66e0a757ad7d1.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />

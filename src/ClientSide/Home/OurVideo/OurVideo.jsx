@@ -4,13 +4,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 const StudentImg = [
   {
-    image: "https://i.ibb.co/BnWhcpK/download-66d695a226739.webp",
+    image: "https://i.ibb.co.com/dP60mt4/rectangle-2-1-66e0a8986faeb.webp",
   },
   {
-    image: "https://i.ibb.co/DkWH6bf/download-66d583ff6a650.webp",
+    image: "https://i.ibb.co.com/c2hqNtm/video-66e0a8faba4d2.webp",
   },
   {
-    image: "https://i.ibb.co/r3NCnLk/download-66d69759dc9f1.webp",
+    image: "https://i.ibb.co.com/yYv1byR/rectangle-3-66e0a92b21960.webp",
   },
 ];
 
