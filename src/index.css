@@ -210,7 +210,7 @@ font-helvetica font-normal;
   }
 
   .headerLogo {
-    @apply xs:h-[30px]
+    @apply h-[30px]
     /* ====== */
     md:h-[35px]
     /* ==== */
