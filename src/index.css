@@ -204,7 +204,7 @@ font-helvetica font-normal;
 
   /* ===== contact herosection ========= */
   .navbarLeftRightSpace {
-    @apply xs:px-[16px] xs:pt-[15px] 
+    @apply xs:px-[16px] xs:pt-[32px] 
     
     md:py-[25px] md:px-[50px];
   }
