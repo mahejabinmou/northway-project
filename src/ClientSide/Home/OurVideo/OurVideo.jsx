@@ -25,6 +25,15 @@ const OurVideo = () => {
     nextArrow: <NextArrow />,
     responsive: [
       {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
@@ -42,7 +51,7 @@ const OurVideo = () => {
         },
       },
       {
-        breakpoint: 375,
+        breakpoint: 350,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -123,12 +132,12 @@ const OurVideo = () => {
           <div className="relative z-10">
             <div className="mx-auto max-w-[432px] text-center py-8 text-white">
               <h1
-                className="font-bold font-helvetica text-[30px] leading-[36px]
-              xxs:text-[22px] xxs:leading-[36px] pb-[20px]"
+                className="font-bold font-helvetica 
+              xs:text-[30px] xs:leading-[36px] pb-[20px] "
               >
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
-              <p className="font-normal xxs:text-[12px] xxs:leading-[21px] text-[14px] leading-[21px] text-white/[.8] ">
+              <p className="font-normal font-helvetica xs:text-[14px] xs:leading-[21px]  text-[#FFFFFF]/[.8] ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
@@ -137,7 +146,7 @@ const OurVideo = () => {
             {/* Slider */}
             <Slider
               {...settings}
-              className="absolute bottom-[-400px] md:left-[16px] md:right-[16px] left-[16px] right-[16px] max-w-sm mx-auto"
+              className="absolute bottom-[-350px] md:left-[16px] md:right-[16px] left-[16px] right-[16px] max-w-sm mx-auto"
             >
               {StudentImg.map((StudentImg, index) => (
                 <div key={index} className=" ">

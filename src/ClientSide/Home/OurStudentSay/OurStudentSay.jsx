@@ -40,10 +40,10 @@ const OurStudentSay = () => {
     <div className="sectionGap ">
       {/* mobile */}
       <div className="md:hidden block text-center">
-        <h1 className="text-[30px] leading-[36px] xxs:text-[24px] font-helvetica font-bold  pb-[20px]">
+        <h1 className="xs:text-[30px] xs:leading-[36px] text-[#1E1E1E] font-helvetica font-bold  pb-[20px]">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
-        <p className="text-[14px] leading-[21px] font-normal font-helvetica text-[#1E1E1E]/[.8]  pb-[50px]">
+        <p className="text-[14px] leading-[21px] font-normal font-helvetica text-[#1E1E1E]/[.8]  pb-[30px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>

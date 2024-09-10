@@ -18,7 +18,7 @@
   /* ============== coommon styles here ========== */
 
   .sectionGap {
-    @apply mt-[100px] px-[16px]
+    @apply /* mt-[100px] px-[16px] */
     /* ======= */
     xs:mt-[100px] xs:px-[16px]
     /* ======= */
@@ -43,7 +43,9 @@
     font-helvetica font-normal;
   }
   .OurBlogPara {
-    @apply xl:text-[16px]  xl:leading-[24px]
+    @apply xl:text-[14px]  xl:leading-[21px]
+    
+    xl:text-[16px]  xl:leading-[24px]
 /* ---- */
 lg:text-[16px]  lg:leading-[24px]
 /* ---- */
@@ -51,8 +53,7 @@ md:text-[16px]  md:leading-[24px]
 /* ---- */
 text-[16px]  leading-[24px]
 /* ---- */
-2xl:text-[16px]  2xl:leading-[24px]
-/* ---- */
+
 font-helvetica font-normal;
   }
   .head1 {
@@ -129,6 +130,20 @@ font-helvetica font-normal;
    /* --- */
     
     font-bold font-helvetica text-[#1E1E1E];
+  }
+
+  .ourLatestBlog {
+    @apply xl:text-[48px] xl:leading-[57.6px]
+      /* ---- */
+     lg:text-[48px] lg:leading-[57.6px]
+     xs:text-[30px] xs:leading-[36px]
+     
+     /* --- */
+     md:text-[40px] md:leading-[40px]
+  
+     /* --- */
+      
+      font-bold font-helvetica text-[#1E1E1E];
   }
 
   .heroImgContentPara {
@@ -1371,7 +1386,7 @@ font-helvetica font-normal;
      text-center font-normal font-helvetica text-[#1E1E1E]/[.8];
   }
   .serviceHomeHead {
-    @apply text-[30px] leading-[36px]  pb-[20px] 
+    @apply /* text-[30px] leading-[36px]  pb-[20px]  */
            /* ========== */ 
           xs:text-[30px] xs:leading-[36px]   xs:pb-[20px]
            /* ========== */
@@ -1386,9 +1401,9 @@ font-helvetica font-normal;
   }
 
   .serviceHomePara {
-    @apply text-[14px] leading-[21px]
+    @apply /* text-[14px] leading-[21px] pb-[30px]*/
     /* ========== */
-        xs:text-[14px] xs:leading-[21px]  pb-[30px] xs:pb-[30px]
+        xs:text-[14px] xs:leading-[21px]   xs:pb-[30px]
         /* ========== */
         
         md:text-[16px] md:leading-[24px] md:pb-[30px] 
@@ -1404,7 +1419,7 @@ font-helvetica font-normal;
   .ChooseUsHead {
     @apply text-white font-helvetica font-bold 
      /* ========== */
-    text-[30px] leading-[36px] px-[16px] 
+    /* text-[30px] leading-[36px] px-[16px]  */
      /* ========== */
     xs:text-[30px] xs:leading-[36px] xs:px-[16px] 
      /* ========== */
@@ -1419,7 +1434,7 @@ font-helvetica font-normal;
 
   .ChooseUsPara {
     @apply text-[#FFFFFF]/[.8]  
-    mt-4 text-[14px] px-[16px] leading-[21px]  
+    mt-[15px] text-[14px] px-[16px] leading-[21px]  
     xs:px-[16px]   xs:text-[14px] xs:leading-[21px] 
      xl:text-[16px] xl:leading-[24px]   xl:px-[449px]  
      lg:leading-[24px]   lg:px-[180px]
@@ -1427,9 +1442,9 @@ font-helvetica font-normal;
     font-helvetica font-normal;
   }
   .joinUsBtn {
-    @apply text-[#F6941E] bg-white px-[16px] py-[11px] 
+    @apply text-[#F6941E] bg-white px-[16px] py-[11.5px] 
   
-    gap-x-[10px] mt-6 border border-[#F6941E]
+    gap-x-[10px] mt-[30px] border border-[#F6941E]
     xl:text-[18px] xl:leading-[23.4px] xl:px-[20px] xl:py-[13.5px]
      font-bold text-[18px] leading-[23px] font-helvetica;
   }
@@ -1952,7 +1967,10 @@ font-helvetica font-normal;
     font-helvetica font-medium  text-center text-white rounded-full;
   }
   .united {
-    @apply xl:text-[36px] xl:leading-[43px]
+    @apply xs:text-[36px] xs:leading-[43.2px]
+
+    /* ----- */
+   xl:text-[36px] xl:leading-[43px]
 
   /* ----- */
   md:text-[25px] md:leading-[25px]
@@ -1960,14 +1978,16 @@ font-helvetica font-normal;
 
   lg:text-[30px] lg:leading-[43px]
   /* ----- */
-  2xl:text-[36px] 2xl:leading-[43px]
-
-  /* ----- */
+  
   text-white font-bold;
   }
 
   .readMore {
-    @apply mt-[10px] xl:text-[18px] xl:leading-[23px]
+    @apply mt-[10.5px] xs:text-[18px] xs:leading-[23.4px]
+
+    /* ----- */
+
+     xl:text-[18px] xl:leading-[23.4px]
 
   /* ----- */
   lg:text-[18px] lg:leading-[23px]
@@ -1975,9 +1995,8 @@ font-helvetica font-normal;
   /* ---- */
   md:text-[18px] md:leading-[23px]
   /* ---- */
-  2xl:text-[18px] 2xl:leading-[23px]
-  /* --- */
-   text-white font-bold;
+ 
+   text-white font-bold  font-helvetica;
   }
 
   .distenation2Title {

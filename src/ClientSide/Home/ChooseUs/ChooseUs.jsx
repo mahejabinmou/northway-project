@@ -3,8 +3,8 @@ import { MdArrowRightAlt } from "react-icons/md";
 const ChooseUs = () => {
   return (
     <div
-      className="  md:mt-[80px] lg:mt-[80px] xl:mt-[150px] 2xl:mt-[150px]
-    mt-[50px]  xs:mt-[50px]"
+      className="  md:mt-[80px] lg:mt-[80px] xl:mt-[150px] 
+      xs:mt-[50px]"
     >
       <div className="  ">
         <div className="relative">

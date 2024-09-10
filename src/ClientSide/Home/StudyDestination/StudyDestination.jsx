@@ -3,21 +3,19 @@ import { MdArrowRightAlt } from "react-icons/md";
 const StudyDestination = () => {
   return (
     <div className="sectionGap">
+      {/* mobile */}
       <div className="md:hidden block ">
         <h1
-          className=" 
-        text-[30px] leading-[36px] 
-         xxs:text-[22px] xxs:leading-[36px]
-        xs:text-[20px] xs:leading-[36px]
-         px-[58px] xs:px-[80px]
-          pb-[20px] xs:pb-[20px] font-helvetica font-bold "
+          className=" text-[#1E1E1E]
+           xs:text-[30px] xs:leading-[36px]
+         xs:pb-[20px] font-helvetica font-bold text-center"
         >
           <span className="text-[#F6941E] ">Study </span> Destination
         </h1>
         <p
-          className=" text-[#1E1E1E]/[.8]  pb-[50px] xs:pb-[50px]
-          text-center font-normal font-helvetica text-[14px] leading-[21px]
-          xs:text-[14px] xs:leading-[21px] xxs:text-[12px] xxs:leading-[21px]"
+          className=" text-[#1E1E1E]/[.8]   xs:pb-[30px]
+          text-center font-normal font-helvetica 
+          xs:text-[14px] xs:leading-[21px] "
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -163,8 +161,8 @@ const StudyDestination = () => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
+                <button className="flex items-center justify-center readMore gap-x-[10px]">
+                  Read more <MdArrowRightAlt />
                 </button>
               </div>
             </div>
@@ -177,8 +175,8 @@ const StudyDestination = () => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
+                <button className="flex items-center justify-center readMore gap-x-[10px]">
+                  Read more <MdArrowRightAlt />
                 </button>
               </div>
             </div>
@@ -193,8 +191,8 @@ const StudyDestination = () => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
+                <button className="flex items-center justify-center readMore gap-x-[10px]">
+                  Read more <MdArrowRightAlt />
                 </button>
               </div>
             </div>
@@ -207,8 +205,8 @@ const StudyDestination = () => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
+                <button className="flex items-center justify-center readMore gap-x-[10px]">
+                  Read more <MdArrowRightAlt />
                 </button>
               </div>
             </div>
@@ -223,8 +221,8 @@ const StudyDestination = () => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
+                <button className="flex items-center justify-center readMore gap-x-[10px]">
+                  Read more <MdArrowRightAlt />
                 </button>
               </div>
             </div>
@@ -236,8 +234,8 @@ const StudyDestination = () => {
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
+                <button className="flex items-center justify-center readMore  gap-x-[10px]">
+                  Read more <MdArrowRightAlt />
                 </button>
               </div>
             </div>

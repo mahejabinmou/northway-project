@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { IoPersonOutline } from "react-icons/io5";
 import { LuMessagesSquare } from "react-icons/lu";
 import { FaArrowRight } from "react-icons/fa";
+import { MdArrowRightAlt } from "react-icons/md";
 
 const joyItems = [
   {
@@ -61,10 +62,10 @@ const OurLatestBlog = () => {
   return (
     <div className="sectionGap bg-[#F6941E]/[.03] py-[50px]">
       <div className="text-center">
-        <h1 className="mainHeader pb-[20px] ">
+        <h1 className="ourLatestBlog pb-[20px] ">
           Our Latest<span className="text-[#F6941E] "> Blog </span>
         </h1>
-        <p className="OurBlogPara text-[#1E1E1E]/[.8] xl:mx-[230px] 2xl:mx-[281px] lg:mx-[150px] md:mx-[50px] pb-[50px]">
+        <p className="OurBlogPara text-[#1E1E1E]/[.8] xl:mx-[230px] lg:mx-[150px] md:mx-[50px] pb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
@@ -151,8 +152,8 @@ const OurLatestBlog = () => {
                     alt={item.LgImg}
                   />
                 </div>
-                <div className="py-[30px] xxs:py-[10px] px-[20px]">
-                  <div className="flex justify-items-center gap-x-[10px] mb-[14px] mt-[10px] xxs:mb-[10px] xxs:mt-[10px]">
+                <div className="xs:py-[30px] xs:px-[20px]">
+                  <div className="flex justify-items-center xs:gap-x-[10px] xs:mb-[14px] mt-[10px] ">
                     <div className="h-[19px] w-[17px] flex-shrink-0 text-[#1E1E1E]/[.8]">
                       <img
                         className="w-full h-full object-cover"
@@ -160,13 +161,13 @@ const OurLatestBlog = () => {
                         alt={item.icon}
                       />
                     </div>
-                    <p className="font-normal text-[#1E1E1E]/[.8] text-[16px] leading-[24px] font-helvetica">
+                    <p className="font-normal text-[#1E1E1E]/[.8] xs:text-[16px] xs:leading-[24px] font-helvetica">
                       {item.date}
                     </p>
                   </div>
                   <h1
-                    className="font-bold text-[24px] leading-[36px] pb-[20px]
-                  xxs:text-[20px] xxs:leading-[25px] xxs:pb-[10px]"
+                    className="font-bold xs:text-[24px] xs:leading-[36px] xs:pb-[20px]
+                 "
                   >
                     {item.title}
                   </h1>
@@ -188,12 +189,12 @@ const OurLatestBlog = () => {
         </Slider>
 
         {/* Browse More Button for Mobile */}
-        <div className="text-center mt-5">
+        <div className=" mt-5 font-helvetica font-bold flex justify-center items-center">
           <button
-            className="px-4 py-2 text-[#F6941E] rounded border border-[#F6941E]"
+            className="px-4 py-2 text-[#F6941E] rounded border border-[#F6941E] flex justify-center items-center gap-x-[10px]"
             onClick={() => alert("Navigate to more blogs")}
           >
-            Browse More
+            Browse More Blog <MdArrowRightAlt />
           </button>
         </div>
       </div>
