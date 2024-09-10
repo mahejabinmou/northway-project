@@ -1,5 +1,4 @@
 import OurLatestBlog from "../Home/OurLatestBlog/OurLatestBlog";
-import OurService from "../Home/OurService/OurService";
 import OurStudentSay from "../Home/OurStudentSay/OurStudentSay";
 import Footer from "../Shared/Footer/Footer";
 import Application from "./Application/Application";

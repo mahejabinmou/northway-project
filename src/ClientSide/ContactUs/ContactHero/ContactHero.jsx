@@ -16,10 +16,10 @@ const ContactHero = () => {
 
         {/* Text Section */}
         <div className="absolute inset-0 flex flex-col items-center justify-center lg:flex-row lg:justify-between px-0 lg:px-[150px]  text-center lg:text-left">
-          <h1 className="text-2xl lg:text-4xl text-white font-bold">
+          <h1 className="text-2xl lg:text-4xl text-white font-bold font-helvetica ">
             Contact Us
           </h1>
-          <p className="text-sm lg:text-base text-white mt-2 lg:mt-0">
+          <p className="text-sm lg:text-base text-white mt-2 lg:mt-0 font-helvetica font-bold">
             Home / Contact us
           </p>
         </div>

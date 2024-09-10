@@ -13,7 +13,7 @@ const Carrer = () => {
         </div>
 
         <div>
-          <h1 className="font-helvetica font-bold pb-[10px] text-[30px] leading-[36px] pt-[30px]">
+          <h1 className="faqHead pb-[10px]  pt-[30px] ">
             {" "}
             Careers<span className="text-[#F6941E]"> & Industry </span>
           </h1>
@@ -52,7 +52,7 @@ const Carrer = () => {
               Careers<span className="text-[#F6941E]"> & Industry </span>
             </h1>
 
-            <p className="chooseUsParaText text-black/[0.8]">
+            <p className="chooseUsParaText text-[#1E1E1E]/[0.8]">
               One of the most technologically powerful and dynamic countries,
               USA is the largest & most dominant economy globally. Sectors that
               empower this world’s most productive economy include Healthcare,

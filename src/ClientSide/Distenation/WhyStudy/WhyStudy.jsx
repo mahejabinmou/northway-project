@@ -70,10 +70,10 @@ const WhyStudy = () => {
               making it over 2000 years old. Richard McClintock, a Latin
               professor at Hampden-
             </p>
-            <h1 className="font-bold text-[24px] leading-[28px] pt-[16px]">
+            <h1 className="font-bold text-[24px] leading-[28px] pt-[16px] text-[#1E1E1E]">
               Quick facts
             </h1>
-            <ul className="chooseUsParaText custom-bullet list-disc font-normal text-[14px] leading-[21px] text-black/[0.8] pt-[10px] px-[32px]">
+            <ul className="chooseUsParaText custom-bullet list-disc font-normal text-[14px] leading-[21px]  pt-[10px] px-[32px]">
               <li className="pb-[6px]">Expert Guidance.</li>
               <li className="pb-[6px]">Seamless Transitions.</li>
               <li className="pb-[6px]">Study Abroad Success.</li>

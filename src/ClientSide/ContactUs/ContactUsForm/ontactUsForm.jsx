@@ -52,7 +52,7 @@ function ContactForm() {
         <div className="mb-4">
           <label
             htmlFor="name"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 font-helvetica"
           >
             Name
           </label>
@@ -71,7 +71,7 @@ function ContactForm() {
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700 font-helvetica "
           >
             Email
           </label>
@@ -90,7 +90,7 @@ function ContactForm() {
         <div className="mb-4">
           <label
             htmlFor="country"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700  font-helvetica "
           >
             Country
           </label>
@@ -108,7 +108,7 @@ function ContactForm() {
         <div className="mb-4">
           <label
             htmlFor="message"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium text-gray-700   font-helvetica "
           >
             Message
           </label>
@@ -125,7 +125,8 @@ function ContactForm() {
 
         <button
           type="submit"
-          className="px-5 py-[10px] bg-[#F6941E] text-white p-2 rounded-md hover:bg-[#f6951ec0] transition"
+          className="px-5 py-[10px] bg-[#F6941E] font-helvetica font-bold
+           text-white p-2  hover:bg-[#f6951ec0] transition"
         >
           Submit
         </button>
@@ -152,16 +153,16 @@ function ContactForm() {
                   />
                 </div>
                 <div className="">
-                  <h4 className="text-[18px] leading-[23.4px] font-bold font-helvetica text-[#1E1E1E]  pb-[5px]">
+                  <h4 className="text-[18px]  leading-[23.4px] font-bold font-helvetica text-[#1E1E1E]  pb-[5px]">
                     {contact.title}
                   </h4>
                   <p
-                    className="text-[#1E1E1ECC] font-normal leading-[24px] text-[16px]
+                    className="text-[#1E1E1ECC] font-normal font-helvetica leading-[24px] text-[16px]
                  "
                   >
                     {contact.dis}
                   </p>
-                  <p className="text-[#1E1E1ECC] font-normal leading-[20px] text-[14px]">
+                  <p className="text-[#1E1E1ECC] font-normal font-helvetica leading-[20px] text-[14px]">
                     {contact?.sub}
                   </p>
                 </div>

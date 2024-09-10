@@ -23,7 +23,7 @@ const Faq = () => {
         </div>
         <div className="w-full md:w-1/2 p-2">
           <div className="p-4">
-            <h1 className="font-bold font-helvetica md:text-[42px] md:leading-[57.6px] text-[30px] leading-[36px] pb-[20px]">
+            <h1 className="faqHead  leading-[36px] pb-[20px]">
               Study in <span className="text-[#F6941E]">USA FAQ's</span>
             </h1>
             <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-[#1E1E1E]/[.8] pb-[30px]">

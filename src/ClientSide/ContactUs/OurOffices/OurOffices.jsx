@@ -48,8 +48,8 @@ const OurOffices = () => {
     <>
       <div className="sectionGap">
         <div className="mb-[50px]">
-          <h2 className="text-[48px] font-semibold leading-[120%] text-center">
-            Our <span className="text-[#F6941E]">offices</span>
+          <h2 className="text-[48px]  leading-[120%] text-center font-helvetica font-bold">
+            Our <span className="text-[#F6941E]">Offices</span>
           </h2>
         </div>
 
@@ -65,7 +65,7 @@ const OurOffices = () => {
             >
               <div className="flex items-center gap-2">
                 <img src={office.flag} alt={`Flag of ${office.name}`} />
-                <p>{office.name}</p>
+                <p className="font-helvetica font-bold">{office.name}</p>
               </div>
             </div>
           ))}
