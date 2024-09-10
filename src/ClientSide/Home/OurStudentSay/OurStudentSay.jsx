@@ -43,7 +43,7 @@ const OurStudentSay = () => {
         <h1 className="text-[30px] leading-[36px] xxs:text-[24px] font-helvetica font-bold  pb-[20px]">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
-        <p className="text-[14px] leading-[21px] font-normal font-helvetica text-black/[.8]  pb-[50px]">
+        <p className="text-[14px] leading-[21px] font-normal font-helvetica text-[#1E1E1E]/[.8]  pb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
@@ -53,7 +53,7 @@ const OurStudentSay = () => {
         <h1 className="mainHeader  pb-[20px] ">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
-        <p className="mainPara text-black/[.8]  pb-[50px]">
+        <p className="mainPara text-[#1E1E1E]/[.8]  pb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>

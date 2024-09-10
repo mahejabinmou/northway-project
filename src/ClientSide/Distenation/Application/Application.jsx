@@ -36,7 +36,7 @@ const Application = () => {
           <p
             className="font-normal font-helvetica text-[16px] leading-[24px]
         px-[150px] text-center 
-         text-black/[.8]"
+         text-[#1E1E1E]/[.8]"
           >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -118,7 +118,7 @@ const Application = () => {
           <p
             className="font-normal font-helvetica text-[14px] leading-[21px]
         text-center 
-         text-black/[.8]"
+         text-[#1E1E1E]/[.8]"
           >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.

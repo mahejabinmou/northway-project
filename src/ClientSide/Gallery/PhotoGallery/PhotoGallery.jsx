@@ -107,7 +107,7 @@ const PhotoGallery = () => {
           ${
             activeButton === "All"
               ? "bg-[#F6941E] text-white"
-              : "bg-transparent text-black/[.8]"
+              : "bg-transparent text-[#1E1E1E]/[.8]"
           }
         `}
             onClick={() => setActiveButton("All")}
@@ -119,7 +119,7 @@ const PhotoGallery = () => {
           ${
             activeButton === "gallery"
               ? "bg-[#F6941E] text-white"
-              : "bg-transparent text-black/[.8]"
+              : "bg-transparent text-[#1E1E1E]/[.8]"
           }
         `}
             onClick={() => setActiveButton("gallery")}

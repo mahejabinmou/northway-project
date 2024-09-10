@@ -136,7 +136,7 @@ function ContactForm() {
           <h4 className="lg:text-[36px] lg:leading-[43.2px] font-bold font-helvetica  ">
             Contact Us
           </h4>
-          <p className="text-black/[.8] mt-[14px] mb-[30px] font-normal text-[16px] leading-[24px]">
+          <p className="text-[#1E1E1E]/[.8] mt-[14px] mb-[30px] font-normal text-[16px] leading-[24px]">
             Get in touch today to learn how Edu Mandate can help your business.
           </p>
         </div>

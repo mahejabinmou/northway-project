@@ -164,14 +164,14 @@ const Blogs = () => {
                   </div>
                   <div className="py-[30px] px-[20px]">
                     <div className="flex justify-items-center gap-x-[10px] mb-[14px] mt-[10px]">
-                      <div className="h-[19px] w-[17px] flex-shrink-0 text-black/[.8]">
+                      <div className="h-[19px] w-[17px] flex-shrink-0 text-[#1E1E1E]/[.8]">
                         <img
                           className="w-full h-full object-cover"
                           src={image.icon}
                           alt={image.icon}
                         />
                       </div>
-                      <p className=" text-black/[.8] font-normal text-[16px] leading-[24px] font-helvetica">
+                      <p className=" text-[#1E1E1E]/[.8] font-normal text-[16px] leading-[24px] font-helvetica">
                         {image.date}
                       </p>
                     </div>

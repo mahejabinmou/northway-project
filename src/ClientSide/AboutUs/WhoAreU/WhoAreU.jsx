@@ -38,7 +38,7 @@ const WhoAreU = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-black/[.8] font-helvetica font-normal"
+          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Global niversity Tips
               </p>
@@ -54,7 +54,7 @@ const WhoAreU = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-black/[.8] font-helvetica font-normal"
+          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Office Across The Globe
               </p>
@@ -69,7 +69,7 @@ const WhoAreU = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-black/[.8] font-helvetica font-normal"
+          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Years Industry Presence
               </p>

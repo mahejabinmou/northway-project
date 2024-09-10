@@ -65,7 +65,7 @@ const Navbar = () => {
           isHomePage ? "fixed-navbar" : ""
         }`}
       >
-        <div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica">
+        <div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica font-normal">
           <div className="headerLogo ">
             <Link to="/">
               <img
@@ -75,9 +75,11 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div>
+          <div className="h-[24px] ">
             <IoMenu
-              className={` ${isHomePage ? "text-white" : "text-black/[.8]"}`}
+              className={`h-full w-full ${
+                isHomePage ? "text-white" : "text-[#1E1E1E]/[.8]"
+              }`}
               onClick={handleMenu}
             ></IoMenu>
           </div>
@@ -217,7 +219,7 @@ const Navbar = () => {
             isHomePage ? "absolute" : "relative"
           }`}
         >
-          <div className="largeScreenMenu bg-transparent font-helvetica">
+          <div className="largeScreenMenu bg-transparent font-helvetica font-normal">
             <div className="headerLogo">
               <Link to="/">
                 <img
@@ -259,7 +261,7 @@ const Navbar = () => {
                   {/* Study Menu Item */}
                   <button
                     onClick={toggleDropdown2}
-                    className={`flex items-center ${
+                    className={`flex items-center lg:gap-x-[4px] ${
                       isHomePage
                         ? "text-white hover:text-[#f6941e]"
                         : "text-black hover:text-[#f6941e]"
@@ -295,7 +297,7 @@ const Navbar = () => {
                   {/* Gallery Menu Item */}
                   <button
                     onClick={toggleDropdown}
-                    className={`flex items-center ${
+                    className={`flex items-center gap-x-[4px] ${
                       isHomePage
                         ? "text-white hover:text-[#f6941e]"
                         : "text-black hover:text-[#f6941e]"
@@ -351,7 +353,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <button className="homeLargeAppoinMent border border-[#F6941E] flex items-center justify-between text-[#F6941E] bg-white">
+            <button className="homeLargeAppoinMent border border-[#F6941E] flex items-center justify-between text-[#F6941E] bg-white font-bold">
               Enquire Now <MdArrowRightAlt />
             </button>
           </div>

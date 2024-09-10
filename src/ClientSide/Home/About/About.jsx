@@ -3,6 +3,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 const About = () => {
   return (
     <div className=" ">
+      {/* mobile */}
       <div className="chooseUsParent mt-[638px] px-[16px] md:hidden block ">
         <div>
           <div
@@ -30,7 +31,7 @@ const About = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-black/[.8] font-helvetica font-normal"
+          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Global niversity Tips
               </p>
@@ -46,7 +47,7 @@ const About = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-black/[.8] font-helvetica font-normal"
+          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Office Across The Globe
               </p>
@@ -61,7 +62,7 @@ const About = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-black/[.8] font-helvetica font-normal"
+          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Years Industry Presence
               </p>
@@ -117,63 +118,18 @@ const About = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <div
-              className=" xl:pt-[24px] xl:gap-x-[16px] 2xl:pt-[24px]   
-          2xl:gap-x-[16px] lg:pt-[24px] lg:gap-x-[10px] md:pt-[24px] md:gap-x-[16px] flex justify-between items-center font-helvetica font-bold"
-            >
+            <div className=" xl:pt-[24px] xl:gap-x-[20px]  lg:pt-[24px] lg:gap-x-[10px] md:pt-[24px] md:gap-x-[16px] flex justify-between items-center font-helvetica font-bold">
               <div className=" ">
-                <h1
-                  className=" mt-[20px] xl:text-[36px] xl:leading-[43px] 
-              2xl:text-[36px] 2xl:leading-[43px] lg:text-[20px] lg:leading-[20px]
-              md:text-[20px] md:leading-[20px] text-center pb-[5px] font-bold text-[#F6941E]"
-                >
-                  800+
-                </h1>
-                <p
-                  className="xl:text-[12px]
-          xl:leading-[24px] 2xl:text-[16px]
-          2xl:leading-[24px] lg:text-[12px]
-          lg:leading-[10px] md:text-[12px]
-          md:leading-[14px] text-center"
-                >
-                  Global niversity Tips
-                </p>
+                <h1 className="head80  ">800+</h1>
+                <p className="para80">Global niversity Tips</p>
               </div>
               <div className=" text-center">
-                <h1
-                  className="xl:text-[36px] xl:leading-[43px] 
-              2xl:text-[36px] 2xl:leading-[43px] lg:text-[20px] lg:leading-[20px]
-              md:text-[20px] md:leading-[20px] text-center pb-[5px] font-bold text-[#F6941E]"
-                >
-                  65+
-                </h1>
-                <p
-                  className="xl:text-[12px]
-          xl:leading-[24px] 2xl:text-[16px]
-          2xl:leading-[24px] lg:text-[12px]
-          lg:leading-[10px] md:text-[12px]
-         md:leading-[14px] text-center"
-                >
-                  Office Across The Globe
-                </p>
+                <h1 className="head80">65+</h1>
+                <p className="para80">Office Across The Globe</p>
               </div>
               <div className=" text-center">
-                <h1
-                  className="xl:text-[36px] xl:leading-[43px] 
-              2xl:text-[36px] 2xl:leading-[43px]  lg:text-[20px] lg:leading-[20px]
-              md:text-[20px] md:leading-[20px] text-center pb-[5px] font-bold text-[#F6941E]"
-                >
-                  25+
-                </h1>
-                <p
-                  className="xl:text-[12px]
-          xl:leading-[24px] 2xl:text-[16px]
-          2xl:leading-[24px] lg:text-[12px]
-          lg:leading-[10px] md:text-[12px]
-          md:leading-[14px] text-center"
-                >
-                  Years Industry Presence
-                </p>
+                <h1 className="head80">25+</h1>
+                <p className="para80">Years Industry Presence</p>
               </div>
             </div>
           </div>
@@ -184,7 +140,7 @@ const About = () => {
               <span className="text-[#F6941E]">About</span> Us
             </h1>
 
-            <p className="chooseUsParaText text-black/[0.8]">
+            <p className="chooseUsParaText text-[#1E1E1E]/[0.8]">
               Discover the game-changer for Canadian Institutes: Edu Mandate!
               Our Indian-rooted strategy connects institutes with top agencies,
               fueled by human interaction and relentless expansion. With
@@ -194,7 +150,7 @@ const About = () => {
             </p>
             <ul
               className="chooseUsParaText list-disc xl:pl-5 xl:space-y-2
-          2xl:pl-5 2xl:space-y-2 lg:pl-5 lg:space-y-2 md:pl-5 md:space-y-2 text-black/[0.8]"
+          2xl:pl-5 2xl:space-y-2 lg:pl-5 lg:space-y-2 md:pl-5 md:space-y-2 text-[#1E1E1E]/[0.8]"
             >
               <li>Expert Guidance.</li>
               <li>Seamless Transitions.</li>

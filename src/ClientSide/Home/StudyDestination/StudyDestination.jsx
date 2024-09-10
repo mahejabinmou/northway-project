@@ -15,7 +15,7 @@ const StudyDestination = () => {
           <span className="text-[#F6941E] ">Study </span> Destination
         </h1>
         <p
-          className=" text-black/[.8]  pb-[50px] xs:pb-[50px]
+          className=" text-[#1E1E1E]/[.8]  pb-[50px] xs:pb-[50px]
           text-center font-normal font-helvetica text-[14px] leading-[21px]
           xs:text-[14px] xs:leading-[21px] xxs:text-[12px] xxs:leading-[21px]"
         >
@@ -27,26 +27,23 @@ const StudyDestination = () => {
       {/* large */}
       <div className="hidden md:block">
         <h1
-          className=" xl:text-[48px] xl:leading-[58px] 2xl:text-[48px] 2xl:leading-[58px]
-        lg:text-[48px] lg:leading-[58px] md:text-[48px] md:leading-[58px] 
-        text-[30px] leading-[36px] 
-        xs:text-[30px] xs:leading-[36px]
-         xl:pb-[20px] 2xl:pb-[20px]
-          lg:pb-[20px] md:pb-[20px] pb-[20px] xs:pb-[20px] font-helvetica font-bold "
+          className=" studyDestinationHeading
+         
+          lg:pb-[20px] md:pb-[20px] xl:pb-[20px]  pb-[20px] xs:pb-[20px] text-[#1E1E1E]  "
         >
           <span className="text-[#F6941E] ">Study </span> Destination
         </h1>
 
         <p
-          className=" text-black/[.8] xl:mr-[563px] 2xl:mr-[563px] lg:mr-[320px]
-        md:mr-[120px] xl:pb-[50px] 2xl:pb-[50px] pb-[50px] xs:pb-[50px]"
+          className=" text-[#1E1E1E]/[.8] xl:mr-[563px] lg:mr-[320px]
+        md:mr-[120px] xl:pb-[50px]  pb-[50px] xs:pb-[50px] EveryPara"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
 
         <p
-          className="md:hidden block text-black/[.8] xl:mr-[563px] 2xl:mr-[563px] lg:mr-[320px]
+          className="md:hidden block text-[#1E1E1E]/[.8] xl:mr-[563px] 2xl:mr-[563px] lg:mr-[320px]
         md:mr-[120px] xl:pb-[50px] 2xl:pb-[50px] pb-[50px] xs:pb-[50px]"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

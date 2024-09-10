@@ -26,7 +26,7 @@ const Faq = () => {
             <h1 className="font-bold font-helvetica md:text-[42px] md:leading-[57.6px] text-[30px] leading-[36px] pb-[20px]">
               Study in <span className="text-[#F6941E]">USA FAQ's</span>
             </h1>
-            <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-black/[.8] pb-[30px]">
+            <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-[#1E1E1E]/[.8] pb-[30px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>

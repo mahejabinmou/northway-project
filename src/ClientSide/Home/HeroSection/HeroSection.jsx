@@ -27,7 +27,7 @@ const HeroSection = () => {
     <div className="relative">
       <Navbar></Navbar>
       {/* mobile */}
-      {/* Slider Container */}
+
       <div className=" md:hidden block ">
         <div className="relative ">
           <div
@@ -79,7 +79,7 @@ const HeroSection = () => {
                 alt=""
               />
             </div>
-            <p className="herocardText text-black/[.8]">
+            <p className="herocardText text-[#1E1E1E]/[.8]">
               Experienced Consultants
             </p>
           </div>
@@ -113,7 +113,7 @@ const HeroSection = () => {
                 alt=""
               />
             </div>
-            <p className="herocardText2 text-black/[.8]">
+            <p className="herocardText2 text-[#1E1E1E]/[.8]">
               Positive And Timely Results
             </p>
           </div>
@@ -124,14 +124,16 @@ const HeroSection = () => {
             }}
             className="bg-[#F5F5F5] flex justify-center items-center gap-[16px] h-[140px] px-[28px] py-[40px]"
           >
-            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[45px] xxs:h-[35px] w-[47px] h-[45px]">
+            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[45px] xxs:h-[40px] w-[47px] h-[45px]">
               <img
                 className=" w-full h-full"
                 src="https://i.ibb.co/8mX7Mjh/frame-10-66d88e0c05f82.webp"
                 alt=""
               />
             </div>
-            <p className="herocardText text-black/[.8]">Seamless Procedures</p>
+            <p className="herocardText text-[#1E1E1E]/[.8]">
+              Seamless Procedures
+            </p>
           </div>
         </div>
       </div>
@@ -153,14 +155,14 @@ const HeroSection = () => {
           xl:ml-[150px]  lg:mt-[150px]
           lg:ml-[60px] md:ml-[80px]  ml-[60px] xs:lg:ml-[150px] "
         >
-          <h1 className="text-white mr-[583px] xl:mr-[583px]  md:mr-[200px] xs:mr-[583px] text-[60px] xl:leading-[70px] xl:pb-[15px] lg:mr-[300px] lg:leading-[70px] lg:pb-[15px]  font-bold ">
+          <h1 className="homeHead ">
             <span className="text-[#F6941E]">Welcome</span> to Northway Global
           </h1>
-          <p className="text-white  text-[16px] font-helvetica font-normal xl:leading-[24px] xl:mr-[655px]  xl:pb-[30px] lg:leading-[24px] lg:mr-[450px]  lg:pb-[30px] md:mr-[250px]  md:leading-[24px]  md:pb-[30px]">
+          <p className="homePara">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
-          <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
+          <button className="homeButton flex items-center justify-between bg-[#F6941E]">
             Start Your Journey <MdArrowRightAlt />
           </button>
         </div>
@@ -177,7 +179,7 @@ const HeroSection = () => {
           border  border-white/[0.2]  text-white"
           >
             <img
-              className="xl:w-[50px] xl:h-[50px] 2xl:w-[50px] 2xl:h-[50px] lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
+              className="xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
               src="https://i.ibb.co/Hx6q9Ns/vector-3-66cf81d0282e5.webp"
               alt=""
             />
@@ -190,24 +192,20 @@ const HeroSection = () => {
             md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] "
           >
             <img
-              className="xl:w-[50px] xl:h-[50px] 2xl:w-[50px] 2xl:h-[50px] lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
+              className="xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
               src="https://i.ibb.co/QcBSbWw/frame-1-66cf82241ae84.webp"
               alt=""
             />
             <p className="herocardText text-[#F6941E]">98.8% Success Rate</p>
           </div>
 
-          <div
-            className="bg-white/[0.15] flex items-center xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
-            2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[28px] lg:pr-[8px]  lg:py-[30px] lg:h-[140px]
-            md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] border  border-white/[0.2]  text-white"
-          >
+          <div className="homeCardDiv">
             <img
-              className="xl:w-[50px] xl:h-[50px] 2xl:w-[50px] 2xl:h-[50px] lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
+              className="xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
               src="https://i.ibb.co/kJn5cHY/group-66cf8262e596a.webp"
               alt=""
             />
-            <p className="herocardText2">Positive And Timely Results</p>
+            <p className="herocardText">Positive And Timely Results</p>
           </div>
           <div
             className="bg-white/[0.15] flex items-center xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
@@ -215,7 +213,7 @@ const HeroSection = () => {
             md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] border  border-white/[0.2]  text-white"
           >
             <img
-              className="xl:w-[50px] xl:h-[50px] 2xl:w-[50px] 2xl:h-[50px] lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
+              className="xl:w-[40px] xl:h-[40px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
               src="https://i.ibb.co/F8ZfMfM/frame-2-66cf82a790568.webp"
               alt=""
             />

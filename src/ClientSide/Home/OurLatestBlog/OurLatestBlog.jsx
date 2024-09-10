@@ -64,7 +64,7 @@ const OurLatestBlog = () => {
         <h1 className="mainHeader pb-[20px] ">
           Our Latest<span className="text-[#F6941E] "> Blog </span>
         </h1>
-        <p className="OurBlogPara text-black/[.8] xl:mx-[230px] 2xl:mx-[281px] lg:mx-[150px] md:mx-[50px] pb-[50px]">
+        <p className="OurBlogPara text-[#1E1E1E]/[.8] xl:mx-[230px] 2xl:mx-[281px] lg:mx-[150px] md:mx-[50px] pb-[50px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
@@ -85,14 +85,14 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="py-[30px] px-[20px]">
                   <div className="flex justify-items-center gap-x-[10px] mb-[14px] mt-[10px]">
-                    <div className="h-[19px] w-[17px] flex-shrink-0 text-black/[.8]">
+                    <div className="h-[19px] w-[17px] flex-shrink-0 text-[#1E1E1E]/[.8]">
                       <img
                         className="w-full h-full object-cover"
                         src={item.icon}
                         alt={item.icon}
                       />
                     </div>
-                    <p className=" text-black/[.8] font-normal text-[16px] leading-[24px] font-helvetica">
+                    <p className=" text-[#1E1E1E]/[.8] font-normal text-[16px] leading-[24px] font-helvetica">
                       {item.date}
                     </p>
                   </div>
@@ -153,14 +153,14 @@ const OurLatestBlog = () => {
                 </div>
                 <div className="py-[30px] xxs:py-[10px] px-[20px]">
                   <div className="flex justify-items-center gap-x-[10px] mb-[14px] mt-[10px] xxs:mb-[10px] xxs:mt-[10px]">
-                    <div className="h-[19px] w-[17px] flex-shrink-0 text-black/[.8]">
+                    <div className="h-[19px] w-[17px] flex-shrink-0 text-[#1E1E1E]/[.8]">
                       <img
                         className="w-full h-full object-cover"
                         src={item.icon}
                         alt={item.icon}
                       />
                     </div>
-                    <p className="font-normal text-black/[.8] text-[16px] leading-[24px] font-helvetica">
+                    <p className="font-normal text-[#1E1E1E]/[.8] text-[16px] leading-[24px] font-helvetica">
                       {item.date}
                     </p>
                   </div>
