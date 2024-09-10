@@ -69,7 +69,7 @@ const Navbar = () => {
           <div className="headerLogo ">
             <Link to="/">
               <img
-                className="h-full w-full object-cover"
+                className="h-full w-full "
                 src="https://i.ibb.co/7R7kn56/logo-66ced2cb8a688.webp"
                 alt="brand logo"
               />
