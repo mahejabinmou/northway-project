@@ -203,14 +203,13 @@ font-helvetica font-normal;
 
   /* ===== contact herosection ========= */
   .navbarLeftRightSpace {
-    @apply px-[16px] pt-[15px] 
+    @apply xs:px-[16px] xs:pt-[15px] 
     
     md:py-[25px] md:px-[50px];
   }
 
   .headerLogo {
-    @apply h-[22px]
-    xs:h-[22px]
+    @apply xs:h-[22px]
     /* ====== */
     md:h-[30px]
     /* ==== */
