@@ -53,6 +53,7 @@ const OurVideo = () => {
 
   return (
     <div>
+      {/* large */}
       <div className="hidden lg:block lg:pb-[100px] ">
         <div
           className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
@@ -107,7 +108,7 @@ const OurVideo = () => {
           </div>
         </div>
       </div>
-
+      {/* mobile */}
       <div className="lg:hidden block md:pb-[80px] pb-[80px]">
         <div
           className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"

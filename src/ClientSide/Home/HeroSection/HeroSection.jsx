@@ -47,14 +47,14 @@ const HeroSection = () => {
           <h1 className="head1 text-white md:pb-[15px]  pb-[10px]">
             <span className="text-[#F6941E] ">Welcome</span> to Northway Global
           </h1>
-          <p className="pb-[20px] text-white  text-[14px] leading-[21px] font-helvetica font-normal ">
+          <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
           <button
             className="homeLargeAppoinMent flex items-center  justify-between
           gap-x-[10px]  
-           bg-[#F6941E] p-[10px] xs:p-[10px]"
+           bg-[#F6941E] px-[16px] py-[11.5px] "
           >
             <span className="">Start Your Journey</span> <MdArrowRightAlt />
           </button>
@@ -68,52 +68,54 @@ const HeroSection = () => {
             style={{
               border: "1px solid #1E1E1E33",
             }}
-            className="bg-[#F5F5F5] flex justify-center items-center gap-[16px]
-           h-[140px] px-[28px] py-[40px]
+            className="bg-white flex justify-center items-center xs:gap-[16px] gap-x-[17.27px]
+            px-[28.5px] py-[40px]  
              text-black "
           >
-            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[47px] xxs:h-[40px]  w-[47px] h-[45px] text-black">
+            <div className="xs:w-[60px] xs:h-[50px]   text-black">
               <img
-                className=" w-full h-full"
+                className=" w-full h-full "
                 src="https://i.ibb.co/92KHBSS/vector-5-66d8811b5ae4a.webp"
                 alt=""
               />
             </div>
-            <p className="herocardText text-[#1E1E1E]/[.8]">
+            <p className="text-[20px] leading-[30px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica text-[#1E1E1E]/[.8]">
               Experienced Consultants
             </p>
           </div>
 
           <div
-            className="bg-[#F5F5F5]  border-b-[#F6941E] border-b-2 
+            className="bg-white border-b-[#F6941E] border-b-2 
            flex justify-center items-center gap-[16px]
-           h-[140px] px-[28px] py-[40px] "
+           h-[140px] px-[20px] py-[34px] "
           >
-            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[47px] xxs:h-[40px] w-[47px] h-[45px]">
+            <div className="xs:w-[50px] xs:h-[50px]   ">
               <img
                 className="w-full h-full"
                 src="https://i.ibb.co/QcBSbWw/frame-1-66cf82241ae84.webp"
                 alt=""
               />
             </div>
-            <p className="herocardText text-[#F6941E]">98.8% Success Rate</p>
+            <p className="  md:text-[13px] md:leading-[20px]   xs:text-[20px]  xs:leading-[30px]  font-normal font-helvetica text-[#F6941E]">
+              98.8% Success Rate
+            </p>
           </div>
 
           <div
             style={{
               border: "1px solid #1E1E1E33",
             }}
-            className="bg-[#F5F5F5] flex justify-center items-center gap-[16px]
+            className="bg-white flex justify-center items-center gap-[16px]
            h-[140px] px-[28px] py-[40px]   "
           >
-            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[47px] xxs:h-[40px] w-[47px] h-[45px]">
+            <div className="xs:w-[50px] xs:h-[50px]   ">
               <img
                 className="w-full h-full"
                 src="https://i.ibb.co/tYV3GkP/group-1-66d88c76a207b.webp"
                 alt=""
               />
             </div>
-            <p className="herocardText2 text-[#1E1E1E]/[.8]">
+            <p className="text-[28px] leading-[35px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica text-[#1E1E1E]/[.8]">
               Positive And Timely Results
             </p>
           </div>
@@ -122,7 +124,7 @@ const HeroSection = () => {
             style={{
               border: "1px solid #1E1E1E33",
             }}
-            className="bg-[#F5F5F5] flex justify-center items-center gap-[16px] h-[140px] px-[28px] py-[40px]"
+            className="bg-white flex justify-center items-center gap-[16px] h-[140px] px-[28px] py-[40px]"
           >
             <div className="xs:w-[47px] xs:h-[45px] xxs:w-[45px] xxs:h-[40px] w-[47px] h-[45px]">
               <img
@@ -131,7 +133,7 @@ const HeroSection = () => {
                 alt=""
               />
             </div>
-            <p className="herocardText text-[#1E1E1E]/[.8]">
+            <p className="text-[28px] leading-[35px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica  text-[#1E1E1E]/[.8]">
               Seamless Procedures
             </p>
           </div>

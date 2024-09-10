@@ -20,17 +20,16 @@ const About = () => {
             ></iframe>
           </div>
 
-          <div className=" pt-[24px] xs:pt-[24px] flex justify-between items-center font-helvetica font-bold">
+          <div className=" xs:pt-[16px] flex justify-between items-center font-helvetica font-bold">
             <div className=" ">
               <h1
-                className="text-[30px] leading-[30px]  xs:text-[36px] xs:leading-[40px]
-              text-center pb-[5px] font-bold text-[#F6941E]"
+                className="  xs:text-[30px] xs:leading-[36px]
+              text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
                 800+
               </h1>
               <p
-                className="text-[12px]
-          leading-[18px] xs:text-[12px]
+                className=" xs:text-[12px]
           xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Global niversity Tips
@@ -39,14 +38,13 @@ const About = () => {
 
             <div className=" text-center">
               <h1
-                className="text-[30px] leading-[30px]  xs:text-[36px] xs:leading-[40px]
-              text-center pb-[5px] font-bold text-[#F6941E]"
+                className="xs:text-[30px] xs:leading-[36px]
+              text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
                 65+
               </h1>
               <p
-                className="text-[12px]
-          leading-[18px] xs:text-[12px]
+                className="xs:text-[12px]
           xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Office Across The Globe
@@ -54,14 +52,13 @@ const About = () => {
             </div>
             <div className=" text-center">
               <h1
-                className="text-[30px] leading-[30px]  xs:text-[36px] xs:leading-[40px]
-              text-center pb-[5px] font-bold text-[#F6941E]"
+                className="xs:text-[30px] xs:leading-[36px]
+              text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
                 25+
               </h1>
               <p
-                className="text-[12px]
-          leading-[18px] xs:text-[12px]
+                className="xs:text-[12px]
           xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
               >
                 Years Industry Presence
@@ -71,12 +68,12 @@ const About = () => {
         </div>
 
         <div>
-          <h1 className="font-helvetica font-bold pb-[10px] text-[30px] leading-[36px] pt-[30px]">
+          <h1 className="font-helvetica font-bold xs:pb-[10px] xs:text-[30px] xs:leading-[36px] xs:pt-[30px] text-[#1E1E1E]">
             {" "}
             <span className="text-[#F6941E]">About</span> Us
           </h1>
 
-          <p className="font-normal text-[14px] leading-[21px] text-black/[0.8]">
+          <p className="font-normal xs:text-[14px] xs:leading-[21px] text-black/[0.8] font-helvetica">
             Discover the game-changer for Canadian Institutes: Edu Mandate! Our
             Indian-rooted strategy connects institutes with top agencies, fueled
             by human interaction and relentless expansion. With tailored
@@ -84,7 +81,7 @@ const About = () => {
             excellence, partner with us, and embark on a transformative journey
             towards success. Contact us now!
           </p>
-          <ul className="chooseUsParaText list-disc font-normal text-[14px] leading-[21px] text-black/[0.8] pt-[10px] px-[32px]">
+          <ul className=" list-disc font-normal xs:text-[14px] xs:leading-[21px] text-black/[0.8] xs:pt-[10px] xs:px-[32px] font-helvetica">
             <li className="pb-[6px]">Expert Guidance.</li>
             <li className="pb-[6px]">Seamless Transitions.</li>
             <li className="pb-[6px]">Study Abroad Success.</li>
@@ -92,8 +89,8 @@ const About = () => {
           </ul>
 
           <button
-            className="pl-[16px] pr-[11px] py-[11px] flex items-center justify-between
-          text-[18px] leading-[23px] bg-[#F6941E] gap-x-[10px] text-white font-helvetica font-bold"
+            className=" xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:mt-[20px]
+          xs:text-[18px] xs:leading-[23.4px] bg-[#F6941E] xs:gap-x-[10px] text-white font-helvetica font-bold"
           >
             Read More
             <MdArrowRightAlt size={21} />
