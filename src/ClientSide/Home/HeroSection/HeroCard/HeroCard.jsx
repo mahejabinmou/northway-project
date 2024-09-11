@@ -55,6 +55,7 @@ const HeroCard = ({ name, image }) => {
         </div>
       </div>
 
+      {/* large */}
       <div className="hidden md:block">
         <div
           onMouseEnter={() => handleMouseEnter(name)}
