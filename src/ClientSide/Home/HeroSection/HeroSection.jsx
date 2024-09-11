@@ -44,10 +44,10 @@ const HeroSection = () => {
           mt-[100px]    xs:mt-[100px] px-[16px] 
           "
         >
-          <h1 className="head1 text-white md:pb-[15px]  pb-[10px]">
+          <h1 className="head1 text-white md:pb-[15px]  pb-[10px] max-w-[319px]">
             <span className="text-[#F6941E] ">Welcome</span> to Northway Global
           </h1>
-          <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal ">
+          <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
@@ -155,12 +155,12 @@ const HeroSection = () => {
           className="absolute inset-0 font-helvetica  
         xl:mt-[200px]  mt-[200px]  md:mt-[150px]  xs:mt-[200px]
           xl:ml-[150px]  lg:mt-[150px]
-          lg:ml-[60px] md:ml-[80px]  ml-[60px] xs:lg:ml-[150px] "
+          lg:ml-[60px] md:ml-[80px]  ml-[60px] xs:lg:ml-[150px]  "
         >
-          <h1 className="homeHead ">
+          <h1 className="homeHead max-w-[557px]">
             <span className="text-[#F6941E]">Welcome</span> to Northway Global
           </h1>
-          <p className="homePara">
+          <p className="homePara max-w-[485px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
           </p>
