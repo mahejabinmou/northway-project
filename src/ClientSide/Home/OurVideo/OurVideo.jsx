@@ -99,26 +99,28 @@ const OurVideo = () => {
               <Slider {...settings} className="ourVideoSlider">
                 {StudentImg.map((StudentImg, index) => (
                   <div key={index} className="px-4">
-                    <div className="relative">
-                      <img
-                        src={StudentImg?.image}
-                        alt={StudentImg.name}
-                        className="w-full h-64 object-cover rounded-lg"
-                      />
-                      <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-12 w-12 text-white"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1.5-4.96V6.96a.75.75 0 011.13-.65l5.25 3.04a.75.75 0 010 1.3l-5.25 3.04a.75.75 0 01-1.13-.65z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                      </button>
+                    <div className="bg-white shadow-md rounded-lg p-6">
+                      <div className="relative">
+                        <img
+                          src={StudentImg?.image}
+                          alt={StudentImg.name}
+                          className="w-full h-64 object-cover rounded-lg"
+                        />
+                        <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-12 w-12 text-white"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1.5-4.96V6.96a.75.75 0 011.13-.65l5.25 3.04a.75.75 0 010 1.3l-5.25 3.04a.75.75 0 01-1.13-.65z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </button>
+                      </div>
                     </div>
                   </div>
                 ))}
