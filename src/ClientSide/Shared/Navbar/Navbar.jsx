@@ -102,7 +102,7 @@ const Navbar = () => {
                   <MdClose className="text-[#7EA254]" />
                 </div>
               </div>
-              <div className="mobileMenuParent">
+              <div className="mobileMenuParent23">
                 <Link to="/" onClick={menuClose}>
                   <li
                     className={` ${
@@ -127,16 +127,16 @@ const Navbar = () => {
                 <li className="relative">
                   <button
                     onClick={toggleDropdown2}
-                    className="flex items-center w-full text-left px-0 py-2 text-black hover:text-[#f6941e] focus:outline-none"
+                    className="flex items-center w-full text-left px-0 xs:0 text-black hover:text-[#f6941e] focus:outline-none"
                   >
                     Study Distention
                     {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
                   </button>
                   {isDropdown2Open && (
-                    <ul className="ml-4 mt-2 w-full bg-[#F5F5F5] text-black rounded shadow-lg">
+                    <ul className="mt-2 mb-2 min-w-[150px] bg-[#F6941E]/[.2] text-black rounded shadow-lg">
                       <Link to="/studyDistention">
                         <li
-                          className={`px-4 py-2 ${
+                          className={`px-4 py-[5px] ${
                             isStudyDistention ? "text-[#F6941E]" : "text-black"
                           }`}
                         >
@@ -145,7 +145,7 @@ const Navbar = () => {
                       </Link>
                       <Link to="/studyDistention2">
                         <li
-                          className={`px-4 py-2 ${
+                          className={`px-4 pb-[5px] ${
                             isStudyDistention2 ? "text-[#F6941E]" : "text-black"
                           }`}
                         >
@@ -158,16 +158,16 @@ const Navbar = () => {
                 <li className="relative">
                   <button
                     onClick={toggleDropdown}
-                    className="flex items-center w-full text-left px-0 py-2 text-black hover:text-[#f6941e] focus:outline-none"
+                    className="flex items-center w-full text-left px-0 xs:pb-0 text-black hover:text-[#f6941e] focus:outline-none"
                   >
                     Gallery
                     {isDropdownOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
                   </button>
                   {isDropdownOpen && (
-                    <ul className="ml-4 mt-2 w-full bg-[#F5F5F5] text-black rounded shadow-lg">
+                    <ul className=" mt-2 mb-2 min-w-[150px] bg-[#F6941E]/[.2] text-black rounded shadow-lg">
                       <Link to="/photo-gallery">
                         <li
-                          className={`px-4 py-2 ${
+                          className={`px-4 py-[5px] ${
                             isPhotoGallery ? "text-[#F6941E]" : "text-black"
                           }`}
                         >
@@ -176,7 +176,7 @@ const Navbar = () => {
                       </Link>
                       <Link to="/video-gallery">
                         <li
-                          className={`px-4 py-2 ${
+                          className={`px-4 pb-[5px] ${
                             isVideoGallery ? "text-[#F6941E]" : "text-black"
                           }`}
                         >

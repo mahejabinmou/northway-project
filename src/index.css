@@ -156,8 +156,7 @@ font-helvetica font-normal;
   }
 
   .mobileMenuParent {
-    @apply pt-[25px] text-[14px]   space-x-[5px]
-    /* ======== */
+    @apply /* ======== */
     md:pt-[30px] md:text-[16px]
     /* ======== */
     lg:pt-[0px] lg:text-[12px] lg:flex lg:list-none lg:text-black lg:space-x-[20px]
@@ -165,6 +164,18 @@ font-helvetica font-normal;
     xl:pt-[0px] xl:text-[18px] leading-[23.4px] xl:flex xl:list-none xl:text-black xl:space-x-[25px]
     /* ============ */
     font-helvetica font-bold w-full;
+  }
+
+  .mobileMenuParent23 {
+    @apply pt-[25px] xs:text-[14px]   xs:mr-[5px]
+    /* ======== */
+    md:pt-[30px] md:text-[16px]
+    /* ======== */
+    lg:pt-[0px] lg:text-[12px] lg:flex lg:list-none lg:text-black lg:mr-[20px]
+    /* ======== */
+    xl:pt-[0px] xl:text-[18px] leading-[23.4px] xl:flex xl:list-none xl:text-black xl:mr-[25px]
+    /* ============ */
+    font-helvetica font-normal w-full;
   }
 
   .homeLargeAppoinMent {
