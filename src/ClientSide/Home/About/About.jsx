@@ -89,7 +89,7 @@ const About = () => {
           </ul>
 
           <button
-            className=" xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:mt-[20px]
+            className=" xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:t-[20px]
           xs:text-[18px] xs:leading-[23.4px] bg-[#F6941E] xs:gap-x-[10px] text-white font-helvetica font-bold"
           >
             Read More
@@ -131,7 +131,7 @@ const About = () => {
             </div>
           </div>
 
-          <div>
+          <div className="xl:mb-[82px] lg:mb-[60px] md:mb-[125px]">
             <h1 className="chooseUsSamll">
               {" "}
               <span className="text-[#F6941E]">About</span> Us

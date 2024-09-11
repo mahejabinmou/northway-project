@@ -5,6 +5,7 @@ import "./hero.css";
 
 import Navbar from "../../Shared/Navbar/Navbar";
 import { MdArrowRightAlt } from "react-icons/md";
+import HeroCard from "./HeroCard/HeroCard";
 
 const HeroSection = () => {
   useEffect(() => {
@@ -23,33 +24,25 @@ const HeroSection = () => {
     };
   }, []);
 
-  const [hoveredOffice, setHoveredOffice] = useState("98.8% Success Rate");
   const officesData = [
     {
       name: "Experienced Consultants",
-      image: "https://i.ibb.co/Hx6q9Ns/vector-3-66cf81d0282e5.webp",
+      image: "/Group.svg",
     },
     {
       name: "98.8% Success Rate",
-      image: "https://i.ibb.co/QcBSbWw/frame-1-66cf82241ae84.webp",
+      image: "/Frame.svg",
     },
     {
       name: "Positive And Timely Results",
-      image: "https://i.ibb.co/kJn5cHY/group-66cf8262e596a.webp",
+      image: "/Frame (1).svg",
     },
     {
       name: "Seamless Procedures",
-      image: "https://i.ibb.co/F8ZfMfM/frame-2-66cf82a790568.webp",
+      image: "/Frame (2).svg",
     },
   ];
 
-  const handleMouseEnter = (name) => {
-    setHoveredOffice(name);
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredOffice(null);
-  };
   return (
     <div className="relative">
       <Navbar></Navbar>
@@ -92,87 +85,12 @@ const HeroSection = () => {
         xs:top-[420px] xs:mx-[65px]   grid  grid-cols-1 gap-y-[24px]"
         >
           {officesData.map((office) => (
-            <div
+            <HeroCard
               key={office.name}
-              onMouseEnter={() => handleMouseEnter(office.name)}
-              onMouseLeave={handleMouseLeave}
-              className={`bg-white flex justify-center items-center xs:gap-[16px] gap-x-[17.27px]
-            px-[28.5px] py-[40px]  '
-               ${
-                 hoveredOffice === office.name
-                   ? " border-b-[#F6941E] border-b-2 text-[#F6941E]"
-                   : "border-white/[0.2] border-1 text-[#1E1E1E]/[.8]"
-               }`}
-            >
-              <div className="   fill-black">
-                <img
-                  className={`xs:w-[60px] xs:h-[50px]   ${
-                    hoveredOffice === office.name
-                      ? "filter-orange"
-                      : "filter-dark-gray"
-                  }`}
-                  src={office?.image}
-                  alt={office.name}
-                />
-              </div>
-              <p className="text-[20px] leading-[30px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica ">
-                {office.name}
-              </p>
-            </div>
+              name={office.name}
+              image={office.image}
+            ></HeroCard>
           ))}
-          {/* <div
-            className="bg-white border-b-[#F6941E] border-b-2 
-           flex justify-center items-center gap-[16px]
-           h-[140px] px-[20px] py-[34px] "
-          >
-            <div className="xs:w-[50px] xs:h-[50px]   ">
-              <img
-                className="w-full h-full"
-                src="https://i.ibb.co/QcBSbWw/frame-1-66cf82241ae84.webp"
-                alt=""
-              />
-            </div>
-            <p className="  md:text-[13px] md:leading-[20px]   xs:text-[20px]  xs:leading-[30px]  font-normal font-helvetica text-[#F6941E]">
-              98.8% Success Rate
-            </p>
-          </div>
-
-          <div
-            style={{
-              border: "1px solid #1E1E1E33",
-            }}
-            className="bg-white flex justify-center items-center gap-[16px]
-           h-[140px] px-[28px] py-[40px]   "
-          >
-            <div className="xs:w-[50px] xs:h-[50px]   ">
-              <img
-                className="w-full h-full"
-                src="https://i.ibb.co/tYV3GkP/group-1-66d88c76a207b.webp"
-                alt=""
-              />
-            </div>
-            <p className="text-[28px] leading-[35px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica text-[#1E1E1E]/[.8]">
-              Positive And Timely Results
-            </p>
-          </div>
-
-          <div
-            style={{
-              border: "1px solid #1E1E1E33",
-            }}
-            className="bg-white flex justify-center items-center gap-[16px] h-[140px] px-[28px] py-[40px]"
-          >
-            <div className="xs:w-[47px] xs:h-[45px] xxs:w-[45px] xxs:h-[40px] w-[47px] h-[45px]">
-              <img
-                className=" w-full h-full"
-                src="https://i.ibb.co/8mX7Mjh/frame-10-66d88e0c05f82.webp"
-                alt=""
-              />
-            </div>
-            <p className="text-[28px] leading-[35px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica  text-[#1E1E1E]/[.8]">
-              Seamless Procedures
-            </p>
-          </div> */}
         </div>
       </div>
 
@@ -211,67 +129,12 @@ const HeroSection = () => {
          md:gap-x-[10px]"
         >
           {officesData.map((office) => (
-            <div
+            <HeroCard
               key={office.name}
-              onMouseEnter={() => handleMouseEnter(office.name)}
-              onMouseLeave={handleMouseLeave}
-              className={`bg-white/[0.15] flex justify-center items-center xl:gap-x-[16px] xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
-            2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[20px] lg:pr-[14px]  lg:py-[30px] lg:h-[140px]
-            md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px]
-            ${
-              hoveredOffice === office.name
-                ? " border-b-[#F6941E] border-b-2 text-[#F6941E]"
-                : "border-white/[0.2] border-1 text-white"
-            }`}
-            >
-              <img
-                className={`xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]
-                
-                ${
-                  hoveredOffice === office.name
-                    ? " fill-[#F6941E]"
-                    : "fill-[#1E1E1E]"
-                }`}
-                src={office.image}
-                alt={office.name}
-              />
-              <p className="herocardText">{office.name}</p>
-            </div>
+              name={office.name}
+              image={office.image}
+            ></HeroCard>
           ))}
-
-          {/* <div
-            className="bg-white/[0.15]  border-b-[#F6941E] border-b-2 flex justify-center items-center xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
-            2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[28px] lg:pr-[8px]  lg:py-[30px] lg:h-[140px]
-            md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] "
-          >
-            <img
-              className="xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
-              src="https://i.ibb.co/QcBSbWw/frame-1-66cf82241ae84.webp"
-              alt=""
-            />
-            <p className="herocardText text-[#F6941E]">98.8% Success Rate</p>
-          </div> */}
-
-          {/* <div className="homeCardDiv">
-            <img
-              className="xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
-              src="https://i.ibb.co/kJn5cHY/group-66cf8262e596a.webp"
-              alt=""
-            />
-            <p className="herocardText">Positive And Timely Results</p>
-          </div> */}
-          {/* <div
-            className="bg-white/[0.15] flex items-center xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
-            2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[28px] lg:pr-[8px]  lg:py-[30px] lg:h-[140px]
-            md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] border  border-white/[0.2]  text-white"
-          >
-            <img
-              className="xl:w-[40px] xl:h-[40px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
-              src="https://i.ibb.co/F8ZfMfM/frame-2-66cf82a790568.webp"
-              alt=""
-            />
-            <p className="herocardText">Seamless Procedures</p>
-          </div> */}
         </div>
       </div>
     </div>

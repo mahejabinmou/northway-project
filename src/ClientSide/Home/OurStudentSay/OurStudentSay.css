@@ -1,6 +1,9 @@
 /* Custom styles for the active slide */
-.slick-slide.slick-active {
-  border-bottom: 2px solid #f6941e !important; /* Adjust the thickness and color as needed */
+/* .slick-slide.slick-active {
+  border-bottom: 2px solid #f6941e !important; 
+} */
+.slick-slide:hover {
+  border-bottom: 2px solid #f6941e; /* Adjust the thickness and color as needed */
 }
 
 /* .element.style {
