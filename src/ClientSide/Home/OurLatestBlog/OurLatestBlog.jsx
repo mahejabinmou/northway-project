@@ -99,7 +99,7 @@ const OurLatestBlog = () => {
                   </div>
                   <h1
                     className="font-bold xl:text-[24px] xl:leading-[36px] 2xl:text-[24px] 2xl:leading-[36px]
-                 lg:text-[20px] lg:leading-[30px]  pb-[20px]"
+                 lg:text-[20px] lg:leading-[30px]  pb-[20px] text-[#1E1E1E]"
                   >
                     {item.title}
                   </h1>

@@ -23,6 +23,33 @@ const HeroSection = () => {
     };
   }, []);
 
+  const [hoveredOffice, setHoveredOffice] = useState("98.8% Success Rate");
+  const officesData = [
+    {
+      name: "Experienced Consultants",
+      image: "https://i.ibb.co/Hx6q9Ns/vector-3-66cf81d0282e5.webp",
+    },
+    {
+      name: "98.8% Success Rate",
+      image: "https://i.ibb.co/QcBSbWw/frame-1-66cf82241ae84.webp",
+    },
+    {
+      name: "Positive And Timely Results",
+      image: "https://i.ibb.co/kJn5cHY/group-66cf8262e596a.webp",
+    },
+    {
+      name: "Seamless Procedures",
+      image: "https://i.ibb.co/F8ZfMfM/frame-2-66cf82a790568.webp",
+    },
+  ];
+
+  const handleMouseEnter = (name) => {
+    setHoveredOffice(name);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredOffice(null);
+  };
   return (
     <div className="relative">
       <Navbar></Navbar>
@@ -64,27 +91,36 @@ const HeroSection = () => {
           className="absolute inset-0 font-helvetica  top-[420px] mx-[65px] 
         xs:top-[420px] xs:mx-[65px]   grid  grid-cols-1 gap-y-[24px]"
         >
-          <div
-            style={{
-              border: "1px solid #1E1E1E33",
-            }}
-            className="bg-white flex justify-center items-center xs:gap-[16px] gap-x-[17.27px]
-            px-[28.5px] py-[40px]  
-             text-black "
-          >
-            <div className="xs:w-[60px] xs:h-[50px]   text-black">
-              <img
-                className=" w-full h-full "
-                src="https://i.ibb.co/92KHBSS/vector-5-66d8811b5ae4a.webp"
-                alt=""
-              />
+          {officesData.map((office) => (
+            <div
+              key={office.name}
+              onMouseEnter={() => handleMouseEnter(office.name)}
+              onMouseLeave={handleMouseLeave}
+              className={`bg-white flex justify-center items-center xs:gap-[16px] gap-x-[17.27px]
+            px-[28.5px] py-[40px]  '
+               ${
+                 hoveredOffice === office.name
+                   ? " border-b-[#F6941E] border-b-2 text-[#F6941E]"
+                   : "border-white/[0.2] border-1 text-[#1E1E1E]/[.8]"
+               }`}
+            >
+              <div className="   fill-black">
+                <img
+                  className={`xs:w-[60px] xs:h-[50px]   ${
+                    hoveredOffice === office.name
+                      ? "filter-orange"
+                      : "filter-dark-gray"
+                  }`}
+                  src={office?.image}
+                  alt={office.name}
+                />
+              </div>
+              <p className="text-[20px] leading-[30px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica ">
+                {office.name}
+              </p>
             </div>
-            <p className="text-[20px] leading-[30px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica text-[#1E1E1E]/[.8]">
-              Experienced Consultants
-            </p>
-          </div>
-
-          <div
+          ))}
+          {/* <div
             className="bg-white border-b-[#F6941E] border-b-2 
            flex justify-center items-center gap-[16px]
            h-[140px] px-[20px] py-[34px] "
@@ -136,7 +172,7 @@ const HeroSection = () => {
             <p className="text-[28px] leading-[35px] md:text-[13px] md:leading-[20px]   xs:text-[16px] xs:leading-[30px]     font-bold font-helvetica  text-[#1E1E1E]/[.8]">
               Seamless Procedures
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -174,21 +210,36 @@ const HeroSection = () => {
          2xl:mx-[150px] lg:mx-[60px] md:mx-[80px]  grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 xl:gap-x-[24px]  2xl:gap-x-[24px] lg:gap-x-[20px]
          md:gap-x-[10px]"
         >
-          <div
-            className="bg-white/[0.15] flex justify-center items-center xl:gap-x-[16px] xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
+          {officesData.map((office) => (
+            <div
+              key={office.name}
+              onMouseEnter={() => handleMouseEnter(office.name)}
+              onMouseLeave={handleMouseLeave}
+              className={`bg-white/[0.15] flex justify-center items-center xl:gap-x-[16px] xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
             2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[20px] lg:pr-[14px]  lg:py-[30px] lg:h-[140px]
             md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px]
-          border  border-white/[0.2]  text-white"
-          >
-            <img
-              className="xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
-              src="https://i.ibb.co/Hx6q9Ns/vector-3-66cf81d0282e5.webp"
-              alt=""
-            />
-            <p className="herocardText">Experienced Consultants</p>
-          </div>
+            ${
+              hoveredOffice === office.name
+                ? " border-b-[#F6941E] border-b-2 text-[#F6941E]"
+                : "border-white/[0.2] border-1 text-white"
+            }`}
+            >
+              <img
+                className={`xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]
+                
+                ${
+                  hoveredOffice === office.name
+                    ? " fill-[#F6941E]"
+                    : "fill-[#1E1E1E]"
+                }`}
+                src={office.image}
+                alt={office.name}
+              />
+              <p className="herocardText">{office.name}</p>
+            </div>
+          ))}
 
-          <div
+          {/* <div
             className="bg-white/[0.15]  border-b-[#F6941E] border-b-2 flex justify-center items-center xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
             2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[28px] lg:pr-[8px]  lg:py-[30px] lg:h-[140px]
             md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] "
@@ -199,17 +250,17 @@ const HeroSection = () => {
               alt=""
             />
             <p className="herocardText text-[#F6941E]">98.8% Success Rate</p>
-          </div>
+          </div> */}
 
-          <div className="homeCardDiv">
+          {/* <div className="homeCardDiv">
             <img
               className="xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]"
               src="https://i.ibb.co/kJn5cHY/group-66cf8262e596a.webp"
               alt=""
             />
             <p className="herocardText">Positive And Timely Results</p>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="bg-white/[0.15] flex items-center xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
             2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[28px] lg:pr-[8px]  lg:py-[30px] lg:h-[140px]
             md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] border  border-white/[0.2]  text-white"
@@ -220,7 +271,7 @@ const HeroSection = () => {
               alt=""
             />
             <p className="herocardText">Seamless Procedures</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

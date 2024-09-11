@@ -1,24 +1,10 @@
 /* OurVideo.css */
 
-.slide {
-  transition: transform 0.3s ease;
-  opacity: 0.6;
+.ourVideoSlider .slick-slide {
+  scale: 0.6;
 }
 
-.activeSlide {
-  transform: scale(1.1); /* Enlarges the active slide */
-  opacity: 1; /* Makes the active slide fully opaque */
-}
-
-.arrow {
-  cursor: pointer;
-  z-index: 2;
-}
-
-.arrow.next {
-  right: 10px;
-}
-
-.arrow.prev {
-  left: 10px;
+.ourVideoSlider .slick-active.slick-center {
+  scale: 1;
+  transition: all 0.3s ease-in-out;
 }

@@ -61,9 +61,9 @@ const OurStudentSay = () => {
 
       {/* ------slider */}
 
-      <div className="slider-container md:pb-[50px] pb-0">
+      <div className="slider-container md:pb-[50px] pb-0 ">
         <Slider {...settings}>
-          <div className="mt-10  pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
+          <div className="mt-10  max-w-[95%] pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
             <FaQuoteLeft
               className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"
@@ -92,7 +92,7 @@ const OurStudentSay = () => {
             </div>
           </div>
 
-          <div className="mt-10  pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
+          <div className="mt-10 max-w-[95%] pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
             <FaQuoteLeft
               className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"
@@ -125,7 +125,7 @@ const OurStudentSay = () => {
             </div>
           </div>
 
-          <div className="mt-10  pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
+          <div className="mt-10 max-w-[95%] pt-[72px] pb-[30px] px-[16px] rounded-lg relative bg-white shadow-xl">
             <FaQuoteLeft
               className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"

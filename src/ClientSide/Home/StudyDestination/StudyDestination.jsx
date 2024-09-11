@@ -52,95 +52,91 @@ const StudyDestination = () => {
       <div className="hidden md:block">
         <div
           className="grid   
-      md:grid-cols-3   grid-cols-1   md:gap-x-[23px]   "
+      md:grid-cols-3   grid-cols-1   md:gap-[23px]   "
         >
           {/* div1 */}
-          <div className="">
-            <div className="relative group w-full h-[267px] ">
-              <img
-                src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
-                </button>
-              </div>
-            </div>
 
-            <div className="relative group w-full h-[267px] ">
-              <img
-                src="https://i.ibb.co.com/RHxvvgD/image-9-2-66e0a645da6ff.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
-                </button>
-              </div>
+          <div className="relative group w-full h-[267px] ">
+            <img
+              src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">United States</h1>
+              <button className="flex items-center justify-center readMore">
+                Read more <MdArrowRightAlt className="ml-2" />
+              </button>
+            </div>
+          </div>
+          <div className="relative group w-full h-[267px] ">
+            <img
+              src="https://i.ibb.co.com/K6LgdRy/image-7-1-66e0a55e7f832.webp"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">United States</h1>
+              <button className="flex items-center justify-center readMore">
+                Read more <MdArrowRightAlt className="ml-2" />
+              </button>
             </div>
           </div>
 
-          <div>
-            <div className="relative group w-full h-[267px] ">
-              <img
-                src="https://i.ibb.co.com/K6LgdRy/image-7-1-66e0a55e7f832.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
-                </button>
-              </div>
-            </div>
-            <div className="relative group w-full h-[267px]">
-              {/* Image */}
-              <img
-                src="https://i.ibb.co.com/fpvNZgt/image-10-66e0a70c2518c.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
-                </button>
-              </div>
+          <div className="relative group w-full h-[267px] ">
+            <img
+              src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">United States</h1>
+              <button className="flex items-center justify-center readMore">
+                Read more <MdArrowRightAlt className="ml-2" />
+              </button>
             </div>
           </div>
 
-          <div>
-            <div className="relative group w-full h-[267px] ">
-              <img
-                src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
-                </button>
-              </div>
+          <div className="relative group w-full h-[267px] ">
+            <img
+              src="https://i.ibb.co.com/RHxvvgD/image-9-2-66e0a645da6ff.webp"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">United States</h1>
+              <button className="flex items-center justify-center readMore">
+                Read more <MdArrowRightAlt className="ml-2" />
+              </button>
             </div>
-            <div className="relative group w-full h-[267px] ">
-              <img
-                src="https://i.ibb.co.com/1KHNkQ1/image-11-66e0a757ad7d1.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
-                <button className="flex items-center justify-center readMore">
-                  Read more <MdArrowRightAlt className="ml-2" />
-                </button>
-              </div>
+          </div>
+
+          <div className="relative group w-full h-[267px]">
+            {/* Image */}
+            <img
+              src="https://i.ibb.co.com/fpvNZgt/image-10-66e0a70c2518c.webp"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">United States</h1>
+              <button className="flex items-center justify-center readMore">
+                Read more <MdArrowRightAlt className="ml-2" />
+              </button>
+            </div>
+          </div>
+
+          <div className="relative group w-full h-[267px] ">
+            <img
+              src="https://i.ibb.co.com/1KHNkQ1/image-11-66e0a757ad7d1.webp"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">United States</h1>
+              <button className="flex items-center justify-center readMore">
+                Read more <MdArrowRightAlt className="ml-2" />
+              </button>
             </div>
           </div>
         </div>

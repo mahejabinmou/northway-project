@@ -1,8 +1,19 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./OurVideo.css";
 
 const StudentImg = [
+  {
+    image: "https://i.ibb.co.com/dP60mt4/rectangle-2-1-66e0a8986faeb.webp",
+  },
+  {
+    image: "https://i.ibb.co.com/c2hqNtm/video-66e0a8faba4d2.webp",
+  },
+  {
+    image: "https://i.ibb.co.com/yYv1byR/rectangle-3-66e0a92b21960.webp",
+  },
+
   {
     image: "https://i.ibb.co.com/dP60mt4/rectangle-2-1-66e0a8986faeb.webp",
   },
@@ -19,6 +30,8 @@ const OurVideo = () => {
     dots: false,
     infinite: true,
     speed: 500,
+    centerMode: true,
+    centerModePadding: "0",
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: <PrevArrow />,
@@ -82,13 +95,10 @@ const OurVideo = () => {
               </p>
             </div>
 
-            <Slider
-              {...settings}
-              className=" absolute mt-10 max-w-6xl mx-auto left-[150px] right-[150px]"
-            >
-              {StudentImg.map((StudentImg, index) => (
-                <div key={index} className="px-4">
-                  <div className="bg-white shadow-md rounded-lg p-6">
+            <div className="max-w-[1140px] mx-auto">
+              <Slider {...settings} className="ourVideoSlider">
+                {StudentImg.map((StudentImg, index) => (
+                  <div key={index} className="px-4">
                     <div className="relative">
                       <img
                         src={StudentImg?.image}
@@ -111,12 +121,13 @@ const OurVideo = () => {
                       </button>
                     </div>
                   </div>
-                </div>
-              ))}
-            </Slider>
+                ))}
+              </Slider>
+            </div>
           </div>
         </div>
       </div>
+
       {/* mobile */}
       <div className="lg:hidden block md:pb-[80px] pb-[80px]">
         <div

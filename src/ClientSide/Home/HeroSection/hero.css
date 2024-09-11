@@ -62,3 +62,12 @@
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
+.filter-orange {
+  filter: invert(66%) sepia(96%) saturate(580%) hue-rotate(346deg)
+    brightness(103%) contrast(101%);
+}
+
+.filter-dark-gray {
+  filter: invert(8%) sepia(10%) saturate(0%) hue-rotate(180deg) brightness(92%)
+    contrast(90%);
+}
