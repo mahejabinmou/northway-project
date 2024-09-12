@@ -127,6 +127,7 @@ const PhotoGallery = () => {
             Gallery Item
           </button>
         </div>
+
         <div className="">
           <div
             className="grid grid-cols-1 md:grid-cols-3 justify-center items-center

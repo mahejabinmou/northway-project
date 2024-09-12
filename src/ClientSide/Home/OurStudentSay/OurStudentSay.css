@@ -2,9 +2,10 @@
 /* .slick-slide.slick-active {
   border-bottom: 2px solid #f6941e !important; 
 } */
-.slick-slide:hover {
-  border-bottom: 2px solid #f6941e; /* Adjust the thickness and color as needed */
-}
+
+/* .slick-slide:hover {
+  border-bottom: 1px solid #f6941e;
+} */
 
 /* .element.style {
   width: 95% !important;

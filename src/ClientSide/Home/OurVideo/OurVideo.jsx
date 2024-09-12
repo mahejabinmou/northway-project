@@ -67,8 +67,8 @@ const OurVideo = () => {
       {
         breakpoint: 350,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToShow: 1,
+          slidesToScroll: 2,
         },
       },
     ],
@@ -96,7 +96,7 @@ const OurVideo = () => {
               </p>
             </div>
 
-            <div className="max-w-[1140px]  mx-auto absolute  bottom-[-150px] xl:left-[150px] xl:right-[150px] lg:left-[60px] lg:right-[60px] md:left-[80px] md:right-[80px] xs:left-[100px] xs:right-[100px]">
+            <div className="max-w-[1140px]  mx-auto absolute  bottom-[-150px] xl:left-[150px] xl:right-[150px] lg:left-[60px] lg:right-[60px] md:left-[80px] md:right-[80px] xs:left-[16px] xs:right-[16px]">
               <Slider {...settings} className="ourVideoSlider  ">
                 {StudentImg.map((StudentImg, index) => (
                   <div key={index} className="">
