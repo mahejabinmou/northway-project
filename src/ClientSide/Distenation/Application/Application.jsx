@@ -127,7 +127,7 @@ const Application = () => {
             <div className="px-[25px] py-[10px] text-[18px]  leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
               <p>Arranging mock interview</p>
             </div>
-            <div className="px-[25px] py-[10px] text-[18px]  leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
+            <div className="px-[25px] py-[10px] text-[18px] bg-white leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
               <p>Visa application for submission</p>
             </div>
           </div>
@@ -289,7 +289,7 @@ const Application = () => {
               />
             </div>
             {/* Label */}
-            <div className="flex justify-center items-center  text-[18px] px-[40px] py-[10px]  leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
+            <div className="flex justify-center items-center  bg-white text-[18px] px-[40px] py-[10px]  leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
               <p>University search</p>
             </div>
           </div>
