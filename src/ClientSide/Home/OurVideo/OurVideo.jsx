@@ -30,15 +30,25 @@ const OurVideo = () => {
     dots: false,
     infinite: true,
     speed: 500,
+    // autoplay: true,
     centerMode: true,
     centerModePadding: "0",
     slidesToShow: 3,
-    slidesToScroll: 1,
-    prevArrow: <PrevArrow />,
-    nextArrow: <NextArrow />,
+    slidesToScroll: 0,
+    // prevArrow: <PrevArrow />,
+    // nextArrow: <NextArrow />,
     responsive: [
       {
         breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 0,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -47,18 +57,9 @@ const OurVideo = () => {
         },
       },
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        },
-      },
-      {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           initialSlide: 1,
         },
@@ -66,7 +67,7 @@ const OurVideo = () => {
       {
         breakpoint: 350,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
@@ -76,7 +77,7 @@ const OurVideo = () => {
   return (
     <div>
       {/* large */}
-      <div className="hidden lg:block lg:pb-[100px] ">
+      <div className=" lg:pb-[100px] md:pb-[80px] xs:pb-[80px]">
         <div
           className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
           style={{
@@ -95,18 +96,18 @@ const OurVideo = () => {
               </p>
             </div>
 
-            <div className="max-w-[1140px] mx-auto">
-              <Slider {...settings} className="ourVideoSlider">
+            <div className="max-w-[1140px]  mx-auto absolute  bottom-[-150px] xl:left-[150px] xl:right-[150px] lg:left-[60px] lg:right-[60px] md:left-[80px] md:right-[80px] xs:left-[100px] xs:right-[100px]">
+              <Slider {...settings} className="ourVideoSlider  ">
                 {StudentImg.map((StudentImg, index) => (
-                  <div key={index} className="px-4">
-                    <div className="bg-white shadow-md rounded-lg p-6">
+                  <div key={index} className="">
+                    <div className="">
                       <div className="relative">
                         <img
                           src={StudentImg?.image}
                           alt={StudentImg.name}
-                          className="w-full h-64 object-cover rounded-lg"
+                          className="w-full h-64 object-cover bg-[#000000]/[.2]"
                         />
-                        <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg">
+                        <button className="absolute inset-0  bg-opacity-40 flex items-center justify-center ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-12 w-12 text-white"
@@ -131,18 +132,16 @@ const OurVideo = () => {
       </div>
 
       {/* mobile */}
-      <div className="lg:hidden block md:pb-[80px] pb-[80px]">
+      {/* <div className="lg:hidden block md:pb-[80px] pb-[80px]">
         <div
           className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
           style={{
             backgroundImage: `url("https://i.ibb.co/R6Q4WKP/studentbg-66dbe8ed9b77d.webp")`,
           }}
         >
-          {/* Black Overlay */}
-          <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
+          <div className="absolute inset-0 bg-black opacity-80 z-0"></div> */}
 
-          {/* Text and Content */}
-          <div className="relative z-10">
+      {/* <div className="relative z-10">
             <div className="mx-auto max-w-[432px] text-center py-8 text-white">
               <h1
                 className="font-bold font-helvetica 
@@ -156,14 +155,14 @@ const OurVideo = () => {
               </p>
             </div>
 
-            {/* Slider */}
+            Slider
             <Slider
               {...settings}
               className="absolute bottom-[-350px] md:left-[16px] md:right-[16px] left-[16px] right-[16px] max-w-sm mx-auto"
             >
               {StudentImg.map((StudentImg, index) => (
                 <div key={index} className=" ">
-                  <div className="bg-white shadow-md rounded-lg p-6">
+                  <div className="">
                     <div className="relative">
                       <img
                         src={StudentImg?.image}
@@ -193,61 +192,61 @@ const OurVideo = () => {
                 </div>
               ))}
             </Slider>
-          </div>
-        </div>
-      </div>
+          </div> */}
+      {/* </div>
+      </div> */}
     </div>
   );
 };
 
-const NextArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <button
-      className="ml-[50%] mr-[50%] absolute bottom-[-50px] right-4 z-10 bg-orange-500 rounded-full p-2"
-      onClick={onClick}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="h-6 w-6 text-white"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M15 19l-7-7 7-7"
-        />
-      </svg>
-    </button>
-  );
-};
+// const NextArrow = (props) => {
+//   const { onClick } = props;
+//   return (
+//     <button
+//       className="ml-[50%] mr-[50%] absolute bottom-[-50px] right-4 z-10 bg-orange-500 rounded-full p-2"
+//       onClick={onClick}
+//     >
+//       <svg
+//         xmlns="http://www.w3.org/2000/svg"
+//         fill="none"
+//         viewBox="0 0 24 24"
+//         stroke="currentColor"
+//         className="h-6 w-6 text-white"
+//       >
+//         <path
+//           strokeLinecap="round"
+//           strokeLinejoin="round"
+//           strokeWidth="2"
+//           d="M15 19l-7-7 7-7"
+//         />
+//       </svg>
+//     </button>
+//   );
+// };
 
-const PrevArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <button
-      className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10 bg-orange-500 rounded-full p-2"
-      onClick={onClick}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="h-6 w-6 text-white"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M9 5l7 7-7 7"
-        />
-      </svg>
-    </button>
-  );
-};
+// const PrevArrow = (props) => {
+//   const { onClick } = props;
+//   return (
+//     <button
+//       className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10 bg-orange-500 rounded-full p-2"
+//       onClick={onClick}
+//     >
+//       <svg
+//         xmlns="http://www.w3.org/2000/svg"
+//         fill="none"
+//         viewBox="0 0 24 24"
+//         stroke="currentColor"
+//         className="h-6 w-6 text-white"
+//       >
+//         <path
+//           strokeLinecap="round"
+//           strokeLinejoin="round"
+//           strokeWidth="2"
+//           d="M9 5l7 7-7 7"
+//         />
+//       </svg>
+//     </button>
+//   );
+// };
 
 export default OurVideo;
