@@ -32,7 +32,7 @@ const OurVideo = () => {
     speed: 500,
     // autoplay: true,
     centerMode: true,
-    centerModePadding: "0",
+    centerPadding: "0px",
     slidesToShow: 3,
     slidesToScroll: 0,
     // prevArrow: <PrevArrow />,
@@ -77,7 +77,7 @@ const OurVideo = () => {
   return (
     <div>
       {/* large */}
-      <div className=" lg:pb-[100px] md:pb-[80px] xs:pb-[80px]">
+      <div className="hidden lg:block lg:pb-[100px] md:pb-[80px] xs:pb-[80px]">
         <div
           className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
           style={{
@@ -132,17 +132,16 @@ const OurVideo = () => {
       </div>
 
       {/* mobile */}
-      {/* <div className="lg:hidden block md:pb-[80px] pb-[80px]">
+      <div className="lg:hidden block md:pb-[80px] pb-[80px]">
         <div
           className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
           style={{
             backgroundImage: `url("https://i.ibb.co/R6Q4WKP/studentbg-66dbe8ed9b77d.webp")`,
           }}
         >
-          <div className="absolute inset-0 bg-black opacity-80 z-0"></div> */}
-
-      {/* <div className="relative z-10">
-            <div className="mx-auto max-w-[432px] text-center py-8 text-white">
+          <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
+          <div className="relative z-10 ">
+            <div className="mx-auto max-w-[432px] text-center py-8 text-white ">
               <h1
                 className="font-bold font-helvetica 
               xs:text-[30px] xs:leading-[36px] pb-[20px] "
@@ -154,11 +153,10 @@ const OurVideo = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-
             Slider
             <Slider
               {...settings}
-              className="absolute bottom-[-350px] md:left-[16px] md:right-[16px] left-[16px] right-[16px] max-w-sm mx-auto"
+              className="absolute bottom-[-300px] md:left-[16px] md:right-[16px] left-[16px] right-[16px] max-w-sm mx-auto ourVideoSlider"
             >
               {StudentImg.map((StudentImg, index) => (
                 <div key={index} className=" ">
@@ -167,7 +165,7 @@ const OurVideo = () => {
                       <img
                         src={StudentImg?.image}
                         alt={StudentImg.name}
-                        className="w-full h-64 object-cover rounded-lg"
+                        className="w-full h-36 object-cover rounded-lg"
                       />
                       <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg">
                         <svg
@@ -192,9 +190,9 @@ const OurVideo = () => {
                 </div>
               ))}
             </Slider>
-          </div> */}
-      {/* </div>
-      </div> */}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

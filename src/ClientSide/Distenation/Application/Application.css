@@ -1,13 +1,25 @@
 .step-line::after {
   content: "";
   position: absolute;
-  top: 40%;
+  top: 45%;
+  left: 80%;
+  left: 72%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: 2px;
+  border-top: 2px dashed rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.step-line-lg::after {
+  content: "";
+  position: absolute;
+  top: 45%;
   left: 80%;
   transform: translateY(-50%);
-  width: 90px; /* Adjust this for spacing */
+  width: 90px;
   height: 2px;
-  border-top: 2px dashed rgba(0, 0, 0, 0.5); /* Dotted line between steps */
-  z-index: -1;
+  border-top: 2px dashed rgba(0, 0, 0, 0.5);
 }
 
 .step-line2::after {
@@ -19,7 +31,7 @@
   width: 220px; /* Adjust this for spacing */
   height: 2px;
   border-top: 2px dashed rgba(0, 0, 0, 0.5); /* Dotted line between steps */
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .step-line3::after {
@@ -31,5 +43,5 @@
   width: 80px; /* Adjust this for spacing */
   height: 2px;
   border-top: 2px dashed rgba(0, 0, 0, 0.5); /* Dotted line between steps */
-  z-index: -1;
+  z-index: 1;
 }

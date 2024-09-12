@@ -25,6 +25,7 @@ const StudentImg = [
     university: "Northeastern University, Boston",
     image: "https://i.ibb.co.com/BNcvHHW/sutdent1-66dbeb9abbe6e.webp",
   },
+
   {
     name: "Rashmi Borah",
     university: "Northeastern University, Boston",
@@ -81,15 +82,15 @@ const StudentSpeak = () => {
       {/* large */}
       <div className="hidden lg:block">
         <div
-          className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
+          className="relative bg-cover bg-center h-[382px] items-center bg-fixed my-24"
           style={{
             backgroundImage: `url(${"https://i.ibb.co.com/R6Q4WKP/studentbg-66dbe8ed9b77d.webp"})`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-80"></div>
           <div>
-            <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8 z-10 relative text-white">
-              <h1 className="font-bold font-helvetica text-[48px] leading-[57.6px]">
+            <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8 z-10 relative text-white translate-y-[50px]">
+              <h1 className="font-bold font-helvetica text-[48px] leading-[57.6px] ">
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
               <p className="font-normal text-[16px] leading-[24px] text-white/[.8]">
@@ -97,7 +98,7 @@ const StudentSpeak = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-            <div className="max-w-[1140px] mx-auto">
+            <div className="max-w-[1140px] mx-auto relative translate-y-[15%]">
               <Slider
                 {...settings}
                 // className=" absolute mt-10 max-w-6xl mx-auto left-[150px] right-[150px]"
@@ -143,7 +144,7 @@ const StudentSpeak = () => {
       {/* mobile */}
       <div className="lg:hidden block">
         <div
-          className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
+          className="relative bg-cover bg-center h-[382px] items-center bg-fixed my-24"
           style={{
             backgroundImage: `url("https://i.ibb.co/R6Q4WKP/studentbg-66dbe8ed9b77d.webp")`,
           }}
@@ -167,7 +168,7 @@ const StudentSpeak = () => {
             </div>
 
             {/* Slider */}
-            <div className="max-w-[1140px] mx-auto">
+            <div className="max-w-[1140px] mx-auto relative translate-y-[18%]">
               <Slider {...settings} className="ourStudentSpeak ">
                 {StudentImg.map((StudentImg, index) => (
                   <div key={index} className=" ">
@@ -242,7 +243,7 @@ const PrevArrow = (props) => {
   const { onClick } = props;
   return (
     <button
-      className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10  rounded-full p-2 bg-[#F6941E] text-white"
+      className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10  rounded-full p-2 bg-[#F6941E] text-white "
       onClick={onClick}
     >
       <svg

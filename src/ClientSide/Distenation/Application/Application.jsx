@@ -42,29 +42,57 @@ const Application = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
+        {/* xl */}
+        <div className="hidden xl:block">
+          <div className="flex justify-between items-center gap-x-[35px]  relative">
+            {steps.map((step, index) => (
+              <div
+                key={index}
+                className={`flex flex-col items-center  relative z-10 ${
+                  index !== steps.length - 1 ? "step-line" : ""
+                }`}
+              >
+                {/* Circle with Icon */}
+                <div className="flex justify-center items-center w-[100px] h-[100px] rounded-full border-2 border-dashed border-black/[.8]  mt-[50px]">
+                  <img
+                    className="w-[50px] h-[50px]"
+                    src={step.icon}
+                    alt={step.label}
+                  />
+                </div>
+                {/* Label */}
+                <div className="mt-[25px]   px-[25px] py-[10px]   text-[18px]  leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
+                  {step.label}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
 
-        <div className="flex justify-between items-center gap-x-[35px]  relative">
-          {steps.map((step, index) => (
-            <div
-              key={index}
-              className={`flex flex-col items-center  relative z-10 ${
-                index !== steps.length - 1 ? "step-line" : ""
-              }`}
-            >
-              {/* Circle with Icon */}
-              <div className="flex justify-center items-center w-[100px] h-[100px] rounded-full border-2 border-dashed border-black/[.8]  mt-[50px]">
-                <img
-                  className="w-[50px] h-[50px]"
-                  src={step.icon}
-                  alt={step.label}
-                />
+        <div className="xl:hidden xs:hidden lg:block max-w-[1140px]">
+          <div className="flex justify-between items-center gap-x-[35px]  relative">
+            {steps.map((step, index) => (
+              <div
+                key={index}
+                className={`flex flex-col items-center  relative z-10 ${
+                  index !== steps.length - 1 ? "step-line-lg" : ""
+                }`}
+              >
+                {/* Circle with Icon */}
+                <div className="flex justify-center items-center w-[100px] h-[100px] rounded-full border-2 border-dashed border-black/[.8]  mt-[50px]">
+                  <img
+                    className="w-[50px] h-[50px]"
+                    src={step.icon}
+                    alt={step.label}
+                  />
+                </div>
+                {/* Label */}
+                <div className="mt-[25px]   px-[25px] py-[10px]   text-[18px]  leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
+                  {step.label}
+                </div>
               </div>
-              {/* Label */}
-              <div className="mt-[25px]   px-[25px] py-[10px]   text-[18px]  leading-[23px] border    font-bold border-1 border-black/[.4] text-center font-helvetica">
-                {step.label}
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         <div className="mt-[75px]  relative">

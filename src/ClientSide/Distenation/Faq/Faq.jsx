@@ -3,13 +3,13 @@ const Faq = () => {
     <div
       className="mt-[250px] px-[16px]
   
-    xs:mt-[250px] xs:px-[16px]
+    xs:mt-[300px] xs:px-[16px]
     
     md:mt-[200px] md:px-[32px]
    
     lg:px-[60px] lg:mt-[300px]
     
-    xl:px-[150px] xl:mt-[300px]
+    xl:px-[150px] xl:mt-[300px] 
     
     2xl:px-[150px] 2xl:mt-[300px];"
     >
