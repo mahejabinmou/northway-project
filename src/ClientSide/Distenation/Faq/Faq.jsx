@@ -23,7 +23,7 @@ const Faq = () => {
         </div>
         <div className="w-full md:w-1/2 p-2">
           <div className="p-4">
-            <h1 className="faqHead  leading-[36px] pb-[20px]">
+            <h1 className="faqHead  leading-[36px] pb-[20px]  text-[#1E1E1E]">
               Study in <span className="text-[#F6941E]">USA FAQ's</span>
             </h1>
             <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-[#1E1E1E]/[.8] pb-[30px]">
@@ -35,11 +35,11 @@ const Faq = () => {
           <div className="join join-vertical w-full">
             <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
               <input type="checkbox" className="peer" defaultChecked />
-              <div className="collapse-title text-lg md:text-xl font-medium">
+              <div className="collapse-title text-lg md:text-xl font-medium text-[#1E1E1E]">
                 Can you work while studying in the United States?
               </div>
               <div className="collapse-content">
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base text-[#1E1E1E]/[.8]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -48,11 +48,11 @@ const Faq = () => {
 
             <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
               <input type="checkbox" className="peer" />
-              <div className="collapse-title text-lg md:text-xl font-medium">
-                What are the visa requirements for studying in the USA?
+              <div className="collapse-title text-lg md:text-xl font-medium text-[#1E1E1E]">
+                Can you work while studying in the United States?
               </div>
               <div className="collapse-content">
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base  text-[#1E1E1E]/[.8]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -61,11 +61,11 @@ const Faq = () => {
 
             <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
               <input type="checkbox" className="peer" />
-              <div className="collapse-title text-lg md:text-xl font-medium">
-                How long can I stay after completing my studies?
+              <div className="collapse-title text-lg md:text-xl font-medium text-[#1E1E1E]">
+                Can you work while studying in the United States?
               </div>
               <div className="collapse-content">
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base  text-[#1E1E1E]/[.8]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -73,11 +73,24 @@ const Faq = () => {
             </div>
             <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
               <input type="checkbox" className="peer" />
-              <div className="collapse-title text-lg md:text-xl font-medium">
+              <div className="collapse-title text-lg md:text-xl font-medium  text-[#1E1E1E]">
                 Can you work while studying in the United States?
               </div>
               <div className="collapse-content">
-                <p className="text-sm md:text-base">
+                <p className="text-sm md:text-base  text-[#1E1E1E]/[.8]">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+
+            <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
+              <input type="checkbox" className="peer" />
+              <div className="collapse-title text-lg md:text-xl font-medium  text-[#1E1E1E]">
+                Can you work while studying in the United States?
+              </div>
+              <div className="collapse-content">
+                <p className="text-sm md:text-base  text-[#1E1E1E]/[.8]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
