@@ -16,6 +16,7 @@ const OurServiceCard = ({ image, name }) => {
   };
   return (
     <div>
+      {/* small */}
       <div className="md:hidden block">
         <div
           key={name}
@@ -67,6 +68,7 @@ const OurServiceCard = ({ image, name }) => {
         </div>
       </div>
 
+      {/* large */}
       <div className="hidden md:block">
         <div
           key={name}
@@ -80,12 +82,25 @@ const OurServiceCard = ({ image, name }) => {
         }`}
         >
           <div className=" h-[50px] w-[50px] flex justify-center mb-[15px] xxs:mb-[10px] xs:mb-[20px]  xl:mb-[15px]  lg:mb-[15px] md:mb-[15px]  items-center mx-auto">
-            <img
-              className={` h-full w-full ${
-                hoveredOffice === name ? "text-[#F6941E]" : "text-[#1E1E1E]"
-              }`}
+            <ReactSVG
+              afterInjection={(svg) => {
+                if (hover) {
+                  const paths = svg.querySelectorAll("path");
+                  paths.forEach((path) => {
+                    path.setAttribute("fill", "#F6941E");
+                  });
+                }
+                if (!hover) {
+                  const paths = svg.querySelectorAll("path");
+                  paths.forEach((path) => {
+                    path.setAttribute("fill", "#1E1E1E");
+                  });
+                }
+              }}
               src={image}
-              alt={name}
+              className="w-full h-full"
+              onMouseEnter={() => setHover(true)}
+              onMouseLeave={() => setHover(false)}
             />
           </div>
           <h1

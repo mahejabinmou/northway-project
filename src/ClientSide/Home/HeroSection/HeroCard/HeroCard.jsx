@@ -28,7 +28,7 @@ const HeroCard = ({ name, image }) => {
                    : "border-white/[0.2] border-1 text-[#1E1E1E]/[.8]"
                }`}
         >
-          <div className="   fill-black">
+          <div className="   ">
             <ReactSVG
               afterInjection={(svg) => {
                 if (hover) {
@@ -69,14 +69,25 @@ const HeroCard = ({ name, image }) => {
                 : "border-white/[0.2] border-1 text-white"
             }`}
         >
-          <img
-            className={`xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]
-                
-                ${
-                  hoveredOffice === name ? " fill-[#F6941E]" : "fill-[#1E1E1E]"
-                }`}
+          <ReactSVG
+            afterInjection={(svg) => {
+              if (hover) {
+                const paths = svg.querySelectorAll("path");
+                paths.forEach((path) => {
+                  path.setAttribute("fill", "#F6941E");
+                });
+              }
+              if (!hover) {
+                const paths = svg.querySelectorAll("path");
+                paths.forEach((path) => {
+                  path.setAttribute("fill", "#FFFFFF");
+                });
+              }
+            }}
             src={image}
-            alt={name}
+            className={`xl:w-[50px] xl:h-[50px]  lg:w-[50px] lg:h-[50px] md:w-[30px] md:h-[30px]`}
+            onMouseEnter={() => setHover(true)}
+            onMouseLeave={() => setHover(false)}
           />
           <p className="herocardText">{name}</p>
         </div>
