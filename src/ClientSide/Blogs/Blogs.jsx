@@ -154,7 +154,7 @@ const Blogs = () => {
           >
             {visibleImages.map((image, index) => (
               <div key={index} className="px-2">
-                <div className="rounded-lg relative bg-white shadow-xl">
+                <div className=" relative bg-white shadow-xl">
                   <div className="h-[197px]">
                     <img
                       className="w-full h-full object-cover"

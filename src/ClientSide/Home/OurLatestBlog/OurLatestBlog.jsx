@@ -76,7 +76,7 @@ const OurLatestBlog = () => {
         <Slider {...settingsLarge}>
           {joyItems.map((item, index) => (
             <div key={index} className="px-2">
-              <div className="rounded-lg relative bg-white shadow-xl">
+              <div className=" relative bg-white shadow-xl">
                 <div className="h-[197px]">
                   <img
                     className="w-full h-full object-cover"
@@ -130,7 +130,7 @@ const OurLatestBlog = () => {
         {/* Browse More Button */}
         <div className="mt-5 flex justify-center items-center">
           <button
-            className="  px-[20px] text-[#F6941E] rounded border border-[#F6941E]
+            className="  px-[20px] text-[#F6941E]  border border-[#F6941E]
             font-bold text-[18px] leading-[23px] py-[13px] flex justify-center items-center gap-x-[10px]"
             onClick={() => alert("Navigate to more blogs")}
           >
@@ -144,7 +144,7 @@ const OurLatestBlog = () => {
         <Slider {...settings}>
           {joyItems.map((item, index) => (
             <div key={index} className="px-2">
-              <div className="rounded-lg relative bg-white shadow-xl">
+              <div className=" relative bg-white shadow-xl">
                 <div className="h-[197px]">
                   <img
                     className="w-full h-full object-cover"
@@ -191,7 +191,7 @@ const OurLatestBlog = () => {
         {/* Browse More Button for Mobile */}
         <div className=" mt-5 font-helvetica font-bold flex justify-center items-center">
           <button
-            className="px-4 py-2 text-[#F6941E] rounded border border-[#F6941E] flex justify-center items-center gap-x-[10px]"
+            className="px-4 py-2 text-[#F6941E]  border border-[#F6941E] flex justify-center items-center gap-x-[10px]"
             onClick={() => alert("Navigate to more blogs")}
           >
             Browse More Blog <MdArrowRightAlt />
