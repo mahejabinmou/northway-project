@@ -5,23 +5,24 @@ import "./OurVideo.css";
 
 const StudentImg = [
   {
-    image: "https://i.ibb.co.com/dP60mt4/rectangle-2-1-66e0a8986faeb.webp",
-  },
-  {
     image: "https://i.ibb.co.com/c2hqNtm/video-66e0a8faba4d2.webp",
   },
   {
     image: "https://i.ibb.co.com/yYv1byR/rectangle-3-66e0a92b21960.webp",
+  },
+  {
+    image: "https://i.ibb.co.com/dP60mt4/rectangle-2-1-66e0a8986faeb.webp",
   },
 
   {
-    image: "https://i.ibb.co.com/dP60mt4/rectangle-2-1-66e0a8986faeb.webp",
-  },
-  {
     image: "https://i.ibb.co.com/c2hqNtm/video-66e0a8faba4d2.webp",
   },
+
   {
     image: "https://i.ibb.co.com/yYv1byR/rectangle-3-66e0a92b21960.webp",
+  },
+  {
+    image: "https://i.ibb.co.com/dP60mt4/rectangle-2-1-66e0a8986faeb.webp",
   },
 ];
 
@@ -79,7 +80,7 @@ const OurVideo = () => {
       {/* large */}
       <div className="hidden lg:block lg:pb-[100px] md:pb-[80px] xs:pb-[80px]">
         <div
-          className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
+          className="relative bg-cover bg-center min-h-[366px] items-center bg-fixed my-24"
           style={{
             backgroundImage: `url(${"https://i.ibb.co.com/R6Q4WKP/studentbg-66dbe8ed9b77d.webp"})`,
           }}
@@ -87,7 +88,7 @@ const OurVideo = () => {
           <div className="absolute inset-0 bg-black opacity-80"></div>
           <div>
             <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8 z-10 relative text-white">
-              <h1 className="studyDestinationHeading pb-[20px]">
+              <h1 className="studyDestinationHeading ">
                 Our <span className="text-[#F6941E]">Video</span>
               </h1>
               <p className="EveryPara text-[#FFFFFF]/[.8]">
@@ -97,7 +98,7 @@ const OurVideo = () => {
             </div>
 
             <div className="max-w-[1140px]  mx-auto absolute  bottom-[-150px] xl:left-[150px] xl:right-[150px] lg:left-[60px] lg:right-[60px] md:left-[80px] md:right-[80px] xs:left-[16px] xs:right-[16px]">
-              <Slider {...settings} className="ourVideoSlider  ">
+              <Slider {...settings} className="ourVideoSlider">
                 {StudentImg.map((StudentImg, index) => (
                   <div key={index} className="">
                     <div className="">
@@ -105,7 +106,7 @@ const OurVideo = () => {
                         <img
                           src={StudentImg?.image}
                           alt={StudentImg.name}
-                          className="w-full h-64 object-cover bg-[#000000]/[.2]"
+                          className="w-full h-[366px] object-cover bg-[#000000]/[.2]"
                         />
                         <button className="absolute inset-0  bg-opacity-40 flex items-center justify-center ">
                           <svg
@@ -134,7 +135,7 @@ const OurVideo = () => {
       {/* mobile */}
       <div className="lg:hidden block md:pb-[80px] pb-[80px]">
         <div
-          className="relative bg-cover bg-center min-h-[400px] items-center bg-fixed my-24"
+          className="relative bg-cover bg-center min-h-[263px] items-center bg-fixed my-24"
           style={{
             backgroundImage: `url("https://i.ibb.co/R6Q4WKP/studentbg-66dbe8ed9b77d.webp")`,
           }}
@@ -156,7 +157,7 @@ const OurVideo = () => {
             Slider
             <Slider
               {...settings}
-              className="absolute bottom-[-300px] md:left-[16px] md:right-[16px] left-[16px] right-[16px] max-w-sm mx-auto ourVideoSlider"
+              className="absolute  md:left-[32px] md:right-[32px] xs:left-[16px] xs:right-[16px]  ourVideoSlider"
             >
               {StudentImg.map((StudentImg, index) => (
                 <div key={index} className=" ">
@@ -165,7 +166,7 @@ const OurVideo = () => {
                       <img
                         src={StudentImg?.image}
                         alt={StudentImg.name}
-                        className="w-full h-36 object-cover rounded-lg"
+                        className="w-full h-36 object-cover "
                       />
                       <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg">
                         <svg
