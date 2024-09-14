@@ -106,14 +106,14 @@ const StudentSpeak = () => {
               >
                 {StudentImg.map((StudentImg, index) => (
                   <div key={index} className=" ">
-                    <div className="bg-white shadow-md rounded-lg p-[24px]">
+                    <div className="bg-white shadow-md  p-[24px]">
                       <div className="relative ">
                         <img
                           src={StudentImg?.image}
                           alt={StudentImg.name}
-                          className="w-full h-64 object-cover rounded-lg"
+                          className="w-full h-64 object-cover "
                         />
-                        <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg">
+                        <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-12 w-12 text-white"
@@ -172,14 +172,14 @@ const StudentSpeak = () => {
               <Slider {...settings} className="ourStudentSpeak ">
                 {StudentImg.map((StudentImg, index) => (
                   <div key={index} className=" ">
-                    <div className="bg-white shadow-md rounded-lg p-6">
+                    <div className="bg-white shadow-md  p-6">
                       <div className="relative">
                         <img
                           src={StudentImg?.image}
                           alt={StudentImg.name}
-                          className="w-full  xs:h-64 md:h-[350px] object-cover rounded-lg"
+                          className="w-full  xs:h-64 md:h-[350px] object-cover "
                         />
-                        <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center rounded-lg">
+                        <button className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center ">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-12 w-12 text-white"
@@ -194,7 +194,7 @@ const StudentSpeak = () => {
                           </svg>
                         </button>
                       </div>
-                      <div className="mt-4 text-center">
+                      <div className="mt-4 ">
                         <h3 className="font-bold text-xl">{StudentImg.name}</h3>
                         <p className="text-gray-500">{StudentImg.university}</p>
                       </div>
@@ -211,6 +211,31 @@ const StudentSpeak = () => {
 };
 
 const NextArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <button
+      className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10  rounded-full p-2 bg-[#F6941E] text-white "
+      onClick={onClick}
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        className="h-6 w-6 text-white"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M9 5l7 7-7 7"
+        />
+      </svg>
+    </button>
+  );
+};
+
+const PrevArrow = (props) => {
   const { onClick } = props;
   return (
     <button
@@ -233,31 +258,6 @@ const NextArrow = (props) => {
           strokeLinejoin="round"
           strokeWidth="2"
           d="M15 19l-7-7 7-7"
-        />
-      </svg>
-    </button>
-  );
-};
-
-const PrevArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <button
-      className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10  rounded-full p-2 bg-[#F6941E] text-white "
-      onClick={onClick}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        className="h-6 w-6 text-white"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M9 5l7 7-7 7"
         />
       </svg>
     </button>
