@@ -4,7 +4,7 @@ const Glance = () => {
       <div className="text-center mx-auto">
         <h1
           className="font-bold lg:text-[48px] lg:leading-[57px]
-        font-helvetica text-[30px] leading-[36px]"
+        font-helvetica text-[30px] leading-[36px] text-[#1E1E1E]"
         >
           <span className="text-[#F6941E]">USA </span> At a Glance
         </h1>
@@ -172,7 +172,7 @@ const Glance = () => {
             <div>
               {/* Requirements */}
               <div className=" text-center">
-                <h3 className="px-[80.5px] py-[23.5px] font-bold text-[14px] leading-[23px] bg-[#F6941E] text-white">
+                <h3 className="px-[80.5px] py-[23.5px] font-bold xl:text-[14px] lg:text-[12px] leading-[23px] bg-[#F6941E] text-white">
                   Requirements
                 </h3>
                 <div className="bg-white">

@@ -3,7 +3,7 @@ const Faq = () => {
     <div
       className="mt-[250px] px-[16px]
   
-    xs:mt-[300px] xs:px-[16px]
+    xs:mt-[290px] xs:px-[16px]
     
     md:mt-[200px] md:px-[32px]
    
@@ -34,7 +34,7 @@ const Faq = () => {
 
           <div className="join join-vertical w-full">
             <div className="mb-[16px] bg-white collapse collapse-plus join-item border border-base-300">
-              <input type="checkbox" className="peer" defaultChecked />
+              <input type="checkbox" className="peer " />
               <div className="collapse-title text-lg md:text-xl font-medium text-[#1E1E1E]">
                 Can you work while studying in the United States?
               </div>
@@ -96,7 +96,6 @@ const Faq = () => {
                 </p>
               </div>
             </div>
-            {/* Add more FAQs similarly */}
           </div>
         </div>
       </div>

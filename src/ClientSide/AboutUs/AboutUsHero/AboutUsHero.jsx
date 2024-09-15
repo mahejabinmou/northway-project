@@ -20,7 +20,7 @@ const AboutUsHero = () => {
             Study In USA
           </h1>
           <p className="text-sm lg:text-base text-white mt-2 lg:mt-0">
-            Home / Study Distention / USA
+            Home / About Us / USA
           </p>
         </div>
       </div>

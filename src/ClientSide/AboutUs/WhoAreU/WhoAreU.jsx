@@ -38,7 +38,7 @@ const WhoAreU = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal"
+          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal  text-[#1E1E1E]/[0.8]"
               >
                 Global niversity Tips
               </p>
@@ -78,12 +78,12 @@ const WhoAreU = () => {
         </div>
 
         <div>
-          <h1 className="font-helvetica font-bold pb-[10px] text-[30px] leading-[36px] pt-[30px]">
+          <h1 className="font-helvetica font-bold pb-[10px] text-[30px] leading-[36px] pt-[30px] text-[#1E1E1E]">
             {" "}
             <span className="text-[#F6941E]">Who </span>We Are
           </h1>
 
-          <p className="font-normal text-[14px] leading-[21px] text-black/[0.8]">
+          <p className="font-normal text-[14px] leading-[21px] text-[#1E1E1E]/[0.8]">
             Discover the game-changer for Canadian Institutes: Edu Mandate! Our
             Indian-rooted strategy connects institutes with top agencies, fueled
             by human interaction and relentless expansion. With tailored
@@ -91,7 +91,7 @@ const WhoAreU = () => {
             excellence, partner with us, and embark on a transformative journey
             towards success. Contact us now!
           </p>
-          <ul className="chooseUsParaText list-disc font-normal text-[14px] leading-[21px] text-black/[0.8] pt-[10px] px-[32px]">
+          <ul className="chooseUsParaText list-disc font-normal text-[14px] leading-[21px] text-[#1E1E1E]/[0.8] pt-[10px] px-[32px]">
             <li className="pb-[6px]">Expert Guidance.</li>
             <li className="pb-[6px]">Seamless Transitions.</li>
             <li className="pb-[6px]">Study Abroad Success.</li>
@@ -142,7 +142,7 @@ const WhoAreU = () => {
           xl:leading-[24px] 2xl:text-[16px]
           2xl:leading-[24px] lg:text-[12px]
           lg:leading-[10px] md:text-[12px]
-          md:leading-[14px] text-center"
+          md:leading-[14px] text-center text-[#1E1E1E]/[0.8]"
                 >
                   Global niversity Tips
                 </p>
@@ -160,7 +160,7 @@ const WhoAreU = () => {
           xl:leading-[24px] 2xl:text-[16px]
           2xl:leading-[24px] lg:text-[12px]
           lg:leading-[10px] md:text-[12px]
-         md:leading-[14px] text-center"
+         md:leading-[14px] text-center  text-[#1E1E1E]/[0.8]"
                 >
                   Office Across The Globe
                 </p>
@@ -178,7 +178,7 @@ const WhoAreU = () => {
           xl:leading-[24px] 2xl:text-[16px]
           2xl:leading-[24px] lg:text-[12px]
           lg:leading-[10px] md:text-[12px]
-          md:leading-[14px] text-center"
+          md:leading-[14px] text-center   text-[#1E1E1E]/[0.8]"
                 >
                   Years Industry Presence
                 </p>
@@ -192,7 +192,7 @@ const WhoAreU = () => {
               <span className="text-[#F6941E]">Who </span>We Are
             </h1>
 
-            <p className="chooseUsParaText text-black/[0.8]">
+            <p className="chooseUsParaText text-[#1E1E1E]/[0.8]">
               Discover the game-changer for Canadian Institutes: Edu Mandate!
               Our Indian-rooted strategy connects institutes with top agencies,
               fueled by human interaction and relentless expansion. With
@@ -202,7 +202,7 @@ const WhoAreU = () => {
             </p>
             <ul
               className="chooseUsParaText list-disc xl:pl-5 xl:space-y-2
-          2xl:pl-5 2xl:space-y-2 lg:pl-5 lg:space-y-2 md:pl-5 md:space-y-2 text-black/[0.8]"
+          2xl:pl-5 2xl:space-y-2 lg:pl-5 lg:space-y-2 md:pl-5 md:space-y-2 text-[#1E1E1E]/[0.8]"
             >
               <li>Expert Guidance.</li>
               <li>Seamless Transitions.</li>

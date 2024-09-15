@@ -7,6 +7,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { LuMessagesSquare } from "react-icons/lu";
 import { FaArrowRight } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const joyItems = [
   {
@@ -129,13 +130,15 @@ const OurLatestBlog = () => {
 
         {/* Browse More Button */}
         <div className="mt-5 flex justify-center items-center">
-          <button
-            className="  px-[20px] text-[#F6941E]  border border-[#F6941E]
+          <Link to="/blogs">
+            <button
+              className="  px-[20px] text-[#F6941E]  border border-[#F6941E]
             font-bold text-[18px] leading-[23px] py-[13px] flex justify-center items-center gap-x-[10px]"
-            onClick={() => alert("Navigate to more blogs")}
-          >
-            Browse More <FaArrowRight />
-          </button>
+              // onClick={() => alert("Navigate to more blogs")}
+            >
+              Browse More <FaArrowRight />
+            </button>
+          </Link>
         </div>
       </div>
 
@@ -190,12 +193,14 @@ const OurLatestBlog = () => {
 
         {/* Browse More Button for Mobile */}
         <div className=" mt-5 font-helvetica font-bold flex justify-center items-center">
-          <button
-            className="px-4 py-2 text-[#F6941E]  border border-[#F6941E] flex justify-center items-center gap-x-[10px]"
-            onClick={() => alert("Navigate to more blogs")}
-          >
-            Browse More Blog <MdArrowRightAlt />
-          </button>
+          <Link to="/blogs">
+            <button
+              className="px-4 py-2 text-[#F6941E]  border border-[#F6941E] flex justify-center items-center gap-x-[10px]"
+              // onClick={() => alert("Navigate to more blogs")}
+            >
+              Browse More Blog <MdArrowRightAlt />
+            </button>
+          </Link>
         </div>
       </div>
     </div>

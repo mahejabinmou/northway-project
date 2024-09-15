@@ -53,42 +53,42 @@ const PhotoGallery = () => {
         className="sectionGap grid grid-cols-1 md:grid-cols-3 justify-center items-center
       lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
       >
-        <div className="h-[221px]">
+        <div className="xl:h-[221px]  2xl:h-[300px]">
           <img
             className="h-full w-full"
             src="https://i.ibb.co.com/nBYNKBY/rectangle-5-66dc17dbb29cb.webp"
             alt=""
           />
         </div>
-        <div className="h-[221px]">
+        <div className="xl:h-[221px]  2xl:h-[300px]">
           <img
             className="h-full w-full"
             src="https://i.ibb.co.com/qdZZzMJ/rectangle-6-66dc17f1d5e17.webp"
             alt=""
           />
         </div>
-        <div className="h-[221px]">
+        <div className="xl:h-[221px]  2xl:h-[300px]">
           <img
             className="h-full w-full"
             src="https://i.ibb.co.com/YZ5C57r/rectangle-7-66dc1801e3a11.webp"
             alt=""
           />
         </div>
-        <div className="h-[221px]">
+        <div className="xl:h-[221px]  2xl:h-[300px]">
           <img
             className="h-full w-full"
             src="https://i.ibb.co.com/0YLSRVk/rectangle-5-2-66dc18f85d91b.webp"
             alt=""
           />
         </div>
-        <div className="h-[221px]">
+        <div className="xl:h-[221px]  2xl:h-[300px]">
           <img
             className="h-full w-full"
             src="https://i.ibb.co.com/0YLSRVk/rectangle-5-2-66dc18f85d91b.webp"
             alt=""
           />
         </div>
-        <div className="h-[221px]">
+        <div className="xl:h-[221px]  2xl:h-[300px]">
           <img
             className="h-full w-full"
             src="https://i.ibb.co.com/g9CzXwh/rectangle-7-1-66dc196adaa4f.webp"
@@ -134,7 +134,7 @@ const PhotoGallery = () => {
               lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
           >
             {visibleImages.map((image, index) => (
-              <div key={index} className="h-[221px]">
+              <div key={index} className="xl:h-[221px]  2xl:h-[300px]">
                 <img
                   className="h-full w-full"
                   src={image}
