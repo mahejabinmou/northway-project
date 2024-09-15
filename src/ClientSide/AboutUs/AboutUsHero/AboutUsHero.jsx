@@ -17,7 +17,7 @@ const AboutUsHero = () => {
         {/* Text Section */}
         <div className="absolute inset-0 flex flex-col items-center justify-center lg:flex-row lg:justify-between px-0 lg:px-[150px]  text-center lg:text-left">
           <h1 className="text-2xl lg:text-4xl text-white font-bold">
-            Study In USA
+            About Us
           </h1>
           <p className="text-sm lg:text-base text-white mt-2 lg:mt-0">
             Home / About Us / USA
@@ -37,10 +37,10 @@ const AboutUsHero = () => {
         {/* Text Section */}
         <div className="absolute inset-0 flex flex-col items-center justify-center lg:flex-row lg:justify-between px-0 lg:px-[150px]  text-center lg:text-left">
           <h1 className="text-2xl lg:text-4xl text-white font-bold">
-            Study In USA
+            About Us
           </h1>
           <p className="text-sm lg:text-base text-white mt-2 lg:mt-0">
-            Home / Study Distention / USA
+            Home / About Us / USA
           </p>
         </div>
       </div>
