@@ -1,5 +1,6 @@
 import { MdArrowRightAlt } from "react-icons/md";
 import "./WhyStudy.css";
+import { Link } from "react-router-dom";
 
 const WhyStudy = () => {
   return (
@@ -35,13 +36,15 @@ const WhyStudy = () => {
             <li className="pb-[6px]">Academic Excellence.</li>
           </ul>
 
-          <button
-            className="pl-[16px] pr-[11px] py-[11px] flex items-center justify-between
+          <Link to="/studyDistention2">
+            <button
+              className="pl-[16px] pr-[11px] py-[11px] flex items-center justify-between
           text-[18px] leading-[23px] bg-[#F6941E] gap-x-[10px] text-white font-helvetica font-bold"
-          >
-            Read More
-            <MdArrowRightAlt size={21} />
-          </button>
+            >
+              Read More
+              <MdArrowRightAlt size={21} />
+            </button>
+          </Link>
         </div>
       </div>
 
@@ -79,11 +82,12 @@ const WhyStudy = () => {
               <li className="pb-[6px]">Study Abroad Success.</li>
               <li className="pb-[6px]">Academic Excellence.</li>
             </ul>
-
-            <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
-              Read More
-              <MdArrowRightAlt />
-            </button>
+            <Link to="/studyDistention2">
+              <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
+                Read More
+                <MdArrowRightAlt />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
