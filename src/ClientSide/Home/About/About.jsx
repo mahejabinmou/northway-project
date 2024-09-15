@@ -155,9 +155,13 @@ const About = () => {
               <li>Academic Excellence.</li>
             </ul>
 
-            <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
+            {/* <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
               Read More
               <MdArrowRightAlt />
+            </button> */}
+
+            <button className="homeLargeAppoinMent border border-[#F6941E] hover:bg-[#F6941E] hover:text-white flex items-center justify-between text-[#F6941E] bg-white font-bold">
+              Read More <MdArrowRightAlt />
             </button>
           </div>
         </div>

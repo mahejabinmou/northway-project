@@ -1,4 +1,5 @@
 import { MdArrowRightAlt } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
@@ -23,9 +24,11 @@ const ChooseUs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
-            <button className="flex items-center justify-between joinUsBtn gap-x-[11.5px]">
-              join us <MdArrowRightAlt />
-            </button>
+            <Link to="/ContactUs">
+              <button className="flex items-center justify-between joinUsBtn gap-x-[11.5px] hover:bg-[#F6941E] hover:text-white">
+                join us <MdArrowRightAlt />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

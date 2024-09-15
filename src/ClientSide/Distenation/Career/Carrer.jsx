@@ -33,13 +33,13 @@ const Carrer = () => {
             environmental quality.
           </p>
 
-          <button
+          {/* <button
             className="pl-[16px] pr-[11px] py-[11px] flex items-center justify-between
           text-[18px] leading-[23px] border border-[#F6941E] gap-x-[10px]  text-black font-helvetica font-bold mt-[30px]"
           >
             Read More
             <MdArrowRightAlt size={21} />
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -67,13 +67,13 @@ const Carrer = () => {
               skills and environmental quality.
             </p>
 
-            <button
+            {/* <button
               className="homeLargeAppoinMent flex items-center justify-between 
             border border-[#F6941E]  text-black"
             >
               Read More
               <MdArrowRightAlt />
-            </button>
+            </button> */}
           </div>
 
           <div>

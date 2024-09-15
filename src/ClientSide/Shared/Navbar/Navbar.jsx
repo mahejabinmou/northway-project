@@ -5,6 +5,7 @@ import { IoMenu } from "react-icons/io5";
 import { MdArrowRightAlt, MdClose } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import "./Navbar.css";
+import SelectPage from "../../Distenation/Select/SelectPage";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 

@@ -149,7 +149,7 @@ const Blogs = () => {
       >
         <div className="">
           <div
-            className="grid grid-cols-1 md:grid-cols-2 justify-center items-center
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 justify-center items-center
               lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
           >
             {visibleImages.map((image, index) => (

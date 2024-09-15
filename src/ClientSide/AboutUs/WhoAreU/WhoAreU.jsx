@@ -98,13 +98,13 @@ const WhoAreU = () => {
             <li className="pb-[6px]">Academic Excellence.</li>
           </ul>
 
-          <button
+          {/* <button
             className="pl-[16px] pr-[11px] py-[11px] flex items-center justify-between
           text-[18px] leading-[23px] bg-[#F6941E] gap-x-[10px] text-white font-helvetica font-bold"
           >
             Read More
             <MdArrowRightAlt size={21} />
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -210,10 +210,10 @@ const WhoAreU = () => {
               <li>Academic Excellence.</li>
             </ul>
 
-            <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
+            {/* <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
               Read More
               <MdArrowRightAlt />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

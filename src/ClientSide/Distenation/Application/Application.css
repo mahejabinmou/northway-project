@@ -45,3 +45,14 @@
   border-top: 2px dashed rgba(0, 0, 0, 0.5); /* Dotted line between steps */
   z-index: 1;
 }
+
+.step-line-2xl::after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 80%;
+  transform: translateY(-50%);
+  width: 120px;
+  height: 2px;
+  border-top: 2px dashed rgba(0, 0, 0, 0.5);
+}
