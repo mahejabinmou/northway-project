@@ -29,7 +29,7 @@ const Application = () => {
         <div className=" ">
           <h1
             className="font-bold font-helvetica text-[48px] leading-[57px]
-       text-center pb-[20px]"
+       text-center pb-[20px] text-[#1E1E1E]"
           >
             <span className="text-[#F6941E]">Our </span>Application Process
           </h1>
