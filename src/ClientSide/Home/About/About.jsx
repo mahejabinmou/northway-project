@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className=" ">
       {/* mobile */}
-      <div className="chooseUsParent mt-[638px] px-[16px] md:hidden block ">
+      <div className="chooseUsParent mt-[100px] px-[16px] md:hidden block ">
         <div>
           <div
             className="relative w-full overflow-hidden chooseUsImgParent"

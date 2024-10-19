@@ -3,29 +3,25 @@ import "./Faq.css";
 
 const faqs = [
   {
-    question: "Can you work while studying in the United States?",
+    question: "Academic powers",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "The USA is home to some of the best universities in the world, most of the USA universities have been frequently placed high in international university rankings, as per the 2023 QS World Ranking. The US is home to 33 of the top 100 universities. ",
   },
   {
-    question: "Can you work while studying in the United States?",
+    question: "Excellent international student support system",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "American colleges are well-versed in the difficulties faced by international students and regularly hold orientation programs, workshops, and training to support them. Students from various cultures and nations study in the United States. On an average day, one can find students on the college campus from at least 10-15 different nationalities.",
+  },
+
+  {
+    question: "Successful post-college career",
+    answer:
+      "The fact that American jobs offer the highest wages cannot be denied. After completing their education, a large number of brilliant applicants relocate to the US to earn more money. However, students who have studied in the United States have an advantage, as they can access exclusive career prospects and develop skills that are relevant to the workforce in American colleges.",
   },
   {
-    question: "Can you work while studying in the United States?",
+    question: "Career opportunities",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    question: "Can you work while studying in the United States?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    question: "Can you work while studying in the United States?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Starting salaries for graduates from the top colleges in the USA are competitive. Even if candidates attend a tier-2 university, they can earn over $50,000 if they find the right employment. Graduates in STEM industries typically start at a salary of $66,123. One of the primary benefits of studying in the United States for international students is the experiential learning opportunities offered to students through internships and job placements.",
   },
 ];
 
@@ -62,8 +58,9 @@ const Faq = () => {
               Study in <span className="text-[#F6941E]">USA FAQ's</span>
             </h1>
             <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-[#1E1E1E]/[.8] pb-[30px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Studying in the USA can offer a variety of benefits, making it an
+              attractive destination for international students. Here are some
+              reasons why study in USA is a popular choice.
             </p>
           </div>
 

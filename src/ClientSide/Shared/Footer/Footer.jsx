@@ -20,13 +20,6 @@ const Footer = () => {
               </div>
 
               <div className=" ">
-                <p
-                  className="text-[14px] leading-[20px] pb-[30px]
-    xs:text-[14px] xs:leading-[20px] xs:pb-[30px] text-white/[.8]"
-                >
-                  Travel Blog Elementor Template Kit. Powered by Design8. All
-                  rights reserved.
-                </p>
                 <div className="flex   pb-[10px] gap-x-[10px]">
                   <a href="">
                     <FaFacebook size={28} className="footerSocailIcon" />
@@ -45,21 +38,21 @@ const Footer = () => {
             <div className="text-white/[.8]">
               <h2 className="footerMenuTextTitle ">Category</h2>
               <Link to="/About">
-                <p className="footerMenuText ">Immigration</p>
+                <p className="footerMenuText ">About Us</p>
               </Link>
               <Link to="/service">
-                <p className="footerMenuText">Study Abroad</p>
+                <p className="footerMenuText">Study Destination</p>
               </Link>
               <Link to="/membership">
                 {" "}
-                <p className="footerMenuText">Uncategorized</p>
+                <p className="footerMenuText">Gallery</p>
               </Link>
               <Link to="/event">
                 {" "}
-                <p className="footerMenuText">Scholarship</p>
+                <p className="footerMenuText">Blogs</p>
               </Link>
               <Link to="/contact">
-                <p className="footerMenuText">News</p>
+                <p className="footerMenuText">Contact Us</p>
               </Link>
             </div>
 
@@ -125,10 +118,6 @@ md:px-[32px] lg:px-[60px] 2xl:px-[150px]"
               </div>
 
               <div className=" ">
-                <p className="footerMenuText text-white/[.8]">
-                  Travel Blog Elementor Template Kit. Powered by Design8. All
-                  rights reserved.
-                </p>
                 <div className="flex   pb-[15px] gap-x-[10px]">
                   <a href="">
                     <FaFacebook size={28} className="footerSocailIcon" />
@@ -147,21 +136,21 @@ md:px-[32px] lg:px-[60px] 2xl:px-[150px]"
             <div className="text-white/[.8]">
               <h2 className="footerMenuTextTitle ">Category</h2>
               <Link to="/About">
-                <p className="footerMenuText ">Immigration</p>
+                <p className="footerMenuText ">About Us</p>
               </Link>
               <Link to="/service">
-                <p className="footerMenuText">Study Abroad</p>
+                <p className="footerMenuText">Study Destination</p>
               </Link>
               <Link to="/membership">
                 {" "}
-                <p className="footerMenuText">Uncategorized</p>
+                <p className="footerMenuText">Gallery</p>
               </Link>
               <Link to="/event">
                 {" "}
-                <p className="footerMenuText">Scholarship</p>
+                <p className="footerMenuText">Blogs</p>
               </Link>
               <Link to="/contact">
-                <p className="footerMenuText">News</p>
+                <p className="footerMenuText">Contact Us</p>
               </Link>
             </div>
 
