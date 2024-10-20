@@ -150,8 +150,11 @@ const OurVideo = () => {
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
               <p className="font-normal font-helvetica xs:text-[14px] xs:leading-[21px]  text-[#FFFFFF]/[.8] ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Hear directly from our students as they share their experiences,
+                successes, and the impact our services have had on their
+                academic journeys. Their stories reflect the support and
+                guidance we provide to help them achieve their dreams and excel
+                in their chosen fields.
               </p>
             </div>
             Slider

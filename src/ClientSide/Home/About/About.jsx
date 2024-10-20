@@ -119,19 +119,19 @@ const About = () => {
               <div className=" ">
                 <h1 className="head80  ">
                   {" "}
-                  <CountUp start={0} end={800} duration={10} />+
+                  <CountUp start={0} end={800} duration={50} />+
                 </h1>
-                <p className="para80">Global niversity Tips</p>
+                <p className="para80">Global University Tips</p>
               </div>
               <div className=" text-center">
                 <h1 className="head80">
-                  <CountUp start={0} end={65} duration={10} />+
+                  <CountUp start={0} end={65} duration={50} />+
                 </h1>
                 <p className="para80">Office Across The Globe</p>
               </div>
               <div className=" text-center">
                 <h1 className="head80">
-                  <CountUp start={0} end={25} duration={10} />+
+                  <CountUp start={0} end={25} duration={50} />+
                 </h1>
                 <p className="para80">Years Industry Presence</p>
               </div>

@@ -54,8 +54,10 @@ const OurStudentSay = () => {
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
         <p className="mainPara text-[#1E1E1E]/[.8]  pb-[50px] font-helvetica font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Our students have shared their incredible journeys and successes, from
+          gaining admissions to top universities to receiving life-changing
+          scholarships. Hear directly from them about how our dedicated support
+          made their study abroad experience smooth and rewarding.
         </p>
       </div>
 

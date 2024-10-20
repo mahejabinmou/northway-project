@@ -1,11 +1,41 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 const distensionInfo = [
-  { country: "USA", flag: "/flag/usa.png", id: 1 },
-  { country: "Ireland", flag: "/flag/ireland.png", id: 2 },
-  { country: "Europe", flag: "/flag/europe.png", id: 3 },
-  { country: "Canada", flag: "/flag/canada.png", id: 4 },
-  { country: "Australia", flag: "/flag/australia.png", id: 5 },
+  {
+    country: "USA",
+    flag: "/flag/usa.png",
+    id: 1,
+    subTitle:
+      "We strive to build a global community where quality higher education empowers curious learners and encourages them to transform their  lives. We deploy cutting-edge technologies on the Northway platform  to simplify students international education journeys. We blend  technology and innovation to transform the higher education  landscape with institutions, partners, and industry stakeholders.",
+  },
+  {
+    country: "Ireland",
+    flag: "/flag/ireland.png",
+    id: 2,
+    subTitle:
+      "We strive to build a global community where quality higher education empowers curious learners and encourages them to transform their  lives. We deploy cutting-edge technologies on the Northway platform  to simplify students international education journeys. We blend  technology and innovation to transform the higher education  landscape with institutions, partners, and industry stakeholders.",
+  },
+  {
+    country: "Europe",
+    flag: "/flag/europe.png",
+    id: 3,
+    subTitle:
+      "We strive to build a global community where quality higher education empowers curious learners and encourages them to transform their  lives. We deploy cutting-edge technologies on the Northway platform  to simplify students international education journeys. We blend  technology and innovation to transform the higher education  landscape with institutions, partners, and industry stakeholders.",
+  },
+  {
+    country: "Canada",
+    flag: "/flag/canada.png",
+    id: 4,
+    subTitle:
+      "We strive to build a global community where quality higher education empowers curious learners and encourages them to transform their  lives. We deploy cutting-edge technologies on the Northway platform  to simplify students international education journeys. We blend  technology and innovation to transform the higher education  landscape with institutions, partners, and industry stakeholders.",
+  },
+  {
+    country: "Australia",
+    flag: "/flag/australia.png",
+    id: 5,
+    subTitle:
+      "We strive to build a global community where quality higher education empowers curious learners and encourages them to transform their  lives. We deploy cutting-edge technologies on the Northway platform  to simplify students international education journeys. We blend  technology and innovation to transform the higher education  landscape with institutions, partners, and industry stakeholders.",
+  },
 ];
 const StudyDestination = ({ toggleDropdown2 }) => {
   const navigatge = useNavigate();
