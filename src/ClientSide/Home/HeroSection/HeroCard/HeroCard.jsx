@@ -60,7 +60,7 @@ const HeroCard = ({ name, image }) => {
         <div
           onMouseEnter={() => handleMouseEnter(name)}
           onMouseLeave={handleMouseLeave}
-          className={`bg-white/[0.15] flex justify-center items-center xl:gap-x-[16px] xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
+          className={`bg-white/[0.12] border border-gray-50/[.2] flex justify-center items-center xl:gap-x-[16px] xl:pl-[28px] xl:pr-[8px]  xl:py-[30px] xl:h-[140px]
             2xl:gap-x-[16px] 2xl:pl-[28px] 2xl:pr-[8px]  2xl:py-[30px] 2xl:h-[140px] lg:gap-x-[16px] lg:pl-[20px] lg:pr-[14px]  lg:py-[30px] lg:h-[140px]
             md:gap-x-[16px] md:pl-[10px] md:pr-[4px]  md:py-[30px] md:h-[140px] 
             ${

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ReactSVG } from "react-svg";
 
-const OurServiceCard = ({ image, name }) => {
+const OurServiceCard = ({ image, name, description }) => {
   const [hoveredOffice, setHoveredOffice] = useState(false);
   const [hover, setHover] = useState(false);
 
@@ -62,8 +62,7 @@ const OurServiceCard = ({ image, name }) => {
             className="text-[#1E1E1E]/[.8] font-normal font-helvetica  md:text-[12px] md:leading-[16px] text-[14px] leading-[21px]
        xs:text-[14px] xs:leading-[21px] pb-[10px] "
           >
-            We provide comprehensive study abroad services, assisting students
-            in finding the right educational institutions,
+            {description}
           </p>
         </div>
       </div>
@@ -117,8 +116,7 @@ const OurServiceCard = ({ image, name }) => {
             className="text-[#1E1E1E]/[.8] font-normal font-helvetica xl:text-[16px] xl:leading-[24px]  2xl:text-[16px] 2xl:leading-[24px] lg:text-[16px] lg:leading-[24px] md:text-[12px] md:leading-[16px] text-[14px] leading-[21px]
        xxs:text-[12px] xxs:leading-[18px]  xs:text-[14px] xs:leading-[21px] pb-[10px]"
           >
-            We provide comprehensive study abroad services, assisting students
-            in finding the right educational institutions,
+            {description}
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { MdArrowRightAlt } from "react-icons/md";
-
+import CountUp from "react-countup";
 const About = () => {
   return (
     <div className=" ">
@@ -26,7 +26,7 @@ const About = () => {
                 className="  xs:text-[30px] xs:leading-[36px]
               text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
-                800+
+                <CountUp start={0} end={800} duration={10} />+
               </h1>
               <p
                 className=" xs:text-[12px]
@@ -41,7 +41,7 @@ const About = () => {
                 className="xs:text-[30px] xs:leading-[36px]
               text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
-                65+
+                <CountUp start={0} end={65} duration={10} />+ +
               </h1>
               <p
                 className="xs:text-[12px]
@@ -55,7 +55,7 @@ const About = () => {
                 className="xs:text-[30px] xs:leading-[36px]
               text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
-                25+
+                <CountUp start={0} end={25} duration={10} />+ 25+
               </h1>
               <p
                 className="xs:text-[12px]
@@ -117,15 +117,22 @@ const About = () => {
             </div>
             <div className=" xl:pt-[24px] xl:gap-x-[20px]  lg:pt-[24px] lg:gap-x-[10px] md:pt-[24px] md:gap-x-[16px] flex justify-between items-center font-helvetica font-bold">
               <div className=" ">
-                <h1 className="head80  ">800+</h1>
+                <h1 className="head80  ">
+                  {" "}
+                  <CountUp start={0} end={800} duration={10} />+
+                </h1>
                 <p className="para80">Global niversity Tips</p>
               </div>
               <div className=" text-center">
-                <h1 className="head80">65+</h1>
+                <h1 className="head80">
+                  <CountUp start={0} end={65} duration={10} />+
+                </h1>
                 <p className="para80">Office Across The Globe</p>
               </div>
               <div className=" text-center">
-                <h1 className="head80">25+</h1>
+                <h1 className="head80">
+                  <CountUp start={0} end={25} duration={10} />+
+                </h1>
                 <p className="para80">Years Industry Presence</p>
               </div>
             </div>

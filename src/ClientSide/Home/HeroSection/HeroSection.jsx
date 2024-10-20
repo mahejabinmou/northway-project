@@ -67,7 +67,8 @@ const HeroSection = () => {
           <div className="relative  ">
             <div
               style={{
-                backgroundImage: `url(${"https://i.ibb.co/svGKkkx/frame-58-66cecf6f5b40e.webp"})`,
+                backgroundImage: `url(${"https://i.ibb.co.com/qgrD8fG/uni1-671374a413d9c.webp"})`,
+                filter: "brightness(0.6)",
               }}
               className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[485px] xs:h-[485px]   justify-center items-center"
@@ -83,8 +84,10 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
               </p>
               <button
                 className="homeLargeAppoinMent flex items-center  justify-between
@@ -113,7 +116,8 @@ const HeroSection = () => {
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co/svGKkkx/frame-58-66cecf6f5b40e.webp"})`,
+                  backgroundImage: `url(${"https://i.ibb.co.com/jrHYkGc/pexels-rdne-7713182.webp"})`,
+                  filter: "brightness(0.6)",
                 }}
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[485px] xs:h-[485px]    justify-center items-center"
@@ -130,8 +134,10 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
               </p>
               <button
                 className="homeLargeAppoinMent flex items-center  justify-between
@@ -161,7 +167,8 @@ const HeroSection = () => {
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url(${"https://i.ibb.co/svGKkkx/frame-58-66cecf6f5b40e.webp"})`,
+                  backgroundImage: `url(${"https://i.ibb.co.com/RPvd4GN/pexels-keira-burton-6147276.webp"})`,
+                  filter: " brightness(0.6)",
                 }}
                 className="
             bg-no-repeat bg-center bg-cover w-[100%] h-[485px] xs:h-[485px]    justify-center items-center"
@@ -178,8 +185,10 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
               </p>
               <button
                 className="homeLargeAppoinMent flex items-center  justify-between
@@ -263,7 +272,8 @@ const HeroSection = () => {
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url("https://i.ibb.co/svGKkkx/frame-58-66cecf6f5b40e.webp")`,
+                  backgroundImage: `url("https://i.ibb.co.com/qgrD8fG/uni1-671374a413d9c.webp")`,
+                  filter: "brightness(0.6)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
               ></div>
@@ -280,8 +290,10 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="homePara max-w-[485px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
               </p>
               <button className="homeButton flex items-center justify-between bg-[#F6941E]">
                 Start Your Journey <MdArrowRightAlt />
@@ -307,7 +319,8 @@ const HeroSection = () => {
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url("https://i.ibb.co/svGKkkx/frame-58-66cecf6f5b40e.webp")`,
+                  backgroundImage: `url("https://i.ibb.co.com/jrHYkGc/pexels-rdne-7713182.webp")`,
+                  filter: "brightness(0.6)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
               ></div>
@@ -324,8 +337,10 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="homePara max-w-[485px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
               </p>
               <button className="homeButton flex items-center justify-between bg-[#F6941E]">
                 Start Your Journey <MdArrowRightAlt />
@@ -352,7 +367,8 @@ const HeroSection = () => {
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url("https://i.ibb.co/svGKkkx/frame-58-66cecf6f5b40e.webp")`,
+                  backgroundImage: `url("https://i.ibb.co.com/RPvd4GN/pexels-keira-burton-6147276.webp")`,
+                  filter: " brightness(0.6)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
               ></div>
@@ -369,8 +385,10 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="homePara max-w-[485px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
               </p>
               <button className="homeButton flex items-center justify-between bg-[#F6941E]">
                 Start Your Journey <MdArrowRightAlt />

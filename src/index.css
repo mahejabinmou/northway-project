@@ -61,6 +61,26 @@ font-helvetica font-normal;
     font-bold font-helvetica;
   }
 
+  .head80 {
+    @apply xl:text-[36px] xl:leading-[43.2px] xl:pb-[5px] 
+    /* ========== */
+              lg:text-[20px] lg:leading-[20px]
+              /* ========== */
+              md:text-[20px] md:leading-[20px] text-center pb-[5px] 
+              /* ========== */
+               text-[#F6941E] font-bold font-helvetica;
+  }
+
+  .para80 {
+    @apply xl:text-[16px]  xl:leading-[24px]
+    /* ========== */
+     lg:text-[12px]  lg:leading-[10px]
+    /* ========== */
+    md:text-[12px]  md:leading-[14px]
+    /* ========== */
+     text-center font-normal font-helvetica text-[#1E1E1E]/[.8];
+  }
+
   .homeHead {
     @apply xl:text-[64px] xl:leading-[76.8px]  xl:pb-[15px]
     /* ==== */

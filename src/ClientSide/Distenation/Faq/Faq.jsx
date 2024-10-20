@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import "./Faq.css";
 
@@ -25,7 +27,7 @@ const faqs = [
   },
 ];
 
-const Faq = () => {
+const Faq = ({ countryName }) => {
   const [activeIndex, setActiveIndex] = useState(null); // Track active index
 
   const toggleFaq = (index) => {
@@ -54,13 +56,15 @@ const Faq = () => {
         </div>
         <div className="w-full md:w-1/2 p-2">
           <div className="p-4">
-            <h1 className="faqHead leading-[36px] pb-[20px] text-[#1E1E1E]">
-              Study in <span className="text-[#F6941E]">USA FAQ's</span>
+            <h1 className="faqHead leading-[36px] pb-[20px] text-[#1E1E1E] text-nowrap">
+              Study in{" "}
+              <span className="text-[#F6941E]">{countryName} FAQ's</span>
             </h1>
             <p className="font-normal md:text-[16px] md:leading-[24px] text-[14px] leading-[21px] text-[#1E1E1E]/[.8] pb-[30px]">
-              Studying in the USA can offer a variety of benefits, making it an
-              attractive destination for international students. Here are some
-              reasons why study in USA is a popular choice.
+              Studying in the {countryName} can offer a variety of benefits,
+              making it an attractive destination for international students.
+              Here are some reasons why study in {countryName} is a popular
+              choice.
             </p>
           </div>
 
