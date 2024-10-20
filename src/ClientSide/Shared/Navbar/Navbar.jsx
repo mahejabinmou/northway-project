@@ -324,9 +324,6 @@ const Navbar = () => {
                         <div>
                           <StudyDestination toggleDropdown2={toggleDropdown2} />
                         </div>
-                        <div className="mt-10">
-                          <StudyDestination toggleDropdown2={toggleDropdown2} />
-                        </div>
                       </div>
                     </div>
                   )}

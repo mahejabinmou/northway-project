@@ -1,6 +1,9 @@
+/* eslint-disable react/prop-types */
+import { countryDetailsDestructor } from "../../../utils/CountryDetails";
 import Navbar from "../../Shared/Navbar/Navbar";
 
 const DistenationBanner = ({ countryName }) => {
+  const countryDetails = countryDetailsDestructor(countryName); // if you go inside this file you will crashed your head so better no to go there...
   return (
     <div>
       <Navbar></Navbar>
@@ -20,12 +23,7 @@ const DistenationBanner = ({ countryName }) => {
             Study In {countryName}
           </h1>
           <p className="text-xl lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
-            We strive to build a global community where quality higher education
-            empowers curious learners and encourages them to transform their
-            lives. We deploy cutting-edge technologies on the Northway platform
-            to simplify students international education journeys. We blend
-            technology and innovation to transform the higher education
-            landscape with institutions, partners, and industry stakeholders.
+            {countryDetails.subTitle}
           </p>
         </div>
       </div>
