@@ -16,11 +16,11 @@ const HeroCard = ({ name, image }) => {
   };
   return (
     <div>
-      <div className="md:hidden block">
+      <div className="md:hidden block ">
         <div
           onMouseEnter={() => handleMouseEnter(name)}
           onMouseLeave={handleMouseLeave}
-          className={`bg-white flex justify-center items-center xs:gap-[16px] gap-x-[17.27px]
+          className={`bg-white  flex justify-center items-center xs:gap-[16px] gap-x-[17.27px]
             px-[28.5px] py-[40px]  '
                ${
                  hoveredOffice === name
