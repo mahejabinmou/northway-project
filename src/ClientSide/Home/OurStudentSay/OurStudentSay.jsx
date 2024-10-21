@@ -44,8 +44,10 @@ const OurStudentSay = () => {
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
         <p className="text-[14px] leading-[21px] font-normal font-helvetica text-[#1E1E1E]/[.8]  pb-[30px]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Our students have shared their incredible journeys and successes, from
+          gaining admissions to top universities to receiving life-changing
+          scholarships. Hear directly from them about how our dedicated support
+          made their study abroad experience smooth and rewarding.
         </p>
       </div>
       {/* large */}
@@ -88,7 +90,7 @@ const OurStudentSay = () => {
                 />
               </div>
               <div className="ml-[12px]">
-                <p className="font-semibold text-xl">Lisa Dowen</p>
+                <p className="font-semibold text-xl">Mahim Dewan</p>
                 <p className="font-mono">Student</p>
               </div>
             </div>
@@ -150,7 +152,7 @@ const OurStudentSay = () => {
                 />
               </div>
               <div className="ml-[12px]">
-                <p className="font-semibold text-xl">Lisa Dowen</p>
+                <p className="font-semibold text-xl">Fuen Dowen</p>
                 <p className="font-mono">Student</p>
               </div>
             </div>

@@ -92,8 +92,10 @@ const OurVideo = () => {
                 Our <span className="text-[#F6941E]">Video</span>
               </h1>
               <p className="EveryPara text-[#FFFFFF]/[.8]">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Explore insights and success stories from our students who have
+                embarked on their study abroad journeys. Watch how we've helped
+                countless individuals achieve their academic dreams across the
+                globe.
               </p>
             </div>
 
