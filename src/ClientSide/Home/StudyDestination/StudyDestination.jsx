@@ -193,14 +193,14 @@ const StudyDestination = () => {
 
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co.com/K6LgdRy/image-7-1-66e0a55e7f832.webp"
+                src="https://i.ibb.co.com/fHKyFgN/pexels-migsg-2421025.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
+                <h1 className="united">UAE</h1>
                 <Link to="/studyDistention">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
@@ -220,7 +220,7 @@ const StudyDestination = () => {
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
+                <h1 className="united">Canada</h1>
                 <Link to="/studyDistention">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
@@ -231,14 +231,14 @@ const StudyDestination = () => {
             <div className="relative group w-full h-[267px] pb-[20px]">
               {/* Image */}
               <img
-                src="https://i.ibb.co.com/RHxvvgD/image-9-2-66e0a645da6ff.webp"
+                src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
+                <h1 className="united">Ireland</h1>
                 <Link to="/studyDistention">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
@@ -251,14 +251,14 @@ const StudyDestination = () => {
           <div>
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co.com/fpvNZgt/image-10-66e0a70c2518c.webp"
+                src="https://i.ibb.co.com/vXPcMB2/pexels-kelly-1179532-2382681-2.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
+                <h1 className="united">Australia</h1>
                 <Link to="/studyDistention">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
@@ -275,7 +275,7 @@ const StudyDestination = () => {
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">United States</h1>
+                <h1 className="united">Europe</h1>
                 <Link to="/studyDistention">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
