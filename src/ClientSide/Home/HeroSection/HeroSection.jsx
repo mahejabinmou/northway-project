@@ -319,7 +319,7 @@ const HeroSection = () => {
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url("https://i.ibb.co.com/RPvd4GN/pexels-keira-burton-6147276.webp")`,
+                  backgroundImage: `url("https://i.ibb.co.com/Y38Vfq9/large-brick-building-with-clock-front.webp")`,
                   filter: " brightness(0.6)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
@@ -366,7 +366,7 @@ const HeroSection = () => {
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url("https://i.ibb.co.com/JCtGZ7V/sl2.webp")`,
+                  backgroundImage: `url("https://i.ibb.co.com/9g19Hr7/university-campus-with-big-field-photography-students-are-waking-gossiping-their-campus-free.webp")`,
                   filter: " brightness(0.6)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"

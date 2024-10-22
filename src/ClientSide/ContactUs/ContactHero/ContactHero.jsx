@@ -9,7 +9,8 @@ const ContactHero = () => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co.com/dP2XMJt/banner-11-66dd37c46c585.webp"})`,
+            backgroundImage: `url(${"https://i.ibb.co.com/Sy4NLkB/louis-hansel-Og-Drj7-Q8-EAw-unsplash.webp"})`,
+            filter: "brightness(.7)",
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[600px]  flex justify-center items-center"
         ></div>

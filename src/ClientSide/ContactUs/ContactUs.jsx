@@ -1,5 +1,5 @@
+import Footer from "../Shared/Footer/Footer";
 import ContactHero from "./ContactHero/ContactHero";
-import ContactForm from "./ContactUsForm/ContactUsForm";
 import OurOffices from "./OurOffices/OurOffices";
 
 const ContactUs = () => {
@@ -7,7 +7,7 @@ const ContactUs = () => {
     <div className=" bg-[#F5F5F5]">
       <ContactHero></ContactHero>
       <OurOffices></OurOffices>
-      <ContactForm></ContactForm>
+      <Footer></Footer>
     </div>
   );
 };

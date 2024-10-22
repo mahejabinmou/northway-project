@@ -105,7 +105,7 @@ const Footer = () => {
         <div
           className="hidden md:block px-[16px]
  xs:px-[16px]  xl:px-[150px]
-md:px-[32px] lg:px-[60px] 2xl:px-[150px]"
+md:px-[32px] lg:px-[60px] 2xl:px-[150px] "
         >
           <div className=" pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[123px] gap-y-[123px]">
             <div>

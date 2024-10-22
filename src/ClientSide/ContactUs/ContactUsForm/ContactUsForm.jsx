@@ -46,7 +46,7 @@ function ContactForm({ selectedOffice }) {
   ];
 
   return (
-    <div className="flex flex-col-reverse md:flex-row justify-center items-center sectionGap gap-[68px]">
+    <div className="flex flex-col-reverse pb-[100px] md:flex-row justify-center items-center sectionGap gap-[68px]">
       <form
         onSubmit={handleSubmit}
         className="bg-white max-w-[614px] w-full md:w-1/2 p-4 shadow-formShadow rounded-md"

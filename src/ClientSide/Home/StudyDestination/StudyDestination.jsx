@@ -63,7 +63,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/mBSbXYK/pexels-zetong-li-880728-16757986-6717404fa6849.webp"
+              src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -79,7 +79,7 @@ const StudyDestination = () => {
           </div>
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/PTWHMFd/uae-671739e2be709.webp"
+              src="https://i.ibb.co.com/VV6xZHC/Facts-1280x720.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -96,7 +96,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/YDHPK3d/australia-67173b515a485.webp"
+              src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -113,7 +113,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/Q7wVrTZ/canada-67173c601e575.webp"
+              src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -131,7 +131,7 @@ const StudyDestination = () => {
           <div className="relative group w-full h-[267px]">
             {/* Image */}
             <img
-              src="https://i.ibb.co.com/ZT2QpYb/ireland-67173d317bc45.webp"
+              src="https://i.ibb.co.com/GPmQbs2/ireland-6717714b87c95.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -148,7 +148,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/NptPSj9/pexels-jegor-nagel-113940522-14385598-67173f8f58704.webp"
+              src="https://i.ibb.co.com/DzDqDPW/europ-671771c9cc68d.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />

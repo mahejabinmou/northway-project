@@ -11,10 +11,10 @@ const ChooseUs = () => {
         <div className="relative">
           <div
             style={{
-              backgroundImage: `url("https://i.ibb.co/XsjKQpK/4e5570afab2bc908ac5c505230f9bd33-66d3e7972bb5a.webp")`,
-              filter: "brightness(.5)",
+              backgroundImage: `url("https://i.ibb.co.com/55VsYxP/students-back-school-2024-beautiful-school-buildings.webp")`,
+              filter: "brightness(.8)",
             }}
-            className="bg-no-repeat bg-center bg-cover w-full md:h-[800px] h-[383px] flex justify-center items-center"
+            className="bg-no-repeat bg-center bg-cover w-full md:h-[700px] h-[383px] flex justify-center items-center"
           ></div>
 
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center ">
