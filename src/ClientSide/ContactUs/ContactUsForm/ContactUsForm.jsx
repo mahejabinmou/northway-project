@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function ContactForm() {
+function ContactForm({ selectedOffice }) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,32 +22,34 @@ function ContactForm() {
     console.log(formData);
   };
 
-  //   ----
-
   const contactUsDetails = [
     {
       img: "https://i.ibb.co.com/h1j23bC/frame-89-1-66dd4d9332eca.webp",
       title: "Email",
-      dis: "info@northwayglobal.com.bd",
+      dis: selectedOffice?.email || "info@northwayglobal.com.bd", // Fallback email
     },
     {
       img: "https://i.ibb.co.com/54ZydTH/frame-89-2-66dd4dc010735.webp",
       title: "Phone",
-      dis: "+880 1607-002687",
+      dis: selectedOffice?.phone || "+880 1607-002687", // Fallback phone
     },
     {
       img: "https://i.ibb.co.com/02dwmHq/frame-89-3-66dd4ded194c7.webp",
       title: "Address",
-      dis: "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-",
-      sub: "1212, (Near American Embassy)",
+      dis:
+        selectedOffice?.address ||
+        "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near American Embassy)",
+
+      // dis: "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-",
+      // sub: "1212, (Near American Embassy)",
     },
   ];
 
   return (
-    <div className=" flex flex-col-reverse md:flex-row justify-center items-center sectionGap gap-[68px]">
+    <div className="flex flex-col-reverse md:flex-row justify-center items-center sectionGap gap-[68px]">
       <form
         onSubmit={handleSubmit}
-        className="bg-white max-w-[614px] w-full md:w-1/2 p-4  shadow-formShadow rounded-md "
+        className="bg-white max-w-[614px] w-full md:w-1/2 p-4 shadow-formShadow rounded-md"
       >
         <div className="mb-4">
           <label
@@ -71,7 +73,7 @@ function ContactForm() {
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-sm font-medium text-gray-700 font-helvetica "
+            className="block text-sm font-medium text-gray-700 font-helvetica"
           >
             Email
           </label>
@@ -90,7 +92,7 @@ function ContactForm() {
         <div className="mb-4">
           <label
             htmlFor="country"
-            className="block text-sm font-medium text-gray-700  font-helvetica "
+            className="block text-sm font-medium text-gray-700 font-helvetica"
           >
             Country
           </label>
@@ -108,7 +110,7 @@ function ContactForm() {
         <div className="mb-4">
           <label
             htmlFor="message"
-            className="block text-sm font-medium text-gray-700   font-helvetica "
+            className="block text-sm font-medium text-gray-700 font-helvetica"
           >
             Message
           </label>
@@ -125,16 +127,15 @@ function ContactForm() {
 
         <button
           type="submit"
-          className="px-5 py-[10px] bg-[#F6941E] font-helvetica font-bold
-           text-white p-2  hover:bg-[#f6951ec0] transition"
+          className="px-5 py-[10px] bg-[#F6941E] font-helvetica font-bold text-white p-2 hover:bg-[#f6951ec0] transition"
         >
           Submit
         </button>
       </form>
 
-      <div className=" ">
+      <div>
         <div>
-          <h4 className="lg:text-[36px] lg:leading-[43.2px] font-bold font-helvetica  ">
+          <h4 className="lg:text-[36px] lg:leading-[43.2px] font-bold font-helvetica">
             Contact Us
           </h4>
           <p className="text-[#1E1E1E]/[.8] mt-[14px] mb-[30px] font-normal text-[16px] leading-[24px]">
@@ -142,29 +143,28 @@ function ContactForm() {
           </p>
         </div>
         <div>
-          <div className=" ">
+          <div>
             {contactUsDetails.map((contact, index) => (
               <div key={index} className="flex items-center gap-4 mb-[24px]">
-                <div className="lg:h-10 lg:w-10 xs:h-[40px] xs:w-[48px] xxs:h-12 xxs:w-14  bg-[#F6941E] rounded-full ">
+                <div className="lg:h-10 lg:w-10 xs:h-[40px] xs:w-[48px] xxs:h-12 xxs:w-14 bg-[#F6941E] rounded-full">
                   <img
                     src={contact.img}
                     alt="contact icon"
                     className="w-full h-full"
                   />
                 </div>
-                <div className="">
-                  <h4 className="text-[18px]  leading-[23.4px] font-bold font-helvetica text-[#1E1E1E]  pb-[5px]">
+                <div>
+                  <h4 className="text-[18px] leading-[23.4px] font-bold font-helvetica text-[#1E1E1E] pb-[5px]">
                     {contact.title}
                   </h4>
-                  <p
-                    className="text-[#1E1E1ECC] font-normal font-helvetica leading-[24px] text-[16px]
-                 "
-                  >
+                  <p className="text-[#1E1E1ECC] font-normal font-helvetica leading-[24px] text-[16px]">
                     {contact.dis}
                   </p>
-                  <p className="text-[#1E1E1ECC] font-normal font-helvetica leading-[20px] text-[14px]">
-                    {contact?.sub}
-                  </p>
+                  {contact.sub && (
+                    <p className="text-[#1E1E1ECC] font-normal font-helvetica leading-[20px] text-[14px]">
+                      {contact.sub}
+                    </p>
+                  )}
                 </div>
               </div>
             ))}

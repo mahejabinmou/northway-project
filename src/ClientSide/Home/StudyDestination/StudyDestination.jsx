@@ -63,7 +63,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/fQN5Kxv/harvard-university-campus-6717360a509e9.webp"
+              src="https://i.ibb.co.com/mBSbXYK/pexels-zetong-li-880728-16757986-6717404fa6849.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -113,7 +113,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
+              src="https://i.ibb.co.com/Q7wVrTZ/canada-67173c601e575.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -131,7 +131,7 @@ const StudyDestination = () => {
           <div className="relative group w-full h-[267px]">
             {/* Image */}
             <img
-              src="https://i.ibb.co.com/vXPcMB2/pexels-kelly-1179532-2382681-2.webp"
+              src="https://i.ibb.co.com/ZT2QpYb/ireland-67173d317bc45.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -148,7 +148,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/1KHNkQ1/image-11-66e0a757ad7d1.webp"
+              src="https://i.ibb.co.com/NptPSj9/pexels-jegor-nagel-113940522-14385598-67173f8f58704.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />

@@ -1,38 +1,34 @@
 import { useState } from "react";
+import ContactForm from "../ContactUsForm/ContactUsForm";
 
 const OurOffices = () => {
-  // Set "India" as the default hovered office
-  const [hoveredOffice, setHoveredOffice] = useState("India");
+  const [hoveredOffice, setHoveredOffice] = useState("Bangladesh");
+  const [selectedOffice, setSelectedOffice] = useState(null);
 
   const officeData = [
     {
-      flag: "https://i.ibb.co.com/SvjNNzW/image-14-66dd3a70578b1.webp",
-      name: "India",
+      flag: "https://i.ibb.co.com/yP4VKMT/image-14-3-66dd3b0f1691c.webp",
+      name: "Bangladesh",
+      email: "info@northwayglobalBd.com.bd",
+      phone: "+880 1607-002687",
+      address:
+        "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near American Embassy)",
     },
     {
-      flag: "https://i.ibb.co.com/PwcnccN/image-14-1-66dd3aa63071a.webp",
-      name: "Nepal",
+      flag: "https://i.ibb.co.com/M84ddsf/uae-6717451c3c4e4.webp",
+      name: "Dubai",
+      email: "info@northwayglobalDubai.com.bd",
+      phone: "+55 1607-002687",
+      address:
+        "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near  Dubai Embassy)",
     },
     {
       flag: "https://i.ibb.co.com/JrX4XSz/image-14-2-66dd3adc09621.webp",
-      name: "Sri Lanka",
-    },
-    {
-      flag: "https://i.ibb.co.com/yP4VKMT/image-14-3-66dd3b0f1691c.webp",
-      name: "Bangladesh",
-    },
-    { flag: "https://i.ibb.co.com/bHc4vCc/image-14-5.png", name: "Ghana" },
-    {
-      flag: "https://i.ibb.co.com/MGXrLbK/image-14-6-66dd4a3545443.webp",
-      name: "Pakistan",
-    },
-    {
-      flag: "https://i.ibb.co.com/YLrp8Zs/image-14-7-66dd4a760b58e.webp",
-      name: "Philippines",
-    },
-    {
-      flag: "https://i.ibb.co.com/2FmcyWz/image-14-8-66dd4ab221d98.webp",
-      name: "Kenya",
+      name: "USA",
+      email: "info@northwayglobalUsa.com.bd",
+      phone: "+1607-00268",
+      address:
+        "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near USA Embassy)",
     },
   ];
 
@@ -44,6 +40,10 @@ const OurOffices = () => {
     setHoveredOffice(null);
   };
 
+  const handleOfficeClick = (office) => {
+    setSelectedOffice(office);
+  };
+
   return (
     <>
       <div className="sectionGap">
@@ -53,24 +53,32 @@ const OurOffices = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-[23px]">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-[23px]">
           {officeData.map((office) => (
             <div
               key={office.name}
               onMouseEnter={() => handleMouseEnter(office.name)}
               onMouseLeave={handleMouseLeave}
-              className={`py-5 flex items-center justify-center border-custom border-[1px] shadow-officeShadow transition-all duration-300 ${
+              onClick={() => handleOfficeClick(office)}
+              className={`p-5 flex items-center justify-self-center  shadow-officeShadow transition-all duration-300 cursor-pointer ${
                 hoveredOffice === office.name ? "bg-white" : "bg-transparent"
               }`}
             >
-              <div className="flex items-center gap-2">
-                <img src={office.flag} alt={`Flag of ${office.name}`} />
+              <div className="flex  items-center justify-center gap-2">
+                <img
+                  className="h-[15px] w-[25px]"
+                  src={office.flag}
+                  alt={`Flag of ${office.name}`}
+                />
                 <p className="font-helvetica font-bold">{office.name}</p>
               </div>
             </div>
           ))}
         </div>
       </div>
+
+      {/* Pass the selected office data to the ContactForm component */}
+      {selectedOffice && <ContactForm selectedOffice={selectedOffice} />}
     </>
   );
 };

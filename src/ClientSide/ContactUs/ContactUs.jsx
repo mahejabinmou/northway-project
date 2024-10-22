@@ -1,5 +1,5 @@
 import ContactHero from "./ContactHero/ContactHero";
-import ContactForm from "./ContactUsForm/ontactUsForm";
+import ContactForm from "./ContactUsForm/ContactUsForm";
 import OurOffices from "./OurOffices/OurOffices";
 
 const ContactUs = () => {

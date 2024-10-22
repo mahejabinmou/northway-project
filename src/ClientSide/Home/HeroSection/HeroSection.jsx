@@ -219,11 +219,12 @@ const HeroSection = () => {
       {/* big screen */}
       <div className="slider-container  hidden md:block ">
         <Slider {...settings}>
+          {/* slider one */}
           <div className="relative">
             <div className=" ">
               <div
                 style={{
-                  backgroundImage: `url("https://i.ibb.co.com/qgrD8fG/uni1-671374a413d9c.webp")`,
+                  backgroundImage: `url("https://i.ibb.co.com/pd0VDjR/slider.webp")`,
                   filter: "brightness(0.6)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
@@ -319,6 +320,149 @@ const HeroSection = () => {
               <div
                 style={{
                   backgroundImage: `url("https://i.ibb.co.com/RPvd4GN/pexels-keira-burton-6147276.webp")`,
+                  filter: " brightness(0.6)",
+                }}
+                className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
+              ></div>
+            </div>
+
+            <div
+              className="absolute inset-0 font-helvetica  
+        xl:mt-[200px]  mt-[200px]  md:mt-[150px]  xs:mt-[200px]
+          xl:ml-[150px]  lg:mt-[150px]
+          lg:ml-[60px] md:ml-[80px]  ml-[60px] xs:lg:ml-[150px]  "
+            >
+              <h1 className="homeHead max-w-[557px]">
+                <span className="text-[#F6941E]">Welcome</span> to Northway
+                Global
+              </h1>
+              <p className="homePara max-w-[485px]">
+                Choose Northway For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
+              </p>
+              <button className="homeButton flex items-center justify-between bg-[#F6941E]">
+                Start Your Journey <MdArrowRightAlt />
+              </button>
+            </div>
+
+            <div
+              className="absolute inset-0 font-helvetica 2xl:top-[597px] xl:top-[597px] lg:top-[597px] md:top-[550px]  xl:mx-[150px]   
+         2xl:mx-[150px] lg:mx-[60px] md:mx-[80px]  grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 xl:gap-x-[24px]  2xl:gap-x-[24px] lg:gap-x-[20px]
+         md:gap-x-[10px]"
+            >
+              {officesData.map((office) => (
+                <HeroCard
+                  key={office.name}
+                  name={office.name}
+                  image={office.image}
+                ></HeroCard>
+              ))}
+            </div>
+          </div>
+          {/* slider four */}
+          <div className="relative">
+            <div className=" ">
+              <div
+                style={{
+                  backgroundImage: `url("https://i.ibb.co.com/JCtGZ7V/sl2.webp")`,
+                  filter: " brightness(0.6)",
+                }}
+                className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
+              ></div>
+            </div>
+
+            <div
+              className="absolute inset-0 font-helvetica  
+        xl:mt-[200px]  mt-[200px]  md:mt-[150px]  xs:mt-[200px]
+          xl:ml-[150px]  lg:mt-[150px]
+          lg:ml-[60px] md:ml-[80px]  ml-[60px] xs:lg:ml-[150px]  "
+            >
+              <h1 className="homeHead max-w-[557px]">
+                <span className="text-[#F6941E]">Welcome</span> to Northway
+                Global
+              </h1>
+              <p className="homePara max-w-[485px]">
+                Choose Northway For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
+              </p>
+              <button className="homeButton flex items-center justify-between bg-[#F6941E]">
+                Start Your Journey <MdArrowRightAlt />
+              </button>
+            </div>
+
+            <div
+              className="absolute inset-0 font-helvetica 2xl:top-[597px] xl:top-[597px] lg:top-[597px] md:top-[550px]  xl:mx-[150px]   
+         2xl:mx-[150px] lg:mx-[60px] md:mx-[80px]  grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 xl:gap-x-[24px]  2xl:gap-x-[24px] lg:gap-x-[20px]
+         md:gap-x-[10px]"
+            >
+              {officesData.map((office) => (
+                <HeroCard
+                  key={office.name}
+                  name={office.name}
+                  image={office.image}
+                ></HeroCard>
+              ))}
+            </div>
+          </div>
+
+          {/* slider five */}
+          <div className="relative">
+            <div className=" ">
+              <div
+                style={{
+                  backgroundImage: `url("https://i.ibb.co.com/YPFxK2C/vasily-koloda-8-Cq-Dv-Puo-k-I-unsplash.jpg")`,
+                  filter: " brightness(0.6)",
+                }}
+                className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
+              ></div>
+            </div>
+
+            <div
+              className="absolute inset-0 font-helvetica  
+        xl:mt-[200px]  mt-[200px]  md:mt-[150px]  xs:mt-[200px]
+          xl:ml-[150px]  lg:mt-[150px]
+          lg:ml-[60px] md:ml-[80px]  ml-[60px] xs:lg:ml-[150px]  "
+            >
+              <h1 className="homeHead max-w-[557px]">
+                <span className="text-[#F6941E]">Welcome</span> to Northway
+                Global
+              </h1>
+              <p className="homePara max-w-[485px]">
+                Choose Northway For Your Study Abroad Journey & Embark on An
+                Exceptional Educational Experience That Combines Academic
+                Excellence, Personalized Guidance, and a Seamless Transition to
+                You.
+              </p>
+              <button className="homeButton flex items-center justify-between bg-[#F6941E]">
+                Start Your Journey <MdArrowRightAlt />
+              </button>
+            </div>
+
+            <div
+              className="absolute inset-0 font-helvetica 2xl:top-[597px] xl:top-[597px] lg:top-[597px] md:top-[550px]  xl:mx-[150px]   
+         2xl:mx-[150px] lg:mx-[60px] md:mx-[80px]  grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 xl:gap-x-[24px]  2xl:gap-x-[24px] lg:gap-x-[20px]
+         md:gap-x-[10px]"
+            >
+              {officesData.map((office) => (
+                <HeroCard
+                  key={office.name}
+                  name={office.name}
+                  image={office.image}
+                ></HeroCard>
+              ))}
+            </div>
+          </div>
+
+          {/* slider six */}
+          <div className="relative">
+            <div className=" ">
+              <div
+                style={{
+                  backgroundImage: `url("https://i.ibb.co.com/2WR7Wt3/datingscout-Au-C9-Ri-Kv-Cl-A-unsplash.webp")`,
                   filter: " brightness(0.6)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px] flex justify-center items-center"
