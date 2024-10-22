@@ -40,7 +40,7 @@ const VideoGallery = () => {
           <h1 className="text-2xl lg:text-4xl text-white font-bold">
             Video Gallery
           </h1>
-          <p className="text-xl  text-white mt-2 lg:mt-0 font-medium font-helvetica">
+          <p className="text-xl  lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
             We strive to build a global community where quality higher education
             empowers curious learners and encourages them to transform their
             lives. We deploy cutting-edge technologies on the Northway platform

@@ -133,14 +133,14 @@ const OurLatestBlog = () => {
                       <IoPersonOutline />
                       <p>{item.subtitle}</p>
                     </div>
-                    <div
+                    {/* <div
                       className="text-black/[.6]
                     font-normal  font-helvetica flex items-center xl:text-[16px] xl:leading-[24px] xl:gap-x-[10px] 2xl:text-[16px] 2xl:leading-[24px] 2xl:gap-x-[10px] lg:text-[16px] lg:leading-[24px] lg:gap-x-[10px] 
                   md:text-[10px] md:leading-[10px] md:gap-x-[5px] xs:gap-x-[5px] gap-x-[5px]"
                     >
                       <LuMessagesSquare />
                       <p>{item.extendedSubtitle}</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -200,10 +200,10 @@ const OurLatestBlog = () => {
                       <IoPersonOutline />
                       <p>{item.subtitle}</p>
                     </div>
-                    <div className="text-black/[.6] flex items-center gap-x-[10px]">
+                    {/* <div className="text-black/[.6] flex items-center gap-x-[10px]">
                       <LuMessagesSquare />
                       <p>{item.extendedSubtitle}</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

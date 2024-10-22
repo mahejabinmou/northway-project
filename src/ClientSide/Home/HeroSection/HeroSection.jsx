@@ -51,8 +51,8 @@ const HeroSection = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    // autoplaySpeed: 2800,
     arrows: false,
   };
 
@@ -87,7 +87,7 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
-                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Choose Northway For Your Study Abroad Journey & Embark on An
                 Exceptional Educational Experience That Combines Academic
                 Excellence, Personalized Guidance, and a Seamless Transition to
                 You.
@@ -137,7 +137,7 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
-                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Choose Northway For Your Study Abroad Journey & Embark on An
                 Exceptional Educational Experience That Combines Academic
                 Excellence, Personalized Guidance, and a Seamless Transition to
                 You.
@@ -187,7 +187,7 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
-                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Choose Northway For Your Study Abroad Journey & Embark on An
                 Exceptional Educational Experience That Combines Academic
                 Excellence, Personalized Guidance, and a Seamless Transition to
                 You.
@@ -241,7 +241,7 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="homePara max-w-[485px]">
-                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Choose Northway For Your Study Abroad Journey & Embark on An
                 Exceptional Educational Experience That Combines Academic
                 Excellence, Personalized Guidance, and a Seamless Transition to
                 You.
@@ -288,7 +288,7 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="homePara max-w-[485px]">
-                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Choose Northway For Your Study Abroad Journey & Embark on An
                 Exceptional Educational Experience That Combines Academic
                 Excellence, Personalized Guidance, and a Seamless Transition to
                 You.
@@ -336,7 +336,7 @@ const HeroSection = () => {
                 Global
               </h1>
               <p className="homePara max-w-[485px]">
-                Choose Open Window For Your Study Abroad Journey & Embark on An
+                Choose Northway For Your Study Abroad Journey & Embark on An
                 Exceptional Educational Experience That Combines Academic
                 Excellence, Personalized Guidance, and a Seamless Transition to
                 You.

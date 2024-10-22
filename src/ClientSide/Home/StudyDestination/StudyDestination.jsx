@@ -63,7 +63,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
+              src="https://i.ibb.co.com/fQN5Kxv/harvard-university-campus-6717360a509e9.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -79,7 +79,7 @@ const StudyDestination = () => {
           </div>
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/fHKyFgN/pexels-migsg-2421025.webp"
+              src="https://i.ibb.co.com/PTWHMFd/uae-671739e2be709.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
@@ -96,7 +96,7 @@ const StudyDestination = () => {
 
           <div className="relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
+              src="https://i.ibb.co.com/YDHPK3d/australia-67173b515a485.webp"
               alt="United States"
               className="w-full h-full object-cover"
             />
