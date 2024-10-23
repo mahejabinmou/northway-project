@@ -42,7 +42,7 @@ const CostOfEducation = () => {
             <div className=" md:h-[447px] ">
               <img
                 className="w-full h-full object-cover"
-                src="https://i.ibb.co.com/Wfbyzpx/image-15-2-66db3d2ca2a1d.webp"
+                src="https://i.ibb.co.com/BZSjHJG/cost.webp"
                 alt=""
               />
             </div>

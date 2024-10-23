@@ -33,7 +33,7 @@ const PhotoGallery = () => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co.com/sJnd3yC/woman-wearing-lanyard-is-standing-front-building-1.webp"})`,
+            backgroundImage: `url(${"https://i.ibb.co.com/HpJMVbW/students-back-school-2024-beautiful-school-buildings-2.webp"})`,
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[600px] flex justify-center items-center"
         ></div>

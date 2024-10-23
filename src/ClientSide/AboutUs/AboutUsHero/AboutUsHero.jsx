@@ -2,10 +2,10 @@ import Navbar from "../../Shared/Navbar/Navbar";
 
 const AboutUsHero = () => {
   return (
-    <div>
+    <div className="">
       <Navbar></Navbar>
 
-      <div className="mt-[30px]  relative md:block hidden">
+      <div className="mt-[30px]  md:block hidden">
         {/* Background image section */}
         <div
           style={{
@@ -16,7 +16,7 @@ const AboutUsHero = () => {
         ></div>
 
         {/* Text Section */}
-        <div className="absolute inset-0 flex flex-col px-[60px] max-w-[850px] gap-y-[20px] justify-center  px-0 lg:px-[150px]  lg:text-left">
+        <div className="absolute inset-0 flex flex-col px-[60px] max-w-[850px] gap-y-[20px] justify-center   lg:px-[150px]  lg:text-left">
           <h1 className="text-2xl lg:text-4xl text-white font-bold">
             About Us
           </h1>

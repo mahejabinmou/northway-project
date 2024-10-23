@@ -21,7 +21,7 @@ const Distenation = () => {
       <Application></Application>
       <WhyStudy countryName={countryName}></WhyStudy>
       <Carrer></Carrer>
-      <PopularUni></PopularUni>
+      <PopularUni countryName={countryName}></PopularUni>
       <CostOfEducation></CostOfEducation>
       <Glance countryName={countryName}></Glance>
       <OurStudentSay></OurStudentSay>

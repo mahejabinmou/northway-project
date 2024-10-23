@@ -12,7 +12,8 @@ const DistenationBanner = ({ countryName }) => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co/2gBW6R9/banner-6-66d96fd9dcee5.webp"})`,
+            backgroundImage: `url(${"https://i.ibb.co.com/84w5PW6/Banner.webp"})`,
+            filter: "brightness(.7) contrast(1.4)",
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[600px] flex justify-center items-center"
         ></div>

@@ -1,8 +1,10 @@
 import { MdArrowRightAlt } from "react-icons/md";
 import "./WhyStudy.css";
 import { Link } from "react-router-dom";
+import { countryDetailsDestructor } from "../../../utils/CountryDetails";
 
-const WhyStudy = () => {
+const WhyStudy = ({ countryName }) => {
+  const countryDetails = countryDetailsDestructor(countryName);
   return (
     <div className=" ">
       <div className=" md:hidden block sectionGap">
@@ -17,14 +19,11 @@ const WhyStudy = () => {
         <div>
           <h1 className="font-helvetica font-bold pb-[10px] text-[30px] leading-[36px] pt-[30px]">
             {" "}
-            Why Study <span className="text-[#F6941E]">in USA? </span>
+            Why Study <span className="text-[#F6941E]">in {countryName}? </span>
           </h1>
 
           <p className="font-normal text-[14px] leading-[21px] text-black/[0.8]">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-
+            {countryDetails.subTitle}
           </p>
           <h1 className="font-bold text-[24px] leading-[28px] pt-[16px]">
             Quick facts
@@ -64,14 +63,12 @@ const WhyStudy = () => {
           <div>
             <h1 className="chooseUsSamll">
               {" "}
-              Why Study <span className="text-[#F6941E]">in USA? </span>
+              Why Study{" "}
+              <span className="text-[#F6941E]">in {countryName}? </span>
             </h1>
 
             <p className="chooseUsParaText text-black/[0.8]">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-
+              {countryDetails.subTitle}
             </p>
             <h1 className="font-bold text-[24px] leading-[28px] pt-[16px] text-[#1E1E1E]">
               Quick facts
