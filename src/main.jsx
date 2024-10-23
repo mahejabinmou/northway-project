@@ -12,6 +12,7 @@ import Distenation2 from "./ClientSide/Distenation2/Distenation2";
 import ContactUs from "./ClientSide/ContactUs/ContactUs";
 import Select from "./ClientSide/Distenation/Select/Select";
 import SelectPage from "./ClientSide/Distenation/Select/SelectPage";
+import Blog from "./ClientSide/Blogs/Blog";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
   {
     path: "/blogs",
     element: <Blogs></Blogs>,
+  },
+  {
+    path: "/blog/:blogId",
+    element: <Blog />,
   },
 ]);
 

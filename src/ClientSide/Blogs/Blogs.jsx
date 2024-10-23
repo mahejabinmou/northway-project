@@ -4,122 +4,15 @@ import { IoPersonOutline } from "react-icons/io5";
 import { LuMessagesSquare } from "react-icons/lu";
 import Navbar from "../Shared/Navbar/Navbar";
 import Footer from "../Shared/Footer/Footer";
+import { blogs } from "../../Constants/exports";
+import { useNavigate } from "react-router-dom";
 
 const Blogs = () => {
   const [showAll, setShowAll] = useState(false); // Step 1: state to toggle showing all images
 
-  const images = [
-    {
-      imgSrc: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      LgImg: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      LgImg: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      LgImg: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      LgImg: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      LgImg: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      LgImg: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      LgImg: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-    {
-      imgSrc: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      LgImg: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-      icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
-      date: "July 24, 2024",
-      title: "Emotional Intelligence in Education Building",
-      subtitle: "Back Theme",
-      extendedSubtitle: "25 Comments",
-    },
-  ];
+  const navigate = useNavigate();
 
-  const visibleImages = showAll ? images : images.slice(0, 6); // Step 2: Show only 6 images initially
+  const visibleImages = showAll ? blogs : blogs.slice(0, 6); // Step 2: Show only 6 images initially
 
   return (
     <div className="bg-[#F5F5F5]">
@@ -158,14 +51,18 @@ const Blogs = () => {
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 justify-center items-center
               lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
           >
-            {visibleImages.map((image, index) => (
-              <div key={index} className="px-2">
+            {visibleImages.map((blog, index) => (
+              <div
+                key={index}
+                className="px-2 cursor-pointer"
+                onClick={() => navigate(`/blog/${blog.id}`)}
+              >
                 <div className=" relative bg-white shadow-xl">
                   <div className="h-[197px]">
                     <img
                       className="w-full h-full object-cover"
-                      src={image.LgImg}
-                      alt={image.LgImg}
+                      src={blog.LgImg}
+                      alt={blog.LgImg}
                     />
                   </div>
                   <div className="py-[30px] px-[20px]">
@@ -173,19 +70,19 @@ const Blogs = () => {
                       <div className="h-[19px] w-[17px] flex-shrink-0 text-[#1E1E1E]/[.8]">
                         <img
                           className="w-full h-full object-cover"
-                          src={image.icon}
-                          alt={image.icon}
+                          src={blog.icon}
+                          alt={blog.icon}
                         />
                       </div>
                       <p className=" text-[#1E1E1E]/[.8] font-normal text-[16px] leading-[24px] font-helvetica">
-                        {image.date}
+                        {blog.date}
                       </p>
                     </div>
                     <h1
                       className="font-bold xl:text-[24px] xl:leading-[36px] 2xl:text-[24px] 2xl:leading-[36px]
                  lg:text-[20px] lg:leading-[30px]  pb-[20px] text-[24px] leading-[36px]"
                     >
-                      {image.title}
+                      {blog.title}
                     </h1>
                     <hr className="text-black " />
                     <div className="flex items-center justify-between pt-[20px]">
@@ -194,7 +91,7 @@ const Blogs = () => {
                    md:text-[10px] md:leading-[10px] md:gap-x-[5px] xs:gap-x-[5px] gap-x-[5px]"
                       >
                         <IoPersonOutline />
-                        <p>{image.subtitle}</p>
+                        <p>{blog.subtitle}</p>
                       </div>
                       <div
                         className="text-black/[.6]
@@ -202,7 +99,7 @@ const Blogs = () => {
                   md:text-[10px] md:leading-[10px] md:gap-x-[5px] xs:gap-x-[5px] gap-x-[5px]"
                       >
                         <LuMessagesSquare />
-                        <p>{image.extendedSubtitle}</p>
+                        <p>{blog.extendedSubtitle}</p>
                       </div>
                     </div>
                   </div>
