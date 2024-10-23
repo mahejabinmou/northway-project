@@ -5,7 +5,6 @@ import { IoMenu } from "react-icons/io5";
 import { MdArrowRightAlt, MdClose } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import "./Navbar.css";
-import SelectPage from "../../Distenation/Select/SelectPage";
 import Form from "./Form/Form";
 import StudyDestination from "./StudyDestentionFlag/StudyDestention";
 const Navbar = () => {
@@ -24,9 +23,7 @@ const Navbar = () => {
   const isHomePage = location.pathname === "/";
   const isAboutPage = location.pathname === "/About";
   const isBlogsPage = location.pathname === "/blogs";
-  const isContactPage = location.pathname === "/contactUs";
-  // const isStudyDistention = location.pathname === "/studyDistention"
-  // const isStudyDistention2 = location.pathname === "/studyDistention2"
+  const isContactPage = location.pathname === "/ContactUs";
   const isPhotoGallery = location.pathname === "/photo-gallery";
   const isVideoGallery = location.pathname === "/video-gallery";
 
@@ -74,10 +71,10 @@ const Navbar = () => {
   return (
     <div>
       {/* Fixed Navbar */}
-
+      {/* mobile */}
       <nav
-        className={`lg:hidden fix ${scrolled ? "hidden" : ""} ${
-          isHomePage ? "fixed-navbar" : ""
+        className={`lg:hidden fix  ${scrolled ? "hidden" : ""} ${
+          isHomePage ? "fixed-navbar" : "fixed-navbar"
         }`}
       >
         <div className="navbarLeftRightSpace flex justify-between items-center bg-transparent font-helvetica font-normal">
@@ -237,11 +234,7 @@ const Navbar = () => {
 
       {/* large screen nav */}
       <div>
-        <div
-          className={`hidden lg:block w-full z-50 ${
-            isHomePage ? "absolute" : "relative"
-          }`}
-        >
+        <div className={`hidden lg:block w-full z-50 absolute `}>
           <div className="largeScreenMenu bg-transparent font-helvetica font-normal">
             <div className="headerLogo">
               <Link to="/">
@@ -261,7 +254,7 @@ const Navbar = () => {
                     className={` ${
                       isHomePage
                         ? "text-[#F6941E] hover:text-[#F6941E]"
-                        : "text-black hover:text-[#F6941E]"
+                        : "text-white hover:text-[#F6941E]"
                     }`}
                   >
                     Home
@@ -275,7 +268,7 @@ const Navbar = () => {
                         ? "text-white"
                         : isAboutPage
                         ? "text-[#f6941e]"
-                        : "text-black"
+                        : "text-white"
                     }`}
                   >
                     About Us
@@ -288,7 +281,7 @@ const Navbar = () => {
                     className={`flex items-center lg:gap-x-[4px] ${
                       isHomePage
                         ? "text-white hover:text-[#f6941e]"
-                        : "text-black hover:text-[#f6941e]"
+                        : "text-white hover:text-[#f6941e]"
                     }`}
                   >
                     Study Distention
@@ -336,7 +329,7 @@ const Navbar = () => {
                     className={`flex items-center gap-x-[4px] ${
                       isHomePage
                         ? "text-white hover:text-[#f6941e]"
-                        : "text-black hover:text-[#f6941e]"
+                        : "text-white hover:text-[#f6941e]"
                     }`}
                   >
                     Gallery
@@ -364,7 +357,7 @@ const Navbar = () => {
                         ? "text-white"
                         : isBlogsPage
                         ? "text-orange-500"
-                        : "text-black"
+                        : "text-white"
                     }`}
                   >
                     Blogs
@@ -377,15 +370,12 @@ const Navbar = () => {
                         ? "text-white"
                         : isContactPage
                         ? "text-orange-500"
-                        : "text-black"
+                        : "text-white"
                     }`}
                   >
                     Contact us
                   </li>
                 </Link>
-                {/* <Link to="/blogs" onClick={menuClose}>
-                  <li>Blogs</li>
-                </Link> */}
               </div>
             </div>
 

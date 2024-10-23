@@ -18,7 +18,7 @@ const Blogs = () => {
     <div className="bg-[#F5F5F5]">
       <Navbar></Navbar>
 
-      <div className="mt-[30px]  relative">
+      <div className=" relative">
         {/* Background image section */}
         <div
           style={{

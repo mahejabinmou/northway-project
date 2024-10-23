@@ -8,7 +8,7 @@ const DistenationBanner = ({ countryName }) => {
     <div>
       <Navbar></Navbar>
 
-      <div className="mt-[30px]  relative">
+      <div className="  relative">
         {/* Background image section */}
         <div
           style={{

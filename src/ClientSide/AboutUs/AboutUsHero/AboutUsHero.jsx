@@ -5,12 +5,12 @@ const AboutUsHero = () => {
     <div className="">
       <Navbar></Navbar>
 
-      <div className="mt-[30px]  md:block hidden">
+      <div className="  md:block hidden">
         {/* Background image section */}
         <div
           style={{
             backgroundImage: `url(${"https://i.ibb.co.com/vYB2PxM/pexels-fauxels-3184394.webp"})`,
-            filter: "brightness(.5) ",
+            filter: "brightness(.7) ",
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[600px] flex justify-center items-center"
         ></div>
