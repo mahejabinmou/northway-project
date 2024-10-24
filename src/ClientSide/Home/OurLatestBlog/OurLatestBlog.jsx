@@ -149,7 +149,7 @@ const OurLatestBlog = () => {
         </Slider>
 
         {/* Browse More Button */}
-        <div className="mt-5 flex justify-center items-center">
+        <div className="mt-10 flex justify-center items-center">
           <Link to="/blogs">
             <button
               className="  px-[20px] text-[#F6941E]  border border-[#F6941E]

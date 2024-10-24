@@ -38,8 +38,10 @@ const Application = () => {
         px-[150px] text-center 
          text-[#1E1E1E]/[.8]"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            If you’ve decided to study at a university , you will have to gather
+            the right documents to prove that you fit the university
+            requirements. Provide complete personal information, previous
+            qualifications, financial information, and a personal statement.
           </p>
         </div>
         {/* xl */}
@@ -96,7 +98,7 @@ const Application = () => {
         </div>
 
         {/* 2xl */}
-        <div className="xl:hidden xs:hidden lg:hidden 2xl:block max-w-[1140px]">
+        <div className="xl:hidden xs:hidden lg:hidden 2xl:block ">
           <div className="flex justify-between items-center gap-x-[35px]  relative">
             {steps.map((step, index) => (
               <div

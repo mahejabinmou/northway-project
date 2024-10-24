@@ -46,7 +46,7 @@ const Faq = ({ countryName }) => {
     xl:px-[150px] xl:mt-[300px] 
     2xl:px-[150px] 2xl:mt-[300px]"
     >
-      <div className="flex flex-col md:flex-row-reverse gap-x-[68px] items-center">
+      <div className="flex 2xl:pt-[90px] pt-[70px] flex-col md:flex-row-reverse gap-x-[68px] items-center">
         <div className="w-full md:w-1/2 h-[370px] lg:h-[506px] pb-[30px] lg:pb-0">
           <img
             className="w-full h-full"

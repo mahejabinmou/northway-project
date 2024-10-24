@@ -245,7 +245,7 @@ const PrevArrow = (props) => {
        bg-[#F6941E33]/[.2]
       text-[#1E1E1E] 
       
-      rounded-full p-2"
+      rounded-full p-2 "
       onClick={onClick}
     >
       <svg
