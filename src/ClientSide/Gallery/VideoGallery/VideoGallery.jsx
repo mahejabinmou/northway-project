@@ -31,7 +31,7 @@ const VideoGallery = () => {
         <div
           style={{
             backgroundImage: `url(${"https://i.ibb.co.com/sJnd3yC/woman-wearing-lanyard-is-standing-front-building-1.webp"})`,
-            filter: "brightness(.7)",
+            filter: "brightness(.6)",
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[914px] flex justify-center items-center"
         ></div>

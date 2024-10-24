@@ -34,7 +34,7 @@ const PhotoGallery = () => {
         <div
           style={{
             backgroundImage: `url(${"https://i.ibb.co.com/HpJMVbW/students-back-school-2024-beautiful-school-buildings-2.webp"})`,
-            filter: "brightness(.6)",
+            filter: "brightness(.5)",
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[914px] flex justify-center items-center"
         ></div>

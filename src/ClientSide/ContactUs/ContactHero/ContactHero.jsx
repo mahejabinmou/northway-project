@@ -10,9 +10,9 @@ const ContactHero = () => {
         <div
           style={{
             backgroundImage: `url(${"https://i.ibb.co.com/Sy4NLkB/louis-hansel-Og-Drj7-Q8-EAw-unsplash.webp"})`,
-            filter: "brightness(.7)",
+            filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[914px]  flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] xs:h-[485px] md:h-[914px]  flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
@@ -20,7 +20,7 @@ const ContactHero = () => {
           <h1 className="text-2xl lg:text-4xl text-white font-bold font-helvetica ">
             Contact Us
           </h1>
-          <p className="text-xl 2xl:text-2xl lg:text-base  text-white mt-2 lg:mt-0 font-medium font-helvetica">
+          <p className="text-[16px] md:text-xl 2xl:text-2xl lg:text-base  text-white mt-2 lg:mt-0 font-medium font-helvetica">
             We strive to build a global community where quality higher education
             empowers curious learners and encourages them to transform their
             lives. We deploy cutting-edge technologies on the Northway platform

@@ -13,22 +13,19 @@ const Glance = ({ countryName }) => {
 
   // Function to handle rendering text with red pointers and arrows
   const renderTextWithFormat = (text) => {
-    console.log("Rendering Text:", text); // Log the text being rendered
-
     // Check if text is an array or a string
     if (Array.isArray(text)) {
       return text.map((item, index) => {
-        console.log("Array Item:", item); // Log each item in the array
         if (typeof item === "string") {
+          const arrowIndex = item.search(/[►➤]/); // Find the position of the first arrow symbol
+
           return (
             <div key={index}>
-              {item.includes("►") && (
-                <span style={{ color: "red" }}>{item.slice(0, 1)}</span>
+              {arrowIndex > -1 && (
+                <span style={{ color: "red" }}>{item.charAt(arrowIndex)}</span>
               )}
-              {item.includes("➤") && (
-                <span style={{ color: "red" }}>{item.slice(0, 1)}</span>
-              )}
-              {item.slice(1)}
+              <span>{item.slice(arrowIndex + 1)}</span>{" "}
+              {/* Correctly slice from the next character */}
             </div>
           );
         } else {
@@ -37,15 +34,14 @@ const Glance = ({ countryName }) => {
         }
       });
     } else if (typeof text === "string") {
+      const arrowIndex = text.search(/[►➤]/);
+
       return (
         <div>
-          {text.includes("►") && (
-            <span style={{ color: "red" }}>{text.slice(0, 1)}</span>
+          {arrowIndex > -1 && (
+            <span style={{ color: "red" }}>{text.charAt(arrowIndex)}</span>
           )}
-          {text.includes("➤") && (
-            <span style={{ color: "red" }}>{text.slice(0, 1)}</span>
-          )}
-          {text.slice(1)}
+          <span>{text.slice(arrowIndex + 1)}</span>
         </div>
       );
     }
@@ -87,7 +83,7 @@ xl:px-[150px]
                 <td className="border-b text-[20px] text-[#272727] px-4 py-2 font-medium">
                   {row.factor}
                 </td>
-                <td className="border-b text-[#464646] text-[16px] px-4 py-2 whitespace-pre-line">
+                <td className="border-b text-[#464646] text-[16px] px-4 py-2 whitespace-normal break-words">
                   {renderTextWithFormat(row.country)}
                 </td>
               </tr>

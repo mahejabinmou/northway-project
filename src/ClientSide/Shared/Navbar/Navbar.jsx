@@ -92,7 +92,7 @@ const Navbar = () => {
           <div className="h-[30px] ">
             <IoMenu
               className={`h-full w-full ${
-                isHomePage ? "text-white" : "text-[#1E1E1E]/[.8]"
+                isHomePage ? "text-white" : "text-white"
               }`}
               onClick={handleMenu}
             ></IoMenu>

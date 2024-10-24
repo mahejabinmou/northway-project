@@ -33,7 +33,7 @@ const joyItems = [
     LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "September 9, 2024",
-    title: "Scholarships  for Studying Abroad",
+    title: "Scholarships and education  in higher Study ",
     subtitle: "Back Theme",
     extendedSubtitle: "25 Comments",
   },
@@ -106,7 +106,7 @@ const OurLatestBlog = () => {
                   />
                 </div>
                 <div className="py-[30px] px-[20px]">
-                  <div className="flex justify-items-center gap-x-[10px] mb-[14px] mt-[10px]">
+                  <div className="flex justify-items-center  2xl:gap-x-[15px] gap-x-[10px] mb-[14px] mt-[10px]">
                     <div className="h-[19px] w-[17px] flex-shrink-0 text-[#1E1E1E]/[.8]">
                       <img
                         className="w-full h-full object-cover"
@@ -167,7 +167,7 @@ const OurLatestBlog = () => {
         <Slider {...settings}>
           {joyItems.map((item, index) => (
             <div key={index} className="px-2">
-              <div className=" relative bg-white shadow-xl">
+              <div className=" relative bg-white shadow-xl ">
                 <div className="h-[197px]">
                   <img
                     className="w-full h-full object-cover"
@@ -189,7 +189,7 @@ const OurLatestBlog = () => {
                     </p>
                   </div>
                   <h1
-                    className="font-bold xs:text-[24px] xs:leading-[36px] xs:pb-[20px]
+                    className="font-bold xs:text-[24px] xs:leading-[30px] xs:pb-[20px]
                  "
                   >
                     {item.title}

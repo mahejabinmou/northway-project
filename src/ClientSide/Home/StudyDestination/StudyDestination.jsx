@@ -193,8 +193,8 @@ const StudyDestination = () => {
 
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
-                src="https://i.ibb.co.com/fHKyFgN/pexels-migsg-2421025.webp"
-                alt="United States"
+                src="https://i.ibb.co.com/VV6xZHC/Facts-1280x720.webp"
+                alt="UAE"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
@@ -214,45 +214,7 @@ const StudyDestination = () => {
             <div className="relative group w-full h-[267px] pb-[20px]">
               <img
                 src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
-
-              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">Canada</h1>
-                <Link to="/studyDistention">
-                  <button className="flex items-center justify-center readMore gap-x-[10px]">
-                    Read more <MdArrowRightAlt />
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="relative group w-full h-[267px] pb-[20px]">
-              {/* Image */}
-              <img
-                src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
-                alt="United States"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
-
-              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">Ireland</h1>
-                <Link to="/studyDistention">
-                  <button className="flex items-center justify-center readMore gap-x-[10px]">
-                    Read more <MdArrowRightAlt />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="relative group w-full h-[267px] pb-[20px]">
-              <img
-                src="https://i.ibb.co.com/vXPcMB2/pexels-kelly-1179532-2382681-2.webp"
-                alt="United States"
+                alt="Australia"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
@@ -267,8 +229,46 @@ const StudyDestination = () => {
               </div>
             </div>
             <div className="relative group w-full h-[267px] pb-[20px]">
+              {/* Image */}
               <img
-                src="https://i.ibb.co.com/1KHNkQ1/image-11-66e0a757ad7d1.webp"
+                src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
+                alt="Canada"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+
+              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h1 className="united">Canada</h1>
+                <Link to="/studyDistention">
+                  <button className="flex items-center justify-center readMore gap-x-[10px]">
+                    Read more <MdArrowRightAlt />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="relative group w-full h-[267px] pb-[20px]">
+              <img
+                src="https://i.ibb.co.com/GPmQbs2/ireland-6717714b87c95.webp"
+                alt="Ireland"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+
+              <div className="absolute inset-0 flex flex-col items-center justify-center  bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h1 className="united">Ireland</h1>
+                <Link to="/studyDistention">
+                  <button className="flex items-center justify-center readMore gap-x-[10px]">
+                    Read more <MdArrowRightAlt />
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="relative group w-full h-[267px] pb-[20px]">
+              <img
+                src="https://i.ibb.co.com/DzDqDPW/europ-671771c9cc68d.webp"
                 alt="United States"
                 className="w-full h-full object-cover"
               />

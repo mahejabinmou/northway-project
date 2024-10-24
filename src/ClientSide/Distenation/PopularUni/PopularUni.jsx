@@ -30,7 +30,7 @@ const PopularUni = ({ countryName }) => {
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-3 md:px-8 pb-10">
-          <div className="bg-white px-[8.5px] py-[38.5px] flex flex-col justify-center items-center">
+          <div className="bg-white px-[25px] py-[38.5px] flex flex-col justify-center items-center">
             <img
               className="h-[70px] w-[70px] mb-[12px]"
               src={countryDetails?.img1}

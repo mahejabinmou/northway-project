@@ -12,7 +12,7 @@ const ChooseUs = () => {
           <div
             style={{
               backgroundImage: `url("https://i.ibb.co.com/55VsYxP/students-back-school-2024-beautiful-school-buildings.webp")`,
-              filter: "brightness(.8)",
+              filter: "brightness(.6)",
             }}
             className="bg-no-repeat bg-center bg-cover w-full md:h-[700px] h-[383px] flex justify-center items-center"
           ></div>
@@ -30,7 +30,7 @@ const ChooseUs = () => {
             </p>
             <Link to="/ContactUs">
               <button className="flex items-center justify-between joinUsBtn gap-x-[11.5px] hover:bg-[#F6941E] hover:text-white">
-                join us <MdArrowRightAlt />
+                Join us <MdArrowRightAlt />
               </button>
             </Link>
           </div>
