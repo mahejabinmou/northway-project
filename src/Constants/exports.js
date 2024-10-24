@@ -403,3 +403,207 @@ export const blogs = [
       "With the increasing presence of technology in education, it's important to consider how emotional intelligence can be fostered in the digital age. This blog explores ways to teach emotional intelligence in online classrooms and through digital tools, ensuring students continue to develop emotional skills in a tech-focused world.",
   },
 ];
+
+export const tableData = [
+  {
+    country: "USA",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Bachelor's degree- $10,000-$55,000\nMaster's degree- $15,000-$60,000",
+      },
+      {
+        factor: "Duration",
+        country:
+          "Bachelor's degree- 3-4 years,\nMaster's degree- 1-2 years\nPh.D.- 6 years",
+      },
+      {
+        factor: "Eligibility criteria",
+        country:
+          "Academic credentials- High school completion, Bachelor’s degree, or Master’s degree in related fields of study respectively.\nDocuments- Passport, Student visa (F, M, or J),for USA, LOR\nTest scores- GMAT/GRE, IELTS/TOEFL/PTE",
+      },
+      {
+        factor: "Popular courses",
+        country:
+          "Nursing\nAEngineering\nMSc Computer Science\nBusiness Management",
+      },
+      {
+        factor: "Student visa fees (F, M, and J visas)",
+        country: "$185 (Application fee)",
+      },
+    ],
+  },
+  {
+    country: "UK",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Bachelor's and Master's degrees - GBP 10,000 - GBP 40,000 (INR 10,41,000 to INR 41,62,000 approximately)\nPh.D. - Up to GBP 20,000 (INR 20,81,000 approximately)",
+      },
+      {
+        factor: "Eligibility criteria",
+        country:
+          "Academic credentials- High school completion, Bachelor's degree, or Master's degree in related fields of study\nDocuments- Passport, Student visa, SOP for UK, LOR\nTest scores- GMAT, GRE, IELTS, TOEFL, PTE, DET, etc.",
+      },
+      {
+        factor: "Test score requirements",
+        country:
+          "GRE- 310-315\nGMAT- 650+\nIELTS- 6.5-7.0\nTOEFL- 90+\nDuolingo- 105-120",
+      },
+      {
+        factor: "Popular courses",
+        country: "Nursing\nPsychology\nLaw\nComputer Science\nMedicine",
+      },
+      {
+        factor: "Student visa fees",
+        country:
+          "GBP 363 (INR 37,758 approximately) for Tier 4 (General) student visa",
+      },
+    ],
+  },
+  {
+    country: "Ireland",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Bachelor's degree - €10,000–€25,000 or INR 8,95,000–INR 22,32,000 approximately\nMaster's degree - €9,000–€35,000 or INR 9,00,000–INR 31,00,000 approximately\nPh.D. - €12,000–€35,000 or INR 9,96,000–INR 29,05,000 approximately",
+      },
+      {
+        factor: "Eligibility criteria",
+        country:
+          "Completed application form\nAcademic transcripts\nProof of English language proficiency\nProof of Identity\nCurriculum Vitae (CV)/Resume\n2 letters of recommendation\nSOP/Personal statement\nFinancial proof\nStudent visa",
+      },
+      {
+        factor: "Test score requirements",
+        country: "PTE - 60-65\nIELTS - 6.5+ above\nTOEFL IBT - 80-100",
+      },
+      {
+        factor: "Popular courses",
+        country:
+          "Agricultural Sciences\nBiology and Biochemistry\nInformation and Computer Technology\nClinical Medicine\nEconomics and Business\nElectrical and Electronic Engineering\nArts and Humanities\nSocial Sciences and Public Health\nSpace Science\nPsychiatry and Psychology",
+      },
+      {
+        factor: "Student visa fees (up to 5 years)",
+        country: "€191",
+      },
+    ],
+  },
+  {
+    country: "Canada",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Bachelor's degree - CAD 12,000–CAD 30,000 approximately\nMaster's degree - CAD 18,000–CAD 57,000 approximately\nPh.D. - CAD 4,100–CAD 20,000 approximately",
+      },
+      {
+        factor: "Duration",
+        country:
+          "Bachelor's degree - 3–4 years\nMaster's degree - 3–4 years\nPh.D. - 4–6 years",
+      },
+      {
+        factor: "Eligibility criteria",
+        country:
+          "Academic credentials - High school completion, Bachelor's degree, or Master's degree in related fields of study\nDocuments - Passport, Study permit, SOP, LOR, etc.\nTest scores - GMAT, GRE, IELTS, TOEFL, PTE, DET, etc.",
+      },
+      {
+        factor: "Test score requirements",
+        country:
+          "GRE - 300+\nGMAT - 550+\nIELTS - 6.0+\nTOEFL - 90+\nDET - 105+",
+      },
+      {
+        factor: "Popular courses",
+        country:
+          "Biology\nEngineering\nAgricultural Science & Forestry\nBusiness Management",
+      },
+      {
+        factor: "Study permit fees",
+        country: "CAD 150",
+      },
+    ],
+  },
+
+  {
+    country: "Australia",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Bachelor's degree - AUD 20,000–AUD 45,000 (INR 10,92,871–INR 24,58,981 approximately)\nMaster's degree - AUD 22,200–AUD 50,000 (INR 12,02,158–INR 27,32,179 approximately)\nPh.D. - AUD 18,000–AUD 42,000 (INR 9,83,584–INR 22,95,030 approximately)",
+      },
+      {
+        factor: "Eligibility criteria",
+        country:
+          "Academic credentials - High school completion, Bachelor's degree, or Master's degree in the respective fields of study\nDocuments - Passport, visa, SOP, LOR, etc.\nTest scores - GMAT, GRE, IELTS, TOEFL, PTE, DET, etc.",
+      },
+      {
+        factor: "Test score requirements",
+        country: [
+          "GRE - 310–315",
+          "GMAT - 650+",
+          { text: "IELTS", style: { color: "red" } }, // Marking "IELTS" to be red in React rendering
+          "TOEFL - 90+ in all modules",
+        ],
+      },
+      {
+        factor: "Popular courses",
+        country:
+          "Business Management, Medicine, Engineering, Architecture, Computer Science & Information Technology",
+      },
+      {
+        factor: "Students visa (subclass 500) fees",
+        country: "AUD 650 (base application charge)",
+      },
+    ],
+  },
+  {
+    country: "Germany",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Vocational or Diploma courses - €300 or INR 27,000 approximately\nBachelor's degree - €300 or INR 27,000 approximately\nMaster's degree - €300 or INR 27,000 approximately\nMS - €300–€28,000 or INR 28,500–INR 25 lacs\nPh.D. - €300–€30,000 or INR 27,000–INR 2,70,000 approximately",
+      },
+      {
+        factor: "Eligibility criteria",
+        country: [
+          "► Entrance qualification",
+          "► Transcript of grades",
+          "► Proof of language proficiency",
+          "   ➤ English language proficiency test",
+          "      ► IELTS Academic test",
+          "      ► TOEFL iBT",
+          "      ► PTE Academic",
+          "   ➤ German language proficiency test",
+          "      ► DSH - Deutsche Sprachprüfung für den Hochschulzugang",
+          "      ► TestDaF - Test of German as a foreign language",
+          "► ID or valid passport copies",
+          "► Letter of motivation (optional)",
+        ],
+      },
+      {
+        factor: "Test scores",
+        country: [
+          "GDS - Goethe-Zertifikat C2",
+          "GRE - 315 and above",
+          "GMAT - 550 and above",
+          "IELTS - 5.5 and above",
+          "TOEFL - 60–80",
+        ],
+      },
+      {
+        factor: "Top courses offered",
+        country:
+          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+      },
+      {
+        factor: "Student visa fees",
+        country:
+          "€75 or INR 8,700 approximately\n€37.5 or INR 3,300 approximately for minors (less than 18 years old)",
+      },
+    ],
+  },
+];

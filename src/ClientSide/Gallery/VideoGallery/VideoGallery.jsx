@@ -33,15 +33,15 @@ const VideoGallery = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/sJnd3yC/woman-wearing-lanyard-is-standing-front-building-1.webp"})`,
             filter: "brightness(.7)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[600px] flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[914px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
-        <div className="absolute inset-0 flex gap-y-[20px] px-[60px] max-w-[850px] lg:px-[150px] flex-col  justify-center  lg:text-left">
+        <div className="absolute inset-0 flex gap-y-[20px] px-[60px] max-w-[850px] lg:px-[150px] flex-col  justify-center  lg:text-left 2xl:max-w-[1200px]">
           <h1 className="text-2xl lg:text-4xl text-white font-bold">
             Video Gallery
           </h1>
-          <p className="text-xl  lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
+          <p className="text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
             We strive to build a global community where quality higher education
             empowers curious learners and encourages them to transform their
             lives. We deploy cutting-edge technologies on the Northway platform
@@ -53,7 +53,7 @@ const VideoGallery = () => {
       </div>
 
       <div
-        className="sectionGap mt-10  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
+        className="sectionGap mt-[50px]  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
       md:pb-[80px] pb-[100px] xs:pb-[100px]"
       >
         <div className="">

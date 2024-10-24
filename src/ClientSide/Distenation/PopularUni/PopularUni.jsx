@@ -13,7 +13,7 @@ const PopularUni = ({ countryName }) => {
   return (
     <div
       className="w-full text-center mt-[100px] xs:mt-[100px] 
-       md:mt-[80px] lg:mt-[80px] xl:mt-[150px] 2xl:mt-[150px] relative bg-cover bg-center h-auto md:min-h-[750px] items-center bg-fixed flex flex-col"
+       md:mt-[80px] lg:mt-[80px] xl:mt-[150px] 2xl:mt-[150px] relative bg-cover bg-center h-auto md:min-h-[750px] items-center bg-fixed flex flex-col pb-[70px]"
       style={{
         backgroundImage: `url(${"https://i.ibb.co.com/6F4jS3x/unibg-66db347170e15.webp"})`,
       }}
@@ -23,7 +23,7 @@ const PopularUni = ({ countryName }) => {
         <div className="text-white md:my-10 my-10 mt-8 flex justify-center font-bold md:text-[48px] md:leading-[57px] xs:text-[35px] xs:leading-[57px] xxs:text-[30px] xxs:leading-[57px]">
           <h1
             className="font-helvetica font-bold lg:text-[48px] lg:leading-[57.6px]
-            xs:text-[30px] xs:leading-[36px] lg:mb-[50px] lg:mt-[77px] md:mb-[30px] md:mt-[50px]
+            xs:text-[30px] xs:leading-[36px] lg:mb-[30px] lg:mt-[77px] md:mb-[30px] md:mt-[50px]
             xs:mb-[50px] xs:mt-[50px]"
           >
             <span className="text-[#F6941E]">Popular</span> Universities

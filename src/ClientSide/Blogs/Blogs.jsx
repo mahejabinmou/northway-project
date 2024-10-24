@@ -25,13 +25,13 @@ const Blogs = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/M7107nr/clay-banks-Hf8n0-RUk7g0-unsplash-1.webp"})`,
             filter: "brightness(.6)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[600px] flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[914px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
-        <div className="absolute inset-0 flex flex-col gap-y-[20px] px-[60px] max-w-[850px]  justify-center   lg:px-[150px]   lg:text-left">
+        <div className="absolute inset-0 mt-[70px] flex flex-col gap-y-[20px] px-[60px] 2xl:max-w-[1280px] max-w-[850px]  justify-center   lg:px-[150px]   lg:text-left">
           <h1 className="text-2xl lg:text-4xl text-white font-bold">Blog</h1>
-          <p className="text-xl  lg:text-base  text-white mt-2 lg:mt-0 font-medium font-helvetica">
+          <p className="text-xl 2xl:text-2xl lg:text-base  text-white mt-2 lg:mt-0 font-medium font-helvetica">
             We strive to build a global community where quality higher education
             empowers curious learners and encourages them to transform their
             lives. We deploy cutting-edge technologies on the Northway platform
@@ -43,7 +43,7 @@ const Blogs = () => {
       </div>
 
       <div
-        className="sectionGap mt-10  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
+        className="sectionGap mt-[100px]  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
       md:pb-[80px] pb-[100px] xs:pb-[100px]"
       >
         <div className="">
@@ -93,14 +93,14 @@ const Blogs = () => {
                         <IoPersonOutline />
                         <p>{blog.subtitle}</p>
                       </div>
-                      <div
+                      {/* <div
                         className="text-black/[.6]
                     font-normal  font-helvetica flex items-center xl:text-[16px] xl:leading-[24px] xl:gap-x-[10px] 2xl:text-[16px] 2xl:leading-[24px] 2xl:gap-x-[10px] lg:text-[12px] lg:leading-[24px] lg:gap-x-[10px] 
                   md:text-[10px] md:leading-[10px] md:gap-x-[5px] xs:gap-x-[5px] gap-x-[5px]"
                       >
                         <LuMessagesSquare />
                         <p>{blog.extendedSubtitle}</p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const Blogs = () => {
           </div>
 
           <button
-            className="flex justify-center items-center mx-auto mt-[50px]
+            className="flex justify-center items-center mx-auto mt-[70px]
             border border-[#F6941E] text-[#F6941E] font-helvetica
              font-bold text-[18px] leading-[23px] py-[13px] px-[20px]"
             onClick={() => setShowAll(!showAll)} // Step 3: Toggle between showing all and limited images

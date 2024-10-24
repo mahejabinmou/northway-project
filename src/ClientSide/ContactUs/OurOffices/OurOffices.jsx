@@ -111,7 +111,7 @@ const OurOffices = () => {
         "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near Dubai Embassy)",
     },
     {
-      flag: "https://i.ibb.co.com/JrX4XSz/image-14-2-66dd3adc09621.webp",
+      flag: "/flag/usa.png",
       name: "USA",
       email: "info@northwayglobalUsa.com.bd",
       phone: "+1607-00268",
@@ -134,26 +134,26 @@ const OurOffices = () => {
 
   return (
     <>
-      <div className="sectionGap pb-[100px]">
+      <div className="sectionGap ">
         <div className="mb-[50px]">
           <h2 className="text-[48px]  leading-[120%] text-center font-helvetica font-bold">
             Our <span className="text-[#F6941E]">Offices</span>
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-[23px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-[23px]">
           {officeData.map((office) => (
             <div
               key={office.name}
               onMouseEnter={() => handleMouseEnter(office.name)}
               onMouseLeave={handleMouseLeave}
               onClick={() => handleOfficeClick(office)}
-              className={`py-5 px-8 flex items-center justify-self-center shadow-officeShadow transition-all duration-300 cursor-pointer hover:bg-[#F6941E]/[1.5]
+              className={`py-[90px] px-[100px] flex items-center justify-center gap-[20px] shadow-officeShadow transition-all duration-300 cursor-pointer hover:bg-[#F6941E]/[1.5]
           bg-white`}
             >
-              <div className="flex  items-center justify-center gap-2">
+              <div className="flex text-[30px] items-center justify-center gap-[20px]">
                 <img
-                  className="h-[15px] w-[25px]"
+                  className="h-[22px] w-[30px]"
                   src={office.flag}
                   alt={`Flag of ${office.name}`}
                 />

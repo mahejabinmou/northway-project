@@ -11,7 +11,7 @@ const WhyStudy = ({ countryName }) => {
         <div className=" h-[223px] ">
           <img
             className="w-full h-full object-cover"
-            src="https://i.ibb.co/GVsXHnn/image-15.png"
+            src="/whyStudy.webp"
             alt=""
           />
         </div>
@@ -54,7 +54,7 @@ const WhyStudy = ({ countryName }) => {
             <div className=" h-[447px] ">
               <img
                 className="w-full h-full object-cover"
-                src="https://i.ibb.co/GVsXHnn/image-15.png"
+                src="/whyStudy.webp"
                 alt=""
               />
             </div>

@@ -7,7 +7,7 @@ const Carrer = () => {
         <div className=" h-[223px] ">
           <img
             className="w-full h-full object-cover"
-            src="https://i.ibb.co.com/58y9HKn/image-15-1-66db2f9ce5052.webp"
+            src="/career.webp"
             alt=""
           />
         </div>
@@ -80,7 +80,7 @@ const Carrer = () => {
             <div className=" h-[447px] ">
               <img
                 className="w-full h-full object-cover"
-                src="https://i.ibb.co.com/58y9HKn/image-15-1-66db2f9ce5052.webp"
+                src="/career.webp"
                 alt=""
               />
             </div>

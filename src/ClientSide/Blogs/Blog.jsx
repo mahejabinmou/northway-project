@@ -42,11 +42,11 @@ const Blog = () => {
     );
   return (
     <>
-      <div className="bg-white min-h-screen">
+      <div className="bg-black min-h-screen text-white ">
         <Navbar />
 
-        <div className="mt-10 pb-10">
-          <div className="px-[50px] md:px-[100px] max-w-[1140px] mx-auto">
+        <div className=" pb-10 pt-[100px] ">
+          <div className="  sectionGap">
             <p>Published on {data?.date}</p>
             <h1 className="text-[20px] md:text-[50px] font-bold ">
               {data?.title}
@@ -55,7 +55,11 @@ const Blog = () => {
               <p>By {data.author ? data.author : "james"}</p>
             </div>
             <div className="mt-10">
-              <img src={data?.imgSrc} alt={data?.title} className="w-full" />
+              <img
+                src={data?.imgSrc}
+                alt={data?.title}
+                className="w-full h-full object-cover"
+              />
             </div>
             <p className="text-[20px] mt-10">{data?.description}</p>
             <div className="mt-4 text-black flex items-center gap-1 justify-between">

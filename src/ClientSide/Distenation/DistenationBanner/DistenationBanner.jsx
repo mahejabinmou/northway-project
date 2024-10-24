@@ -15,7 +15,7 @@ const DistenationBanner = ({ countryName }) => {
             backgroundImage: `url(${"https://i.ibb.co.com/84w5PW6/Banner.webp"})`,
             filter: "brightness(.7) contrast(1.4)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[600px] flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[914px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}

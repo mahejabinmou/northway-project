@@ -65,7 +65,7 @@ const OurStudentSay = () => {
 
       {/* ------slider */}
 
-      <div className="slider-container md:pb-[50px] pb-0 ">
+      <div className="slider-container md:pb-[50px] pb-0  2xl:mb-[50px] ">
         <Slider {...settings}>
           <div className="mt-10  max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
             <FaQuoteLeft

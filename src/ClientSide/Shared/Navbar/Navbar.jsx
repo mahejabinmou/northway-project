@@ -26,6 +26,7 @@ const Navbar = () => {
   const isContactPage = location.pathname === "/ContactUs";
   const isPhotoGallery = location.pathname === "/photo-gallery";
   const isVideoGallery = location.pathname === "/video-gallery";
+  const isBlog = location.pathname === "/blog/:blogId";
 
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
