@@ -80,14 +80,14 @@ const OurVideo = () => {
       {/* large */}
       <div className="hidden lg:block lg:pb-[100px] md:pb-[80px] xs:pb-[80px]">
         <div
-          className="relative bg-cover bg-center min-h-[366px] items-center bg-fixed my-24"
+          className="relative bg-cover bg-center min-h-[466px] items-center bg-fixed my-24"
           style={{
             backgroundImage: `url(${"https://i.ibb.co.com/R6Q4WKP/studentbg-66dbe8ed9b77d.webp"})`,
           }}
         >
           <div className="absolute inset-0 bg-black opacity-80"></div>
           <div>
-            <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8 z-10 relative text-white">
+            <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8  z-10 relative text-white">
               <h1 className="studyDestinationHeading ">
                 Our <span className="text-[#F6941E]">Video</span>
               </h1>

@@ -6,7 +6,7 @@ const OurService = () => {
       name: "Study Abroad",
       image: "/Frame (3).svg",
       description:
-        "Our comprehensive study abroad services, assisting students in finding the right educational institutions and ensuring a smooth transition to their desired study destinations.",
+        "Our comprehensive study abroad services, assisting students in  finding the absolute right educational institutions and ensuring a smooth transition to their desired study destinations.",
     },
     {
       name: "Immigration",

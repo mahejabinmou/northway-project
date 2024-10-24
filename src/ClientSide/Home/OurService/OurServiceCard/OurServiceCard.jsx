@@ -75,13 +75,13 @@ const OurServiceCard = ({ image, name, description }) => {
           onMouseEnter={() => handleMouseEnter(name)}
           onMouseLeave={handleMouseLeave}
           className={`bg-[#FFFFFF]  mx-[58px] mb-[12px] xs:mx-[58px] xs:mb-[12px] 
-          md:mx-0 md:mb-0  lg:mx-0 lg:mb-0 xl:mx-0 xl:mb-0   xl:px-[24px] xl:py-[35px] lg:px-[24px] lg:py-[20px] md:px-[10px] md:py-[20px] 
+          md:mx-0 md:mb-0  lg:mx-0 lg:mb-0 xl:mx-0 xl:mb-0   xl:px-[24px] xl:py-[32px] lg:px-[24px] lg:py-[20px] md:px-[8px] md:py-[20px] 
         px-[24px] py-[41px] 
         xxs:py-[10px] xs:px-[24px] xs:py-[41px] text-center ${
           hoveredOffice === name ? " border-b-[#F6941E] border-b-2" : ""
         }`}
         >
-          <div className=" h-[50px] w-[50px] flex justify-center mb-[15px] xxs:mb-[10px] xs:mb-[20px]  xl:mb-[15px]  lg:mb-[15px] md:mb-[15px]  items-center mx-auto">
+          <div className=" h-[50px] w-[50px] flex justify-center  mb-[15px] xxs:mb-[10px] xs:mb-[20px]  xl:mb-[15px]  lg:mb-[15px] md:mb-[15px]  items-center mx-auto">
             <ReactSVG
               afterInjection={(svg) => {
                 if (hover) {

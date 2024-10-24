@@ -33,7 +33,7 @@ const joyItems = [
     LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "September 9, 2024",
-    title: "Scholarships and Financial Aid for Studying Abroad",
+    title: "Scholarships  for Studying Abroad",
     subtitle: "Back Theme",
     extendedSubtitle: "25 Comments",
   },
@@ -79,7 +79,7 @@ const OurLatestBlog = () => {
   };
 
   return (
-    <div className="sectionGap bg-[#F6941E]/[.03] py-[50px]">
+    <div className="sectionGap  py-[50px]">
       <div className="text-center">
         <h1 className="ourLatestBlog pb-[20px] ">
           Our Latest<span className="text-[#F6941E] "> Blog </span>
