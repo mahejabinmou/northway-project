@@ -9,7 +9,11 @@ const WhyStudy = ({ countryName }) => {
     <div className=" ">
       <div className=" md:hidden block sectionGap">
         <div className=" h-[223px] ">
-          <img className="w-full h-full object-cover" src="/why.webp" alt="" />
+          <img
+            className="w-full h-full object-cover"
+            src={countryDetails?.whyStudyImg}
+            alt=""
+          />
         </div>
 
         <div>
@@ -50,7 +54,7 @@ const WhyStudy = ({ countryName }) => {
             <div className=" h-[447px] ">
               <img
                 className="w-full h-full object-cover"
-                src="/why.webp"
+                src={countryDetails?.whyStudyImg}
                 alt=""
               />
             </div>
