@@ -26,7 +26,7 @@ const StudyDestination = () => {
       </div>
 
       {/* large */}
-      <div className="hidden md:block">
+      <div className="hidden md:block text-center">
         <h1
           className=" studyDestinationHeading
          
@@ -35,10 +35,7 @@ const StudyDestination = () => {
           <span className="text-[#F6941E] ">Study </span> Destination
         </h1>
 
-        <p
-          className=" text-[#1E1E1E]/[.8] xl:mr-[563px] lg:mr-[320px]
-        md:mr-[120px] xl:pb-[50px]  pb-[50px] xs:pb-[50px] EveryPara"
-        >
+        <p className=" text-[#1E1E1E]/[.8] max-w-[750px] mx-auto xl:pb-[30px]  pb-[30px] xs:pb-[30px] EveryPara">
           Discover your ideal study destination with our expert guidance. We
           help you navigate the best global educational opportunities, tailored
           to your goals and ambitions. Start your journey towards academic
@@ -47,10 +44,12 @@ const StudyDestination = () => {
 
         <p
           className="md:hidden block text-[#1E1E1E]/[.8] xl:mr-[563px] 2xl:mr-[563px] lg:mr-[320px]
-        md:mr-[120px] xl:pb-[50px] 2xl:pb-[50px] pb-[50px] xs:pb-[50px]"
+        md:mr-[120px] xl:pb-[30px] 2xl:pb-[30px] pb-[30px] xs:pb-[30px]"
         >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Discover your ideal study destination with our expert guidance. We
+          help you navigate the best global educational opportunities, tailored
+          to your goals and ambitions. Start your journey towards academic
+          success today!
         </p>
       </div>
       {/* large */}

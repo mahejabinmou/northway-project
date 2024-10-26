@@ -1457,9 +1457,9 @@ font-helvetica font-normal;
         
         md:text-[16px] md:leading-[24px] md:pb-[30px] 
         /* ========== */
-        xl:text-[16px] xl:leading-[24px] xl:pb-[50px] 
+        xl:text-[16px] xl:leading-[24px] xl:pb-[30px] 
         /* ========== */
-        lg:text-[16px] lg:leading-[24px] lg:pb-[50px]
+        lg:text-[16px] lg:leading-[24px] lg:pb-[30px]
         /* ========== */
          text-[#1E1E1E]/[0.8] 
         font-normal font-helvetica;

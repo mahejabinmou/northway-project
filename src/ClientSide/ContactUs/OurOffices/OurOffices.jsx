@@ -135,7 +135,7 @@ const OurOffices = () => {
   return (
     <>
       <div className="sectionGap ">
-        <div className="mb-[50px]">
+        <div className="mb-[30px]">
           <h2 className="text-[48px]  leading-[120%] text-center font-helvetica font-bold">
             Our <span className="text-[#F6941E]">Offices</span>
           </h2>

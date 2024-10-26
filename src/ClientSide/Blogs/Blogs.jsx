@@ -25,7 +25,7 @@ const Blogs = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/M7107nr/clay-banks-Hf8n0-RUk7g0-unsplash-1.webp"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-left bg-cover w-[100%] h-[385px] flex justify-center items-center"
+          className="bg-no-repeat bg-left bg-cover w-[100%] h-[485px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
@@ -44,10 +44,7 @@ const Blogs = () => {
         </div>
       </div>
 
-      <div
-        className="sectionGap mt-[100px]  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
-      md:pb-[80px] pb-[100px] xs:pb-[100px]"
-      >
+      <div className="sectionGap ">
         <div className="">
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 justify-center items-center

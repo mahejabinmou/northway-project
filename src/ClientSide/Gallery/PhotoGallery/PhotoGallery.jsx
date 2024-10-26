@@ -36,7 +36,7 @@ const PhotoGallery = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/HpJMVbW/students-back-school-2024-beautiful-school-buildings-2.webp"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[385px] flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[485px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
@@ -45,14 +45,6 @@ const PhotoGallery = () => {
           <h1 className="lg:text-[80px] text-white font-helvetica font-bold text-center">
             Photo Gallery
           </h1>
-          {/* <p className="text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
-            We strive to build a global community where quality higher education
-            empowers curious learners and encourages them to transform their
-            lives. We deploy cutting-edge technologies on the Northway platform
-            to simplify students international education journeys. We blend
-            technology and innovation to transform the higher education
-            landscape with institutions, partners, and industry stakeholders.
-          </p> */}
         </div>
       </div>
 
@@ -104,10 +96,7 @@ const PhotoGallery = () => {
         </div>
       </div>
 
-      <div
-        className="sectionGap mt-10  xl:pb-[150px] 2xl:pb-[150px] lg:pb-[80px]
-      md:pb-[80px] pb-[100px] xs:pb-[100px]"
-      >
+      <div className="sectionGap   ">
         <div className="flex justify-center items-center gap-x-[30px] mb-[50px]">
           <button
             className={`text-center px-[20px] py-[13.5px] font-helvetica text-[18px] leading-[23.4px] font-bold 

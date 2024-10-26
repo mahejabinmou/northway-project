@@ -12,12 +12,12 @@ const AboutUsHero = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/vYB2PxM/pexels-fauxels-3184394.webp"})`,
             filter: "brightness(.7) ",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[385px]  flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[485px]  flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center px-[60px]  gap-y-[20px] lg:px-[150px] text-center">
-          <h1 className=" lg:text-[80px] text-white font-helvetica font-bold text-center">
+        <div className="absolute inset-0 flex justify-center items-center  px-[60px]  gap-y-[20px] lg:px-[150px] text-center">
+          <h1 className=" lg:text-[80px]  text-white font-helvetica font-bold ">
             About Us
           </h1>
         </div>

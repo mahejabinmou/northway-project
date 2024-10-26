@@ -59,15 +59,20 @@ const OurService = () => {
       {/* large */}
       <div className="hidden md:block  sectionGap pb-0 2xl:pb-[80px]  pt-[50px] bg-[#F6941E]/[.4]">
         <div
-          className="md:mr-[70px] lg:mr-[500px] xl:mr-[563px] 2xl:mr-[563px]
-        mr-[16px] xs:text-center text-center md:text-left
+          className="text-center 
       "
         >
-          <h1 className="serviceHomeHead">
-            <span className="text-[#F6941E]"> Our</span> {""}
+          <h1 className="serviceHomeHead flex items-center justify-center gap-x-[10px]">
+            <span className="text-[#F6941E]"> Our {""} </span> {""} {""}
             <span className="text-[#1E1E1E]">Service</span>
           </h1>
-          <p className="serviceHomePara ">We Provide The Best Services</p>
+          <p className="serviceHomePara flex items-center justify-center max-w-[750px]  mx-auto">
+            We provide the best services to meet the needs of our clients. With
+            a focus on quality and customer satisfaction, we aim to deliver
+            exceptional solutions tailored to each individual. From personalized
+            consultations to innovative solutions, our team is dedicated to
+            helping you succeed every step of the way.
+          </p>
         </div>
 
         <div className="gridParent  ">
