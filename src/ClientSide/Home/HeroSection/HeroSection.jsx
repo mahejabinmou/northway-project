@@ -5,12 +5,46 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./hero.css";
+import { useRef } from "react";
+import { gsap } from "gsap";
 
 import Navbar from "../../Shared/Navbar/Navbar";
 import { MdArrowRightAlt } from "react-icons/md";
 import HeroCard from "./HeroCard/HeroCard";
+import { useGSAP } from "@gsap/react";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
+  const textRef = useRef([]);
+  const textRef2 = useRef([]);
+
+  useGSAP(() => {
+    gsap.fromTo(
+      textRef.current,
+      { opacity: 0, y: 50 }, // Start with letters below and hidden
+      {
+        opacity: 1,
+        y: 0,
+        duration: 4,
+        delay: 0.5,
+        ease: "power3.out",
+        stagger: 0.5, // Delay between each letter animation
+      }
+    );
+    gsap.fromTo(
+      textRef2.current,
+      { opacity: 0, y: 50 }, // Start with letters below and hidden
+      {
+        opacity: 1,
+        y: 0,
+        duration: 4,
+        delay: 0.5,
+        ease: "power3.out",
+        stagger: 0.5, // Delay between each letter animation
+      }
+    );
+  }, []);
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -81,7 +115,10 @@ const HeroSection = () => {
           mt-[100px]    xs:mt-[100px] px-[16px] 
           "
               >
-                <h1 className="head1 text-white md:pb-[15px]  pb-[10px] max-w-[319px]">
+                <h1
+                  ref={textRef2}
+                  className="head1 text-white md:pb-[15px]  pb-[10px] max-w-[319px]"
+                >
                   <span className="text-[#F6941E] ">Welcome</span> to Northway
                   Global
                 </h1>
@@ -91,14 +128,16 @@ const HeroSection = () => {
                   Excellence, Personalized Guidance, and a Seamless Transition
                   to You.
                 </p>
-                <button
-                  className="homeLargeAppoinMent flex items-center  justify-between
+                <Link to="/studyDistentionFlag">
+                  <button
+                    className="homeLargeAppoinMent flex items-center  justify-between
           gap-x-[10px]  
            bg-[#F6941E] px-[16px] py-[11.5px] "
-                >
-                  <span className="">Start Your Journey</span>{" "}
-                  <MdArrowRightAlt />
-                </button>
+                  >
+                    <span className="">Start Your Journey</span>{" "}
+                    <MdArrowRightAlt />
+                  </button>
+                </Link>
               </div>
 
               <div
@@ -377,7 +416,7 @@ const HeroSection = () => {
       {/* big screen */}
       <div className="hidden md:block">
         <div className="absolute inset-0 z-10 font-helvetica xl:mt-[200px] mt-[200px] md:mt-[150px] xs:mt-[200px] xl:ml-[150px] lg:mt-[150px] lg:ml-[60px] md:ml-[80px] ml-[60px]">
-          <h1 className="homeHead max-w-[557px]">
+          <h1 ref={textRef} className="homeHead max-w-[557px]">
             <span className="text-[#F6941E]">Welcome</span> to Northway Global
           </h1>
           <p className="homePara max-w-[485px]">
@@ -385,9 +424,11 @@ const HeroSection = () => {
             Exceptional Educational Experience That Combines Academic
             Excellence, Personalized Guidance, and a Seamless Transition to You.
           </p>
-          <button className="homeButton flex items-center justify-between bg-[#F6941E]">
-            Start Your Journey <MdArrowRightAlt />
-          </button>
+          <Link to="/studyDistentionFlag">
+            <button className="homeButton flex items-center justify-between bg-[#F6941E]">
+              Link Start Your Journey <MdArrowRightAlt />
+            </button>
+          </Link>
         </div>
 
         {/* Slider for images only */}

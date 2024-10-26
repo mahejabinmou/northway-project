@@ -1,7 +1,61 @@
 import { MdArrowRightAlt } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+import { useRef } from "react";
 
 const StudyDestination = () => {
+  const boxRef = useRef();
+  const boxRef2 = useRef();
+  const boxRef3 = useRef();
+  const boxRef4 = useRef();
+  const boxRef5 = useRef();
+  const boxRef6 = useRef();
+
+  useGSAP(() => {
+    gsap.from(boxRef.current, {
+      x: -200, // Start from the right
+      opacity: 1, // Start with opacity 0 for a fade-in effect
+      duration: 3,
+      delay: 0.5,
+      ease: "power2.out",
+    });
+    gsap.from(boxRef2.current, {
+      x: -200, // Start from the right
+      opacity: 1, // Start with opacity 0 for a fade-in effect
+      duration: 3,
+      delay: 0.5,
+      ease: "power2.out",
+    });
+    gsap.from(boxRef3.current, {
+      x: 200, // Start from the right
+      opacity: 1, // Start with opacity 0 for a fade-in effect
+      duration: 3,
+      delay: 0.5,
+      ease: "power2.out",
+    });
+    gsap.from(boxRef4.current, {
+      x: 200, // Start from the right
+      opacity: 1, // Start with opacity 0 for a fade-in effect
+      duration: 3,
+      delay: 0.5,
+      ease: "power2.out",
+    });
+    gsap.from(boxRef5.current, {
+      y: 200, // Start from the right
+      opacity: 1, // Start with opacity 0 for a fade-in effect
+      duration: 3,
+      delay: 0.3,
+      ease: "power2.out",
+    });
+    gsap.from(boxRef6.current, {
+      y: -200, // Start from the right
+      opacity: 1, // Start with opacity 0 for a fade-in effect
+      duration: 5,
+      delay: 0.3,
+      ease: "power2.out",
+    });
+  });
   return (
     <div className="sectionGap">
       {/* mobile */}
@@ -60,7 +114,7 @@ const StudyDestination = () => {
         >
           {/* div1 */}
 
-          <div className="relative group w-full h-[267px] ">
+          <div ref={boxRef} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
               alt="United States"
@@ -76,7 +130,7 @@ const StudyDestination = () => {
               </Link>
             </div>
           </div>
-          <div className="relative group w-full h-[267px] ">
+          <div ref={boxRef5} className=" relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/VV6xZHC/Facts-1280x720.webp"
               alt="United States"
@@ -93,7 +147,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div className="relative group w-full h-[267px] ">
+          <div ref={boxRef3} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
               alt="United States"
@@ -110,7 +164,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div className="relative group w-full h-[267px] ">
+          <div ref={boxRef2} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
               alt="United States"
@@ -127,7 +181,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div className="relative group w-full h-[267px]">
+          <div ref={boxRef6} className="relative group w-full h-[267px]">
             {/* Image */}
             <img
               src="https://i.ibb.co.com/GPmQbs2/ireland-6717714b87c95.webp"
@@ -145,7 +199,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div className="relative group w-full h-[267px] ">
+          <div ref={boxRef4} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/DzDqDPW/europ-671771c9cc68d.webp"
               alt="United States"

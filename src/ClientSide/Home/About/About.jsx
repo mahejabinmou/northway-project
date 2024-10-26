@@ -1,5 +1,6 @@
 import { MdArrowRightAlt } from "react-icons/md";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className=" ">
@@ -88,13 +89,15 @@ const About = () => {
             <li className="pb-[6px]">Academic Excellence.</li>
           </ul>
 
-          <button
-            className=" xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:t-[20px]
+          <Link to="/About">
+            <button
+              className=" xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:t-[20px]
           xs:text-[18px] xs:leading-[23.4px] bg-[#F6941E] xs:gap-x-[10px] text-white font-helvetica font-bold"
-          >
-            Read More
-            <MdArrowRightAlt size={21} />
-          </button>
+            >
+              Read More
+              <MdArrowRightAlt size={21} />
+            </button>
+          </Link>
         </div>
       </div>
 
@@ -162,14 +165,11 @@ const About = () => {
               <li>Academic Excellence.</li>
             </ul>
 
-            {/* <button className="homeLargeAppoinMent flex items-center justify-between bg-[#F6941E]">
-              Read More
-              <MdArrowRightAlt />
-            </button> */}
-
-            <button className="homeLargeAppoinMent border border-[#F6941E] hover:bg-[#F6941E] hover:text-white flex items-center justify-between text-[#F6941E] bg-white font-bold">
-              Read More <MdArrowRightAlt />
-            </button>
+            <Link to="/About">
+              <button className="homeLargeAppoinMent border border-[#F6941E] hover:bg-[#F6941E] hover:text-white flex items-center justify-between text-[#F6941E] bg-white font-bold">
+                Read More <MdArrowRightAlt />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -10,9 +10,9 @@ import VideoGallery from "./ClientSide/Gallery/VideoGallery/VideoGallery";
 import Blogs from "./ClientSide/Blogs/Blogs";
 import Distenation2 from "./ClientSide/Distenation2/Distenation2";
 import ContactUs from "./ClientSide/ContactUs/ContactUs";
-import Select from "./ClientSide/Distenation/Select/Select";
 import SelectPage from "./ClientSide/Distenation/Select/SelectPage";
 import Blog from "./ClientSide/Blogs/Blog";
+import StudyDestination from "./ClientSide/Home/StudyDestination/StudyDestination";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +46,11 @@ const router = createBrowserRouter([
   {
     path: "/studyDistention2",
     element: <Distenation2></Distenation2>,
+  },
+
+  {
+    path: "/studyDistentionFlag",
+    element: <StudyDestination></StudyDestination>,
   },
   {
     path: "/contactUs",

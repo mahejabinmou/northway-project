@@ -9,7 +9,7 @@ const AboutUsHero = () => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co.com/vYB2PxM/pexels-fauxels-3184394.webp"})`,
+            backgroundImage: `url(${"/about/AboutUs.jpg"})`,
             filter: "brightness(.7) ",
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[485px]  flex justify-center items-center"

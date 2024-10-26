@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoPersonOutline } from "react-icons/io5";
-import { LuMessagesSquare } from "react-icons/lu";
 import { FaArrowRight } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
 import { Link } from "react-router-dom";

@@ -1,7 +1,6 @@
 import { MdArrowRightAlt } from "react-icons/md";
 import { useState } from "react";
 import { IoPersonOutline } from "react-icons/io5";
-import { LuMessagesSquare } from "react-icons/lu";
 import Navbar from "../Shared/Navbar/Navbar";
 import Footer from "../Shared/Footer/Footer";
 import { blogs } from "../../Constants/exports";

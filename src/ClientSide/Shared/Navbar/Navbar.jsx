@@ -147,30 +147,6 @@ const Navbar = () => {
                     {isDropdown2Open ? <IoIosArrowUp /> : <IoIosArrowDown />}
                   </button>
                   {isDropdown2Open && (
-                    /*  <ul className="mt-2 mb-2 min-w-[150px] bg-[#F6941E]/[.2] text-black rounded shadow-lg">
-                                            <Link to="/studyDistention">
-                                                <li
-                                                    className={`px-4 py-[5px] ${
-                                                        isStudyDistention
-                                                            ? "text-[#F6941E]"
-                                                            : "text-black"
-                                                    }`}
-                                                >
-                                                    Study Distention
-                                                </li>
-                                            </Link>
-                                            <Link to="/studyDistention2">
-                                                <li
-                                                    className={`px-4 pb-[5px] ${
-                                                        isStudyDistention2
-                                                            ? "text-[#F6941E]"
-                                                            : "text-black"
-                                                    }`}
-                                                >
-                                                    Study Distention 2
-                                                </li>
-                                            </Link>
-                                        </ul> */
                     <div>
                       <StudyDestination toggleDropdown2={toggleDropdown2} />
                     </div>
