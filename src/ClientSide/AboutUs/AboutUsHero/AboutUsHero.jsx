@@ -12,25 +12,18 @@ const AboutUsHero = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/vYB2PxM/pexels-fauxels-3184394.webp"})`,
             filter: "brightness(.7) ",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[914px] flex justify-center items-center"
+          className="bg-no-repeat bg-top bg-cover w-[100%] h-[385px]  flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
-        <div className="absolute inset-0 flex flex-col px-[60px] max-w-[850px] 2xl:max-w-[1200px] gap-y-[20px] justify-center   lg:px-[150px]  lg:text-left">
-          <h1 className="text-2xl lg:text-4xl text-white font-bold">
+        <div className="absolute inset-0 flex flex-col justify-center items-center px-[60px]  gap-y-[20px] lg:px-[150px] text-center">
+          <h1 className=" lg:text-[80px] text-white font-helvetica font-bold text-center">
             About Us
           </h1>
-          <p className="text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
-            We strive to build a global community where quality higher education
-            empowers curious learners and encourages them to transform their
-            lives. We deploy cutting-edge technologies on the Northway platform
-            to simplify students international education journeys. We blend
-            technology and innovation to transform the higher education
-            landscape with institutions, partners, and industry stakeholders.
-          </p>
         </div>
       </div>
 
+      {/* mobile */}
       <div className="  relative md:hidden block">
         {/* Background image section */}
         <div
@@ -38,22 +31,22 @@ const AboutUsHero = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/vYB2PxM/pexels-fauxels-3184394.webp"})`,
             filter: "brightness(.6) ",
           }}
-          className="bg-no-repeat bg-center bg-cover w-[100%] h-[485px] flex justify-center items-center"
+          className="bg-no-repeat bg-center bg-cover  h-[385px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
         <div className="absolute inset-0 flex flex-col items-center justify-center px-[20px]  text-left ">
-          <h1 className="text-2xl lg:text-4xl text-white font-bold">
+          <h1 className="xs:text-5xl font-helvetica text-white font-bold">
             About Us
           </h1>
-          <p className="text-[16px] md:text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
+          {/* <p className="text-[16px] md:text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 font-medium font-helvetica">
             We strive to build a global community where quality higher education
             empowers curious learners and encourages them to transform their
             lives. We deploy cutting-edge technologies on the Northway platform
             to simplify students international education journeys. We blend
             technology and innovation to transform the higher education
             landscape with institutions, partners, and industry stakeholders.
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

@@ -20,9 +20,9 @@ const Distenation = () => {
       <HeroStudyDistenation countryName={countryName}></HeroStudyDistenation>
       <Application></Application>
       <WhyStudy countryName={countryName}></WhyStudy>
-      <Carrer></Carrer>
+      <Carrer countryName={countryName}></Carrer>
       <PopularUni countryName={countryName}></PopularUni>
-      <CostOfEducation></CostOfEducation>
+      <CostOfEducation countryName={countryName}></CostOfEducation>
       <Glance countryName={countryName}></Glance>
       <OurStudentSay></OurStudentSay>
       <StudentSpeak></StudentSpeak>

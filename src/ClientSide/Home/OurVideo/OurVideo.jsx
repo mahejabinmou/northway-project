@@ -88,8 +88,8 @@ const OurVideo = () => {
           <div className="absolute inset-0 bg-black opacity-80"></div>
           <div>
             <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8  z-10 relative text-white">
-              <h1 className="studyDestinationHeading ">
-                Our <span className="text-[#F6941E]">Video</span>
+              <h1 className="studyDestinationHeading pb-[20px]">
+                Our <span className="text-[#F6941E] ">Video</span>
               </h1>
               <p className="EveryPara text-[#FFFFFF]/[.8]">
                 Explore insights and success stories from our students who have

@@ -26,9 +26,9 @@
     /* ======= */
     lg:px-[60px] lg:mt-[80px]
     /* ======= */
-    xl:px-[150px] xl:mt-[150px]
+    xl:px-[100px] xl:mt-[100px]
     /* ======= */
-    2xl:px-[150px] 2xl:mt-[150px];
+    2xl:px-[100px] 2xl:mt-[100px];
   }
 
   .mainPara {

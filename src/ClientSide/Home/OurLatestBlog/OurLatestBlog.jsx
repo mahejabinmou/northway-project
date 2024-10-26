@@ -79,7 +79,7 @@ const OurLatestBlog = () => {
   };
 
   return (
-    <div className="sectionGap  py-[50px]">
+    <div className="sectionGap  ">
       <div className="text-center">
         <h1 className="ourLatestBlog pb-[20px] ">
           Our Latest<span className="text-[#F6941E] "> Blog </span>
@@ -93,7 +93,7 @@ const OurLatestBlog = () => {
       </div>
 
       {/* Large slider */}
-      <div className="slider-container hidden md:block pt-[5px]">
+      <div className="slider-container hidden md:block ">
         <Slider {...settingsLarge}>
           {joyItems.map((item, index) => (
             <div key={index} className="px-2">
@@ -149,7 +149,7 @@ const OurLatestBlog = () => {
         </Slider>
 
         {/* Browse More Button */}
-        <div className="mt-10 flex justify-center items-center">
+        <div className="mt-10 flex justify-center items-center ">
           <Link to="/blogs">
             <button
               className="  px-[20px] text-[#F6941E]  border border-[#F6941E]

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1E1E1E]  text-white/[.8]">
+    <div className="bg-[#1E1E1E]  text-white/[.8] sectionGap">
       {/* foooter content */}
       <div className=" pt-[50px]">
         <div className="md:hidden block ">
@@ -104,8 +104,8 @@ const Footer = () => {
         {/* large */}
         <div
           className="hidden md:block px-[16px]
- xs:px-[16px]  xl:px-[150px]
-md:px-[32px] lg:px-[60px] 2xl:px-[150px] "
+ xs:px-[16px]  xl:px-[100px]
+md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
         >
           <div className=" pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[123px] gap-y-[123px]">
             <div>

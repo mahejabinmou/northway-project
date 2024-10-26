@@ -55,7 +55,7 @@ const Faq = ({ countryName }) => {
           />
         </div>
         <div className="w-full md:w-1/2 p-2">
-          <div className="p-4">
+          <div className="py-4">
             <h1 className="faqHead leading-[36px] pb-[20px] text-[#1E1E1E] text-nowrap">
               Study in{" "}
               <span className="text-[#F6941E]">{countryName} FAQ's</span>

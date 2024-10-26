@@ -52,7 +52,7 @@ const OurStudentSay = () => {
       </div>
       {/* large */}
       <div className="hidden md:block">
-        <h1 className="mainHeader  pb-[20px] ">
+        <h1 className="mainHeader  pb-[10px] ">
           <span className="text-[#F6941E] ">What’s</span> Our student say
         </h1>
         <p className="mainPara text-[#1E1E1E]/[.8]  pb-[50px] font-helvetica font-normal">
@@ -65,9 +65,9 @@ const OurStudentSay = () => {
 
       {/* ------slider */}
 
-      <div className="slider-container md:pb-[50px] pb-0  2xl:mb-[50px] ">
+      <div className="slider-container  ">
         <Slider {...settings}>
-          <div className="mt-10  max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+          <div className="  max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
             <FaQuoteLeft
               className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"
@@ -96,7 +96,7 @@ const OurStudentSay = () => {
             </div>
           </div>
 
-          <div className="mt-10 max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+          <div className=" max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
             <FaQuoteLeft
               className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"
@@ -129,7 +129,7 @@ const OurStudentSay = () => {
             </div>
           </div>
 
-          <div className="mt-10 max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+          <div className=" max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
             <FaQuoteLeft
               className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
             left-0"

@@ -25,20 +25,22 @@ const Blogs = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/M7107nr/clay-banks-Hf8n0-RUk7g0-unsplash-1.webp"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] xs:h-[485px] md:h-[914px] flex justify-center items-center"
+          className="bg-no-repeat bg-left bg-cover w-[100%] h-[385px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
-        <div className="absolute inset-0 mt-[70px] flex flex-col gap-y-[20px] px-[60px] 2xl:max-w-[1280px] max-w-[850px]  justify-center   lg:px-[150px]   lg:text-left">
-          <h1 className="text-2xl lg:text-4xl text-white font-bold">Blog</h1>
-          <p className="text-[16px] md:text-xl 2xl:text-2xl lg:text-base  text-white mt-2 lg:mt-0 font-medium font-helvetica">
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-[20px]  text-left">
+          <h1 className="xs:text-5xl lg:text-[80px] text-white font-helvetica font-bold text-center">
+            Blog
+          </h1>
+          {/* <p className="text-[16px] md:text-xl 2xl:text-2xl lg:text-base  text-white mt-2 lg:mt-0 font-medium font-helvetica">
             We strive to build a global community where quality higher education
             empowers curious learners and encourages them to transform their
             lives. We deploy cutting-edge technologies on the Northway platform
             to simplify students international education journeys. We blend
             technology and innovation to transform the higher education
             landscape with institutions, partners, and industry stakeholders.
-          </p>
+          </p> */}
         </div>
       </div>
 

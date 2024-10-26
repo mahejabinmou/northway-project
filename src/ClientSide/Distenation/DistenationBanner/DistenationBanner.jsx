@@ -12,7 +12,7 @@ const DistenationBanner = ({ countryName }) => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"/distention.webp"})`,
+            backgroundImage: `url(${countryDetails?.destentionImg})`,
             filter: "brightness(.5) ",
           }}
           className="bg-no-repeat bg-bottom bg-cover w-[100%] xs:h-[485px] md:h-[914px] flex justify-center items-center"
