@@ -426,7 +426,7 @@ const HeroSection = () => {
           </p>
           <Link to="/studyDistentionFlag">
             <button className="homeButton flex items-center justify-between bg-[#F6941E]">
-              Link Start Your Journey <MdArrowRightAlt />
+              Start Your Journey <MdArrowRightAlt />
             </button>
           </Link>
         </div>

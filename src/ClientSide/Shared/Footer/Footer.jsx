@@ -43,15 +43,15 @@ const Footer = () => {
               <Link to="/service">
                 <p className="footerMenuText">Study Destination</p>
               </Link>
-              <Link to="/membership">
+              <Link to="/photo-gallery">
                 {" "}
                 <p className="footerMenuText">Gallery</p>
               </Link>
-              <Link to="/event">
+              <Link to="/blogs">
                 {" "}
                 <p className="footerMenuText">Blogs</p>
               </Link>
-              <Link to="/contact">
+              <Link to="/contactUs">
                 <p className="footerMenuText">Contact Us</p>
               </Link>
             </div>
@@ -146,15 +146,15 @@ md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
               <Link to="/service">
                 <p className="footerMenuText">Study Destination</p>
               </Link>
-              <Link to="/membership">
+              <Link to="/photo-gallery">
                 {" "}
                 <p className="footerMenuText">Gallery</p>
               </Link>
-              <Link to="/event">
+              <Link to="/blogs">
                 {" "}
                 <p className="footerMenuText">Blogs</p>
               </Link>
-              <Link to="/contact">
+              <Link to="/contactUs">
                 <p className="footerMenuText">Contact Us</p>
               </Link>
             </div>

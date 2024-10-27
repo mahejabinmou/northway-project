@@ -6,7 +6,8 @@ import { MdArrowRightAlt, MdClose } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import "./Navbar.css";
 import Form from "./Form/Form";
-import StudyDestination from "./StudyDestentionFlag/StudyDestention";
+import StudyDestination from "./StudyDestentionFlag/StudyTenDestention";
+import StudyTenDestention from "./StudyDestentionFlag/StudyTenDestention";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -267,32 +268,15 @@ const Navbar = () => {
 
                   {/* Dropdown Menu */}
                   {isDropdown2Open && (
-                    /*                                         <ul className="absolute left-0 mt-2 w-40 bg-white text-black rounded shadow-lg">
-                                            <Link to="/studyDistention">
-                                                {" "}
-                                                <li
-                                                    className={`px-4 py-2 text-[14px] ${
-                                                        isHomePage
-                                                            ? "text-black hover:text-[#F6941E]"
-                                                            : "text-black hover:text-[#F6941E]"
-                                                    }`}
-                                                >
-                                                    Study Distention
-                                                </li>
-                                            </Link>
-                                            <li className="px-4 py-2 text-[14px] hover:bg-[#f6941e] hover:text-white">
-                                                <Link to="/studyDistention2">
-                                                    Study Distention 2
-                                                </Link>
-                                            </li>
-                                        </ul> */
                     <div
                       className="absolute w-full left-0 bg-white px-[150px]
                                         top-full py-[50px] max-h-[210px]"
                     >
                       <div className="max-w-[1140px] mx-auto">
                         <div>
-                          <StudyDestination toggleDropdown2={toggleDropdown2} />
+                          <StudyTenDestention
+                            toggleDropdown2={toggleDropdown2}
+                          />
                         </div>
                       </div>
                     </div>
@@ -358,7 +342,7 @@ const Navbar = () => {
 
             {/* Enquire Now Button */}
             <button
-              className="homeLargeAppoinMent border border-[#F6941E] flex items-center justify-between text-[#F6941E] bg-white font-bold px-4 py-2 rounded"
+              className="homeLargeAppoinMent hover:bg-[#F6941E] hover:text-white border border-[#F6941E] flex items-center justify-between text-[#F6941E] bg-white font-bold px-4 py-2 rounded"
               onClick={openModal}
             >
               Enquire Now <MdArrowRightAlt />
@@ -383,7 +367,7 @@ const Navbar = () => {
                     ✖
                   </button> */}
 
-                  <h2 className="text-center text-[#1E1E1E] xl:text-[36px] xl:leading-[43.2px] xl:mb-[30px] font-bold  font-helvetica  ">
+                  <h2 className="text-center  text-[#1E1E1E] xl:text-[36px] xl:leading-[43.2px] xl:mb-[30px] font-bold  font-helvetica  ">
                     Enquiry Form
                   </h2>
                   <Form

@@ -52,6 +52,7 @@ const router = createBrowserRouter([
     path: "/studyDistentionFlag",
     element: <StudyDestination></StudyDestination>,
   },
+
   {
     path: "/contactUs",
     element: <ContactUs></ContactUs>,

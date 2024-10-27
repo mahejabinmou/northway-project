@@ -9,7 +9,7 @@ export const distensionInfo = [
     whyStudyImg: "/irelandWhyStudy.jpg",
     careerImg: "/irelandCareer.jpg",
     destensionCost:
-      "In the U.S., tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",
+      "Tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",
     subTitle:
       "We strive to build a global community where quality higher education empowers curious learners and encourages them to transform their  lives. We deploy cutting-edge technologies on the Northway platform  to simplify students international education journeys. We blend  technology and innovation to transform the higher education  landscape with institutions, partners, and industry stakeholders.",
     img1: "https://i.ibb.co/d23LGHN/uni1-66db36043eb12.webp",
@@ -74,7 +74,7 @@ export const distensionInfo = [
       "In the UK, tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",
     destinsionCareer:
       "UK is known for its vibrant economy and high standards of education, making it an appealing destination for international students. The country's thriving industries include Information Technology, Financial Services, Pharmaceuticals, and Healthcare. Top career opportunities for international graduates in UK include roles in Software Development, Financial Analysis, Project Management, and Engineering. Europe's strong economy, coupled with a high quality of life, offers a supportive environment for professional growth. Additionally, Ireland is recognized for its high standard of living, strong job market, and emphasis on work-life balance.",
-    destentionImg: "https://i.ibb.co.com/7CNR0TB/usa-Destination.webp",
+    destentionImg: "/Uk.png",
     subTitle:
       "UK is home to some of the world’s most prestigious universities. Institutions like Oxford, Cambridge, Sorbonne, and ETH Zurich offer education at the highest standards, and degrees from these universities are highly regarded worldwide.",
     img1: "/CountryLogo/warwick.jpg",
@@ -107,8 +107,7 @@ export const distensionInfo = [
       "In the Canada, tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",
     destinsionCareer:
       "Canada is known for its vibrant economy and high standards of education, making it an appealing destination for international students. The country's thriving industries include Information Technology, Financial Services, Pharmaceuticals, and Healthcare. Top career opportunities for international graduates in Canada include roles in Software Development, Financial Analysis, Project Management, and Engineering. Canada's strong economy, coupled with a high quality of life, offers a supportive environment for professional growth. Additionally, Ireland is recognized for its high standard of living, strong job market, and emphasis on work-life balance.",
-    destentionImg:
-      "https://i.ibb.co.com/jzsBhmj/pexels-lara-jameson-8828619-1.webp",
+    destentionImg: "/Canada.jpg",
     subTitle:
       "Canada is one of the most popular destinations for international students, known for its high-quality education, cultural diversity, and student-friendly environment. Whether you're seeking an undergraduate degree, graduate studies, or vocational training, studying in Canada offers a path to academic success and global opportunities.",
     img1: "/CountryLogo/Canada/Concordia University.jpg",
@@ -141,8 +140,7 @@ export const distensionInfo = [
       "In the Australia, tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",
     destinsionCareer:
       "Australia is known for its vibrant economy and high standards of education, making it an appealing destination for international students. The country's thriving industries include Information Technology, Financial Services, Pharmaceuticals, and Healthcare. Top career opportunities for international graduates in Australia include roles in Software Development, Financial Analysis, Project Management, and Engineering. Australia's strong economy, coupled with a high quality of life, offers a supportive environment for professional growth. Additionally, Ireland is recognized for its high standard of living, strong job market, and emphasis on work-life balance.",
-    destentionImg:
-      "https://i.ibb.co.com/jHT0wNr/pexels-beate-vogl-852640107-19963845.webp",
+    destentionImg: "/Australia.png",
     subTitle:
       "Australia is home to several universities that rank among the best in the world. Institutions like the University of Melbourne, Australian National University, and the University of Sydney offer a wide range of courses and research opportunities that meet international standards.",
     img1: "/CountryLogo/University of Melbourne.jpg",
@@ -170,7 +168,7 @@ export const distensionInfo = [
     id: 6,
     whyStudyImg: "/austriaWhy.jpg",
     careerImg: "/AustriaCareer.jpg",
-    destentionImg: "https://i.ibb.co.com/7CNR0TB/usa-Destination.webp",
+    destentionImg: "/Austria.png",
     destinsionCareer:
       "Austria is known for its vibrant economy and high standards of education, making it an appealing destination for international students. The country's thriving industries include Information Technology, Financial Services, Pharmaceuticals, and Healthcare. Top career opportunities for international graduates in Austria include roles in Software Development, Financial Analysis, Project Management, and Engineering. Austria's strong economy, coupled with a high quality of life, offers a supportive environment for professional growth. Additionally, Ireland is recognized for its high standard of living, strong job market, and emphasis on work-life balance.",
     subTitle:
@@ -205,7 +203,7 @@ export const distensionInfo = [
       "In the Germany, tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",
     destinsionCareer:
       "Germany is known for its vibrant economy and high standards of education, making it an appealing destination for international students. The country's thriving industries include Information Technology, Financial Services, Pharmaceuticals, and Healthcare. Top career opportunities for international graduates in Germany include roles in Software Development, Financial Analysis, Project Management, and Engineering. Germany's strong economy, coupled with a high quality of life, offers a supportive environment for professional growth. Additionally, Ireland is recognized for its high standard of living, strong job market, and emphasis on work-life balance.",
-    destentionImg: "https://i.ibb.co.com/7CNR0TB/usa-Destination.webp",
+    destentionImg: "/German.png",
     subTitle:
       "Germany is known for its world-class universities and academic excellence. With a strong focus on research and development, German institutions consistently rank among the best globally, offering a wide range of programs across various fields.",
     img1: "/CountryLogo/Germany/Free University of Berlin.jpg",
@@ -236,7 +234,7 @@ export const distensionInfo = [
     careerImg: "/JapanCareer.jpg",
     destensionCost:
       "In the Japan, tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",
-    destentionImg: "https://i.ibb.co.com/7CNR0TB/usa-Destination.webp",
+    destentionImg: "/Japan.png",
     destinsionCareer:
       "Japan is known for its vibrant economy and high standards of education, making it an appealing destination for international students. The country's thriving industries include Information Technology, Financial Services, Pharmaceuticals, and Healthcare. Top career opportunities for international graduates in Japan include roles in Software Development, Financial Analysis, Project Management, and Engineering. Japan's strong economy, coupled with a high quality of life, offers a supportive environment for professional growth. Additionally, Ireland is recognized for its high standard of living, strong job market, and emphasis on work-life balance.",
     subTitle:

@@ -1,8 +1,7 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import { distensionInfo } from "../../../../Constants/exports";
 
-const StudyDestination = ({ toggleDropdown2 }) => {
+const StudyTenDestention = ({ toggleDropdown2 }) => {
   const navigatge = useNavigate();
   const handleNavigate = (location) => {
     navigatge(location);
@@ -35,4 +34,4 @@ const StudyDestination = ({ toggleDropdown2 }) => {
   );
 };
 
-export default StudyDestination;
+export default StudyTenDestention;
