@@ -70,7 +70,7 @@ const PhotoGallery = () => {
         </div>
       </div>
 
-      <div
+      {/* <div
         className="sectionGap grid grid-cols-1 md:grid-cols-3 justify-center items-center
       lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
       >
@@ -83,7 +83,7 @@ const PhotoGallery = () => {
             />
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="sectionGap   ">
         <div className="flex justify-center items-center gap-x-[30px] mb-[50px]">
