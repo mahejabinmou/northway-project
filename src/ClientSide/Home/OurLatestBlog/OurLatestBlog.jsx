@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 const joyItems = [
   {
-    imgSrc: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
-    LgImg: "https://i.ibb.co/kKyXvGh/image-12-66d6cc37db603.webp",
+    imgSrc: "/b1.jpg",
+    LgImg: "/b1.jpg",
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "July 24, 2024",
     title: "Top Benefits of Studying Abroad for Career Growth",
@@ -19,8 +19,8 @@ const joyItems = [
     extendedSubtitle: "25 Comments",
   },
   {
-    imgSrc: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
-    LgImg: "https://i.ibb.co/0ZWkn9Z/image-12-1-66d6d885e3d32.webp",
+    imgSrc: "/b2.jpg",
+    LgImg: "/b2.jpg",
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "August 24, 2024",
     title: "Why Choose Europe for Your Higher Education?",
@@ -28,8 +28,8 @@ const joyItems = [
     extendedSubtitle: "25 Comments",
   },
   {
-    imgSrc: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-    LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
+    imgSrc: "/b3.jpg",
+    LgImg: "/b3.jpg",
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "September 9, 2024",
     title: "Scholarships and education  in higher Study ",
@@ -37,8 +37,8 @@ const joyItems = [
     extendedSubtitle: "25 Comments",
   },
   {
-    imgSrc: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-    LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
+    imgSrc: "/galleryPhoto/pexels-vantha-thang-1224068-2513993.jpg",
+    LgImg: "/galleryPhoto/pexels-vantha-thang-1224068-2513993.jpg",
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "January 24, 2024",
     title: "Preparing for Life as an International Student",
@@ -46,8 +46,8 @@ const joyItems = [
     extendedSubtitle: "25 Comments",
   },
   {
-    imgSrc: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
-    LgImg: "https://i.ibb.co/WpsNC35/image-12-2-66d6d8ce4500f.webp",
+    imgSrc: "/galleryPhoto/pexels-vlada-karpovich-4050439.jpg",
+    LgImg: "/galleryPhoto/pexels-vlada-karpovich-4050439.jpg",
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "March 24, 2024",
     title: "How to Choose the Right Study Destination Abroad",
