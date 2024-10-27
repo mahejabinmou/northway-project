@@ -8,6 +8,7 @@ const AboutUs = () => {
   return (
     <div className="bg-[#F5F5F5]">
       <AboutUsHero></AboutUsHero>
+      {/* Here you new component for mission and vision */}
       <WhoAreU></WhoAreU>
       <OurService></OurService>
       <OurStudentSay></OurStudentSay>
