@@ -24,7 +24,7 @@ const DistenationBanner = ({ countryName }) => {
           <h1 className="text-2xl lg:text-4xl text-white  font-bold text-center">
             Study In {countryName}
           </h1>
-          <p className="xs:text-[12px]  2xl:max-w-[800px] leading-[24px] font-helvetica font-normal max-w-[550px]  text-center mx-auto md:text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 ">
+          <p className="font-normal font-helvetica text-[16px] leading-[24px]  2xl:max-w-[800px]  max-w-[550px]  text-center mx-auto md:text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 ">
             {countryDetails.subTitle}
           </p>
         </div>
