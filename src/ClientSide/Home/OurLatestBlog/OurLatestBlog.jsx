@@ -151,7 +151,7 @@ const OurLatestBlog = () => {
         <div className="mt-10 flex justify-center items-center ">
           <Link to="/blogs">
             <button
-              className="  px-[20px] text-[#F6941E]  border border-[#F6941E]
+              className=" hover:bg-[#F6941E] hover:text-white px-[20px] text-[#F6941E]  border border-[#F6941E]
             font-bold text-[18px] leading-[23px] py-[13px] flex justify-center items-center gap-x-[10px]"
               // onClick={() => alert("Navigate to more blogs")}
             >
@@ -211,7 +211,7 @@ const OurLatestBlog = () => {
         </Slider>
 
         {/* Browse More Button for Mobile */}
-        <div className=" mt-5 font-helvetica font-bold flex justify-center items-center">
+        <div className="hover:bg-[#F6941E] hover:text-white mt-5 font-helvetica font-bold flex justify-center items-center">
           <Link to="/blogs">
             <button
               className="px-4 py-2 text-[#F6941E]  border border-[#F6941E] flex justify-center items-center gap-x-[10px]"

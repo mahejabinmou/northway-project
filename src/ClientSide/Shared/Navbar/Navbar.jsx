@@ -359,14 +359,6 @@ const Navbar = () => {
                                   shadow-lg relative overflow-y-auto hide-scrollbar"
                   onClick={(e) => e.stopPropagation()}
                 >
-                  {/* Close button */}
-                  {/* <button
-                    className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
-                    onClick={closeModal}
-                  >
-                    ✖
-                  </button> */}
-
                   <h2 className="text-center  text-[#1E1E1E] xl:text-[36px] xl:leading-[43.2px] xl:mb-[30px] font-bold  font-helvetica  ">
                     Enquiry Form
                   </h2>

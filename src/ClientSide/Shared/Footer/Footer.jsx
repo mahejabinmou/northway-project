@@ -12,11 +12,13 @@ const Footer = () => {
           <div className=" pb-[25px] grid grid-cols-1 px-[51px]  gap-y-[50px]">
             <div className="">
               <div className="footerLogoparent mb-[30px]">
-                <img
-                  className="h-full w-full object-cover "
-                  src="https://i.ibb.co/s2xfMC5/image-13-66d80ee8cac4a.webp"
-                  alt=""
-                />
+                <Link to="/">
+                  <img
+                    className="h-full w-full object-cover "
+                    src="https://i.ibb.co/s2xfMC5/image-13-66d80ee8cac4a.webp"
+                    alt=""
+                  />
+                </Link>
               </div>
 
               <div className=" ">
@@ -110,11 +112,13 @@ md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
           <div className=" pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[123px] gap-y-[123px]">
             <div>
               <div className="footerLogoparent mb-[10px]">
-                <img
-                  className="h-full w-full object-cover "
-                  src="https://i.ibb.co/s2xfMC5/image-13-66d80ee8cac4a.webp"
-                  alt=""
-                />
+                <Link to="/">
+                  <img
+                    className="h-full w-full object-cover "
+                    src="https://i.ibb.co/s2xfMC5/image-13-66d80ee8cac4a.webp"
+                    alt=""
+                  />
+                </Link>
               </div>
               <div>
                 <p className="text-[14px] pb-[20px] font-helvetica font-normal ">
