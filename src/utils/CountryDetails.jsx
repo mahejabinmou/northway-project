@@ -1,8 +1,8 @@
-import { distensionInfo } from "../constants/exports"
+import { distensionInfo } from "../Constants/exports";
 
 export const countryDetailsDestructor = (countryName) => {
-    const [countryDetails] = distensionInfo.filter(
-        (country) => country.country === countryName
-    )
-    return countryDetails
-}
+  const [countryDetails] = distensionInfo.filter(
+    (country) => country.country === countryName
+  );
+  return countryDetails;
+};
