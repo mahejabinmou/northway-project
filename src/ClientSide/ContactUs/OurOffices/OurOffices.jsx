@@ -107,16 +107,14 @@ const OurOffices = () => {
       name: "Dubai",
       email: "info@northwayglobalDubai.com.bd",
       phone: "+55 1607-002687",
-      address:
-        "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near Dubai Embassy)",
+      address: "(Near Dubai Embassy)",
     },
     {
       flag: "/flag/usa.png",
       name: "USA",
       email: "info@northwayglobalUsa.com.bd",
       phone: "+1607-00268",
-      address:
-        "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near USA Embassy)",
+      address: "(Near USA Embassy)",
     },
   ];
 
