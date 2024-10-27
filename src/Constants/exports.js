@@ -295,7 +295,7 @@ export const distensionInfo = [
     country: "South Korea",
     flag: "/flag/South_Korea.png",
     id: 10,
-    whyStudyImg: "/southKoreaWhy.jpg",
+    whyStudyImg: "/koreaWhy.jpg",
     careerImg: "/SouthKoreaCaree.jpg",
     destensionCost:
       "In the South Korea, tuition fees vary based on the state, the university funding model, and the student’s country of origin. So, listing an average is a rather difficult task. However, thanks to the folks at College Board, they’ve rendered an estimate of last year’saverage tuition costs, which will roughly reflect the next few years.",

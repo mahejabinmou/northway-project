@@ -99,7 +99,7 @@ const PhotoGallery = () => {
           >
             All
           </button> */}
-          <button
+          {/* <button
             className={`text-center px-[20px] py-[13.5px] font-helvetica text-[18px] leading-[23.4px] font-bold 
           ${
             activeButton === "gallery"
@@ -110,7 +110,7 @@ const PhotoGallery = () => {
             onClick={() => setActiveButton("gallery")}
           >
             Gallery Item
-          </button>
+          </button> */}
         </div>
 
         <div className="">
