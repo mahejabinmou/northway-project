@@ -38,9 +38,9 @@ const WhoAreU = () => {
               <p
                 className="text-[12px]
           leading-[18px] xs:text-[12px]
-          xs:leading-[18px] text-center text-[#1E1E1E]/[.8] font-helvetica font-normal  text-[#1E1E1E]/[0.8]"
+          xs:leading-[18px] text-center  font-helvetica font-normal  text-[#1E1E1E]/[0.8]"
               >
-                Global niversity Tips
+                Global University Tips
               </p>
             </div>
 

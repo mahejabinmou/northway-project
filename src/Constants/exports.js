@@ -904,27 +904,27 @@ export const faqs = [
     ],
   },
   {
-    country: "China",
+    country: "South Korea",
     q: [
       {
         question: "Academic powers",
         answer:
-          "The China is home to some of the best universities in the world, most of China universities have been frequently placed high in international university rankings, as per the 2023 QS World Ranking. The China is home to 33 of the top 100 universities.",
+          "The South Korea is home to some of the best universities in the world, most of South Korea universities have been frequently placed high in international university rankings, as per the 2023 QS World Ranking. The South Korea is home to 33 of the top 100 universities.",
       },
       {
         question: "Excellent international student support system",
         answer:
-          "China colleges are well-versed in the difficulties faced by international students and regularly hold orientation programs, workshops, and training to support them. Students from various cultures and nations study in China. On an average day, one can find students on the college campus from at least 10-15 different nationalities.",
+          "South Korea colleges are well-versed in the difficulties faced by international students and regularly hold orientation programs, workshops, and training to support them. Students from various cultures and nations study in South Korea. On an average day, one can find students on the college campus from at least 10-15 different nationalities.",
       },
       {
         question: "Successful post-college career",
         answer:
-          "The fact that China jobs offer the highest wages cannot be denied. After completing their education, a large number of brilliant applicants relocate to the US to earn more money. However, students who have studied in China have an advantage, as they can access exclusive career prospects and develop skills that are relevant to the workforce in American colleges.",
+          "The fact that South Korea jobs offer the highest wages cannot be denied. After completing their education, a large number of brilliant applicants relocate to the US to earn more money. However, students who have studied in South Korea have an advantage, as they can access exclusive career prospects and develop skills that are relevant to the workforce in American colleges.",
       },
       {
         question: "Career opportunities",
         answer:
-          "Starting salaries for graduates from the top colleges in the China are competitive. Even if candidates attend a tier-2 university, they can earn over $50,000 if they find the right employment. Graduates in STEM industries typically start at a salary of $66,123. One of the primary benefits of studying in the United States for international students is the experiential learning opportunities offered to students through internships and job placements.",
+          "Starting salaries for graduates from the top colleges in the South Korea are competitive. Even if candidates attend a tier-2 university, they can earn over $50,000 if they find the right employment. Graduates in STEM industries typically start at a salary of $66,123. One of the primary benefits of studying in the United States for international students is the experiential learning opportunities offered to students through internships and job placements.",
       },
     ],
   },
