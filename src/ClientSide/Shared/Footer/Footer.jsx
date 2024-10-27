@@ -214,16 +214,16 @@ md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
           "
           >
             <p className="footerMenuText ">
-              Designed and Developed By Ethical Den
-              {/* <span>
+              Designed and Developed By 
+              <span>
                 <Link
                   to="https://www.ethicalden.com/"
                   target="_blank"
                   className="underline"
                 >
-                  Ethical Den
+                  {""} Ethical Den
                 </Link>
-              </span> */}
+              </span>
             </p>
           </div>
         </div>
