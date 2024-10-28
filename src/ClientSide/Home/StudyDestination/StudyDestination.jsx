@@ -17,28 +17,28 @@ const StudyDestination = () => {
       x: -200, // Start from the right
       opacity: 1, // Start with opacity 0 for a fade-in effect
       duration: 3,
-      delay: 0.5,
+      delay: 1,
       ease: "power2.out",
     });
     gsap.from(boxRef2.current, {
       x: -200, // Start from the right
       opacity: 1, // Start with opacity 0 for a fade-in effect
       duration: 3,
-      delay: 0.5,
+      delay: 1,
       ease: "power2.out",
     });
     gsap.from(boxRef3.current, {
       x: 200, // Start from the right
       opacity: 1, // Start with opacity 0 for a fade-in effect
       duration: 3,
-      delay: 0.5,
+      delay: 1,
       ease: "power2.out",
     });
     gsap.from(boxRef4.current, {
       x: 200, // Start from the right
       opacity: 1, // Start with opacity 0 for a fade-in effect
       duration: 3,
-      delay: 0.5,
+      delay: 1,
       ease: "power2.out",
     });
     gsap.from(boxRef5.current, {

@@ -6,9 +6,8 @@ import { MdArrowRightAlt, MdClose } from "react-icons/md";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import "./Navbar.css";
 import Form from "./Form/Form";
-import StudyDestination from "./StudyDestentionFlag/StudyTenDestention";
-import StudyTenDestention from "./StudyDestentionFlag/StudyTenDestention";
 import { AppContext } from "../../../store/AppContext";
+import StudyTenDestention from "./StudyDestentionFlag/StudyTenDestention";
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -151,7 +150,7 @@ const Navbar = () => {
                   </button>
                   {isDropdown2Open && (
                     <div>
-                      <StudyDestination toggleDropdown2={toggleDropdown2} />
+                      <StudyTenDestention toggleDropdown2={toggleDropdown2} />
                     </div>
                   )}
                 </li>
