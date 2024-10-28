@@ -272,7 +272,7 @@ const Navbar = () => {
                   {isDropdown2Open && (
                     <div
                       className="absolute left-[80%] top-[70px] rounded-[10px] transform -translate-x-1/2 w-[1240px] bg-white py-[50px] shadow-lg"
-                      style={{ zIndex: 10 }}
+                      style={{ zIndex: 20 }}
                     >
                       <div className="max-w-[1140px] mx-auto">
                         <div>
