@@ -672,6 +672,194 @@ export const tableData = [
       },
     ],
   },
+  {
+    country: "Austria",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Vocational or Diploma courses - €300 or INR 27,000 approximately\nBachelor's degree - €300 or INR 27,000 approximately\nMaster's degree - €300 or INR 27,000 approximately\nMS - €300–€28,000 or INR 28,500–INR 25 lacs\nPh.D. - €300–€30,000 or INR 27,000–INR 2,70,000 approximately",
+      },
+      {
+        factor: "Eligibility criteria",
+        country: [
+          "► Entrance qualification",
+          "► Transcript of grades",
+          "► Proof of language proficiency",
+          "   ➤ English language proficiency test",
+          "      ► IELTS Academic test",
+          "      ► TOEFL iBT",
+          "      ► PTE Academic",
+          "   ➤ German language proficiency test",
+          "      ► DSH - Deutsche Sprachprüfung für den Hochschulzugang",
+          "      ► TestDaF - Test of German as a foreign language",
+          "► ID or valid passport copies",
+          "► Letter of motivation (optional)",
+        ],
+      },
+      {
+        factor: "Test scores",
+        country: [
+          "GDS - Goethe-Zertifikat C2",
+          "GRE - 315 and above",
+          "GMAT - 550 and above",
+          "IELTS - 5.5 and above",
+          "TOEFL - 60–80",
+        ],
+      },
+      {
+        factor: "Top courses offered",
+        country:
+          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+      },
+      {
+        factor: "Student visa fees",
+        country:
+          "€75 or INR 8,700 approximately\n€37.5 or INR 3,300 approximately for minors (less than 18 years old)",
+      },
+    ],
+  },
+  {
+    country: "Japan",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Vocational or Diploma courses - €300 or INR 27,000 approximately\nBachelor's degree - €300 or INR 27,000 approximately\nMaster's degree - €300 or INR 27,000 approximately\nMS - €300–€28,000 or INR 28,500–INR 25 lacs\nPh.D. - €300–€30,000 or INR 27,000–INR 2,70,000 approximately",
+      },
+      {
+        factor: "Eligibility criteria",
+        country: [
+          "► Entrance qualification",
+          "► Transcript of grades",
+          "► Proof of language proficiency",
+          "   ➤ English language proficiency test",
+          "      ► IELTS Academic test",
+          "      ► TOEFL iBT",
+          "      ► PTE Academic",
+          "   ➤ German language proficiency test",
+          "      ► DSH - Deutsche Sprachprüfung für den Hochschulzugang",
+          "      ► TestDaF - Test of German as a foreign language",
+          "► ID or valid passport copies",
+          "► Letter of motivation (optional)",
+        ],
+      },
+      {
+        factor: "Test scores",
+        country: [
+          "GDS - Goethe-Zertifikat C2",
+          "GRE - 315 and above",
+          "GMAT - 550 and above",
+          "IELTS - 5.5 and above",
+          "TOEFL - 60–80",
+        ],
+      },
+      {
+        factor: "Top courses offered",
+        country:
+          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+      },
+      {
+        factor: "Student visa fees",
+        country:
+          "€75 or INR 8,700 approximately\n€37.5 or INR 3,300 approximately for minors (less than 18 years old)",
+      },
+    ],
+  },
+  {
+    country: "China",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Vocational or Diploma courses - €300 or INR 27,000 approximately\nBachelor's degree - €300 or INR 27,000 approximately\nMaster's degree - €300 or INR 27,000 approximately\nMS - €300–€28,000 or INR 28,500–INR 25 lacs\nPh.D. - €300–€30,000 or INR 27,000–INR 2,70,000 approximately",
+      },
+      {
+        factor: "Eligibility criteria",
+        country: [
+          "► Entrance qualification",
+          "► Transcript of grades",
+          "► Proof of language proficiency",
+          "   ➤ English language proficiency test",
+          "      ► IELTS Academic test",
+          "      ► TOEFL iBT",
+          "      ► PTE Academic",
+          "   ➤ German language proficiency test",
+          "      ► DSH - Deutsche Sprachprüfung für den Hochschulzugang",
+          "      ► TestDaF - Test of German as a foreign language",
+          "► ID or valid passport copies",
+          "► Letter of motivation (optional)",
+        ],
+      },
+      {
+        factor: "Test scores",
+        country: [
+          "GDS - Goethe-Zertifikat C2",
+          "GRE - 315 and above",
+          "GMAT - 550 and above",
+          "IELTS - 5.5 and above",
+          "TOEFL - 60–80",
+        ],
+      },
+      {
+        factor: "Top courses offered",
+        country:
+          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+      },
+      {
+        factor: "Student visa fees",
+        country:
+          "€75 or INR 8,700 approximately\n€37.5 or INR 3,300 approximately for minors (less than 18 years old)",
+      },
+    ],
+  },
+  {
+    country: "South Korea",
+    details: [
+      {
+        factor: "Average tuition fees (per year)",
+        country:
+          "Vocational or Diploma courses - €300 or INR 27,000 approximately\nBachelor's degree - €300 or INR 27,000 approximately\nMaster's degree - €300 or INR 27,000 approximately\nMS - €300–€28,000 or INR 28,500–INR 25 lacs\nPh.D. - €300–€30,000 or INR 27,000–INR 2,70,000 approximately",
+      },
+      {
+        factor: "Eligibility criteria",
+        country: [
+          "► Entrance qualification",
+          "► Transcript of grades",
+          "► Proof of language proficiency",
+          "   ➤ English language proficiency test",
+          "      ► IELTS Academic test",
+          "      ► TOEFL iBT",
+          "      ► PTE Academic",
+          "   ➤ German language proficiency test",
+          "      ► DSH - Deutsche Sprachprüfung für den Hochschulzugang",
+          "      ► TestDaF - Test of German as a foreign language",
+          "► ID or valid passport copies",
+          "► Letter of motivation (optional)",
+        ],
+      },
+      {
+        factor: "Test scores",
+        country: [
+          "GDS - Goethe-Zertifikat C2",
+          "GRE - 315 and above",
+          "GMAT - 550 and above",
+          "IELTS - 5.5 and above",
+          "TOEFL - 60–80",
+        ],
+      },
+      {
+        factor: "Top courses offered",
+        country:
+          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+      },
+      {
+        factor: "Student visa fees",
+        country:
+          "€75 or INR 8,700 approximately\n€37.5 or INR 3,300 approximately for minors (less than 18 years old)",
+      },
+    ],
+  },
 ];
 
 export const faqs = [

@@ -116,12 +116,21 @@ md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
         >
           <div className=" pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[123px] gap-y-[123px]">
             <div>
-              <div className="footerLogoparent mb-[30px]">
+              <div className="footerLogoparent mb-[10px]">
                 <img
                   className="h-full w-full object-cover "
                   src="https://i.ibb.co/s2xfMC5/image-13-66d80ee8cac4a.webp"
                   alt=""
                 />
+              </div>
+
+              <div
+                className="flex items-center 
+          "
+              >
+                <p className="text-[12px] leading-[20px] pb-[20px] font-helvetica font-normal">
+                  Copyright © Northway Global
+                </p>
               </div>
 
               <div className=" ">

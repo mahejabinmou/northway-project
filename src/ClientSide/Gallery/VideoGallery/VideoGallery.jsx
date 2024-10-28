@@ -79,7 +79,7 @@ const VideoGallery = () => {
           </div>
 
           <button
-            className="flex justify-center items-center mx-auto mt-[50px]
+            className="flex justify-center items-center hover:bg-[#F6941E] hover:text-white mx-auto mt-[50px]
             border border-[#F6941E] text-[#F6941E] font-helvetica
              font-bold text-[18px] leading-[23px] py-[13px] px-[20px]"
             onClick={() => setShowAll(!showAll)} // Step 3: Toggle between showing all and limited images

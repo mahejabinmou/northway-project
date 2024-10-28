@@ -20,13 +20,22 @@ const OurServiceCard = ({ image, name, description }) => {
       <div className="md:hidden block">
         <div
           key={name}
-          onMouseEnter={() => handleMouseEnter(name)}
-          onMouseLeave={handleMouseLeave}
-          className={`bg-[#FFFFFF] md:mb-[12px] xs:mb-[12px] xs:mx-[42.5px] md:px-[10px] md:py-[20px] xs:px-[24px] xs:py-[41px] text-center ${
+          // onMouseEnter={() => handleMouseEnter(name)}
+          // onMouseLeave={handleMouseLeave}
+          onMouseEnter={(e) => {
+            handleMouseEnter(name);
+            e.currentTarget.style.boxShadow =
+              "0 4px 15px rgba(50, 50, 50, 0.7)"; // darker gray shadow
+          }}
+          onMouseLeave={(e) => {
+            handleMouseLeave();
+            e.currentTarget.style.boxShadow = "none"; // removes shadow
+          }}
+          className={`bg-[#FFFFFF] transition-shadow duration-300 md:mb-[12px] xs:mb-[12px] xs:mx-[42.5px] md:px-[10px] md:py-[20px] xs:px-[24px] xs:py-[41px] text-center ${
             hoveredOffice === name ? "border-b-[#F6941E] border-b-2" : ""
           }`}
         >
-          <div className="h-[50px] w-[50px] flex justify-center items-baseline mx-auto xs:mb-[20px] md:mb-[15px]">
+          <div className="h-[50px] w-[50px] transition-shadow duration-300 flex justify-center items-baseline mx-auto xs:mb-[20px] md:mb-[15px]">
             <ReactSVG
               afterInjection={(svg) => {
                 const paths = svg.querySelectorAll("path");

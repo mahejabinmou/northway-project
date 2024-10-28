@@ -1,8 +1,10 @@
 import Navbar from "../../Shared/Navbar/Navbar";
+import Topbar from "../../Shared/Navbar/TopBar";
 
 const ContactHero = () => {
   return (
     <div>
+      <Topbar></Topbar>
       <Navbar></Navbar>
 
       <div className="  relative">

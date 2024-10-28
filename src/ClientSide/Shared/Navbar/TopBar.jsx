@@ -73,7 +73,7 @@ const Topbar = () => {
 
       {/* large screen nav */}
       <div>
-        <div className={`hidden lg:block w-full z-50  bg-[#F6941E]/[.3]`}>
+        <div className={`hidden  lg:block w-full z-50  bg-[#F6941E]/[.3] `}>
           <div className="ToplargeScreenMenu bg-transparent font-helvetica font-normal">
             <div>
               <div className="TopmobileMenuParent ">

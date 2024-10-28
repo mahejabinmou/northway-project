@@ -19,34 +19,33 @@ const Glance = ({ countryName }) => {
         if (typeof item === "string") {
           const arrowIndex = item.search(/[►➤]/); // Find the position of the first arrow symbol
 
+          // Split lines by `\n` and map each to a <div> element
           return (
             <div key={index}>
-              {arrowIndex > -1 && (
-                <span style={{ color: "red" }}>{item.charAt(arrowIndex)}</span>
-              )}
-              <span>{item.slice(arrowIndex + 1)}</span>{" "}
-              {/* Correctly slice from the next character */}
+              {item.split("\n").map((line, i) => (
+                <div key={i}>
+                  {arrowIndex > -1 && i === 0 && (
+                    <span style={{ color: "red" }}>
+                      {line.charAt(arrowIndex)}
+                    </span>
+                  )}
+                  <span>{line.slice(i === 0 ? arrowIndex + 1 : 0)}</span>
+                </div>
+              ))}
             </div>
           );
-        } else {
-          console.error("Invalid item type:", item); // Log invalid item type
-          return null; // Return null for invalid types
         }
+        console.error("Invalid item type:", item); // Log invalid item type
+        return null;
       });
     } else if (typeof text === "string") {
-      const arrowIndex = text.search(/[►➤]/);
-
-      return (
-        <div>
-          {arrowIndex > -1 && (
-            <span style={{ color: "red" }}>{text.charAt(arrowIndex)}</span>
-          )}
-          <span>{text.slice(arrowIndex + 1)}</span>
-        </div>
-      );
+      // Split lines by `\n` and render each line in its own <div>
+      return text
+        .split("\n")
+        .map((line, index) => <div key={index}>{line}</div>);
     }
-    console.error("Unsupported type for rendering:", text); // Log unsupported types
-    return null; // Fallback if the type is not supported
+    console.error("Unsupported type for rendering:", text);
+    return null;
   };
 
   return (

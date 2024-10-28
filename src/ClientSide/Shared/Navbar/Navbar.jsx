@@ -214,7 +214,9 @@ const Navbar = () => {
 
       {/* large screen nav */}
       <div>
-        <div className={`hidden lg:block w-full z-50  bg-white`}>
+        <div
+          className={`hidden lg:block w-full z-50  bg-white  shadow-[0_4px_15px_rgba(50,50,50,0.5)]`}
+        >
           <div className="largeScreenMenu bg-transparent font-helvetica font-normal">
             <div className="headerLogo">
               <Link to="/">
