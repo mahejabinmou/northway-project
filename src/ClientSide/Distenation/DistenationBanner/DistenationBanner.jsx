@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
 import { countryDetailsDestructor } from "../../../utils/CountryDetails";
 import Navbar from "../../Shared/Navbar/Navbar";
+import Topbar from "../../Shared/Navbar/TopBar";
 
 const DistenationBanner = ({ countryName }) => {
   const countryDetails = countryDetailsDestructor(countryName); // if you go inside this file you will crashed your head so better no to go there...
   return (
     <div>
+      <Topbar></Topbar>
       <Navbar></Navbar>
 
       <div className="  relative">

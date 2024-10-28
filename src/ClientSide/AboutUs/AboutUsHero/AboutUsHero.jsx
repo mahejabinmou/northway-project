@@ -1,15 +1,17 @@
 import Navbar from "../../Shared/Navbar/Navbar";
+import Topbar from "../../Shared/Navbar/TopBar";
 
 const AboutUsHero = () => {
   return (
     <div className="">
+      <Topbar></Topbar>
       <Navbar></Navbar>
 
       <div className=" 2xl:relative  md:relative md:block hidden">
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"/about/AboutUs.jpg"})`,
+            backgroundImage: `url(${"/about.jpg"})`,
             filter: "brightness(.7) ",
           }}
           className="bg-no-repeat bg-top bg-cover w-[100%] h-[485px]  flex justify-center items-center"
@@ -28,7 +30,7 @@ const AboutUsHero = () => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co.com/vYB2PxM/pexels-fauxels-3184394.webp"})`,
+            backgroundImage: `url(${"/about.jpg"})`,
             filter: "brightness(.6) ",
           }}
           className="bg-no-repeat bg-center bg-cover  h-[385px] flex justify-center items-center"

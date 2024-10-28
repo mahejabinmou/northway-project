@@ -2,6 +2,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 import Navbar from "../../Shared/Navbar/Navbar";
 import { useState } from "react";
 import Footer from "../../Shared/Footer/Footer";
+import Topbar from "../../Shared/Navbar/TopBar";
 
 const PhotoGallery = () => {
   const [showAll, setShowAll] = useState(false); // Step 1: state to toggle showing all images
@@ -49,6 +50,7 @@ const PhotoGallery = () => {
 
   return (
     <div className="bg-[#F5F5F5]">
+      <Topbar></Topbar>
       <Navbar></Navbar>
 
       <div className="  relative">
@@ -70,48 +72,8 @@ const PhotoGallery = () => {
         </div>
       </div>
 
-      {/* <div
-        className="sectionGap grid grid-cols-1 md:grid-cols-3 justify-center items-center
-      lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
-      >
-        {Photo.map((image, index) => (
-          <div key={index} className="h-[200px]  2xl:h-[300px]">
-            <img
-              className="h-full w-full"
-              src={image}
-              alt={`Image ${index + 1}`}
-            />
-          </div>
-        ))}
-      </div> */}
-
       <div className="sectionGap   ">
-        <div className="flex justify-center items-center gap-x-[30px] mb-[50px]">
-          {/* <button
-            className={`text-center px-[20px] py-[13.5px] font-helvetica text-[18px] leading-[23.4px] font-bold 
-          ${
-            activeButton === "All"
-              ? "bg-[#F6941E] text-white"
-              : "bg-transparent text-[#1E1E1E]/[.8]"
-          }
-        `}
-            onClick={() => setActiveButton("All")}
-          >
-            All
-          </button> */}
-          {/* <button
-            className={`text-center px-[20px] py-[13.5px] font-helvetica text-[18px] leading-[23.4px] font-bold 
-          ${
-            activeButton === "gallery"
-              ? "bg-[#F6941E] text-white"
-              : "bg-transparent text-[#1E1E1E]/[.8]"
-          }
-        `}
-            onClick={() => setActiveButton("gallery")}
-          >
-            Gallery Item
-          </button> */}
-        </div>
+        <div className="flex justify-center items-center gap-x-[30px] mb-[50px]"></div>
 
         <div className="">
           <div
@@ -119,7 +81,7 @@ const PhotoGallery = () => {
               lg:gap-[24px]  md:gap-[24px] gap-x-0 gap-y-[24px]"
           >
             {visibleImages.map((image, index) => (
-              <div key={index} className="h-[200px]  2xl:h-[300px]">
+              <div key={index} className="h-[200px]  2xl:h-[300px] x">
                 <img
                   className="h-full w-full"
                   src={image}

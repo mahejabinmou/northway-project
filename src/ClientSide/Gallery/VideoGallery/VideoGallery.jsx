@@ -2,6 +2,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 import Navbar from "../../Shared/Navbar/Navbar";
 import { useState } from "react";
 import Footer from "../../Shared/Footer/Footer";
+import Topbar from "../../Shared/Navbar/TopBar";
 
 const VideoGallery = () => {
   const [showAll, setShowAll] = useState(false); // Step 1: state to toggle showing all images
@@ -25,6 +26,7 @@ const VideoGallery = () => {
 
   return (
     <div>
+      <Topbar></Topbar>
       <Navbar></Navbar>
       <div className="  relative">
         {/* Background image section */}

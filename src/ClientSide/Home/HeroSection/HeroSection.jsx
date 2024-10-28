@@ -13,6 +13,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 import HeroCard from "./HeroCard/HeroCard";
 import { useGSAP } from "@gsap/react";
 import { Link } from "react-router-dom";
+import Topbar from "../../Shared/Navbar/TopBar";
 
 const HeroSection = () => {
   const textRef = useRef([]);
@@ -92,8 +93,9 @@ const HeroSection = () => {
 
   return (
     <div className=" ">
+      <Topbar></Topbar>
       <Navbar></Navbar>
-      <div className="relative  md:hidden block">
+      <div className="  md:hidden block">
         {/* mobile */}
         <div className="slider-container   overflow-hidden">
           <Slider {...settings}>
