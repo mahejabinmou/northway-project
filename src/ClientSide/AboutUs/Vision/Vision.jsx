@@ -1,18 +1,41 @@
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Vision = () => {
-  useEffect(() => {
-    const vision = document.getElementById("vision");
+  const visionRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-    setTimeout(() => {
-      vision.classList.add("visible");
-    }, 1000);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false); // Reset visibility when it's not in view
+        }
+      },
+      { threshold: 0.1 } // Adjust threshold as needed
+    );
+
+    if (visionRef.current) {
+      observer.observe(visionRef.current);
+    }
+
+    return () => {
+      if (visionRef.current) {
+        observer.unobserve(visionRef.current);
+      }
+    };
   }, []);
 
   return (
     <section className="sectionGap">
       <div className="WhyStudyParent mt-[-75px]">
-        <div id="vision" className="animated-section-rtl text-right">
+        <div
+          ref={visionRef}
+          className={`animated-section-rtl text-right ${
+            isVisible ? "visible" : ""
+          }`}
+        >
           <h1 className="chooseUsSamll text-right">
             <span className="text-[#F6941E]">Our</span> Vision
           </h1>

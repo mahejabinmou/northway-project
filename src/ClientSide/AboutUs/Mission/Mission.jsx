@@ -1,20 +1,39 @@
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Mission = () => {
-  useEffect(() => {
-    const mission = document.getElementById("mission");
+  const missionRef = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
 
-    setTimeout(() => {
-      mission.classList.add("visible");
-    }, 500);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false); // Reset visibility when it's not in view
+        }
+      },
+      { threshold: 0.1 } // Adjust the threshold as needed
+    );
+
+    if (missionRef.current) {
+      observer.observe(missionRef.current);
+    }
+
+    return () => {
+      if (missionRef.current) {
+        observer.unobserve(missionRef.current);
+      }
+    };
   }, []);
 
   return (
     <section className="sectionGap">
-      <div className="WhyStudyParent relative">
-        <div id="stroke-line" className="stroke-line"></div>
-        <div id="dot" className="dot"></div>
-        <div id="mission" className="animated-section-ltr">
+      <div className="WhyStudyParent">
+        <div
+          ref={missionRef}
+          className={`animated-section-ltr ${isVisible ? "visible" : ""}`}
+        >
           <h1 className="chooseUsSamll">
             <span className="text-[#F6941E]">Our</span> Mission
           </h1>

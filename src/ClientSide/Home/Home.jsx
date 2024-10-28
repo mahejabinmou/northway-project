@@ -8,6 +8,8 @@ import OurStudentSay from "./OurStudentSay/OurStudentSay";
 import OurLatestBlog from "./OurLatestBlog/OurLatestBlog";
 import Footer from "../Shared/Footer/Footer";
 import OurVideo from "./OurVideo/OurVideo";
+import Mission from "../AboutUs/Mission/Mission";
+import Vision from "../AboutUs/Vision/Vision";
 
 const Home = () => {
   useEffect(() => {
@@ -23,6 +25,8 @@ const Home = () => {
       <OurVideo></OurVideo>
       <OurStudentSay></OurStudentSay>
       <OurLatestBlog></OurLatestBlog>
+      <Mission></Mission>
+      <Vision></Vision>
       <Footer></Footer>
     </div>
   );
