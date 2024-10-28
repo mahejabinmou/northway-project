@@ -2086,3 +2086,24 @@ font-helvetica font-normal;
     md:text-[15px] md:leading-[24px] text-[#1E1E1E]/[.8];
   }
 }
+.animated-section-ltr {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
+}
+
+.animated-section-ltr.visible {
+  opacity: 1;
+  transform: translateX(40%);
+}
+
+.animated-section-rtl {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: all 1s ease-in-out;
+}
+
+.animated-section-rtl.visible {
+  opacity: 1;
+  transform: translateX(70%);
+}
