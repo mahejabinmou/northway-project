@@ -2088,7 +2088,7 @@ font-helvetica font-normal;
 }
 .animated-section-ltr {
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateX(0%);
   transition: all 1s ease-in-out;
 }
 
@@ -2099,11 +2099,23 @@ font-helvetica font-normal;
 
 .animated-section-rtl {
   opacity: 0;
-  transform: translateX(200%);
+  transform: translateX(100%);
   transition: all 1s ease-in-out;
 }
 
 .animated-section-rtl.visible {
   opacity: 1;
-  transform: translateX(70%);
+  transform: translateX(60%);
+}
+
+@media (max-width: 430px) {
+  .animated-section-ltr,
+  .animated-section-ltr.visible {
+    transform: translateX(0%);
+  }
+
+  .animated-section-rtl,
+  .animated-section-rtl.visible {
+    transform: translateX((0%));
+  }
 }

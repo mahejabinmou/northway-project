@@ -19,14 +19,16 @@ const Home = () => {
     <div className="bg-[#F5F5F5] ">
       <HeroSection></HeroSection>
       <About></About>
+      <div className="sm:flex sm:flex-wrap">
+        <Mission></Mission>
+        <Vision></Vision>
+      </div>
       <OurService></OurService>
       <ChooseUs></ChooseUs>
       <StudyDestination></StudyDestination>
       <OurVideo></OurVideo>
       <OurStudentSay></OurStudentSay>
       <OurLatestBlog></OurLatestBlog>
-      <Mission></Mission>
-      <Vision></Vision>
       <Footer></Footer>
     </div>
   );
