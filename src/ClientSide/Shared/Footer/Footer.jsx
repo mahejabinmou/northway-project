@@ -598,16 +598,6 @@ const Footer = () => {
 
                 <span> info@northwayglobal.com.bd</span>
               </p>
-              <p className=" flex items-start gap-x-[10px]">
-                <img
-                  className="h-[16px] w-[16px] "
-                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
-                  alt=""
-                />
-                <span className="footerMenuText">
-                  info@northwayglobal.com.bd
-                </span>
-              </p>
             </div>
           </div>
         </div>
