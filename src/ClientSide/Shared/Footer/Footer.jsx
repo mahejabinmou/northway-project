@@ -41,36 +41,36 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaLinkedinIn size={16} className="footerSocailIcon " />
+                    <FaLinkedinIn size={18} className="footerSocailIcon " />
                   </a>
                   <a
                     href="https://x.com/northwayglobalx"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaXTwitter size={16} className="footerSocailIcon" />
+                    <FaXTwitter size={18} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.facebook.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaFacebookF size={16} className="footerSocailIcon" />
+                    <FaFacebookF size={18} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.instagram.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram size={16} className="footerSocailIcon " />
+                    <FaInstagram size={18} className="footerSocailIcon " />
                   </a>
 
                   <a
-                    href="https://wa.me/8801771660030"
+                    href="https://wa.me/8801771860030"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp size={16} className="footerSocailIcon" />
+                    <FaWhatsapp size={18} className="footerSocailIcon" />
                   </a>
                 </div>
               </div>
@@ -137,18 +137,18 @@ const Footer = () => {
                   src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
                   alt=""
                 />
-                <span className="text-[16px] flex gap-x-[10px]">
+                <span className="text-[18px] flex gap-x-[10px]">
                   <span className="font-bold">Dhaka Office:</span>{" "}
                   <a
-                    href="tel:+8801771660030"
+                    href="tel:+8801771860030"
                     target="_blank"
                     className="underline"
                   >
-                    +8801771660030
+                    +8801771860030
                   </a>{" "}
                 </span>
               </p>
-              <p className="text-[16px] xs:ml-[35px] flex gap-x-[10px]">
+              <p className="text-[18px] xs:ml-[35px] flex gap-x-[10px]">
                 <span className="font-bold">USA office:</span>{" "}
                 <a
                   href="tel:+19179246493"
@@ -158,7 +158,7 @@ const Footer = () => {
                   +19179246493
                 </a>{" "}
               </p>
-              <p className="text-[16px] xs:mb-[35px] xs:ml-[35px] flex gap-x-[10px]">
+              <p className="text-[18px] xs:mb-[35px] xs:ml-[35px] flex gap-x-[10px]">
                 <span className="font-bold">Australia office:</span>{" "}
                 <a
                   href="tel:+61449615940"
@@ -170,8 +170,8 @@ const Footer = () => {
               </p>
               <p className=" flex items-start gap-x-[10px]">
                 <img
-                  className="h-[16px] w-[16px] "
-                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
+                  className="h-[18px] w-[18px] "
+                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945183a8b4.webp"
                   alt=""
                 />
                 <span className="footerMenuText">
@@ -183,7 +183,7 @@ const Footer = () => {
         </div>
 
         {/* large */}
-        <div className="hidden md:block px-[16px]   xs:px-[16px]  xl:px-[100px] md:px-[32px] lg:px-[60px] 2xl:px-[100px] ">
+        <div className="hidden md:block px-[18px]   xs:px-[18px]  xl:px-[100px] md:px-[32px] lg:px-[60px] 2xl:px-[100px] ">
           <div className=" pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[123px] gap-y-[123px]">
             <div>
               <div className="footerLogoparent mb-[10px]">
@@ -198,48 +198,48 @@ const Footer = () => {
                 className="flex items-center 
           "
               >
-                <p className="text-[12px] leading-[16px] pb-[16px] font-helvetica font-normal">
+                <p className="text-[12px] leading-[18px] pb-[18px] font-helvetica font-normal">
                   Copyright © Northway Global
                 </p>
               </div>
 
               <div className=" ">
-                <div className="flex   pb-[15px] gap-x-[10px]">
+                <div className="flex   pb-[15px] gap-x-[5px]">
                   <a
                     href="https://www.linkedin.com/in/northwayglobal/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaLinkedinIn size={16} className="footerSocailIcon " />
+                    <FaLinkedinIn size={18} className="footerSocailIcon " />
                   </a>
                   <a
                     href="https://x.com/northwayglobalx"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaXTwitter size={16} className="footerSocailIcon" />
+                    <FaXTwitter size={18} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.facebook.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaFacebookF size={16} className="footerSocailIcon" />
+                    <FaFacebookF size={18} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.instagram.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram size={16} className="footerSocailIcon " />
+                    <FaInstagram size={18} className="footerSocailIcon " />
                   </a>
 
                   <a
-                    href="https://wa.me/8801771660030"
+                    href="https://wa.me/8801771860030"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp size={16} className="footerSocailIcon" />
+                    <FaWhatsapp size={18} className="footerSocailIcon" />
                   </a>
                 </div>
               </div>
@@ -300,9 +300,9 @@ const Footer = () => {
                 </p>
               </div>
 
-              <p className=" text-[16px] flex items-start gap-x-[10px]">
+              <p className=" text-[18px] flex items-start gap-x-[10px]">
                 <img
-                  className="h-[16px] w-[24px] object-cover"
+                  className="h-[18px] w-[24px] object-cover"
                   src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
                   alt=""
                 />
@@ -310,15 +310,15 @@ const Footer = () => {
                 <span className="flex gap-x-[10px]">
                   <span className="font-bold">Dhaka Office:</span>{" "}
                   <a
-                    href="tel:+8801771660030"
+                    href="tel:+8801771860030"
                     target="_blank"
                     className="underline"
                   >
-                    +8801771660030
+                    +8801771860030
                   </a>{" "}
                 </span>
               </p>
-              <p className="text-[16px] md:ml-[35px] xs:ml-0 flex gap-x-[10px]">
+              <p className="text-[18px] md:ml-[35px] xs:ml-0 flex gap-x-[10px]">
                 <span className="font-bold">USA office:</span>
                 <a
                   href="tel:+19179246493"
@@ -328,7 +328,7 @@ const Footer = () => {
                   +19179246493
                 </a>{" "}
               </p>
-              <p className="text-[16px] md:ml-[35px] xs:ml-0 mb-[10px] flex gap-x-[10px]">
+              <p className="text-[18px] md:ml-[35px] xs:ml-0 mb-[10px] flex gap-x-[10px]">
                 <span className="font-bold">Australia office: </span>{" "}
                 <a
                   href="tel:+61449615940"
@@ -342,12 +342,12 @@ const Footer = () => {
 
               <p className="footerMenuText flex items-start gap-x-[10px]">
                 <img
-                  className="h-[16px] w-[16px] "
-                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
+                  className="h-[18px] w-[18px] "
+                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945183a8b4.webp"
                   alt=""
                 />
 
-                <span> info@northwayglobal.com.bd</span>
+                <span> info@northwayglobal.com.bd </span>
               </p>
             </div>
           </div>

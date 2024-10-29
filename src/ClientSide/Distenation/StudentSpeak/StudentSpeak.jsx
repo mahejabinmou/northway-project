@@ -216,7 +216,8 @@ const NextArrow = (props) => {
   const { onClick } = props;
   return (
     <button
-      className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10  rounded-full p-2 bg-[#F6941E] text-white "
+      className="ml-[50%] mr-[50%] absolute  bottom-[-50px] left-4 z-10  rounded-full p-2 hover:bg-[#F6941E] hover:text-white  bg-[#F6941E33]/[.2] text-[#1E1E1E]
+       "
       onClick={onClick}
     >
       <svg
@@ -224,7 +225,7 @@ const NextArrow = (props) => {
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
-        className="h-6 w-6 text-white"
+        className="h-6 w-6 "
       >
         <path
           strokeLinecap="round"
@@ -245,7 +246,7 @@ const PrevArrow = (props) => {
        bg-[#F6941E33]/[.2]
       text-[#1E1E1E] 
       
-      rounded-full p-2 "
+      rounded-full p-2 hover:bg-[#F6941E] hover:text-white"
       onClick={onClick}
     >
       <svg
