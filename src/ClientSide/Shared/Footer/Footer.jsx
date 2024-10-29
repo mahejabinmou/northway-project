@@ -1,6 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useContext } from "react";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+  FaWhatsapp,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { AppContext } from "../../../store/AppContext";
 import useScrollTrickilyToTop from "../../../hooks/useScrollTrickilyToTop";
@@ -28,14 +34,40 @@ const Footer = () => {
 
               <div className=" ">
                 <div className="flex   pb-[10px] gap-x-[10px]">
-                  <a href="">
+                  <a
+                    href="https://www.linkedin.com/in/northwayglobal/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn size={28} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://x.com/northwayglobalx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaTwitter size={28} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaFacebook size={28} className="footerSocailIcon" />
                   </a>
-                  <a href="">
+                  <a
+                    href="https://www.instagram.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaInstagram size={28} className="footerSocailIcon" />
                   </a>
 
-                  <a href="">
+                  <a
+                    href="https://wa.me/8801771660030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaWhatsapp size={28} className="footerSocailIcon" />
                   </a>
                 </div>
@@ -63,18 +95,18 @@ const Footer = () => {
               </Link>
             </div>
 
-            <div className="text-white/[.8]">
+            {/* <div className="text-white/[.8]">
               <h2 className="footerMenuTextTitle">Latest Post</h2>
               <p className="footerMenuText">Study in China</p>
               <p className="footerMenuText">ulbright Scholarships in China</p>
               <p className="footerMenuText">
                 How to Apply to Foreign Universities
               </p>
-            </div>
+            </div> */}
 
             <div className="text-white/[.8]">
               <h2 className="footerMenuTextTitle">Contact Us</h2>
-              <p className=" flex items-start gap-x-[10px]">
+              <div className=" flex items-start gap-x-[10px]">
                 <img
                   className="h-[24px] w-[24px] object-cover"
                   src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
@@ -84,15 +116,55 @@ const Footer = () => {
                   Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212,
                   (Near American Embassy)
                 </span>
-              </p>
+              </div>
+              <div className="footerMenuText flex flex-row items-center gap-x-[10px] xs:ml-[30px] ">
+                <p>
+                  {" "}
+                  <span className="font-bold">USA Office:</span> 37 -22 73 Rd St
+                  (2nd floor) ,Jackson Heights NY, 11372
+                </p>
+                <p>
+                  <span className="font-bold">Australia Office:</span> 3/4
+                  Nellie Ave Mitchell Park SA 5043
+                </p>
+              </div>
 
-              <p className=" flex items-start gap-x-[10px]">
+              <p className=" flex items-start gap-x-[10px]  mt-[10px]">
                 <img
                   className="h-[24px] w-[24px] object-cover"
                   src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
                   alt=""
                 />
-                <span className="footerMenuText">+880 1607-002687</span>
+                <span className="text-[16px] flex gap-x-[10px]">
+                  <span className="font-bold">Dhaka Office:</span>{" "}
+                  <a
+                    href="tel:+8801771660030"
+                    target="_blank"
+                    className="underline"
+                  >
+                    +8801771660030
+                  </a>{" "}
+                </span>
+              </p>
+              <p className="text-[16px] xs:ml-[35px] flex gap-x-[10px]">
+                <span className="font-bold">USA office:</span>{" "}
+                <a
+                  href="tel:+19179246493"
+                  target="_blank"
+                  className="underline"
+                >
+                  +19179246493
+                </a>{" "}
+              </p>
+              <p className="text-[16px] xs:mb-[35px] xs:ml-[35px] flex gap-x-[10px]">
+                <span className="font-bold">Australia office:</span>{" "}
+                <a
+                  href="tel:+61449615940"
+                  target="_blank"
+                  className="underline"
+                >
+                  +61449615940
+                </a>{" "}
               </p>
               <p className=" flex items-start gap-x-[10px]">
                 <img
@@ -109,11 +181,7 @@ const Footer = () => {
         </div>
 
         {/* large */}
-        <div
-          className="hidden md:block px-[16px]
- xs:px-[16px]  xl:px-[100px]
-md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
-        >
+        <div className="hidden md:block px-[16px]   xs:px-[16px]  xl:px-[100px] md:px-[32px] lg:px-[60px] 2xl:px-[100px] ">
           <div className=" pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[123px] gap-y-[123px]">
             <div>
               <div className="footerLogoparent mb-[10px]">
@@ -135,14 +203,40 @@ md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
 
               <div className=" ">
                 <div className="flex   pb-[15px] gap-x-[10px]">
-                  <a href="">
+                  <a
+                    href="https://www.linkedin.com/in/northwayglobal/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn size={28} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://x.com/northwayglobalx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaTwitter size={28} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaFacebook size={28} className="footerSocailIcon" />
                   </a>
-                  <a href="">
+                  <a
+                    href="https://www.instagram.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaInstagram size={28} className="footerSocailIcon" />
                   </a>
 
-                  <a href="">
+                  <a
+                    href="https://wa.me/8801771660030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <FaWhatsapp size={28} className="footerSocailIcon" />
                   </a>
                 </div>
@@ -170,16 +264,16 @@ md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
               </Link>
             </div>
 
-            <div className="text-white/[.8]">
+            {/* <div className="text-white/[.8]">
               <h2 className="footerMenuTextTitle">Latest Post</h2>
               <p className="footerMenuText">Study in China</p>
               <p className="footerMenuText">ulbright Scholarships in China</p>
               <p className="footerMenuText">
                 How to Apply to Foreign Universities
               </p>
-            </div>
+            </div> */}
 
-            <div className="text-white/[.8]">
+            <div className="text-white/[.8] col-span-2">
               <h2 className="footerMenuTextTitle">Contact Us</h2>
               <p className=" flex items-start gap-x-[10px]">
                 <img
@@ -188,20 +282,62 @@ md:px-[32px] lg:px-[60px] 2xl:px-[100px] "
                   alt=""
                 />
                 <span className=" footerMenuText text-white/[.8]">
-                  Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212,
-                  (Near American Embassy)
+                  <span className="font-bold">Dhaka Office:</span> Kha-12/2,
+                  Shahjaspur, Gulshan, Dhaka-1212
                 </span>
               </p>
+              <div className="footerMenuText flex flex-row items-center gap-x-[10px] md:ml-[30px] xs:ml-0">
+                <p>
+                  {" "}
+                  <span className="font-bold">USA Office:</span> 37 -22 73 Rd St
+                  (2nd floor) ,Jackson Heights NY, 11372
+                </p>
+                <p>
+                  <span className="font-bold">Australia Office:</span> 3/4
+                  Nellie Ave Mitchell Park SA 5043
+                </p>
+              </div>
 
-              <p className="footerMenuText flex items-start gap-x-[10px]">
+              <p className=" text-[16px] flex items-start gap-x-[10px]">
                 <img
                   className="h-[20px] w-[24px] object-cover"
                   src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
                   alt=""
                 />
 
-                <span> +880 1607-002687</span>
+                <span className="flex gap-x-[10px]">
+                  <span className="font-bold">Dhaka Office:</span>{" "}
+                  <a
+                    href="tel:+8801771660030"
+                    target="_blank"
+                    className="underline"
+                  >
+                    +8801771660030
+                  </a>{" "}
+                </span>
               </p>
+              <p className="text-[16px] md:ml-[35px] xs:ml-0 flex gap-x-[10px]">
+                <span className="font-bold">USA office:</span>
+                <a
+                  href="tel:+19179246493"
+                  target="_blank"
+                  className="underline"
+                >
+                  +19179246493
+                </a>{" "}
+              </p>
+              <p className="text-[16px] md:ml-[35px] xs:ml-0 mb-[10px] flex gap-x-[10px]">
+                <span className="font-bold">Australia office: </span>{" "}
+                <a
+                  href="tel:+61449615940"
+                  target="_blank"
+                  className="underline"
+                >
+                  {" "}
+                  +61449615940
+                </a>{" "}
+              </p>
+
               <p className="footerMenuText flex items-start gap-x-[10px]">
                 <img
                   className="h-[16px] w-[16px] "

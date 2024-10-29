@@ -617,7 +617,7 @@ export const tableData = [
       {
         factor: "Popular courses",
         country:
-          "Business Management, Medicine, Engineering, Architecture, Computer Science & Information Technology",
+          "Business Management \nMedicine \nEngineering \nArchitecture \nComputer Science & Information Technology",
       },
       {
         factor: "Students visa (subclass 500) fees",
@@ -663,7 +663,7 @@ export const tableData = [
       {
         factor: "Top courses offered",
         country:
-          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+          "Engineering Management \nComputer Science and IT \nCreative Arts \nHumanities and Arts \nSocial Sciences",
       },
       {
         factor: "Student visa fees",
@@ -710,7 +710,7 @@ export const tableData = [
       {
         factor: "Top courses offered",
         country:
-          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+          "Engineering \nManagement \nComputer Science and IT \nCreative Arts \nHumanities and Arts \nSocial Sciences",
       },
       {
         factor: "Student visa fees",
@@ -757,7 +757,7 @@ export const tableData = [
       {
         factor: "Top courses offered",
         country:
-          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+          "Engineering \nManagement \nComputer Science and IT \nCreative Arts \nHumanities and Arts \nSocial Sciences",
       },
       {
         factor: "Student visa fees",
@@ -804,7 +804,7 @@ export const tableData = [
       {
         factor: "Top courses offered",
         country:
-          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+          "Engineering \nManagement \nComputer Science and IT \nCreative Arts \nHumanities and Arts \nSocial Sciences",
       },
       {
         factor: "Student visa fees",
@@ -851,7 +851,7 @@ export const tableData = [
       {
         factor: "Top courses offered",
         country:
-          "Engineering, Management, Computer Science and IT, Creative Arts, Humanities and Arts, Social Sciences",
+          "Engineering \nManagement \nComputer Science and IT \nCreative Arts \nHumanities and Arts \nSocial Sciences",
       },
       {
         factor: "Student visa fees",

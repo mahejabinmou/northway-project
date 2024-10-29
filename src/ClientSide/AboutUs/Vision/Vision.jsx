@@ -28,7 +28,7 @@ const Vision = () => {
   }, []);
 
   return (
-    <section className="sectionGap">
+    <section className="sectionGap pb-[70px]">
       <div className="WhyStudyParent mt-[-75px]">
         <div
           ref={visionRef}
@@ -36,10 +36,10 @@ const Vision = () => {
             isVisible ? "visible" : ""
           }`}
         >
-          <h1 className="chooseUsSamll text-right">
+          <h1 className="chooseUsSamll text-right text-white">
             <span className="text-[#F6941E]">Our</span> Vision
           </h1>
-          <p className="chooseUsParaText text-black/[0.8]">
+          <p className="chooseUsParaText text-white">
             Our long-term vision is to establish a globally connected
             educational ecosystem. We are dedicated to fostering innovation,
             inclusivity, and sustainability in education, ensuring every student

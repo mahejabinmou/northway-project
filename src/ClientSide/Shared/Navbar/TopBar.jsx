@@ -1,10 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useContext, useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./Navbar.css";
 
 import { AppContext } from "../../../store/AppContext";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { PiWhatsappLogoFill } from "react-icons/pi";
 const Topbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -16,28 +18,12 @@ const Topbar = () => {
     setIsDropdown2Open(!isDropdown2Open);
   };
   const location = useLocation();
-  const isHomePage = location.pathname === "/";
-  const isAboutPage = location.pathname === "/About";
-  const isBlogsPage = location.pathname === "/blogs";
-  const isContactPage = location.pathname === "/ContactUs";
-  const isPhotoGallery = location.pathname === "/photo-gallery";
-  const isVideoGallery = location.pathname === "/video-gallery";
-  const isBlog = location.pathname === "/blog/:blogId";
+
   const { isDropdown2Open, setIsDropdown2Open } = useContext(AppContext);
 
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const handleMenu = () => {
-    setOpen(true);
-  };
 
-  const handleClose = () => {
-    setOpen(false);
-  };
-
-  const menuClose = () => {
-    setOpen(false);
-  };
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -56,16 +42,6 @@ const Topbar = () => {
 
   // form
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
-
   return (
     <div>
       {/* Fixed Navbar */}
@@ -77,61 +53,89 @@ const Topbar = () => {
           <div className="ToplargeScreenMenu bg-transparent font-helvetica font-normal">
             <div>
               <div className="TopmobileMenuParent ">
-                <Link to="/" onClick={menuClose}>
-                  <li
-                    className={` ${
-                      isHomePage
-                        ? "text-[#F6941E] hover:text-[#F6941E]"
-                        : "text-black hover:text-[#F6941E]"
-                    }`}
-                  >
-                    Phone Bd
-                  </li>
-                </Link>
+                <li>
+                  <p className="flex gap-x-[10px] text-black/[.7]">
+                    {" "}
+                    Dhaka office:{" "}
+                    <a
+                      href="tel:+61449615940"
+                      target="_blank"
+                      className="underline hover:text-[#f6941e]"
+                    >
+                      +8801771660030
+                    </a>{" "}
+                  </p>
+                </li>
 
-                <Link to="" onClick={menuClose}>
-                  <li
-                    className={` ${
-                      isHomePage
-                        ? "text-black"
-                        : isAboutPage
-                        ? "text-[#f6941e]"
-                        : "text-black"
-                    }`}
-                  >
-                    Phone Dubai
-                  </li>
-                </Link>
+                <li>
+                  <p className="flex gap-x-[10px] text-black/[.7]">
+                    {" "}
+                    USA office:{" "}
+                    <a
+                      href="tel:+61449615940"
+                      target="_blank"
+                      className="underline hover:text-[#f6941e]"
+                    >
+                      +19179246493
+                    </a>{" "}
+                  </p>
+                </li>
 
                 {/* Other Menu Items */}
                 <li>
-                  <Link
-                    to=""
-                    className={` ${
-                      isHomePage
-                        ? "text-black"
-                        : isBlogsPage
-                        ? "text-orange-500"
-                        : "text-black"
-                    }`}
-                  >
-                    Phone USA
-                  </Link>
+                  <p className="flex gap-x-[10px] text-black/[.7]">
+                    {" "}
+                    Australia office:{" "}
+                    <a
+                      href="tel:+61449615940"
+                      target="_blank"
+                      className="underline hover:text-[#f6941e]"
+                    >
+                      +61449615940
+                    </a>{" "}
+                  </p>
                 </li>
               </div>
             </div>
 
             <div className=" ">
               <div className="flex    gap-x-[10px]">
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/in/northwayglobal/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn size={20} className="footerSocailIcon " />
+                </a>
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaTwitter size={20} className="footerSocailIcon" />
+                </a>
+                <a
+                  href="https://www.facebook.com/northwayglobal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaFacebook size={20} className="footerSocailIcon" />
                 </a>
-                <a href="">
-                  <FaInstagram size={20} className="footerSocailIcon" />
+                <a
+                  href="https://www.instagram.com/northwayglobal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillInstagram size={20} className="footerSocailIcon " />
                 </a>
 
-                <a href="">
-                  <FaWhatsapp size={20} className="footerSocailIcon " />
+                <a href="https://wa.me/8801771660030">
+                  <PiWhatsappLogoFill
+                    size={20}
+                    className="footerSocailIcon"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
                 </a>
               </div>
             </div>

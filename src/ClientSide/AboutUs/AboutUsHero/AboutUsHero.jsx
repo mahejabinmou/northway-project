@@ -14,7 +14,7 @@ const AboutUsHero = () => {
             backgroundImage: `url(${"/about.jpg"})`,
             filter: "brightness(.7) ",
           }}
-          className="bg-no-repeat bg-top bg-cover w-[100%] h-[485px]  flex justify-center items-center"
+          className="bg-no-repeat bg-center bg-cover w-[100%] h-[485px]  flex justify-center items-center"
         ></div>
 
         {/* Text Section */}

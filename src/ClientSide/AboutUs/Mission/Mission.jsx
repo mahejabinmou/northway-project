@@ -34,10 +34,10 @@ const Mission = () => {
           ref={missionRef}
           className={`animated-section-ltr ${isVisible ? "visible" : ""}`}
         >
-          <h1 className="chooseUsSamll">
+          <h1 className="chooseUsSamll text-white">
             <span className="text-[#F6941E]">Our</span> Mission
           </h1>
-          <p className="chooseUsParaText text-black/[0.8]">
+          <p className="chooseUsParaText text-white">
             We aim to facilitate the smooth transition of students into new
             educational environments across the globe. Our mission is to provide
             support, resources, and guidance to ensure a successful migration

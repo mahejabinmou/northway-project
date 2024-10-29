@@ -37,8 +37,7 @@ function ContactForm({ selectedOffice }) {
       img: "https://i.ibb.co.com/02dwmHq/frame-89-3-66dd4ded194c7.webp",
       title: "Address",
       dis:
-        selectedOffice?.address ||
-        "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-1212, (Near American Embassy)",
+        selectedOffice?.address || "Kha-12/2, Shahjaspur, Gulshan, Dhaka-1212",
 
       // dis: "Kha-12/2(4th floor), Pragati Sarani, Gulshan, Dhaka-",
       // sub: "1212, (Near American Embassy)",

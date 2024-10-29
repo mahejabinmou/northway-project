@@ -12,9 +12,23 @@ const AboutUs = () => {
       <AboutUsHero></AboutUsHero>
       <WhoAreU></WhoAreU>
       <OurService></OurService>
-      <div className="sm:flex sm:flex-wrap">
-        <Mission></Mission>
-        <Vision></Vision>
+      <div className="relative sm:flex sm:flex-wrap mt-[90px]">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('./jake.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            filter: "brightness(0.75)",
+          }}
+        />
+
+        {/* Content */}
+        <div className="relative z-10">
+          <Mission />
+          <Vision />
+        </div>
       </div>
       <OurStudentSay></OurStudentSay>
       {/* Here you new component for mission and vision */}
