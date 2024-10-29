@@ -2,6 +2,7 @@
 import React, { useContext } from "react";
 import {
   FaFacebook,
+  FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
@@ -10,6 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import { AppContext } from "../../../store/AppContext";
 import useScrollTrickilyToTop from "../../../hooks/useScrollTrickilyToTop";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   const { isDropdown2Open, setIsDropdown2Open } = useContext(AppContext);
@@ -39,28 +41,28 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaLinkedinIn size={28} className="footerSocailIcon" />
+                    <FaLinkedinIn size={16} className="footerSocailIcon " />
                   </a>
                   <a
                     href="https://x.com/northwayglobalx"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaTwitter size={28} className="footerSocailIcon" />
+                    <FaXTwitter size={16} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.facebook.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaFacebook size={28} className="footerSocailIcon" />
+                    <FaFacebookF size={16} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.instagram.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram size={28} className="footerSocailIcon" />
+                    <FaInstagram size={16} className="footerSocailIcon " />
                   </a>
 
                   <a
@@ -68,7 +70,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp size={28} className="footerSocailIcon" />
+                    <FaWhatsapp size={16} className="footerSocailIcon" />
                   </a>
                 </div>
               </div>
@@ -169,7 +171,7 @@ const Footer = () => {
               <p className=" flex items-start gap-x-[10px]">
                 <img
                   className="h-[16px] w-[16px] "
-                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945203a8b4.webp"
+                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
                   alt=""
                 />
                 <span className="footerMenuText">
@@ -196,7 +198,7 @@ const Footer = () => {
                 className="flex items-center 
           "
               >
-                <p className="text-[12px] leading-[20px] pb-[20px] font-helvetica font-normal">
+                <p className="text-[12px] leading-[16px] pb-[16px] font-helvetica font-normal">
                   Copyright © Northway Global
                 </p>
               </div>
@@ -208,28 +210,28 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaLinkedinIn size={28} className="footerSocailIcon" />
+                    <FaLinkedinIn size={16} className="footerSocailIcon " />
                   </a>
                   <a
                     href="https://x.com/northwayglobalx"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaTwitter size={28} className="footerSocailIcon" />
+                    <FaXTwitter size={16} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.facebook.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaFacebook size={28} className="footerSocailIcon" />
+                    <FaFacebookF size={16} className="footerSocailIcon" />
                   </a>
                   <a
                     href="https://www.instagram.com/northwayglobal"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram size={28} className="footerSocailIcon" />
+                    <FaInstagram size={16} className="footerSocailIcon " />
                   </a>
 
                   <a
@@ -237,7 +239,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaWhatsapp size={28} className="footerSocailIcon" />
+                    <FaWhatsapp size={16} className="footerSocailIcon" />
                   </a>
                 </div>
               </div>
@@ -300,7 +302,7 @@ const Footer = () => {
 
               <p className=" text-[16px] flex items-start gap-x-[10px]">
                 <img
-                  className="h-[20px] w-[24px] object-cover"
+                  className="h-[16px] w-[24px] object-cover"
                   src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
                   alt=""
                 />
@@ -341,7 +343,7 @@ const Footer = () => {
               <p className="footerMenuText flex items-start gap-x-[10px]">
                 <img
                   className="h-[16px] w-[16px] "
-                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945203a8b4.webp"
+                  src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
                   alt=""
                 />
 

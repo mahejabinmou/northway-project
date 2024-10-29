@@ -417,20 +417,23 @@ const HeroSection = () => {
       </div>
       {/* big screen */}
       <div className="hidden md:block">
-        <div className="absolute inset-0 z-10 font-helvetica xl:mt-[200px] mt-[200px] md:mt-[150px] xs:mt-[200px] xl:ml-[150px] lg:mt-[150px] lg:ml-[60px] md:ml-[80px] ml-[60px]">
-          <h1 ref={textRef} className="homeHead max-w-[557px]">
-            <span className="text-[#F6941E]">Welcome</span> to Northway Global
-          </h1>
-          <p className="homePara max-w-[485px]">
-            Choose Northway For Your Study Abroad Journey & Embark on An
-            Exceptional Educational Experience That Combines Academic
-            Excellence, Personalized Guidance, and a Seamless Transition to You.
-          </p>
-          <Link to="/studyDistentionFlag">
-            <button className="homeButton flex items-center justify-between bg-[#F6941E]">
-              Start Your Journey <MdArrowRightAlt />
-            </button>
-          </Link>
+        <div className="">
+          <div className="absolute inset-0 z-10 font-helvetica xl:mt-[200px] mt-[200px] md:mt-[150px] xs:mt-[200px] xl:ml-[150px] lg:mt-[150px] lg:ml-[60px] md:ml-[80px] ml-[60px]">
+            <h1 ref={textRef} className="homeHead max-w-[557px] ">
+              <span className="text-[#F6941E]">Welcome</span> to Northway Global
+            </h1>
+            <p className="homePara max-w-[485px]">
+              Choose Northway For Your Study Abroad Journey & Embark on An
+              Exceptional Educational Experience That Combines Academic
+              Excellence, Personalized Guidance, and a Seamless Transition to
+              You.
+            </p>
+            <Link to="/studyDistentionFlag">
+              <button className="homeButton flex items-center justify-between bg-[#F6941E]">
+                Start Your Journey <MdArrowRightAlt />
+              </button>
+            </Link>
+          </div>
         </div>
 
         {/* Slider for images only */}

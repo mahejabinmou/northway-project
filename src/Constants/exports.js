@@ -511,7 +511,7 @@ export const tableData = [
       {
         factor: "Eligibility criteria",
         country:
-          "Academic credentials- High school completion, Bachelor's degree, or Master's degree in related fields of study\nDocuments- Passport, Student visa, SOP for UK, LOR\nTest scores- GMAT, GRE, IELTS, TOEFL, PTE, DET, etc.",
+          "Academic credentials- High school completion, Bachelor's degree, or Master's degree in related fields of \nstudy\nDocuments- Passport, Student visa, SOP for UK, LOR\nTest scores- GMAT, GRE, IELTS, TOEFL, PTE, DET, etc.",
       },
       {
         factor: "Test score requirements",

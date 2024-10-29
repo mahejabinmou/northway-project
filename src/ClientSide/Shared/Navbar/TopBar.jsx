@@ -4,9 +4,14 @@ import { useLocation } from "react-router-dom";
 import "./Navbar.css";
 
 import { AppContext } from "../../../store/AppContext";
-import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
-import { PiWhatsappLogoFill } from "react-icons/pi";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
+
+import { FaXTwitter } from "react-icons/fa6";
 const Topbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -112,30 +117,29 @@ const Topbar = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaTwitter size={20} className="footerSocailIcon" />
+                  <FaXTwitter size={20} className="footerSocailIcon" />
                 </a>
                 <a
                   href="https://www.facebook.com/northwayglobal"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook size={20} className="footerSocailIcon" />
+                  <FaFacebookF size={20} className="footerSocailIcon" />
                 </a>
                 <a
                   href="https://www.instagram.com/northwayglobal"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <AiFillInstagram size={20} className="footerSocailIcon " />
+                  <FaInstagram size={20} className="footerSocailIcon " />
                 </a>
 
-                <a href="https://wa.me/8801771660030">
-                  <PiWhatsappLogoFill
-                    size={20}
-                    className="footerSocailIcon"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  />
+                <a
+                  href="https://wa.me/8801771660030"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaWhatsapp size={20} className="footerSocailIcon" />
                 </a>
               </div>
             </div>

@@ -157,6 +157,34 @@ const OurStudentSay = () => {
               </div>
             </div>
           </div>
+          <div className=" max-w-[95%] hover:border-[#F6941E] hover:border-b pt-[72px] pb-[30px] px-[16px]  relative bg-white shadow-xl">
+            <FaQuoteLeft
+              className="absolute text-3xl mx-2 text-[#F6941E] pb-[20px]  bottom-0  top-[30px] 
+            left-0"
+            />
+            <div>
+              <p className="text-[#1E1E1E]/[.8] font-helvetica font-normal">
+                We are the representatives of more than 30+ universities in
+                Australian countries and our admission
+              </p>
+              <div className="flex pb-[20px] pt-[10px] items-center text-[#F6941E]   gap-x-[6px]">
+                <FaStar /> <FaStar /> <FaStar /> <FaStar /> <FaStar />
+              </div>
+            </div>
+            <div className="flex items-center mb-5">
+              <div>
+                <img
+                  className="w-[50px] h-[50px] object-cover"
+                  src="https://i.ibb.co.com/vQ9GGh8/ellipse-2-2-66de8946734b1.webp"
+                  alt=""
+                />
+              </div>
+              <div className="ml-[12px]">
+                <p className="font-semibold text-xl">Fuen Dowen</p>
+                <p className="font-mono">Student</p>
+              </div>
+            </div>
+          </div>
         </Slider>
       </div>
     </div>
