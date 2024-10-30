@@ -618,8 +618,10 @@ const Footer = () => {
               </div>
 
               <div className="flex items-center">
-                <p className="text-[12px] leading-[16px] pb-[16px] font-helvetica font-normal">
-                  Copyright © Northway Global
+                <p className="2xl:text-[12px] text-[10px] leading-[20px] pb-[16px] font-helvetica font-normal">
+                  Copyright © {new Date().getFullYear()} Northway Global. All
+                  rights reserved. Excellence in guidance and commitment to
+                  success.
                 </p>
               </div>
 
