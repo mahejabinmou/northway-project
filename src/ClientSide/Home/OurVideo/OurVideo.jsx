@@ -31,7 +31,7 @@ const OurVideo = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    // autoplay: true,
+    autoplay: true,
     centerMode: true,
     centerPadding: "0px",
     slidesToShow: 3,
