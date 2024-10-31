@@ -85,7 +85,7 @@ const OurVideo = () => {
             backgroundImage: `url(${"https://i.ibb.co.com/R6Q4WKP/studentbg-66dbe8ed9b77d.webp"})`,
           }}
         >
-          <div className="absolute inset-0 bg-black opacity-80"></div>
+          <div className="absolute inset-0 bg-black opacity-80 "></div>
           <div>
             <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8  z-10 relative text-white">
               <h1 className="studyDestinationHeading pb-[20px]">
@@ -135,7 +135,7 @@ const OurVideo = () => {
       </div>
 
       {/* mobile */}
-      <div className="lg:hidden block md:pb-[80px] pb-[80px]">
+      <div className="lg:hidden block md:pb-[80px] pb-[20px] ">
         <div
           className="relative bg-cover bg-center min-h-[263px] items-center bg-fixed my-24"
           style={{
@@ -144,10 +144,10 @@ const OurVideo = () => {
         >
           <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
           <div className="relative z-10 ">
-            <div className="mx-auto max-w-[432px] text-center py-8 text-white ">
+            <div className="mx-auto max-w-[432px] text-center py-2 text-white ">
               <h1
                 className="font-bold font-helvetica 
-              xs:text-[30px] xs:leading-[36px] pb-[20px] "
+              xs:text-[30px] xs:leading-[36px] pb-[20px] pt-8 "
               >
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
