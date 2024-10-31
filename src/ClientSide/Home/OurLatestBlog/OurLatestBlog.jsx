@@ -15,7 +15,7 @@ const joyItems = [
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "July 24, 2024",
     title: "Top Benefits of Studying Abroad for Career Growth",
-    subtitle: "Back Theme",
+    subtitle: "Daisy Sheren",
     extendedSubtitle: "25 Comments",
   },
   {
@@ -24,7 +24,7 @@ const joyItems = [
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "August 24, 2024",
     title: "Why Choose Europe for Your Higher Education?",
-    subtitle: "Back Theme",
+    subtitle: "Taylor Gomez",
     extendedSubtitle: "25 Comments",
   },
   {
@@ -33,7 +33,7 @@ const joyItems = [
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "September 9, 2024",
     title: "Scholarships and education  in higher Study ",
-    subtitle: "Back Theme",
+    subtitle: "Selena Swift",
     extendedSubtitle: "25 Comments",
   },
   {
@@ -42,7 +42,7 @@ const joyItems = [
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "January 24, 2024",
     title: "Preparing for Life as an International Student",
-    subtitle: "Back Theme",
+    subtitle: "Ariana Jenner",
     extendedSubtitle: "25 Comments",
   },
   {
@@ -51,7 +51,7 @@ const joyItems = [
     icon: "https://i.ibb.co/C848FJ8/vector-4-66d6cda73ab92.webp",
     date: "March 24, 2024",
     title: "How to Choose the Right Study Destination Abroad",
-    subtitle: "Back Theme",
+    subtitle: "Kylie Grande",
     extendedSubtitle: "25 Comments",
   },
 ];
@@ -132,14 +132,6 @@ const OurLatestBlog = () => {
                       <IoPersonOutline />
                       <p>{item.subtitle}</p>
                     </div>
-                    {/* <div
-                      className="text-black/[.6]
-                    font-normal  font-helvetica flex items-center xl:text-[16px] xl:leading-[24px] xl:gap-x-[10px] 2xl:text-[16px] 2xl:leading-[24px] 2xl:gap-x-[10px] lg:text-[16px] lg:leading-[24px] lg:gap-x-[10px] 
-                  md:text-[10px] md:leading-[10px] md:gap-x-[5px] xs:gap-x-[5px] gap-x-[5px]"
-                    >
-                      <LuMessagesSquare />
-                      <p>{item.extendedSubtitle}</p>
-                    </div> */}
                   </div>
                 </div>
               </div>
@@ -199,10 +191,6 @@ const OurLatestBlog = () => {
                       <IoPersonOutline />
                       <p>{item.subtitle}</p>
                     </div>
-                    {/* <div className="text-black/[.6] flex items-center gap-x-[10px]">
-                      <LuMessagesSquare />
-                      <p>{item.extendedSubtitle}</p>
-                    </div> */}
                   </div>
                 </div>
               </div>
