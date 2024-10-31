@@ -159,7 +159,7 @@ const OurVideo = () => {
                 in their chosen fields.
               </p>
             </div>
-            Slider
+            {/* Slider */}
             <Slider
               {...settings}
               className="absolute  md:left-[32px] md:right-[32px] xs:left-[16px] xs:right-[16px]  ourVideoSlider"
