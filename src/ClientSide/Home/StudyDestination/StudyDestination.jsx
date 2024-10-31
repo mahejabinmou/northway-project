@@ -4,8 +4,22 @@ import { MdArrowRightAlt } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const StudyDestination = () => {
-  const boxRefs = [useRef(), useRef(), useRef(), useRef(), useRef(), useRef()];
+  const boxRefs = [
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+    useRef(),
+  ];
   const sectionRef = useRef();
+  const sectionRef2 = useRef();
 
   const animateBox = (ref, x, y, delay, duration = 3) => {
     gsap.from(ref.current, {
@@ -28,6 +42,12 @@ const StudyDestination = () => {
         animateBox(boxRefs[3], 200, undefined, 1);
         animateBox(boxRefs[4], undefined, 200, 0.3);
         animateBox(boxRefs[5], undefined, -200, 0.3);
+        animateBox(boxRefs[6], -200, undefined, 1);
+        animateBox(boxRefs[7], -200, undefined, 1);
+        animateBox(boxRefs[8], 200, undefined, 1);
+        animateBox(boxRefs[9], 200, undefined, 1);
+        animateBox(boxRefs[10], undefined, 200, 0.3);
+        animateBox(boxRefs[11], undefined, -200, 0.3);
       }
     });
   };
@@ -92,7 +112,7 @@ const StudyDestination = () => {
           className="grid md:grid-cols-3 grid-cols-1 md:gap-[25px]"
           ref={sectionRef}
         >
-          <div ref={boxRefs[0]} className="relative group w-full h-[267px] ">
+          <div ref={boxRefs[6]} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
               alt="United States"
@@ -108,7 +128,7 @@ const StudyDestination = () => {
               </Link>
             </div>
           </div>
-          <div ref={boxRefs[4]} className=" relative group w-full h-[267px] ">
+          <div ref={boxRefs[10]} className=" relative group w-full h-[267px] ">
             <img
               src="/chinaGreatWall.jpg"
               alt="United States"
@@ -125,7 +145,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div ref={boxRefs[2]} className="relative group w-full h-[267px] ">
+          <div ref={boxRefs[8]} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
               alt="United States"
@@ -142,7 +162,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div ref={boxRefs[1]} className="relative group w-full h-[267px] ">
+          <div ref={boxRefs[7]} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
               alt="United States"
@@ -159,7 +179,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div ref={boxRefs[5]} className="relative group w-full h-[267px]">
+          <div ref={boxRefs[11]} className="relative group w-full h-[267px]">
             <img
               src="https://i.ibb.co.com/GPmQbs2/ireland-6717714b87c95.webp"
               alt="United States"
@@ -176,7 +196,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div ref={boxRefs[3]} className="relative group w-full h-[267px] ">
+          <div ref={boxRefs[9]} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/DzDqDPW/europ-671771c9cc68d.webp"
               alt="United States"

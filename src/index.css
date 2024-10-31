@@ -2108,7 +2108,7 @@ font-helvetica font-normal;
   transform: translateX(60%);
 }
 
-@media (max-width: 360px) {
+@media (max-width: 425px) {
   .animated-section-ltr,
   .animated-section-ltr.visible {
     transform: translateX(0%);
