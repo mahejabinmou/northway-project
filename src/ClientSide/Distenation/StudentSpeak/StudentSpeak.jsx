@@ -164,8 +164,10 @@ const StudentSpeak = () => {
                 className="font-normal text-[14px] leading-[21px]
               xs:text-[14px] xs:leading-[21px] xxs:text-[12px] xxs:leading-[18px]  text-white/[.8]"
               >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Northway Global truly made my dream of studying abroad a
+                reality. Their team guided me through every step, from choosing
+                the right university to ensuring a smooth visa process. I
+                couldn't have done it without their constant support.
               </p>
             </div>
 
