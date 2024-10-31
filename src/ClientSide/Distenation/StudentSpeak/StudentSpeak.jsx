@@ -156,19 +156,23 @@ const StudentSpeak = () => {
 
           {/* Text and Content */}
           <div className="relative z-10">
-            <div className="mx-auto max-w-[432px] text-center py-8 text-white">
-              <h1 className="font-bold font-helvetica text-[30px] leading-[36px]">
-                Student <span className="text-[#F6941E]">Speaks</span>
-              </h1>
-              <p
-                className="font-normal text-[14px] leading-[21px]
-              xs:text-[14px] xs:leading-[21px] xxs:text-[12px] xxs:leading-[18px]  text-white/[.8]"
-              >
-                Northway Global truly made my dream of studying abroad a
-                reality. Their team guided me through every step, from choosing
-                the right university to ensuring a smooth visa process. I
-                couldn't have done it without their constant support.
-              </p>
+            <div>
+              <div className="mx-auto max-w-[432px] text-center pt-8 text-white">
+                <h1 className="font-bold font-helvetica text-[30px] leading-[36px] pb-[10px]">
+                  Student <span className="text-[#F6941E]">Speaks</span>
+                </h1>
+                <p
+                  className="font-normal text-[14px] leading-[21px]  xs:px-[20px]
+    md:px-[32px] lg:px-[60px]  xl:px-[100px]  2xl:px-[100px] 
+    xs:text-[14px] xs:leading-[21px] xxs:text-[12px] xxs:leading-[18px]  text-white/[.8]"
+                >
+                  Northway Global truly made my dream of studying abroad a
+                  reality. Their team guided me through every step, from
+                  choosing the right university to ensuring a smooth visa
+                  process. I couldn't have done it without their constant
+                  support.
+                </p>
+              </div>
             </div>
 
             {/* Slider */}

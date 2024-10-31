@@ -23,10 +23,10 @@ const DistenationBanner = ({ countryName }) => {
 
         {/* Text Section */}
         <div className="absolute  inset-0 mt-[40px] flex flex-col gap-y-[20px] px-[60px]  justify-center items-center  lg:px-[150px]   lg:text-left">
-          <h1 className="text-2xl lg:text-4xl 2xl:text-6xl text-white  font-bold text-center">
+          <h1 className="text-4xl lg:text-4xl 2xl:text-6xl text-white  font-bold text-center">
             Study In {countryName}
           </h1>
-          <p className="font-normal font-helvetica 2xl:text-[16px] xs:text-[16px] leading-[24px]  2xl:max-w-[800px]  max-w-[550px]  text-center mx-auto md:text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 ">
+          <p className="font-normal font-helvetica 2xl:text-[16px] xs:text-[14px] leading-[24px]  2xl:max-w-[800px]  max-w-[550px]  text-center mx-auto md:text-xl 2xl:text-2xl lg:text-base text-white mt-2 lg:mt-0 ">
             {countryDetails.subTitle}
           </p>
         </div>
