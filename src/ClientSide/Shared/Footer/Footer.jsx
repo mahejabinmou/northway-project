@@ -406,7 +406,7 @@ const Footer = () => {
         {/* mobile */}
         <div className="md:hidden block ">
           <div className=" px-[16px] xs:px-[16px] xl:px-[100px] md:px-[32px] lg:px-[60px] 2xl:px-[100px]">
-            <div className="pb-[25px] grid grid-cols-2 lg:grid-cols-4 justify-between gap-x-[120px] gap-y-[123px]">
+            <div className="pb-[25px] grid grid-cols-2  justify-center  gap-x-[120px] gap-y-[123px]  xs:gap-x-[150px] xs:gap-y-[150px]">
               <div>
                 <div className="footerLogoparent mb-[10px]">
                   <img
@@ -484,123 +484,123 @@ const Footer = () => {
                   <p className="footerMenuText">Contact Us</p>
                 </Link>
               </div>
+            </div>
 
-              <div className="text-white/[.8] col-span-2">
-                <h2 className="footerMenuTextTitle">Contact Us</h2>
+            <div className="text-white/[.8] ">
+              <h2 className="footerMenuTextTitle">Contact Us</h2>
 
-                <div className="grid grid-cols-2 gap-20">
-                  <p className="flex items-start gap-x-[10px]">
-                    <img
-                      className="h-[24px] w-[24px] object-cover"
-                      src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
-                      alt=""
-                    />
-                    <span className=" footerMenuText text-white/[.8]">
-                      <span className="font-bold">Dhaka Office:</span>
-                      <br />
-                      Kha-12/2, Shahjaspur, Gulshan, Dhaka-1212
-                    </span>
-                  </p>
-                  <p className="flex flex-row gap-x-[5px]">
-                    <img
-                      className="h-[24px] w-[24px] object-cover"
-                      src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
-                      alt=""
-                    />
+              <div className="grid grid-cols-2 gap-10">
+                <div className="flex items-start gap-x-[10px]">
+                  <img
+                    className="h-[24px] w-[24px] object-cover"
+                    src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
+                    alt=""
+                  />
+                  <span className=" footerMenuText text-white/[.8]">
+                    <span className="font-bold">Dhaka Office:</span>
                     <br />
-                    <span className=" footerMenuText text-white/[.8]">
-                      <span className="font-bold">Dhaka Office:</span>
-                      <br />
-                      <a
-                        href="tel:+8801771660030"
-                        target="_blank"
-                        className="underline"
-                      >
-                        +8801771660030
-                      </a>
-                    </span>
-                  </p>
+                    Kha-12/2, Shahjaspur, Gulshan, Dhaka-1212
+                  </span>
                 </div>
-
-                <div className="grid grid-cols-2 gap-20">
-                  <p className="flex items-start gap-x-[10px]">
-                    <img
-                      className="h-[24px] w-[24px] object-cover"
-                      src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
-                      alt=""
-                    />
-                    <span className=" footerMenuText text-white/[.8]">
-                      <span className="font-bold">USA Office:</span>
-                      <br />
-                      37 -22 73 Rd St (2nd floor), Jackson Heights NY, 11372
-                    </span>
-                  </p>
-                  <p className="flex flex-row gap-x-[5px]">
-                    <img
-                      className="h-[24px] w-[24px] object-cover"
-                      src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
-                      alt=""
-                    />
+                <p className="flex flex-row gap-x-[5px]">
+                  <img
+                    className="h-[24px] w-[24px] object-cover"
+                    src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
+                    alt=""
+                  />
+                  <br />
+                  <span className=" footerMenuText text-white/[.8]">
+                    <span className="font-bold">Dhaka Office:</span>
                     <br />
-                    <span className=" footerMenuText text-white/[.8]">
-                      <span className="font-bold">USA Office:</span>
-                      <br />
-                      <a
-                        href="tel:+19179246493"
-                        target="_blank"
-                        className="underline"
-                      >
-                        +19179246493
-                      </a>
-                    </span>
-                  </p>
-                </div>
+                    <a
+                      href="tel:+8801771660030"
+                      target="_blank"
+                      className="underline"
+                    >
+                      +8801771660030
+                    </a>
+                  </span>
+                </p>
+              </div>
 
-                <div className="grid grid-cols-2 gap-20">
-                  <p className="flex items-start gap-x-[10px]">
-                    <img
-                      className="h-[24px] w-[24px] object-cover"
-                      src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
-                      alt=""
-                    />
-                    <span className=" footerMenuText text-white/[.8]">
-                      <span className="font-bold">Australia Office:</span>
-                      <br />
-                      3/4 Nellie Ave Mitchell, Park SA, 5043
-                    </span>
-                  </p>
-                  <p className="flex flex-row gap-x-[5px]">
-                    <img
-                      className="h-[24px] w-[24px] object-cover"
-                      src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
-                      alt=""
-                    />
+              <div className="grid grid-cols-2 gap-10">
+                <p className="flex items-start gap-x-[10px]">
+                  <img
+                    className="h-[24px] w-[24px] object-cover"
+                    src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
+                    alt=""
+                  />
+                  <span className=" footerMenuText text-white/[.8]">
+                    <span className="font-bold">USA Office:</span>
                     <br />
-                    <span className=" footerMenuText text-white/[.8]">
-                      <span className="font-bold">Australia Office:</span>
-                      <br />
-                      <a
-                        href="tel:+61449615940"
-                        target="_blank"
-                        className="underline"
-                      >
-                        +61449615940
-                      </a>
-                    </span>
-                  </p>
-                </div>
+                    37 -22 73 Rd St (2nd floor), Jackson Heights NY, 11372
+                  </span>
+                </p>
+                <p className="flex flex-row gap-x-[5px]">
+                  <img
+                    className="h-[24px] w-[24px] object-cover"
+                    src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
+                    alt=""
+                  />
+                  <br />
+                  <span className=" footerMenuText text-white/[.8]">
+                    <span className="font-bold">USA Office:</span>
+                    <br />
+                    <a
+                      href="tel:+19179246493"
+                      target="_blank"
+                      className="underline"
+                    >
+                      +19179246493
+                    </a>
+                  </span>
+                </p>
+              </div>
 
-                <div>
-                  <p className="footerMenuText flex pl-[8px]  gap-x-[10px] pt-3">
-                    <img
-                      className="h-[16px] w-[16px] "
-                      src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
-                      alt=""
-                    />
+              <div className="grid grid-cols-2 gap-10">
+                <p className="flex items-start gap-x-[10px]">
+                  <img
+                    className="h-[24px] w-[24px] object-cover"
+                    src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
+                    alt=""
+                  />
+                  <span className=" footerMenuText text-white/[.8]">
+                    <span className="font-bold">Australia Office:</span>
+                    <br />
+                    3/4 Nellie Ave Mitchell, Park SA, 5043
+                  </span>
+                </p>
+                <p className="flex flex-row gap-x-[5px]">
+                  <img
+                    className="h-[24px] w-[24px] object-cover"
+                    src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
+                    alt=""
+                  />
+                  <br />
+                  <span className=" footerMenuText text-white/[.8]">
+                    <span className="font-bold">Australia Office:</span>
+                    <br />
+                    <a
+                      href="tel:+61449615940"
+                      target="_blank"
+                      className="underline"
+                    >
+                      +61449615940
+                    </a>
+                  </span>
+                </p>
+              </div>
 
-                    <span> info@northwayglobal.com.bd</span>
-                  </p>
-                </div>
+              <div>
+                <p className="footerMenuText flex pl-[8px]  gap-x-[10px] pt-3">
+                  <img
+                    className="h-[16px] w-[16px] "
+                    src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
+                    alt=""
+                  />
+
+                  <span> info@northwayglobal.com.bd</span>
+                </p>
               </div>
             </div>
           </div>
