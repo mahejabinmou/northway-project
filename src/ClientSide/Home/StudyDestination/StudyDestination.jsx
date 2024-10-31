@@ -110,14 +110,14 @@ const StudyDestination = () => {
           </div>
           <div ref={boxRefs[4]} className=" relative group w-full h-[267px] ">
             <img
-              src="https://i.ibb.co.com/VV6xZHC/Facts-1280x720.webp"
+              src="/chinaGreatWall.jpg"
               alt="United States"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <h1 className="united">UAE</h1>
-              <Link to="/studyDistention">
+              <h1 className="united">China</h1>
+              <Link to="/studyDistention?country=China">
                 <button className="flex items-center justify-center readMore ">
                   Read more <MdArrowRightAlt className="ml-2" />
                 </button>
@@ -184,8 +184,8 @@ const StudyDestination = () => {
             />
             <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <h1 className="united">Europe</h1>
-              <Link to="/studyDistention">
+              <h1 className="united">Germany</h1>
+              <Link to="/studyDistention?country=Germany">
                 <button className="flex items-center justify-center readMore ">
                   Read more <MdArrowRightAlt className="ml-2" />
                 </button>
@@ -216,7 +216,7 @@ const StudyDestination = () => {
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">United States</h1>
-                <Link to="/studyDistention">
+                <Link to="/studyDistention?country=USA">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
                   </button>
@@ -229,15 +229,15 @@ const StudyDestination = () => {
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <img
-                src="https://i.ibb.co.com/VV6xZHC/Facts-1280x720.webp"
+                src="/chinaGreatWall.jpg"
                 alt="UAE"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">UAE</h1>
-                <Link to="/studyDistention">
+                <h1 className="united">China</h1>
+                <Link to="/studyDistention?country=China">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
                   </button>
@@ -260,7 +260,7 @@ const StudyDestination = () => {
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">Australia</h1>
-                <Link to="/studyDistention">
+                <Link to="/studyDistention?country=Australia">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
                   </button>
@@ -281,7 +281,7 @@ const StudyDestination = () => {
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">Canada</h1>
-                <Link to="/studyDistention">
+                <Link to="/studyDistention?country=Canada">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
                   </button>
@@ -304,7 +304,7 @@ const StudyDestination = () => {
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">Ireland</h1>
-                <Link to="/studyDistention">
+                <Link to="/studyDistention?country=Ireland">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
                   </button>
@@ -324,7 +324,7 @@ const StudyDestination = () => {
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h1 className="united">Germany</h1>
-                <Link to="/studyDistention">
+                <Link to="/studyDistention?country=Germany">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
                   </button>

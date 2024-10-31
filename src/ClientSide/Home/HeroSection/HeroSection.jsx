@@ -83,7 +83,7 @@ const HeroSection = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -131,7 +131,7 @@ const HeroSection = () => {
               <div>
                 <div
                   style={{
-                    backgroundImage: `url(${"https://i.ibb.co/pd0VDjR/slider.webp"})`,
+                    backgroundImage: `url(${"/slider (1).jpg"})`,
                     filter: "brightness(0.6)",
                   }}
                   className="
@@ -144,7 +144,7 @@ const HeroSection = () => {
               <div>
                 <div
                   style={{
-                    backgroundImage: `url(${"https://i.ibb.co/jrHYkGc/pexels-rdne-7713182.webp"})`,
+                    backgroundImage: `url(${"/slider2.jpg"})`,
                     filter: "brightness(0.6)",
                   }}
                   className="
@@ -250,8 +250,7 @@ const HeroSection = () => {
             <div className="relative">
               <div
                 style={{
-                  backgroundImage:
-                    'url("https://i.ibb.co/pd0VDjR/slider.webp")',
+                  backgroundImage: 'url("/slider (1).jpg")',
                   filter: "brightness(0.5)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px]"
@@ -260,8 +259,7 @@ const HeroSection = () => {
             <div className="relative">
               <div
                 style={{
-                  backgroundImage:
-                    'url("https://i.ibb.co/jrHYkGc/pexels-rdne-7713182.webp")',
+                  backgroundImage: 'url("/slider2.jpg")',
                   filter: "brightness(0.5)",
                 }}
                 className="bg-no-repeat bg-center bg-cover w-full h-[914px]"
