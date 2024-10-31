@@ -406,9 +406,9 @@ const Footer = () => {
         {/* mobile */}
         <div className="md:hidden block ">
           <div className=" px-[16px] xs:px-[16px] xl:px-[100px] md:px-[32px] lg:px-[60px] 2xl:px-[100px]">
-            <div className="pb-[25px] grid grid-cols-2  justify-center  gap-x-[120px] gap-y-[123px]  xs:gap-x-[150px] xs:gap-y-[150px]">
+            <div className="pb-[25px] grid grid-cols-1 justify-between    xs:gap-x-[150px] xs:gap-y-[50px]">
               <div>
-                <div className="footerLogoparent mb-[10px]">
+                <div className="footerLogoparent mb-[20px]">
                   <img
                     className="h-full w-full object-cover "
                     src="https://i.ibb.co/s2xfMC5/image-13-66d80ee8cac4a.webp"
@@ -416,7 +416,7 @@ const Footer = () => {
                   />
                 </div>
 
-                <div className="flex items-center">
+                <div className=" ">
                   <p className="text-[12px] leading-[16px] pb-[16px] font-helvetica font-normal">
                     Copyright © {new Date().getFullYear()} Northway Global. All
                     rights reserved. Excellence in guidance and commitment to
@@ -466,25 +466,27 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="text-white/[.8]">
+              <div className="text-white/[.8] ">
                 <h2 className="footerMenuTextTitle">Category</h2>
-                <Link to="/About">
-                  <p className="footerMenuText">About Us</p>
-                </Link>
-                <Link onClick={openStudyDestination}>
-                  <p className="footerMenuText">Study Destination</p>
-                </Link>
-                <Link to="/photo-gallery">
-                  {" "}
-                  <p className="footerMenuText">Gallery</p>
-                </Link>
-                <Link to="/blogs">
-                  {" "}
-                  <p className="footerMenuText">Blogs</p>
-                </Link>
-                <Link to="/contactUs">
-                  <p className="footerMenuText">Contact Us</p>
-                </Link>
+                <div className="grid grid-cols-2">
+                  <Link to="/About">
+                    <p className="footerMenuText">About Us</p>
+                  </Link>
+                  <Link onClick={openStudyDestination}>
+                    <p className="footerMenuText">Study Destination</p>
+                  </Link>
+                  <Link to="/photo-gallery">
+                    {" "}
+                    <p className="footerMenuText">Gallery</p>
+                  </Link>
+                  <Link to="/blogs">
+                    {" "}
+                    <p className="footerMenuText">Blogs</p>
+                  </Link>
+                  <Link to="/contactUs">
+                    <p className="footerMenuText">Contact Us</p>
+                  </Link>
+                </div>
               </div>
             </div>
 
