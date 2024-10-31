@@ -51,7 +51,7 @@ const StudyDestination = () => {
   }, []);
 
   return (
-    <div className="sectionGap">
+    <div className="sectionGap overflow-hidden">
       {/* header for mobile */}
       <div className="md:hidden block ">
         <h1 className="text-[#1E1E1E] xs:text-[30px] xs:leading-[36px] xs:pb-[20px] font-helvetica font-bold text-center">
