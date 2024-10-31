@@ -214,7 +214,7 @@ const OurLatestBlog = () => {
         <div className="hover:bg-[#F6941E] hover:text-white mt-5 font-helvetica font-bold flex justify-center items-center">
           <Link to="/blogs">
             <button
-              className="px-4 py-2 text-[#F6941E]  border border-[#F6941E] flex justify-center items-center gap-x-[10px]"
+              className="px-4 py-2 mt-4 text-[#F6941E]  border border-[#F6941E] flex justify-center items-center gap-x-[10px]"
               // onClick={() => alert("Navigate to more blogs")}
             >
               Browse More Blog <MdArrowRightAlt />
