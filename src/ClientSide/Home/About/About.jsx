@@ -42,7 +42,7 @@ const About = () => {
                 className="xs:text-[30px] xs:leading-[36px]
               text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
-                <CountUp start={0} end={65} duration={10} />+ +
+                <CountUp start={0} end={65} duration={10} />+
               </h1>
               <p
                 className="xs:text-[12px]
@@ -56,7 +56,7 @@ const About = () => {
                 className="xs:text-[30px] xs:leading-[36px]
               text-center pb-[5px] font-bold text-[#F6941E] font-helvetica"
               >
-                <CountUp start={0} end={25} duration={10} />+ 25+
+                <CountUp start={0} end={25} duration={10} />
               </h1>
               <p
                 className="xs:text-[12px]
