@@ -11,7 +11,7 @@ const AboutUsHero = () => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"/about.jpg"})`,
+            backgroundImage: `url(${"/About-Us-2.png"})`,
             filter: "brightness(.7) ",
           }}
           className="bg-no-repeat bg-center bg-cover w-[100%] h-[485px]  flex justify-center items-center"
@@ -30,7 +30,7 @@ const AboutUsHero = () => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"/about.jpg"})`,
+            backgroundImage: `url(${"/About-Us-2.png"})`,
             filter: "brightness(.6) ",
           }}
           className="bg-no-repeat bg-center bg-cover  h-[385px] flex justify-center items-center"

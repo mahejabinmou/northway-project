@@ -25,10 +25,10 @@ const VideoGallery = () => {
   const visibleImages = showAll ? images : images.slice(0, 6); // Step 2: Show only 6 images initially
 
   return (
-    <div>
+    <div className="GlobalBg">
       <Topbar></Topbar>
       <Navbar></Navbar>
-      <div className="  relative">
+      <div className="  relative ">
         {/* Background image section */}
         <div
           style={{

@@ -39,7 +39,7 @@ const Vision = () => {
           <h1 className="chooseUsSamll text-right text-white">
             <span className="text-[#F6941E]">Our</span> Vision
           </h1>
-          <p className="chooseUsParaText text-white">
+          <p className="homePara pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-white">
             Our long-term vision is to establish a globally connected
             educational ecosystem. We are dedicated to fostering innovation,
             inclusivity, and sustainability in education, ensuring every student

@@ -31,7 +31,7 @@ const OurService = () => {
   return (
     <div>
       {/* mobile */}
-      <div className="md:hidden block sectionGap   bg-[#F5F5F5]">
+      <div className="md:hidden block sectionGap   bg-[#F6941E]/[.4]">
         <div
           className="md:mr-[70px] lg:mr-[500px] xl:mr-[563px] 2xl:mr-[563px]
         mr-[16px] xs:text-center text-center md:text-left

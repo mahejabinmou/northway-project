@@ -82,22 +82,22 @@ font-helvetica font-normal;
   }
 
   .homeHead {
-    @apply xl:text-[64px] xl:leading-[76.8px]  xl:pb-[15px]
+    @apply xs:text-[40px] xs:leading-[48px]
+    /* ==== */
+    xl:text-[64px] xl:leading-[76.8px]  
     /* ==== */
       md:text-[60px]      md:leading-[70px] 
      /* ==== */
-     lg:leading-[70px] lg:pb-[15px] 
-      /* ==== */
-     /* xl:mr-[733px] md:mr-[200px] lg:mr-[350px] */
+     lg:leading-[70px]  
       /* ==== */
     font-bold font-helvetica text-white;
   }
 
   .homePara {
-    @apply xs:text-[16px]  xs:leading-[24px] pb-[30px]
-  lg:leading-[24px]   lg:pb-[30px] 
-    md:leading-[24px]  md:pb-[30px]
-  xl:text-[16px] xl:leading-[24px]   xl:pb-[30px] 
+    @apply xs:text-[16px]  xs:leading-[24px]  
+  lg:leading-[24px]   
+    md:leading-[24px]  
+  xl:text-[16px] xl:leading-[24px]    
 /* ==== */
   /* xl:mr-[805px] md:mr-[200px] lg:mr-[450px] */
 /* ==== */
@@ -1402,13 +1402,13 @@ font-helvetica font-normal;
     font-helvetica font-bold text-[#1E1E1E];
   }
   .chooseUsSamll {
-    @apply xs:text-[30px] xs:leading-[21px] pt-[35px] xs:pb-[15px]
+    @apply xs:text-[30px] xs:leading-[36px] 
     /* ========= */
-    md:text-[40px] md:leading-[57.6px] md:pt-[57px] md:pb-[20px]
+    md:text-[40px] md:leading-[57.6px] 
     /* ============ */
-    lg:text-[38px] lg:leading-[57.6px] lg:pt-[0px] lg:pb-[25px]
+    lg:text-[38px] lg:leading-[57.6px] 
     /* ========= */
-    xl:text-[48px] xl:leading-[57.6px]  xl:pt-[0px]  xl:pb-[16px]
+    xl:text-[48px] xl:leading-[57.6px]  
     /* ========= */
    
     /* ============= */
@@ -1430,13 +1430,13 @@ font-helvetica font-normal;
   }
 
   .chooseUsParaText {
-    @apply text-[14px] leading-[20px] pb-[25px]
+    @apply text-[14px] leading-[20px] pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px]
     /* ========== */
-    md:text-[14px] md:leading-[16px] md:pb-[30px]
+    md:text-[14px] md:leading-[16px] 
     /* ========== */
-    lg:text-[16px] lg:leading-[18px] lg:pb-[30px]
+    lg:text-[16px] lg:leading-[18px] 
     /* ========== */
-    xl:text-[16px] xl:leading-[24px] xl:pb-[30px]
+    xl:text-[16px] xl:leading-[24px] 
     /* ========== */
     
     font-helvetica font-normal text-[#1E1E1E]/[.8];
@@ -1534,6 +1534,10 @@ font-helvetica font-normal;
 
   .EveryPara {
     @apply font-normal font-helvetica text-[16px] leading-[24px];
+  }
+
+  .GlobalBg {
+    @apply bg-[#EAEAEA];
   }
 
   .gridParent {
@@ -2056,6 +2060,11 @@ font-helvetica font-normal;
   /* ----- */
   
   text-white font-bold;
+  }
+
+  .bodyButton {
+    @apply xs:px-[16px] xs:py-[11.5px] flex items-center justify-between 
+    xs:text-[18px] xs:leading-[23.4px] xs:gap-x-[10px]  text-white font-helvetica font-bold bg-[#F6941E];
   }
 
   .readMore {

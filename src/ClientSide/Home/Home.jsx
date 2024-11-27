@@ -54,7 +54,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="bg-[#F5F5F5] ">
+    <div className="GlobalBg">
       <HeroSection></HeroSection>
       <About></About>
       <div className="relative sm:flex sm:flex-wrap mt-[90px]">

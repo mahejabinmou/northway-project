@@ -69,12 +69,12 @@ const About = () => {
         </div>
 
         <div>
-          <h1 className="font-helvetica font-bold xs:pb-[10px] xs:text-[30px] xs:leading-[36px] xs:pt-[30px] text-[#1E1E1E]">
+          <h1 className="chooseUsSamll xs:pb-[10px]  xs:pt-[30px] text-[#1E1E1E]">
             {" "}
             <span className="text-[#F6941E]">About</span> Us
           </h1>
 
-          <p className="font-normal xs:text-[14px] xs:leading-[21px] text-black/[0.8] font-helvetica">
+          <p className="homePara text-black/[0.8] pb-[25px]">
             Discover the game-changer for Canadian Institutes: Edu Mandate! Our
             Indian-rooted strategy connects institutes with top agencies, fueled
             by human interaction and relentless expansion. With tailored
@@ -90,10 +90,7 @@ const About = () => {
           </ul>
 
           <Link to="/About">
-            <button
-              className="mt-[20px] xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:t-[20px]
-          xs:text-[18px] xs:leading-[23.4px] bg-[#F6941E] xs:gap-x-[10px] text-white font-helvetica font-bold"
-            >
+            <button className="bodyButton mt-[20px] ">
               Read More
               <MdArrowRightAlt size={21} />
             </button>
@@ -142,12 +139,12 @@ const About = () => {
           </div>
 
           <div className="xl:mb-[82px] lg:mb-[60px] md:mb-[125px]">
-            <h1 className="chooseUsSamll">
+            <h1 className="chooseUsSamll md:pt-[57px] md:pb-[20px] lg:pt-[0px] lg:pb-[25px] xl:pt-[0px]  xl:pb-[16px]">
               {" "}
               <span className="text-[#F6941E]">About</span> Us
             </h1>
 
-            <p className="chooseUsParaText text-[#1E1E1E]/[0.8]">
+            <p className="homePara  pb-[25px] md:pb-[30px] lg:pb-[30px] xl:pb-[30px] text-[#1E1E1E]/[0.8]">
               Discover the game-changer for Canadian Institutes: Edu Mandate!
               Our Indian-rooted strategy connects institutes with top agencies,
               fueled by human interaction and relentless expansion. With

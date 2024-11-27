@@ -7,7 +7,7 @@ import ServiceHero from "./ServiceHero/ServiceHero";
 
 const Service = () => {
   return (
-    <div>
+    <div className="GlobalBg">
       <Topbar></Topbar>
       <Navbar></Navbar>
       <ServiceHero></ServiceHero>
