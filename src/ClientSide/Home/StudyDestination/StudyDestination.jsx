@@ -111,6 +111,7 @@ const StudyDestination = () => {
           className="grid md:grid-cols-3 grid-cols-1 md:gap-[25px]"
           ref={sectionRef}
         >
+          {/* usa */}
           <div ref={boxRefs[6]} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/JkjRg9s/frame-18-2-66e0a3febd983.webp"
@@ -127,16 +128,19 @@ const StudyDestination = () => {
               </Link>
             </div>
           </div>
-          <div ref={boxRefs[10]} className=" relative group w-full h-[267px] ">
+
+          {/* uk */}
+
+          <div ref={boxRefs[7]} className="relative group w-full h-[267px] ">
             <img
-              src="/chinaGreatWall.jpg"
+              src="/tower-bridge-london-uk.jpg"
               alt="United States"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <h1 className="united">China</h1>
-              <Link to="/studyDistention?country=China">
+              <h1 className="united">Uk</h1>
+              <Link to="/studyDistention">
                 <button className="flex items-center justify-center readMore ">
                   Read more <MdArrowRightAlt className="ml-2" />
                 </button>
@@ -144,6 +148,25 @@ const StudyDestination = () => {
             </div>
           </div>
 
+          {/* Canada */}
+          <div ref={boxRefs[7]} className="relative group w-full h-[267px] ">
+            <img
+              src="/canadaStudy.jpg"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">Canada</h1>
+              <Link to="/studyDistention">
+                <button className="flex items-center justify-center readMore ">
+                  Read more <MdArrowRightAlt className="ml-2" />
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          {/* Australia */}
           <div ref={boxRefs[8]} className="relative group w-full h-[267px] ">
             <img
               src="https://i.ibb.co.com/6sLjbDZ/image-8-2-66e0a5ce77b18.webp"
@@ -161,23 +184,7 @@ const StudyDestination = () => {
             </div>
           </div>
 
-          <div ref={boxRefs[7]} className="relative group w-full h-[267px] ">
-            <img
-              src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
-              alt="United States"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <h1 className="united">Canada</h1>
-              <Link to="/studyDistention">
-                <button className="flex items-center justify-center readMore ">
-                  Read more <MdArrowRightAlt className="ml-2" />
-                </button>
-              </Link>
-            </div>
-          </div>
-
+          {/* Europe */}
           <div ref={boxRefs[11]} className="relative group w-full h-[267px]">
             <img
               src="https://i.ibb.co.com/GPmQbs2/ireland-6717714b87c95.webp"
@@ -188,6 +195,42 @@ const StudyDestination = () => {
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <h1 className="united">Europe</h1>
               <Link to="/studyDistention">
+                <button className="flex items-center justify-center readMore ">
+                  Read more <MdArrowRightAlt className="ml-2" />
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          {/* Malaisia */}
+
+          <div ref={boxRefs[9]} className="relative group w-full h-[267px] ">
+            <img
+              src="/malaysiaStudy.webp"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">Malaysia</h1>
+              <Link to="/studyDistention?country=Germany">
+                <button className="flex items-center justify-center readMore ">
+                  Read more <MdArrowRightAlt className="ml-2" />
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div ref={boxRefs[10]} className=" relative group w-full h-[267px] ">
+            <img
+              src="/chinaGreatWall.jpg"
+              alt="United States"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <h1 className="united">China</h1>
+              <Link to="/studyDistention?country=China">
                 <button className="flex items-center justify-center readMore ">
                   Read more <MdArrowRightAlt className="ml-2" />
                 </button>
