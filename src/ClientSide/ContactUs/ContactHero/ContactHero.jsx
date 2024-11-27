@@ -14,7 +14,7 @@ const ContactHero = () => {
             backgroundImage: `url(${"/Contact-us.png"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat xl:bg-center 2xl:bg-right bg-cover w-[100%] h-[485px] flex justify-center items-center"
+          className="bg-no-repeat bg-right bg-cover w-[100%] h-[485px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}
