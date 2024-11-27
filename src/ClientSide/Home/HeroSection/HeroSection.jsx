@@ -106,7 +106,8 @@ const HeroSection = () => {
             ref={textRef2}
             className="head1 text-white md:pb-[15px]  pb-[10px] max-w-[319px]"
           >
-            Welcome to
+            Welcome to {""}
+            {""}
             <span className="text-[#F6941E] ">Northway Global</span>
           </h1>
           <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
