@@ -21,7 +21,8 @@ const Footer = () => {
 		setIsDropdown2Open
 	);
 	return (
-		<div className="bg-[#1E1E1E] text-white/[.8] sectionGap">
+		// bg-[#1E1E1E]
+		<div className=" bg-[#F6941E]/[.3] text-black sectionGap">
 			{/* foooter content */}
 			<div className=" pt-[50px]">
 				{/* mobile */}
@@ -101,8 +102,8 @@ const Footer = () => {
 								</div>
 							</div>
 
-							<div className="text-white/[.8] ">
-								<h2 className="footerMenuTextTitle">Category</h2>
+							<div className="text-black ">
+								<h2 className="footerMenuTextTitle text-black">Category</h2>
 								<div className="grid grid-cols-2">
 									<Link to="/About">
 										<p className="footerMenuText">About Us</p>
@@ -125,8 +126,8 @@ const Footer = () => {
 							</div>
 						</div>
 
-						<div className="text-white/[.8] ">
-							<h2 className="footerMenuTextTitle">Contact Us</h2>
+						<div className="text-black ">
+							<h2 className="footerMenuTextTitle text-black">Contact Us</h2>
 
 							<div className="grid grid-cols-2 gap-10">
 								<div className="flex items-start gap-x-[10px]">
@@ -135,7 +136,7 @@ const Footer = () => {
 										src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
 										alt=""
 									/>
-									<span className=" footerMenuText text-white/[.8]">
+									<span className=" footerMenuText ">
 										<span className="font-bold">Dhaka Office:</span>
 										<br />
 										Kha-12/2, Shahjaspur, Gulshan, Dhaka-1212
@@ -148,7 +149,7 @@ const Footer = () => {
 										alt=""
 									/>
 									<br />
-									<span className=" footerMenuText text-white/[.8]">
+									<span className=" footerMenuText ">
 										<span className="font-bold">Dhaka Office:</span>
 										<br />
 										<a
@@ -169,7 +170,7 @@ const Footer = () => {
 										src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
 										alt=""
 									/>
-									<span className=" footerMenuText text-white/[.8]">
+									<span className=" footerMenuText ">
 										<span className="font-bold">USA Office:</span>
 										<br />
 										37 -22 73 Rd St (2nd floor), Jackson Heights NY, 11372
@@ -182,7 +183,7 @@ const Footer = () => {
 										alt=""
 									/>
 									<br />
-									<span className=" footerMenuText text-white/[.8]">
+									<span className=" footerMenuText">
 										<span className="font-bold">USA Office:</span>
 										<br />
 										<a
@@ -203,7 +204,7 @@ const Footer = () => {
 										src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
 										alt=""
 									/>
-									<span className=" footerMenuText text-white/[.8]">
+									<span className=" footerMenuText ">
 										<span className="font-bold">Australia Office:</span>
 										<br />
 										3/4 Nellie Ave Mitchell, Park SA, 5043
@@ -216,7 +217,7 @@ const Footer = () => {
 										alt=""
 									/>
 									<br />
-									<span className=" footerMenuText text-white/[.8]">
+									<span className=" footerMenuText ">
 										<span className="font-bold">Australia Office:</span>
 										<br />
 										<a
@@ -324,8 +325,8 @@ const Footer = () => {
 							</div>
 						</div>
 
-						<div className="text-white/[.8]">
-							<h2 className="footerMenuTextTitle">Category</h2>
+						<div className="text-black">
+							<h2 className="footerMenuTextTitle text-black">Category</h2>
 							<div className="md:flex md:flex-row md:gap-20 lg:block">
 								<Link to="/About">
 									<p className="footerMenuText">About Us</p>
@@ -347,8 +348,8 @@ const Footer = () => {
 							</div>
 						</div>
 
-						<div className="text-white/[.8]">
-							<h2 className="footerMenuTextTitle">Contact Us</h2>
+						<div className="text-black">
+							<h2 className="footerMenuTextTitle text-black">Contact Us</h2>
 
 							<div className="grid grid-cols-[22%_25%_22%] gap-10">
 								<div className="grid grid-cols-1">
@@ -358,14 +359,14 @@ const Footer = () => {
 											src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
 											alt=""
 										/>
-										<span className=" footerMenuText text-white/[.8]">
+										<span className=" footerMenuText">
 											<span className="font-bold">Dhaka Office:</span>
 											<br />
 											Kha-12/2, Shahjaspur, Gulshan, Dhaka-1212
 										</span>
 									</p>
 
-									<p className="flex items-start gap-x-[5px] pt-6 lg:pt-0 xl:pt-12 2xl:pt-6">
+									<p className="flex items-start gap-x-[5px] pt-6 lg:pt-0 xl:pt-7 2xl:pt-6">
 										<img
 											className="h-[20px] w-[22px] object-cover"
 											src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
@@ -373,7 +374,7 @@ const Footer = () => {
 										/>
 										<br />
 
-										<span className=" footerMenuText text-white/[.8]">
+										<span className=" footerMenuText">
 											<a
 												href="tel:+8801771660030"
 												target="_blank"
@@ -392,20 +393,20 @@ const Footer = () => {
 											src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
 											alt=""
 										/>
-										<span className=" footerMenuText text-white/[.8]">
+										<span className=" footerMenuText ">
 											<span className="font-bold">USA Office:</span>
 											<br />
 											37 -22 73 Rd St (2nd floor), Jackson Heights NY, 11372
 										</span>
 									</p>
-									<p className="flex items-start gap-x-[5px] lg:pt-5">
+									<p className="flex items-start gap-x-[5px] lg:pt-5 xl:pt-0">
 										<img
 											className="h-[20px] w-[22px] object-cover"
 											src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
 											alt=""
 										/>
 										<br />
-										<span className=" footerMenuText text-white/[.8]">
+										<span className=" footerMenuText ">
 											<a
 												href="tel:+19179246493"
 												target="_blank"
@@ -424,20 +425,20 @@ const Footer = () => {
 											src="https://i.ibb.co/1KYcfKc/ion-location-outline-66d818cf9e2f4.webp"
 											alt=""
 										/>
-										<span className=" footerMenuText text-white/[.8]">
+										<span className=" footerMenuText ">
 											<span className="font-bold">Australia Office:</span>
 											<br />
 											3/4 Nellie Ave Mitchell, Park SA, 5043
 										</span>
 									</p>
-									<p className="flex items-start gap-x-[5px] lg:pt-5">
+									<p className="flex items-start gap-x-[5px] lg:pt-5 xl:pt-0">
 										<img
 											className="h-[20px] w-[22px] object-cover"
 											src="https://i.ibb.co/Jq97kDH/f7-phone-66d9445380c9e.webp"
 											alt=""
 										/>
 										<br />
-										<span className=" footerMenuText text-white/[.8]">
+										<span className=" footerMenuText ">
 											<a
 												href="tel:+61449615940"
 												target="_blank"
@@ -451,7 +452,7 @@ const Footer = () => {
 							</div>
 
 							<div className=" ">
-								<p className="footerMenuText flex  gap-x-[10px] md:pt-5 lg:pt-2 ">
+								<p className="footerMenuText flex  gap-x-[10px] md:pt-5 lg:pt-2 xl:pt-0">
 									<img
 										className="h-[18px] w-[22px] "
 										src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
