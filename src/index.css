@@ -97,7 +97,7 @@ font-helvetica font-normal;
     md:leading-[24px]  
   xl:text-[16px] xl:leading-[24px]
   
-  2xl:text-[25px] 2xl:leading-[24px]
+  2xl:text-[18px] 2xl:leading-[24px]
 /* ==== */
   /* xl:mr-[805px] md:mr-[200px] lg:mr-[450px] */
 /* ==== */
@@ -1438,6 +1438,7 @@ font-helvetica font-normal;
     /* ========== */
     xl:text-[16px] xl:leading-[24px] 
     /* ========== */
+    2xl:text-[18px] 2xl:leading-[24px] 
     
     font-helvetica font-normal text-[#1E1E1E]/[.8];
   }
