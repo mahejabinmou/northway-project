@@ -87,7 +87,7 @@ const OurVideo = () => {
         >
           <div className="absolute inset-0 bg-black opacity-80 "></div>
           <div>
-            <div className="xl:mx-[432px]  lg:mx-[200px]  text-center py-8  z-10 relative text-white">
+            <div className=" xl:mx-[432px]  lg:mx-[200px]  text-center py-8  z-10 relative text-white">
               <h1 className="studyDestinationHeading pb-[20px]">
                 Our <span className="text-[#F6941E] ">Video</span>
               </h1>
@@ -144,14 +144,14 @@ const OurVideo = () => {
         >
           <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
           <div className="relative z-10 ">
-            <div className="mx-auto max-w-[432px] text-center py-2 text-white ">
+            <div className=" md:mx-auto max-w-[432px] text-center py-2 text-white ">
               <h1
                 className="font-bold font-helvetica 
               xs:text-[30px] xs:leading-[36px] pb-[20px] pt-8 "
               >
                 Student <span className="text-[#F6941E]">Speaks</span>
               </h1>
-              <p className="font-normal font-helvetica xs:text-[14px] xs:leading-[21px]  text-[#FFFFFF]/[.8] ">
+              <p className="font-normal font-helvetica xs:text-[14px] xs:leading-[21px]  text-[#FFFFFF]/[.8] px-[20px] md:px-0 pb-[20px] md:pb-[20px]">
                 Hear directly from our students as they share their experiences,
                 successes, and the impact our services have had on their
                 academic journeys. Their stories reflect the support and
