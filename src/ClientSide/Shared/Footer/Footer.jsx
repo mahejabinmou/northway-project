@@ -22,7 +22,7 @@ const Footer = () => {
   );
   return (
     // bg-[#1E1E1E]
-    <div className=" bg-[#F6941E]/[.3] text-black sectionGap">
+    <div className=" bg-[#F6941E]/[.25] text-black sectionGap">
       {/* foooter content */}
       <div className=" pt-[50px]">
         {/* mobile */}
@@ -453,7 +453,7 @@ const Footer = () => {
               <div className=" ">
                 <p className="footerMenuText flex  gap-x-[10px] md:pt-5 lg:pt-2 xl:pt-0">
                   <img
-                    className="h-[18px] w-[22px] "
+                    className="h-[16px] w-[20px] "
                     src="https://i.ibb.co/tKvY3Q7/group-2-66d945163a8b4.webp"
                     alt=""
                   />
