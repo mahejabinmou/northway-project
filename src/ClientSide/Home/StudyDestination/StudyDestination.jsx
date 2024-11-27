@@ -186,7 +186,7 @@ const StudyDestination = () => {
             />
             <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <h1 className="united">Ireland</h1>
+              <h1 className="united">Europe</h1>
               <Link to="/studyDistention">
                 <button className="flex items-center justify-center readMore ">
                   Read more <MdArrowRightAlt className="ml-2" />
@@ -322,7 +322,7 @@ const StudyDestination = () => {
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">Ireland</h1>
+                <h1 className="united">Europe</h1>
                 <Link to="/studyDistention?country=Ireland">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
