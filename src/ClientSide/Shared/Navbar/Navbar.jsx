@@ -186,6 +186,16 @@ const Navbar = () => {
                   )}
                 </li>
 
+                <Link to="/service" onClick={menuClose}>
+                  <li
+                    className={` ${
+                      isBlogsPage ? "text-[#f6941e]" : "text-black"
+                    }`}
+                  >
+                    Service
+                  </li>
+                </Link>
+
                 <Link to="/blogs" onClick={menuClose}>
                   <li
                     className={` ${
@@ -319,6 +329,21 @@ const Navbar = () => {
                 {/* Other Menu Items */}
                 <li>
                   <Link
+                    to="/service"
+                    className={` ${
+                      isHomePage
+                        ? "text-black"
+                        : isBlogsPage
+                        ? "text-orange-500"
+                        : "text-black"
+                    }`}
+                  >
+                    Service
+                  </Link>
+                </li>
+                {/* Other Menu Items */}
+                <li>
+                  <Link
                     to="/blogs"
                     className={` ${
                       isHomePage
@@ -331,6 +356,7 @@ const Navbar = () => {
                     Blogs
                   </Link>
                 </li>
+
                 <Link to="/ContactUs">
                   <li
                     className={` ${
