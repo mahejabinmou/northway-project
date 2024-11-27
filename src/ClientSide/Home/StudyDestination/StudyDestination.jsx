@@ -264,6 +264,7 @@ const StudyDestination = () => {
           className="grid 
  grid-cols-1 xs:grid-cols-1 "
         >
+          {/* usa */}
           <div>
             <div
               ref={boxRefs[5]}
@@ -285,21 +286,47 @@ const StudyDestination = () => {
                 </Link>
               </div>
             </div>
+          </div>
 
+          {/* uk */}
+          <div>
             <div
-              ref={boxRefs[1]}
+              ref={boxRefs[2]}
               className="relative group w-full h-[267px] pb-[20px]"
             >
               <img
-                src="/chinaGreatWall.jpg"
-                alt="UAE"
+                src="/tower-bridge-london-uk.jpg"
+                alt="Australia"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
 
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">China</h1>
-                <Link to="/studyDistention?country=China">
+                <h1 className="united">Uk</h1>
+                <Link to="/studyDistention?country=Australia">
+                  <button className="flex items-center justify-center readMore gap-x-[10px]">
+                    Read more <MdArrowRightAlt />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            {/* canada */}
+
+            <div
+              ref={boxRefs[4]}
+              className=" relative group w-full h-[267px] pb-[20px]"
+            >
+              <img
+                src="/canadaStudy.jpg"
+                alt="Canada"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h1 className="united">Canada</h1>
+                <Link to="/studyDistention?country=Canada">
                   <button className="flex items-center justify-center readMore gap-x-[10px]">
                     Read more <MdArrowRightAlt />
                   </button>
@@ -307,6 +334,8 @@ const StudyDestination = () => {
               </div>
             </div>
           </div>
+
+          {/* Australia */}
 
           <div>
             <div
@@ -329,29 +358,9 @@ const StudyDestination = () => {
                 </Link>
               </div>
             </div>
-
-            <div
-              ref={boxRefs[4]}
-              className=" relative group w-full h-[267px] pb-[20px]"
-            >
-              <img
-                src="https://i.ibb.co.com/C1KQqK6/pexels-vincent-albos-322257-1750754.webp"
-                alt="Canada"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
-
-              <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h1 className="united">Canada</h1>
-                <Link to="/studyDistention?country=Canada">
-                  <button className="flex items-center justify-center readMore gap-x-[10px]">
-                    Read more <MdArrowRightAlt />
-                  </button>
-                </Link>
-              </div>
-            </div>
           </div>
 
+          {/* Europe */}
           <div>
             <div
               ref={boxRefs[3]}
@@ -373,6 +382,51 @@ const StudyDestination = () => {
                 </Link>
               </div>
             </div>
+
+            <div
+              ref={boxRefs[1]}
+              className="relative group w-full h-[267px] pb-[20px]"
+            >
+              <img
+                src="/malaysiaStudy.webp"
+                alt="UAE"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h1 className="united">Malaysia</h1>
+                <Link to="/studyDistention?country=China">
+                  <button className="flex items-center justify-center readMore gap-x-[10px]">
+                    Read more <MdArrowRightAlt />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            {/* china */}
+            <div
+              ref={boxRefs[1]}
+              className="relative group w-full h-[267px] pb-[20px]"
+            >
+              <img
+                src="/chinaGreatWall.jpg"
+                alt="UAE"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 group-hover:bg-gradient-to-t from-[#00000085]/[.52] to-[#F6941E]/[.65]"></div>
+
+              <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <h1 className="united">China</h1>
+                <Link to="/studyDistention?country=China">
+                  <button className="flex items-center justify-center readMore gap-x-[10px]">
+                    Read more <MdArrowRightAlt />
+                  </button>
+                </Link>
+              </div>
+            </div>
+
+            {/* Germany */}
             <div
               ref={boxRefs[0]}
               className="relative group w-full h-[267px] pb-[20px]"

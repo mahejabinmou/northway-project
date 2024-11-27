@@ -11,10 +11,10 @@ const ContactHero = () => {
         {/* Background image section */}
         <div
           style={{
-            backgroundImage: `url(${"https://i.ibb.co/2SxCJsf/contact.webp"})`,
+            backgroundImage: `url(${"/Contact-us.png"})`,
             filter: "brightness(.5)",
           }}
-          className="bg-no-repeat bg-center bg-cover w-[100%] h-[485px] flex justify-center items-center"
+          className="bg-no-repeat xl:bg-center 2xl:bg-right bg-cover w-[100%] h-[485px] flex justify-center items-center"
         ></div>
 
         {/* Text Section */}

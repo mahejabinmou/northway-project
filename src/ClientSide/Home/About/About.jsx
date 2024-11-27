@@ -91,7 +91,7 @@ const About = () => {
 
           <Link to="/About">
             <button
-              className=" xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:t-[20px]
+              className="mt-[20px] xs:px-[16px] xs:py-[11.5px] flex items-center justify-between xs:t-[20px]
           xs:text-[18px] xs:leading-[23.4px] bg-[#F6941E] xs:gap-x-[10px] text-white font-helvetica font-bold"
             >
               Read More
