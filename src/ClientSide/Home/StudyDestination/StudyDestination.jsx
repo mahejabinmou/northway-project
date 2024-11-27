@@ -19,7 +19,6 @@ const StudyDestination = () => {
     useRef(),
   ];
   const sectionRef = useRef();
-  const sectionRef2 = useRef();
 
   const animateBox = (ref, x, y, delay, duration = 3) => {
     gsap.from(ref.current, {

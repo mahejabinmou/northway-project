@@ -392,6 +392,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import useScrollTrickilyToTop from "../../../hooks/useScrollTrickilyToTop";
 import { AppContext } from "../../../store/AppContext";
+import { FiYoutube } from "react-icons/fi";
+import { AiOutlineTikTok } from "react-icons/ai";
 
 const Footer = () => {
   const { isDropdown2Open, setIsDropdown2Open } = useContext(AppContext);
@@ -427,6 +429,20 @@ const Footer = () => {
                 <div className=" ">
                   <div className="flex pb-[15px] gap-x-[10px]">
                     <a
+                      href="https://www.facebook.com/northwayglobal"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaFacebookF size={16} className="footerSocailIcon" />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/northwayglobal"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaInstagram size={16} className="footerSocailIcon " />
+                    </a>
+                    <a
                       href="https://www.linkedin.com/in/northwayglobal/"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -441,18 +457,18 @@ const Footer = () => {
                       <FaXTwitter size={16} className="footerSocailIcon" />
                     </a>
                     <a
-                      href="https://www.facebook.com/northwayglobal"
+                      href="https://wa.me/8801771660030"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaFacebookF size={16} className="footerSocailIcon" />
+                      <FiYoutube size={16} className="footerSocailIcon" />
                     </a>
                     <a
-                      href="https://www.instagram.com/northwayglobal"
+                      href="https://wa.me/8801771660030"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <FaInstagram size={16} className="footerSocailIcon " />
+                      <AiOutlineTikTok size={16} className="footerSocailIcon" />
                     </a>
 
                     <a
@@ -632,6 +648,20 @@ const Footer = () => {
               <div className=" ">
                 <div className="flex pb-[15px] gap-x-[10px]">
                   <a
+                    href="https://www.facebook.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebookF size={16} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaInstagram size={16} className="footerSocailIcon " />
+                  </a>
+                  <a
                     href="https://www.linkedin.com/in/northwayglobal/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -645,19 +675,21 @@ const Footer = () => {
                   >
                     <FaXTwitter size={16} className="footerSocailIcon" />
                   </a>
+
                   <a
-                    href="https://www.facebook.com/northwayglobal"
+                    href="https://wa.me/8801771660030"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaFacebookF size={16} className="footerSocailIcon" />
+                    <FiYoutube size={16} className="footerSocailIcon" />
                   </a>
+
                   <a
-                    href="https://www.instagram.com/northwayglobal"
+                    href="https://wa.me/8801771660030"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FaInstagram size={16} className="footerSocailIcon " />
+                    <AiOutlineTikTok size={16} className="footerSocailIcon" />
                   </a>
 
                   <a

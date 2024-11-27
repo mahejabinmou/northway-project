@@ -12,6 +12,8 @@ import {
 } from "react-icons/fa";
 
 import { FaXTwitter } from "react-icons/fa6";
+import { FiYoutube } from "react-icons/fi";
+import { AiOutlineTikTok } from "react-icons/ai";
 const Topbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -106,20 +108,6 @@ const Topbar = () => {
             <div className=" ">
               <div className="flex    gap-x-[10px]">
                 <a
-                  href="https://www.linkedin.com/in/northwayglobal/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedinIn size={20} className="footerSocailIcon " />
-                </a>
-                <a
-                  href="https://x.com/northwayglobalx"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaXTwitter size={20} className="footerSocailIcon" />
-                </a>
-                <a
                   href="https://www.facebook.com/northwayglobal"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -132,6 +120,36 @@ const Topbar = () => {
                   rel="noopener noreferrer"
                 >
                   <FaInstagram size={20} className="footerSocailIcon " />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/northwayglobal/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn size={20} className="footerSocailIcon " />
+                </a>
+
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiYoutube size={20} className="footerSocailIcon" />
+                </a>
+
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiOutlineTikTok size={20} className="footerSocailIcon" />
+                </a>
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter size={20} className="footerSocailIcon" />
                 </a>
 
                 <a

@@ -254,10 +254,13 @@ const Navbar = () => {
                     About Us
                   </li>
                 </Link>
-                <li className="relative">
+                <li
+                  className="relative group"
+                  onMouseEnter={() => setIsDropdown2Open(true)}
+                  onMouseLeave={() => setIsDropdown2Open(true)}
+                >
                   {/* Study Menu Item */}
                   <button
-                    onClick={toggleDropdown2}
                     className={`flex items-center lg:gap-x-[4px] ${
                       isHomePage
                         ? "text-black hover:text-[#f6941e]"
@@ -269,20 +272,18 @@ const Navbar = () => {
                   </button>
 
                   {/* Dropdown Menu */}
-                  {isDropdown2Open && (
-                    <div
-                      className="absolute left-[80%] top-[70px] rounded-[10px] transform -translate-x-1/2 w-[1240px] bg-white py-[50px] shadow-lg"
-                      style={{ zIndex: 20 }}
-                    >
-                      <div className="max-w-[1140px] mx-auto">
-                        <div>
-                          <StudyTenDestention
-                            toggleDropdown2={toggleDropdown2}
-                          />
-                        </div>
-                      </div>
+                  <div
+                    className={`absolute left-[80%] top-[70px] rounded-[10px] transform -translate-x-1/2 w-[1240px] bg-white py-[50px] shadow-lg ${
+                      isDropdown2Open ? "block" : "hidden"
+                    }`}
+                    style={{ zIndex: 20 }}
+                  >
+                    <div className="max-w-[1140px] mx-auto">
+                      <StudyTenDestention
+                        toggleDropdown2={() => setIsDropdown2Open(false)}
+                      />
                     </div>
-                  )}
+                  </div>
                 </li>
 
                 {/* Other Menu Items */}

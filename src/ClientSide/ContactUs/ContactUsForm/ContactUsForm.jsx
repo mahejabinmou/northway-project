@@ -26,7 +26,7 @@ function ContactForm({ selectedOffice }) {
     {
       img: "https://i.ibb.co.com/h1j23bC/frame-89-1-66dd4d9332eca.webp",
       title: "Email",
-      dis: selectedOffice?.email || "info@northwayglobal.com.bd", // Fallback email
+      dis: selectedOffice?.email || "info@northwayglobal.com", // Fallback email
     },
     {
       img: "https://i.ibb.co.com/54ZydTH/frame-89-2-66dd4dc010735.webp",

@@ -193,9 +193,9 @@ font-helvetica font-normal;
     @apply /* ======== */
     md:pt-[0px] md:text-[16px]
     /* ======== */
-    lg:pt-[0px] lg:text-[12px] lg:flex lg:list-none lg:text-black lg:space-x-[20px]
+    lg:pt-[0px] lg:text-[12px] lg:flex lg:list-none lg:text-black lg:space-x-[30px]
     /* ======== */
-    xl:pt-[0px] xl:text-[18px] leading-[23.4px] xl:flex xl:list-none xl:text-black xl:space-x-[25px]
+    xl:pt-[0px] xl:text-[18px] leading-[23.4px] xl:flex xl:list-none xl:text-black xl:space-x-[38px]
     /* ============ */
     font-helvetica font-bold w-full;
   }

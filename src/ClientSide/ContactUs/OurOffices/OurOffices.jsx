@@ -97,23 +97,24 @@ const OurOffices = () => {
     {
       flag: "https://i.ibb.co.com/yP4VKMT/image-14-3-66dd3b0f1691c.webp",
       name: "Bangladesh",
-      email: "info@northwayglobalBd.com.bd",
+      email: "info@northwayglobal.com",
       phone: "+8801771660030",
       address: "Kha-12/2, Shahjaspur, Gulshan, Dhaka-1212",
+    },
+
+    {
+      flag: "/flag/usa.png",
+      name: "USA",
+      email: "info@northwayglobal.com",
+      phone: "+19179246493",
+      address: "37 -22 73 Rd St (2nd floor) ,Jackson Heights NY, 11372",
     },
     {
       flag: "/flag/australia.png",
       name: "Australia",
-      email: "info@northwayglobalAustralia.com",
+      email: "info@northwayglobal.com",
       phone: "+61449615940",
       address: "3/4 Nellie Ave Mitchell Park SA 5043",
-    },
-    {
-      flag: "/flag/usa.png",
-      name: "USA",
-      email: "info@northwayglobalUsa.com",
-      phone: "+19179246493",
-      address: "37 -22 73 Rd St (2nd floor) ,Jackson Heights NY, 11372",
     },
   ];
 

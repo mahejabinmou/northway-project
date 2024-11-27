@@ -106,7 +106,8 @@ const HeroSection = () => {
             ref={textRef2}
             className="head1 text-white md:pb-[15px]  pb-[10px] max-w-[319px]"
           >
-            <span className="text-[#F6941E] ">Welcome</span> to Northway Global
+            Welcome to
+            <span className="text-[#F6941E] ">Northway Global</span>
           </h1>
           <p className="pb-[20px]  text-white  text-[14px] leading-[21px] font-helvetica font-normal max-w-[332px]">
             Choose Northway For Your Study Abroad Journey & Embark on An
@@ -227,8 +228,9 @@ const HeroSection = () => {
       <div className=" relative h-[914px] flex items-center justify-center hidden md:block">
         <div className="  ">
           <div className="absolute  z-10 font-helvetica  xl:ml-[150px] lg:mt-[150px]  lg:ml-[60px] md:ml-[80px] ml-[60px]">
-            <h1 ref={textRef} className="homeHead max-w-[557px] ">
-              <span className="text-[#F6941E]">Welcome</span> to Northway Global
+            <h1 className="homeHead max-w-[557px] ">
+              Welcome to
+              <span className="text-[#F6941E]"> Northway Global</span>
             </h1>
             <p className="homePara max-w-[485px]">
               Choose Northway For Your Study Abroad Journey & Embark on An
