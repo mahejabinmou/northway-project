@@ -228,7 +228,7 @@ const HeroSection = () => {
       {/* big screen */}
       <div className=" relative h-[914px] flex items-center justify-center hidden md:block">
         <div className="  ">
-          <div className="absolute  z-10 font-helvetica  xl:ml-[150px] lg:mt-[100px]  lg:ml-[60px] md:ml-[80px] ml-[60px]">
+          <div className="absolute  z-10 font-helvetica  xl:ml-[150px] md:mt-[150px] lg:mt-[100px]  lg:ml-[60px] md:ml-[80px] ml-[60px]">
             <h1 className="homeHead xl:pb-[15px] lg:pb-[15px] max-w-[557px] ">
               Welcome to
               <span className="text-[#F6941E]"> Northway Global</span>

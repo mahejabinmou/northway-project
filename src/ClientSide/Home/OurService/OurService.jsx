@@ -62,11 +62,11 @@ const OurService = () => {
           className="text-center 
       "
         >
-          <h1 className="serviceHomeHead flex items-center justify-center gap-x-[10px]">
+          <h1 className="chooseUsSamll xs:pb-[20px]  xl:pb-[20px] md:pb-[20px] lg:pb-[20px] flex items-center justify-center gap-x-[10px]">
             <span className="text-[#F6941E]"> Our {""} </span> {""} {""}
             <span className="text-[#1E1E1E]">Service</span>
           </h1>
-          <p className="serviceHomePara flex items-center justify-center max-w-[750px]  mx-auto">
+          <p className="homePara text-[#1E1E1E]/[0.8] xs:pb-[30px] md:pb-[30px] xl:pb-[30px] lg:pb-[30px] flex items-center justify-center max-w-[750px]  mx-auto">
             We provide the best services to meet the needs of our clients. With
             a focus on quality and customer satisfaction, we aim to deliver
             exceptional solutions tailored to each individual. From personalized

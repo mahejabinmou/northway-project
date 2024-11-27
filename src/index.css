@@ -43,9 +43,7 @@
     font-helvetica font-normal;
   }
   .OurBlogPara {
-    @apply xl:text-[14px]  xl:leading-[21px]
-    
-    xl:text-[16px]  xl:leading-[24px]
+    @apply xl:text-[16px]  xl:leading-[24px]
 /* ---- */
 lg:text-[16px]  lg:leading-[24px]
 /* ---- */
@@ -97,7 +95,9 @@ font-helvetica font-normal;
     @apply xs:text-[16px]  xs:leading-[24px]  
   lg:leading-[24px]   
     md:leading-[24px]  
-  xl:text-[16px] xl:leading-[24px]    
+  xl:text-[16px] xl:leading-[24px]
+  
+  2xl:text-[25px] 2xl:leading-[24px]
 /* ==== */
   /* xl:mr-[805px] md:mr-[200px] lg:mr-[450px] */
 /* ==== */
@@ -1464,13 +1464,13 @@ font-helvetica font-normal;
   .serviceHomeHead {
     @apply /* text-[30px] leading-[36px]  pb-[20px]  */
            /* ========== */ 
-          xs:text-[30px] xs:leading-[36px]   xs:pb-[20px]
+          xs:text-[30px] xs:leading-[36px]   xs:pb-[20px]  xl:pb-[20px] md:pb-[20px] lg:pb-[20px]
            /* ========== */
-          xl:text-[48px] xl:leading-[57.6px] xl:pb-[20px] 
+          xl:text-[48px] xl:leading-[57.6px]  
            /* ========== */
-          md:text-[40px] md:leading-[57px] md:pb-[20px]
+          md:text-[30px] md:leading-[57px] 
            /* ========== */
-         lg:text-[48px] lg:leading-[57px] lg:pb-[20px]
+         lg:text-[48px] lg:leading-[57px] 
           /* ========== */
         
         font-helvetica font-bold;
@@ -1479,14 +1479,14 @@ font-helvetica font-normal;
   .serviceHomePara {
     @apply /* text-[14px] leading-[21px] pb-[30px]*/
     /* ========== */
-        xs:text-[14px] xs:leading-[21px]   xs:pb-[30px]
+        xs:text-[14px] xs:leading-[21px]   xs:pb-[30px] md:pb-[30px] xl:pb-[30px] lg:pb-[30px]
         /* ========== */
         
-        md:text-[16px] md:leading-[24px] md:pb-[30px] 
+        md:text-[16px] md:leading-[24px]  
         /* ========== */
-        xl:text-[16px] xl:leading-[24px] xl:pb-[30px] 
+        xl:text-[16px] xl:leading-[24px]  
         /* ========== */
-        lg:text-[16px] lg:leading-[24px] lg:pb-[30px]
+        lg:text-[16px] lg:leading-[24px] 
         /* ========== */
          text-[#1E1E1E]/[0.8] 
         font-normal font-helvetica;
@@ -1497,24 +1497,24 @@ font-helvetica font-normal;
      /* ========== */
     /* text-[30px] leading-[36px] px-[16px]  */
      /* ========== */
-    xs:text-[30px] xs:leading-[36px] xs:px-[16px] 
+    xs:text-[30px] xs:leading-[36px] 
      /* ========== */
    
      /* ========== */
-    xl:text-[48px] xl:leading-[57.6px] xl:px-[345.5px] 
+    xl:text-[48px] xl:leading-[58px]  
      /* ========== */
-    lg:text-[35px]   lg:leading-[45px] lg:px-[200px] 
+    lg:text-[35px]   lg:leading-[45px]  
      /* ========== */
-     md:text-[30px] md:leading-[45px] md:px-[150px];
+     md:text-[30px] md:leading-[45px];
   }
 
   .ChooseUsPara {
-    @apply text-[#FFFFFF]/[.8]  
-    mt-[15px] text-[14px] px-[16px] leading-[21px]  
-    xs:px-[16px]   xs:text-[14px] xs:leading-[21px] 
-     xl:text-[16px] xl:leading-[24px]   xl:px-[449px]  
-     lg:leading-[24px]   lg:px-[180px]
-    md:text-[16px] md:leading-[24px]   md:px-[100px]
+    @apply px-[16px] xs:px-[16px] md:px-[100px] lg:px-[180px]  xl:px-[449px] mt-[15px] 
+   text-[14px]  leading-[21px]  
+       xs:text-[14px] xs:leading-[21px] 
+     xl:text-[16px] xl:leading-[24px]     
+     lg:leading-[24px]   
+    md:text-[16px] md:leading-[24px]   
     font-helvetica font-normal;
   }
   .joinUsBtn {
