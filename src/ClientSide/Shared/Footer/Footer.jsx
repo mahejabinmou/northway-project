@@ -297,7 +297,13 @@ const Footer = () => {
                   >
                     <FaXTwitter size={16} className="footerSocailIcon" />
                   </a>
-
+                  <a
+                    href="https://wa.me/8801771660030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiYoutube size={16} className="footerSocailIcon" />
+                  </a>
                   <a
                     href="https://wa.me/8801771660030"
                     target="_blank"
@@ -306,13 +312,6 @@ const Footer = () => {
                     <AiOutlineTikTok size={16} className="footerSocailIcon" />
                   </a>
 
-                  <a
-                    href="https://wa.me/8801771660030"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FiYoutube size={16} className="footerSocailIcon" />
-                  </a>
                   <a
                     href="https://wa.me/8801771660030"
                     target="_blank"

@@ -128,7 +128,13 @@ const Topbar = () => {
                 >
                   <FaLinkedinIn size={20} className="footerSocailIcon " />
                 </a>
-
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter size={20} className="footerSocailIcon" />
+                </a>
                 <a
                   href="https://x.com/northwayglobalx"
                   target="_blank"
@@ -143,13 +149,6 @@ const Topbar = () => {
                   rel="noopener noreferrer"
                 >
                   <AiOutlineTikTok size={20} className="footerSocailIcon" />
-                </a>
-                <a
-                  href="https://x.com/northwayglobalx"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaXTwitter size={20} className="footerSocailIcon" />
                 </a>
 
                 <a

@@ -83,7 +83,7 @@ const OurLatestBlog = () => {
         <h1 className="chooseUsSamll pb-[20px] ">
           Our Latest<span className="text-[#F6941E] "> Blog </span>
         </h1>
-        <p className="homePara text-[#1E1E1E]/[.8] xl:mx-[281px] lg:mx-[150px] md:mx-[50px] pb-[30px]">
+        <p className="homePara text-[#1E1E1E]/[.8] mx-auto max-w-[800px] pb-[30px]">
           Stay updated with the latest insights and trends in international
           education through our blog. From study abroad tips to scholarship
           opportunities and student success stories, our blog is your go-to
