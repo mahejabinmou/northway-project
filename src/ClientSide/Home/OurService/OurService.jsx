@@ -37,7 +37,7 @@ const OurService = () => {
         mr-[16px] xs:text-center text-center md:text-left
       "
         >
-          <h1 className="serviceHomeHead">
+          <h1 className="serviceHomeHead pt-[50px]">
             <span className="text-[#F6941E]"> Our</span> {""}
             <span className="text-[#1E1E1E]">Service</span>
           </h1>
@@ -75,7 +75,14 @@ const OurService = () => {
           </p>
         </div>
 
-        <div className="gridParent  ">
+        <div
+          className="grid grid-cols-1  items-center pb-[50px] 
+    md:grid-cols-2  md:gap-[12px]    
+     
+    xl:grid-cols-4  xl:gap-[12px] 
+     
+    lg:grid-cols-2     lg:gap-[12px];  "
+        >
           {officesData.map((office) => (
             <OurServiceCard
               key={office.name}
