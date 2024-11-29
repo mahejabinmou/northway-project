@@ -1,83 +1,146 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./ClientSide/Home/Home";
-import "./index.css";
-import AboutUs from "./ClientSide/AboutUs/AboutUs";
-import Distenation from "./ClientSide/Distenation/Distenation";
-import PhotoGallery from "./ClientSide/Gallery/PhotoGallery/PhotoGallery";
-import VideoGallery from "./ClientSide/Gallery/VideoGallery/VideoGallery";
-import Blogs from "./ClientSide/Blogs/Blogs";
-import Distenation2 from "./ClientSide/Distenation2/Distenation2";
-import ContactUs from "./ClientSide/ContactUs/ContactUs";
-import SelectPage from "./ClientSide/Distenation/Select/SelectPage";
-import Blog from "./ClientSide/Blogs/Blog";
-import StudyDestination from "./ClientSide/Home/StudyDestination/StudyDestination";
-import { AppProvider } from "./store/AppContext";
-import Service from "./ClientSide/Service/Service";
+import * as React from "react"
+import * as ReactDOM from "react-dom/client"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { AppProvider } from "./store/AppContext"
+import "./index.css"
+
+// Lazy load components
+const Home = React.lazy(() => import("./ClientSide/Home/Home"))
+const AboutUs = React.lazy(() => import("./ClientSide/AboutUs/AboutUs"))
+const Blogs = React.lazy(() => import("./ClientSide/Blogs/Blogs"))
+const SelectPage = React.lazy(() =>
+    import("./ClientSide/Distenation/Select/SelectPage")
+)
+const Service = React.lazy(() => import("./ClientSide/Service/Service"))
+const PhotoGallery = React.lazy(() =>
+    import("./ClientSide/Gallery/PhotoGallery/PhotoGallery")
+)
+const VideoGallery = React.lazy(() =>
+    import("./ClientSide/Gallery/VideoGallery/VideoGallery")
+)
+const Distenation = React.lazy(() =>
+    import("./ClientSide/Distenation/Distenation")
+)
+const Distenation2 = React.lazy(() =>
+    import("./ClientSide/Distenation2/Distenation2")
+)
+const StudyDestination = React.lazy(() =>
+    import("./ClientSide/Home/StudyDestination/StudyDestination")
+)
+const ContactUs = React.lazy(() => import("./ClientSide/ContactUs/ContactUs"))
+const Blog = React.lazy(() => import("./ClientSide/Blogs/Blog"))
+
+const LoadingSpinner = () => {
+    return (
+        <div className="flex items-center justify-center min-h-screen">
+            <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500 border-solid border-gray-200"></div>
+        </div>
+    )
+}
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home></Home>,
-  },
-  {
-    path: "/About",
-    element: <AboutUs></AboutUs>,
-  },
-  {
-    path: "/blogs",
-    element: <Blogs></Blogs>,
-  },
-  {
-    path: "/selectPage",
-    element: <SelectPage></SelectPage>,
-  },
-
-  {
-    path: "/service",
-    element: <Service></Service>,
-  },
-  {
-    path: "/photo-gallery",
-    element: <PhotoGallery></PhotoGallery>,
-  },
-  {
-    path: "/video-gallery",
-    element: <VideoGallery></VideoGallery>,
-  },
-  {
-    path: "/studyDistention",
-    element: <Distenation></Distenation>,
-  },
-  {
-    path: "/studyDistention2",
-    element: <Distenation2></Distenation2>,
-  },
-
-  {
-    path: "/studyDistentionFlag",
-    element: <StudyDestination></StudyDestination>,
-  },
-
-  {
-    path: "/contactUs",
-    element: <ContactUs></ContactUs>,
-  },
-  {
-    path: "/blogs",
-    element: <Blogs></Blogs>,
-  },
-  {
-    path: "/blog/:blogId",
-    element: <Blog />,
-  },
-]);
+    {
+        path: "/",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <Home />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/About",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <AboutUs />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/blogs",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <Blogs />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/selectPage",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <SelectPage />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/service",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <Service />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/photo-gallery",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <PhotoGallery />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/video-gallery",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <VideoGallery />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/studyDistention",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <Distenation />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/studyDistention2",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <Distenation2 />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/studyDistentionFlag",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <StudyDestination />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/contactUs",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <ContactUs />
+            </React.Suspense>
+        ),
+    },
+    {
+        path: "/blog/:blogId",
+        element: (
+            <React.Suspense fallback={<LoadingSpinner />}>
+                <Blog />
+            </React.Suspense>
+        ),
+    },
+])
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <AppProvider>
-      <RouterProvider router={router} />
-    </AppProvider>
-  </React.StrictMode>
-);
+    <React.StrictMode>
+        <AppProvider>
+            <RouterProvider router={router} />
+        </AppProvider>
+    </React.StrictMode>
+)

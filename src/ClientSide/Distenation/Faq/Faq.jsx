@@ -4,6 +4,7 @@ import { useState } from "react"
 import "./Faq.css"
 import { countryDetailsDestructor } from "../../../utils/CountryDetails"
 import { faqs } from "../../../Constants/exports"
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 const Faq = ({ countryName }) => {
     // const faqs = [
@@ -284,7 +285,7 @@ const Faq = ({ countryName }) => {
         >
             <div className="flex 2xl:pt-[50px] pt-[70px] flex-col md:flex-row-reverse gap-x-[68px] items-center">
                 <div className="w-full md:w-1/2 h-[370px] lg:h-[506px] pb-[30px] lg:pb-0">
-                    <img
+                    <LazyLoadImage
                         className="w-full h-full"
                         src="https://i.ibb.co.com/0sc8rCK/faq-66dc00ae9d778.webp"
                         alt="faqimage"
