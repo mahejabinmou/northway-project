@@ -107,6 +107,51 @@ const Topbar = () => {
                             </div>
                         </div>
 
+            <div className=" ">
+              <div className="flex    gap-x-[10px]">
+                <a
+                  href="https://www.facebook.com/northwayglobal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebookF size={20} className="footerSocailIcon" />
+                </a>
+                <a
+                  href="https://www.instagram.com/northwayglobal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram size={20} className="footerSocailIcon " />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/northwayglobal/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedinIn size={20} className="footerSocailIcon " />
+                </a>
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter size={20} className="footerSocailIcon" />
+                </a>
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiYoutube size={20} className="footerSocailIcon" />
+                </a>
+
+                <a
+                  href="https://x.com/northwayglobalx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiOutlineTikTok size={20} className="footerSocailIcon" />
+                </a>
                         <div className=" ">
                             <div className="flex    gap-x-[10px]">
                                 <a

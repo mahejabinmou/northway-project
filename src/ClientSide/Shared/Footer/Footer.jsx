@@ -317,6 +317,61 @@ const Footer = () => {
                                 </p>
                             </div>
 
+              <div className=" ">
+                <div className="flex pb-[15px] gap-x-[10px]">
+                  <a
+                    href="https://www.facebook.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFacebookF size={16} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/northwayglobal"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaInstagram size={16} className="footerSocailIcon " />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/northwayglobal/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn size={16} className="footerSocailIcon " />
+                  </a>
+                  <a
+                    href="https://x.com/northwayglobalx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaXTwitter size={16} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://wa.me/8801771660030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiYoutube size={16} className="footerSocailIcon" />
+                  </a>
+                  <a
+                    href="https://wa.me/8801771660030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiOutlineTikTok size={16} className="footerSocailIcon" />
+                  </a>
+
+                  <a
+                    href="https://wa.me/8801771660030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaWhatsapp size={16} className="footerSocailIcon" />
+                  </a>
+                </div>
+              </div>
+            </div>
                             <div className=" ">
                                 <div className="flex pb-[15px] gap-x-[10px]">
                                     <a
